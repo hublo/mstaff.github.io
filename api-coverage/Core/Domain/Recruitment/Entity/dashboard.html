@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /Users/alexandre/Dev/mstaff-v3-api/src/Core/Domain/Recruitment/Entity</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../_css/bootstrap.min.css?v=9.2.29" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/nv.d3.min.css?v=9.2.29" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/style.css?v=9.2.29" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../../index.html">/Users/alexandre/Dev/mstaff-v3-api/src</a></li>
+         <li class="breadcrumb-item"><a href="../../../index.html">Core</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">Domain</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Recruitment</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Entity</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="KanbanColumnsTemplate.php.html#14">App\Core\Domain\Recruitment\Entity\KanbanColumnsTemplate</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ValidationFlow.php.html#15">App\Core\Domain\Recruitment\Entity\ValidationFlow</a></td><td class="text-right">48%</td></tr>
+       <tr><td><a href="Recruitment.php.html#24">App\Core\Domain\Recruitment\Entity\Recruitment</a></td><td class="text-right">52%</td></tr>
+       <tr><td><a href="ValidationHistory.php.html#12">App\Core\Domain\Recruitment\Entity\ValidationHistory</a></td><td class="text-right">55%</td></tr>
+       <tr><td><a href="RecruitmentCandidateRecruited.php.html#14">App\Core\Domain\Recruitment\Entity\RecruitmentCandidateRecruited</a></td><td class="text-right">73%</td></tr>
+       <tr><td><a href="ValidationFlowStep.php.html#13">App\Core\Domain\Recruitment\Entity\ValidationFlowStep</a></td><td class="text-right">78%</td></tr>
+       <tr><td><a href="PostRecruitmentData.php.html#15">App\Core\Domain\Recruitment\Entity\PostRecruitmentData</a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="KanbanColumn.php.html#13">App\Core\Domain\Recruitment\Entity\KanbanColumn</a></td><td class="text-right">82%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Recruitment.php.html#24">App\Core\Domain\Recruitment\Entity\Recruitment</a></td><td class="text-right">2568</td></tr>
+       <tr><td><a href="KanbanColumnsTemplate.php.html#14">App\Core\Domain\Recruitment\Entity\KanbanColumnsTemplate</a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="ValidationFlow.php.html#15">App\Core\Domain\Recruitment\Entity\ValidationFlow</a></td><td class="text-right">165</td></tr>
+       <tr><td><a href="PostRecruitmentData.php.html#15">App\Core\Domain\Recruitment\Entity\PostRecruitmentData</a></td><td class="text-right">24</td></tr>
+       <tr><td><a href="KanbanColumn.php.html#13">App\Core\Domain\Recruitment\Entity\KanbanColumn</a></td><td class="text-right">22</td></tr>
+       <tr><td><a href="ValidationFlowStep.php.html#13">App\Core\Domain\Recruitment\Entity\ValidationFlowStep</a></td><td class="text-right">14</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="KanbanColumn.php.html#125"><abbr title="App\Core\Domain\Recruitment\Entity\KanbanColumn::setHasNotificationsEnabled">setHasNotificationsEnabled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="KanbanColumnsTemplate.php.html#58"><abbr title="App\Core\Domain\Recruitment\Entity\KanbanColumnsTemplate::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="KanbanColumnsTemplate.php.html#62"><abbr title="App\Core\Domain\Recruitment\Entity\KanbanColumnsTemplate::getId">getId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="KanbanColumnsTemplate.php.html#66"><abbr title="App\Core\Domain\Recruitment\Entity\KanbanColumnsTemplate::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="KanbanColumnsTemplate.php.html#70"><abbr title="App\Core\Domain\Recruitment\Entity\KanbanColumnsTemplate::setName">setName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="KanbanColumnsTemplate.php.html#76"><abbr title="App\Core\Domain\Recruitment\Entity\KanbanColumnsTemplate::getDefaultKanban">getDefaultKanban</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="KanbanColumnsTemplate.php.html#80"><abbr title="App\Core\Domain\Recruitment\Entity\KanbanColumnsTemplate::setDefaultKanban">setDefaultKanban</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="KanbanColumnsTemplate.php.html#87"><abbr title="App\Core\Domain\Recruitment\Entity\KanbanColumnsTemplate::getColumns">getColumns</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="KanbanColumnsTemplate.php.html#91"><abbr title="App\Core\Domain\Recruitment\Entity\KanbanColumnsTemplate::setColumns">setColumns</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="KanbanColumnsTemplate.php.html#97"><abbr title="App\Core\Domain\Recruitment\Entity\KanbanColumnsTemplate::getEstablishment">getEstablishment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="KanbanColumnsTemplate.php.html#101"><abbr title="App\Core\Domain\Recruitment\Entity\KanbanColumnsTemplate::setEstablishment">setEstablishment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="KanbanColumnsTemplate.php.html#108"><abbr title="App\Core\Domain\Recruitment\Entity\KanbanColumnsTemplate::getRhGroups">getRhGroups</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="KanbanColumnsTemplate.php.html#112"><abbr title="App\Core\Domain\Recruitment\Entity\KanbanColumnsTemplate::addRhGroup">addRhGroup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="KanbanColumnsTemplate.php.html#120"><abbr title="App\Core\Domain\Recruitment\Entity\KanbanColumnsTemplate::removeRhGroup">removeRhGroup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="KanbanColumnsTemplate.php.html#126"><abbr title="App\Core\Domain\Recruitment\Entity\KanbanColumnsTemplate::isGlobal">isGlobal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="KanbanColumnsTemplate.php.html#130"><abbr title="App\Core\Domain\Recruitment\Entity\KanbanColumnsTemplate::setGlobal">setGlobal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Meeting.php.html#171"><abbr title="App\Core\Domain\Recruitment\Entity\Meeting::removeGuest">removeGuest</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PostRecruitmentData.php.html#147"><abbr title="App\Core\Domain\Recruitment\Entity\PostRecruitmentData::addDocument">addDocument</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PostRecruitmentData.php.html#155"><abbr title="App\Core\Domain\Recruitment\Entity\PostRecruitmentData::removeDocument">removeDocument</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PreRecruitmentData.php.html#862"><abbr title="App\Core\Domain\Recruitment\Entity\PreRecruitmentData::setAnnualSalary">setAnnualSalary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PreRecruitmentData.php.html#872"><abbr title="App\Core\Domain\Recruitment\Entity\PreRecruitmentData::setAnnualSalaryGoal">setAnnualSalaryGoal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PreRecruitmentData.php.html#882"><abbr title="App\Core\Domain\Recruitment\Entity\PreRecruitmentData::setSalaryCount">setSalaryCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Recruitment.php.html#207"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::hasRh">hasRh</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Recruitment.php.html#291"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::getFilesCount">getFilesCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Recruitment.php.html#305"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::setCreatedAt">setCreatedAt</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Recruitment.php.html#335"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::getFeedback">getFeedback</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Recruitment.php.html#345"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::getFeedbackByKey">getFeedbackByKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Recruitment.php.html#353"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::setFeedbackByKey">setFeedbackByKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Recruitment.php.html#398"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::getCreatorAndCollaboratorsIds">getCreatorAndCollaboratorsIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Recruitment.php.html#420"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::removeCollaborator">removeCollaborator</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Recruitment.php.html#466"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::removeKanbanColumn">removeKanbanColumn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Recruitment.php.html#479"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::getMeetings">getMeetings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Recruitment.php.html#483"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::addMeeting">addMeeting</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Recruitment.php.html#492"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::removeMeeting">removeMeeting</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Recruitment.php.html#509"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::addValidationHistory">addValidationHistory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Recruitment.php.html#518"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::removeValidationHistory">removeValidationHistory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Recruitment.php.html#531"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::getRecruitmentHistories">getRecruitmentHistories</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Recruitment.php.html#535"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::addRecruitmentHistory">addRecruitmentHistory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Recruitment.php.html#544"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::removeRecruitmentHistory">removeRecruitmentHistory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Recruitment.php.html#556"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::getRecruitmentLastSeens">getRecruitmentLastSeens</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Recruitment.php.html#560"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::addRecruitmentLastSeen">addRecruitmentLastSeen</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Recruitment.php.html#569"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::removeRecruitmentLastSeen">removeRecruitmentLastSeen</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Recruitment.php.html#585"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::addRecruitmentCandidateRecruited">addRecruitmentCandidateRecruited</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Recruitment.php.html#594"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::removeRecruitmentCandidateRecruited">removeRecruitmentCandidateRecruited</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Recruitment.php.html#615"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::getMessages">getMessages</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Recruitment.php.html#619"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::getClosedAt">getClosedAt</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Recruitment.php.html#660"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::getFiles">getFiles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Recruitment.php.html#664"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::getPreRecruitmentDataa">getPreRecruitmentDataa</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Recruitment.php.html#668"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::setPreRecruitmentFile">setPreRecruitmentFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Recruitment.php.html#680"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::setPreRecruitmentValue">setPreRecruitmentValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Recruitment.php.html#688"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::getFilePathByFileFields">getFilePathByFileFields</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Recruitment.php.html#777"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::adminCanAccess">adminCanAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Recruitment.php.html#793"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::getCurrentValidators">getCurrentValidators</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Recruitment.php.html#802"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::getNonCurrentValidators">getNonCurrentValidators</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Recruitment.php.html#814"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::isOpen">isOpen</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCandidateRecruited.php.html#64"><abbr title="App\Core\Domain\Recruitment\Entity\RecruitmentCandidateRecruited::getId">getId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCandidateRecruited.php.html#88"><abbr title="App\Core\Domain\Recruitment\Entity\RecruitmentCandidateRecruited::getRequestReason">getRequestReason</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCandidateRecruited.php.html#98"><abbr title="App\Core\Domain\Recruitment\Entity\RecruitmentCandidateRecruited::getContractType">getContractType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCandidateRecruited.php.html#108"><abbr title="App\Core\Domain\Recruitment\Entity\RecruitmentCandidateRecruited::getContractEndDate">getContractEndDate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCandidateRecruited.php.html#122"><abbr title="App\Core\Domain\Recruitment\Entity\RecruitmentCandidateRecruited::setCreatedAt">setCreatedAt</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ValidationFlow.php.html#90"><abbr title="App\Core\Domain\Recruitment\Entity\ValidationFlow::getDescription">getDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ValidationFlow.php.html#104"><abbr title="App\Core\Domain\Recruitment\Entity\ValidationFlow::setReasons">setReasons</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ValidationFlow.php.html#114"><abbr title="App\Core\Domain\Recruitment\Entity\ValidationFlow::setContractTypes">setContractTypes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ValidationFlow.php.html#140"><abbr title="App\Core\Domain\Recruitment\Entity\ValidationFlow::removeStep">removeStep</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ValidationFlow.php.html#153"><abbr title="App\Core\Domain\Recruitment\Entity\ValidationFlow::getRecruitments">getRecruitments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ValidationFlow.php.html#157"><abbr title="App\Core\Domain\Recruitment\Entity\ValidationFlow::addRecruitment">addRecruitment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ValidationFlow.php.html#166"><abbr title="App\Core\Domain\Recruitment\Entity\ValidationFlow::removeRecruitment">removeRecruitment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ValidationFlow.php.html#189"><abbr title="App\Core\Domain\Recruitment\Entity\ValidationFlow::getRhGroups">getRhGroups</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ValidationFlow.php.html#193"><abbr title="App\Core\Domain\Recruitment\Entity\ValidationFlow::addRhGroup">addRhGroup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ValidationFlow.php.html#201"><abbr title="App\Core\Domain\Recruitment\Entity\ValidationFlow::removeRhGroup">removeRhGroup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ValidationFlow.php.html#207"><abbr title="App\Core\Domain\Recruitment\Entity\ValidationFlow::isActivated">isActivated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ValidationFlowStep.php.html#74"><abbr title="App\Core\Domain\Recruitment\Entity\ValidationFlowStep::getValidationFlow">getValidationFlow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ValidationFlowStep.php.html#85"><abbr title="App\Core\Domain\Recruitment\Entity\ValidationFlowStep::getValidationHistories">getValidationHistories</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ValidationFlowStep.php.html#102"><abbr title="App\Core\Domain\Recruitment\Entity\ValidationFlowStep::removeValidator">removeValidator</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ValidationHistory.php.html#53"><abbr title="App\Core\Domain\Recruitment\Entity\ValidationHistory::getId">getId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ValidationHistory.php.html#57"><abbr title="App\Core\Domain\Recruitment\Entity\ValidationHistory::getDate">getDate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ValidationHistory.php.html#61"><abbr title="App\Core\Domain\Recruitment\Entity\ValidationHistory::setDate">setDate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ValidationHistory.php.html#77"><abbr title="App\Core\Domain\Recruitment\Entity\ValidationHistory::getComment">getComment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ValidationHistory.php.html#81"><abbr title="App\Core\Domain\Recruitment\Entity\ValidationHistory::setComment">setComment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ValidationHistory.php.html#97"><abbr title="App\Core\Domain\Recruitment\Entity\ValidationHistory::getValidator">getValidator</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ValidationHistory.php.html#107"><abbr title="App\Core\Domain\Recruitment\Entity\ValidationHistory::getRecruitment">getRecruitment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Recruitment.php.html#760"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::getAllValidators">getAllValidators</abbr></a></td><td class="text-right">37%</td></tr>
+       <tr><td><a href="Recruitment.php.html#744"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::getRhsAndValidators">getRhsAndValidators</abbr></a></td><td class="text-right">42%</td></tr>
+       <tr><td><a href="Recruitment.php.html#727"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::getHasOfferWithAColumn">getHasOfferWithAColumn</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Recruitment.php.html#219"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::hasRhAndValidator">hasRhAndValidator</abbr></a></td><td class="text-right">71%</td></tr>
+       <tr><td><a href="KanbanColumn.php.html#111"><abbr title="App\Core\Domain\Recruitment\Entity\KanbanColumn::getCandidateById">getCandidateById</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Recruitment.php.html#437"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::getKanbanColumnById">getKanbanColumnById</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Recruitment.php.html#447"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::getKanbanColumnByPosition">getKanbanColumnByPosition</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="KanbanColumn.php.html#87"><abbr title="App\Core\Domain\Recruitment\Entity\KanbanColumn::addCandidate">addCandidate</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="KanbanColumn.php.html#99"><abbr title="App\Core\Domain\Recruitment\Entity\KanbanColumn::removeCandidate">removeCandidate</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Recruitment.php.html#180"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::isValidated">isValidated</abbr></a></td><td class="text-right">83%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Recruitment.php.html#207"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::hasRh">hasRh</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Recruitment.php.html#345"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::getFeedbackByKey">getFeedbackByKey</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Recruitment.php.html#420"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::removeCollaborator">removeCollaborator</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Recruitment.php.html#466"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::removeKanbanColumn">removeKanbanColumn</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Recruitment.php.html#492"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::removeMeeting">removeMeeting</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Recruitment.php.html#518"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::removeValidationHistory">removeValidationHistory</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Recruitment.php.html#544"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::removeRecruitmentHistory">removeRecruitmentHistory</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Recruitment.php.html#569"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::removeRecruitmentLastSeen">removeRecruitmentLastSeen</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Recruitment.php.html#594"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::removeRecruitmentCandidateRecruited">removeRecruitmentCandidateRecruited</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Recruitment.php.html#802"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::getNonCurrentValidators">getNonCurrentValidators</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ValidationFlow.php.html#140"><abbr title="App\Core\Domain\Recruitment\Entity\ValidationFlow::removeStep">removeStep</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ValidationFlow.php.html#166"><abbr title="App\Core\Domain\Recruitment\Entity\ValidationFlow::removeRecruitment">removeRecruitment</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Recruitment.php.html#760"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::getAllValidators">getAllValidators</abbr></a></td><td class="text-right">11</td></tr>
+       <tr><td><a href="Recruitment.php.html#727"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::getHasOfferWithAColumn">getHasOfferWithAColumn</abbr></a></td><td class="text-right">10</td></tr>
+       <tr><td><a href="Recruitment.php.html#744"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::getRhsAndValidators">getRhsAndValidators</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="KanbanColumnsTemplate.php.html#112"><abbr title="App\Core\Domain\Recruitment\Entity\KanbanColumnsTemplate::addRhGroup">addRhGroup</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Meeting.php.html#171"><abbr title="App\Core\Domain\Recruitment\Entity\Meeting::removeGuest">removeGuest</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PostRecruitmentData.php.html#147"><abbr title="App\Core\Domain\Recruitment\Entity\PostRecruitmentData::addDocument">addDocument</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PostRecruitmentData.php.html#155"><abbr title="App\Core\Domain\Recruitment\Entity\PostRecruitmentData::removeDocument">removeDocument</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Recruitment.php.html#353"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::setFeedbackByKey">setFeedbackByKey</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Recruitment.php.html#398"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::getCreatorAndCollaboratorsIds">getCreatorAndCollaboratorsIds</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Recruitment.php.html#483"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::addMeeting">addMeeting</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Recruitment.php.html#509"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::addValidationHistory">addValidationHistory</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Recruitment.php.html#535"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::addRecruitmentHistory">addRecruitmentHistory</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Recruitment.php.html#560"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::addRecruitmentLastSeen">addRecruitmentLastSeen</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Recruitment.php.html#585"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::addRecruitmentCandidateRecruited">addRecruitmentCandidateRecruited</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Recruitment.php.html#688"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::getFilePathByFileFields">getFilePathByFileFields</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Recruitment.php.html#793"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::getCurrentValidators">getCurrentValidators</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ValidationFlow.php.html#157"><abbr title="App\Core\Domain\Recruitment\Entity\ValidationFlow::addRecruitment">addRecruitment</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ValidationFlow.php.html#193"><abbr title="App\Core\Domain\Recruitment\Entity\ValidationFlow::addRhGroup">addRhGroup</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Recruitment.php.html#180"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::isValidated">isValidated</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="Recruitment.php.html#219"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::hasRhAndValidator">hasRhAndValidator</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="KanbanColumn.php.html#111"><abbr title="App\Core\Domain\Recruitment\Entity\KanbanColumn::getCandidateById">getCandidateById</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Recruitment.php.html#437"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::getKanbanColumnById">getKanbanColumnById</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Recruitment.php.html#447"><abbr title="App\Core\Domain\Recruitment\Entity\Recruitment::getKanbanColumnByPosition">getKanbanColumnByPosition</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="KanbanColumn.php.html#87"><abbr title="App\Core\Domain\Recruitment\Entity\KanbanColumn::addCandidate">addCandidate</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="KanbanColumn.php.html#99"><abbr title="App\Core\Domain\Recruitment\Entity\KanbanColumn::removeCandidate">removeCandidate</abbr></a></td><td class="text-right">3</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 9.2.29</a> using <a href="https://secure.php.net/" target="_top">PHP 8.0.30</a> and <a href="https://phpunit.de/">PHPUnit 9.6.13</a> at Wed Oct 25 8:07:49 UTC 2023.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../_js/jquery.min.js?v=9.2.29" type="text/javascript"></script>
+  <script src="../../../../_js/d3.min.js?v=9.2.29" type="text/javascript"></script>
+  <script src="../../../../_js/nv.d3.min.js?v=9.2.29" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([1,0,0,0,0,1,2,0,2,2,2,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([81,0,0,0,1,1,1,0,4,3,1,239], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[82.75862068965517,20,"<a href=\"KanbanColumn.php.html#13\">App\\Core\\Domain\\Recruitment\\Entity\\KanbanColumn<\/a>"],[0,16,"<a href=\"KanbanColumnsTemplate.php.html#14\">App\\Core\\Domain\\Recruitment\\Entity\\KanbanColumnsTemplate<\/a>"],[90.9090909090909,23,"<a href=\"Meeting.php.html#15\">App\\Core\\Domain\\Recruitment\\Entity\\Meeting<\/a>"],[80,21,"<a href=\"PostRecruitmentData.php.html#15\">App\\Core\\Domain\\Recruitment\\Entity\\PostRecruitmentData<\/a>"],[96.55172413793103,117,"<a href=\"PreRecruitmentData.php.html#23\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData<\/a>"],[52.67175572519084,151,"<a href=\"Recruitment.php.html#24\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment<\/a>"],[73.91304347826086,16,"<a href=\"RecruitmentCandidateRecruited.php.html#14\">App\\Core\\Domain\\Recruitment\\Entity\\RecruitmentCandidateRecruited<\/a>"],[48.07692307692308,31,"<a href=\"ValidationFlow.php.html#15\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationFlow<\/a>"],[78.94736842105263,13,"<a href=\"ValidationFlowStep.php.html#13\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationFlowStep<\/a>"],[55.00000000000001,14,"<a href=\"ValidationHistory.php.html#12\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationHistory<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"KanbanColumn.php.html#44\">App\\Core\\Domain\\Recruitment\\Entity\\KanbanColumn::__construct<\/a>"],[100,1,"<a href=\"KanbanColumn.php.html#48\">App\\Core\\Domain\\Recruitment\\Entity\\KanbanColumn::getId<\/a>"],[100,1,"<a href=\"KanbanColumn.php.html#52\">App\\Core\\Domain\\Recruitment\\Entity\\KanbanColumn::getName<\/a>"],[100,1,"<a href=\"KanbanColumn.php.html#56\">App\\Core\\Domain\\Recruitment\\Entity\\KanbanColumn::setName<\/a>"],[100,1,"<a href=\"KanbanColumn.php.html#62\">App\\Core\\Domain\\Recruitment\\Entity\\KanbanColumn::getPosition<\/a>"],[100,1,"<a href=\"KanbanColumn.php.html#66\">App\\Core\\Domain\\Recruitment\\Entity\\KanbanColumn::setPosition<\/a>"],[100,1,"<a href=\"KanbanColumn.php.html#72\">App\\Core\\Domain\\Recruitment\\Entity\\KanbanColumn::getRecruitment<\/a>"],[100,1,"<a href=\"KanbanColumn.php.html#76\">App\\Core\\Domain\\Recruitment\\Entity\\KanbanColumn::setRecruitment<\/a>"],[100,1,"<a href=\"KanbanColumn.php.html#83\">App\\Core\\Domain\\Recruitment\\Entity\\KanbanColumn::getCandidates<\/a>"],[80,3,"<a href=\"KanbanColumn.php.html#87\">App\\Core\\Domain\\Recruitment\\Entity\\KanbanColumn::addCandidate<\/a>"],[80,3,"<a href=\"KanbanColumn.php.html#99\">App\\Core\\Domain\\Recruitment\\Entity\\KanbanColumn::removeCandidate<\/a>"],[75,3,"<a href=\"KanbanColumn.php.html#111\">App\\Core\\Domain\\Recruitment\\Entity\\KanbanColumn::getCandidateById<\/a>"],[100,1,"<a href=\"KanbanColumn.php.html#121\">App\\Core\\Domain\\Recruitment\\Entity\\KanbanColumn::getHasNotificationsEnabled<\/a>"],[0,1,"<a href=\"KanbanColumn.php.html#125\">App\\Core\\Domain\\Recruitment\\Entity\\KanbanColumn::setHasNotificationsEnabled<\/a>"],[0,1,"<a href=\"KanbanColumnsTemplate.php.html#58\">App\\Core\\Domain\\Recruitment\\Entity\\KanbanColumnsTemplate::__construct<\/a>"],[0,1,"<a href=\"KanbanColumnsTemplate.php.html#62\">App\\Core\\Domain\\Recruitment\\Entity\\KanbanColumnsTemplate::getId<\/a>"],[0,1,"<a href=\"KanbanColumnsTemplate.php.html#66\">App\\Core\\Domain\\Recruitment\\Entity\\KanbanColumnsTemplate::getName<\/a>"],[0,1,"<a href=\"KanbanColumnsTemplate.php.html#70\">App\\Core\\Domain\\Recruitment\\Entity\\KanbanColumnsTemplate::setName<\/a>"],[0,1,"<a href=\"KanbanColumnsTemplate.php.html#76\">App\\Core\\Domain\\Recruitment\\Entity\\KanbanColumnsTemplate::getDefaultKanban<\/a>"],[0,1,"<a href=\"KanbanColumnsTemplate.php.html#80\">App\\Core\\Domain\\Recruitment\\Entity\\KanbanColumnsTemplate::setDefaultKanban<\/a>"],[0,1,"<a href=\"KanbanColumnsTemplate.php.html#87\">App\\Core\\Domain\\Recruitment\\Entity\\KanbanColumnsTemplate::getColumns<\/a>"],[0,1,"<a href=\"KanbanColumnsTemplate.php.html#91\">App\\Core\\Domain\\Recruitment\\Entity\\KanbanColumnsTemplate::setColumns<\/a>"],[0,1,"<a href=\"KanbanColumnsTemplate.php.html#97\">App\\Core\\Domain\\Recruitment\\Entity\\KanbanColumnsTemplate::getEstablishment<\/a>"],[0,1,"<a href=\"KanbanColumnsTemplate.php.html#101\">App\\Core\\Domain\\Recruitment\\Entity\\KanbanColumnsTemplate::setEstablishment<\/a>"],[0,1,"<a href=\"KanbanColumnsTemplate.php.html#108\">App\\Core\\Domain\\Recruitment\\Entity\\KanbanColumnsTemplate::getRhGroups<\/a>"],[0,2,"<a href=\"KanbanColumnsTemplate.php.html#112\">App\\Core\\Domain\\Recruitment\\Entity\\KanbanColumnsTemplate::addRhGroup<\/a>"],[0,1,"<a href=\"KanbanColumnsTemplate.php.html#120\">App\\Core\\Domain\\Recruitment\\Entity\\KanbanColumnsTemplate::removeRhGroup<\/a>"],[0,1,"<a href=\"KanbanColumnsTemplate.php.html#126\">App\\Core\\Domain\\Recruitment\\Entity\\KanbanColumnsTemplate::isGlobal<\/a>"],[0,1,"<a href=\"KanbanColumnsTemplate.php.html#130\">App\\Core\\Domain\\Recruitment\\Entity\\KanbanColumnsTemplate::setGlobal<\/a>"],[100,1,"<a href=\"Meeting.php.html#70\">App\\Core\\Domain\\Recruitment\\Entity\\Meeting::__construct<\/a>"],[100,1,"<a href=\"Meeting.php.html#74\">App\\Core\\Domain\\Recruitment\\Entity\\Meeting::getId<\/a>"],[100,1,"<a href=\"Meeting.php.html#78\">App\\Core\\Domain\\Recruitment\\Entity\\Meeting::getName<\/a>"],[100,1,"<a href=\"Meeting.php.html#82\">App\\Core\\Domain\\Recruitment\\Entity\\Meeting::setName<\/a>"],[100,1,"<a href=\"Meeting.php.html#88\">App\\Core\\Domain\\Recruitment\\Entity\\Meeting::getBeginDate<\/a>"],[100,1,"<a href=\"Meeting.php.html#92\">App\\Core\\Domain\\Recruitment\\Entity\\Meeting::setBeginDate<\/a>"],[100,1,"<a href=\"Meeting.php.html#98\">App\\Core\\Domain\\Recruitment\\Entity\\Meeting::getEndDate<\/a>"],[100,1,"<a href=\"Meeting.php.html#102\">App\\Core\\Domain\\Recruitment\\Entity\\Meeting::setEndDate<\/a>"],[100,1,"<a href=\"Meeting.php.html#108\">App\\Core\\Domain\\Recruitment\\Entity\\Meeting::getVideoConferenceUrl<\/a>"],[100,1,"<a href=\"Meeting.php.html#112\">App\\Core\\Domain\\Recruitment\\Entity\\Meeting::setVideoConferenceUrl<\/a>"],[100,1,"<a href=\"Meeting.php.html#118\">App\\Core\\Domain\\Recruitment\\Entity\\Meeting::getDetails<\/a>"],[100,1,"<a href=\"Meeting.php.html#122\">App\\Core\\Domain\\Recruitment\\Entity\\Meeting::setDetails<\/a>"],[100,1,"<a href=\"Meeting.php.html#128\">App\\Core\\Domain\\Recruitment\\Entity\\Meeting::getAddress<\/a>"],[100,1,"<a href=\"Meeting.php.html#132\">App\\Core\\Domain\\Recruitment\\Entity\\Meeting::setAddress<\/a>"],[100,1,"<a href=\"Meeting.php.html#138\">App\\Core\\Domain\\Recruitment\\Entity\\Meeting::getRecruitment<\/a>"],[100,1,"<a href=\"Meeting.php.html#142\">App\\Core\\Domain\\Recruitment\\Entity\\Meeting::setRecruitment<\/a>"],[100,1,"<a href=\"Meeting.php.html#148\">App\\Core\\Domain\\Recruitment\\Entity\\Meeting::getCreator<\/a>"],[100,1,"<a href=\"Meeting.php.html#152\">App\\Core\\Domain\\Recruitment\\Entity\\Meeting::setCreator<\/a>"],[100,1,"<a href=\"Meeting.php.html#159\">App\\Core\\Domain\\Recruitment\\Entity\\Meeting::getGuests<\/a>"],[100,2,"<a href=\"Meeting.php.html#163\">App\\Core\\Domain\\Recruitment\\Entity\\Meeting::addGuest<\/a>"],[0,2,"<a href=\"Meeting.php.html#171\">App\\Core\\Domain\\Recruitment\\Entity\\Meeting::removeGuest<\/a>"],[100,1,"<a href=\"PostRecruitmentData.php.html#64\">App\\Core\\Domain\\Recruitment\\Entity\\PostRecruitmentData::__construct<\/a>"],[100,1,"<a href=\"PostRecruitmentData.php.html#68\">App\\Core\\Domain\\Recruitment\\Entity\\PostRecruitmentData::getId<\/a>"],[100,1,"<a href=\"PostRecruitmentData.php.html#72\">App\\Core\\Domain\\Recruitment\\Entity\\PostRecruitmentData::getMark<\/a>"],[100,1,"<a href=\"PostRecruitmentData.php.html#76\">App\\Core\\Domain\\Recruitment\\Entity\\PostRecruitmentData::setMark<\/a>"],[100,1,"<a href=\"PostRecruitmentData.php.html#82\">App\\Core\\Domain\\Recruitment\\Entity\\PostRecruitmentData::getRecruitedCandidate<\/a>"],[100,1,"<a href=\"PostRecruitmentData.php.html#86\">App\\Core\\Domain\\Recruitment\\Entity\\PostRecruitmentData::setRecruitedCandidate<\/a>"],[100,1,"<a href=\"PostRecruitmentData.php.html#92\">App\\Core\\Domain\\Recruitment\\Entity\\PostRecruitmentData::getHirePromiseDate<\/a>"],[100,1,"<a href=\"PostRecruitmentData.php.html#96\">App\\Core\\Domain\\Recruitment\\Entity\\PostRecruitmentData::setHirePromiseDate<\/a>"],[100,1,"<a href=\"PostRecruitmentData.php.html#102\">App\\Core\\Domain\\Recruitment\\Entity\\PostRecruitmentData::getJobStartDate<\/a>"],[100,1,"<a href=\"PostRecruitmentData.php.html#106\">App\\Core\\Domain\\Recruitment\\Entity\\PostRecruitmentData::setJobStartDate<\/a>"],[100,1,"<a href=\"PostRecruitmentData.php.html#112\">App\\Core\\Domain\\Recruitment\\Entity\\PostRecruitmentData::getSignatureDate<\/a>"],[100,1,"<a href=\"PostRecruitmentData.php.html#116\">App\\Core\\Domain\\Recruitment\\Entity\\PostRecruitmentData::setSignatureDate<\/a>"],[100,1,"<a href=\"PostRecruitmentData.php.html#122\">App\\Core\\Domain\\Recruitment\\Entity\\PostRecruitmentData::getRemarksEstablishment<\/a>"],[100,1,"<a href=\"PostRecruitmentData.php.html#126\">App\\Core\\Domain\\Recruitment\\Entity\\PostRecruitmentData::setRemarksEstablishment<\/a>"],[100,1,"<a href=\"PostRecruitmentData.php.html#132\">App\\Core\\Domain\\Recruitment\\Entity\\PostRecruitmentData::getRemarksRecruitment<\/a>"],[100,1,"<a href=\"PostRecruitmentData.php.html#136\">App\\Core\\Domain\\Recruitment\\Entity\\PostRecruitmentData::setRemarksRecruitment<\/a>"],[100,1,"<a href=\"PostRecruitmentData.php.html#143\">App\\Core\\Domain\\Recruitment\\Entity\\PostRecruitmentData::getDocuments<\/a>"],[0,2,"<a href=\"PostRecruitmentData.php.html#147\">App\\Core\\Domain\\Recruitment\\Entity\\PostRecruitmentData::addDocument<\/a>"],[0,2,"<a href=\"PostRecruitmentData.php.html#155\">App\\Core\\Domain\\Recruitment\\Entity\\PostRecruitmentData::removeDocument<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#319\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::__construct<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#323\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getId<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#327\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getJobType<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#331\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setJobType<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#337\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getDescriptionMission<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#341\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setDescriptionMission<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#347\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getDescriptionProfile<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#351\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setDescriptionProfile<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#357\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::isJobPreEmption<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#361\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setJobPreEmption<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#367\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getStartDate<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#371\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setStartDate<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#377\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getEndDate<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#381\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setEndDate<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#387\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::isAsap<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#391\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setAsap<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#397\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getSchedule<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#401\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setSchedule<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#407\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getExperienceDuration<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#411\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setExperienceDuration<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#417\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getDayNight<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#421\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setDayNight<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#427\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::isDisabledPeople<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#431\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setDisabledPeople<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#437\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getRequestDetail<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#441\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setRequestDetail<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#447\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getPlannedBp<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#451\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setPlannedBp<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#457\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getEstimatedBudget<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#461\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setEstimatedBudget<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#467\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getAchievedBudget<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#471\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setAchievedBudget<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#477\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getRecruitmentCost<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#481\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setRecruitmentCost<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#487\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getRequestEstablishment<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#491\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setRequestEstablishment<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#497\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getReplacedStaffName<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#501\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setReplacedStaffName<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#507\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getReplacedStaffReason<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#511\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setReplacedStaffReason<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#517\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getReplacedStaffQualification<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#521\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setReplacedStaffQualification<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#527\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getConsideredCandidateName<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#531\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setConsideredCandidateName<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#537\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getLastDayReplacedStaff<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#541\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setLastDayReplacedStaff<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#547\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getReturnDate<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#551\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setReturnDate<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#557\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::isContractUntilReturn<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#561\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setContractUntilReturn<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#567\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getApplicantName<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#571\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setApplicantName<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#577\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getQuota<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#581\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setQuota<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#587\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getCoef<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#591\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setCoef<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#597\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getEtp<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#601\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setEtp<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#607\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getHoursCountEtp<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#611\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setHoursCountEtp<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#617\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getRequestOffer<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#621\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setRequestOffer<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#627\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getScope<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#631\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setScope<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#637\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getJobboardEndDate<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#641\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setJobboardEndDate<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#647\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getExecutiveFullname<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#651\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setExecutiveFullname<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#657\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getUfComptable<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#661\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setUfComptable<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#667\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getConcernedPole<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#671\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setConcernedPole<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#677\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getCandidateEndDate<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#681\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setCandidateEndDate<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#687\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getCommentary<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#691\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setCommentary<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#697\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getJob<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#701\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setJob<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#707\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getRank<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#711\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setRank<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#717\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getJobCode<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#721\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setJobCode<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#727\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getPostNumber<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#731\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setPostNumber<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#737\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getJobLabel<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#741\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setJobLabel<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#748\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getContractTypes<\/a>"],[100,2,"<a href=\"PreRecruitmentData.php.html#752\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::addContractType<\/a>"],[100,2,"<a href=\"PreRecruitmentData.php.html#760\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::removeContractType<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#768\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getRequestReason<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#772\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setRequestReason<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#778\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getRequestSpeciality<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#782\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setRequestSpeciality<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#788\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getPole<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#792\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setPole<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#798\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getService<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#802\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setService<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#808\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getFunctionalUnit<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#812\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setFunctionalUnit<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#818\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getJobPdf<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#822\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setJobPdf<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#828\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getBudgetChartPdf<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#832\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setBudgetChartPdf<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#838\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getBudgetStatePdf<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#842\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setBudgetStatePdf<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#848\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getTeamSchedulePdf<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#852\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setTeamSchedulePdf<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#858\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getAnnualSalary<\/a>"],[0,1,"<a href=\"PreRecruitmentData.php.html#862\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setAnnualSalary<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#868\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getAnnualSalaryGoal<\/a>"],[0,1,"<a href=\"PreRecruitmentData.php.html#872\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setAnnualSalaryGoal<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#878\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getSalaryCount<\/a>"],[0,1,"<a href=\"PreRecruitmentData.php.html#882\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setSalaryCount<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#888\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::getOtherPdf<\/a>"],[100,1,"<a href=\"PreRecruitmentData.php.html#892\">App\\Core\\Domain\\Recruitment\\Entity\\PreRecruitmentData::setOtherPdf<\/a>"],[100,1,"<a href=\"Recruitment.php.html#154\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::__construct<\/a>"],[100,1,"<a href=\"Recruitment.php.html#168\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getCurrentStateLabel<\/a>"],[83.33333333333334,5,"<a href=\"Recruitment.php.html#180\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::isValidated<\/a>"],[100,3,"<a href=\"Recruitment.php.html#193\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::isRejected<\/a>"],[100,1,"<a href=\"Recruitment.php.html#203\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getId<\/a>"],[0,3,"<a href=\"Recruitment.php.html#207\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::hasRh<\/a>"],[71.42857142857143,4,"<a href=\"Recruitment.php.html#219\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::hasRhAndValidator<\/a>"],[100,2,"<a href=\"Recruitment.php.html#236\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getRhs<\/a>"],[100,3,"<a href=\"Recruitment.php.html#247\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getRhsExcept<\/a>"],[100,1,"<a href=\"Recruitment.php.html#260\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getCreatorName<\/a>"],[100,2,"<a href=\"Recruitment.php.html#265\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getCandidates<\/a>"],[100,1,"<a href=\"Recruitment.php.html#276\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getOffers<\/a>"],[100,2,"<a href=\"Recruitment.php.html#280\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getCandidatesCount<\/a>"],[0,1,"<a href=\"Recruitment.php.html#291\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getFilesCount<\/a>"],[100,1,"<a href=\"Recruitment.php.html#296\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getOffersCount<\/a>"],[100,1,"<a href=\"Recruitment.php.html#301\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getCreatedAt<\/a>"],[0,1,"<a href=\"Recruitment.php.html#305\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::setCreatedAt<\/a>"],[100,1,"<a href=\"Recruitment.php.html#311\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getName<\/a>"],[100,2,"<a href=\"Recruitment.php.html#315\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::setName<\/a>"],[100,1,"<a href=\"Recruitment.php.html#325\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getCurrentState<\/a>"],[100,1,"<a href=\"Recruitment.php.html#329\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::setCurrentState<\/a>"],[0,1,"<a href=\"Recruitment.php.html#335\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getFeedback<\/a>"],[100,1,"<a href=\"Recruitment.php.html#339\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::setFeedback<\/a>"],[0,3,"<a href=\"Recruitment.php.html#345\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getFeedbackByKey<\/a>"],[0,2,"<a href=\"Recruitment.php.html#353\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::setFeedbackByKey<\/a>"],[100,1,"<a href=\"Recruitment.php.html#363\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getCreator<\/a>"],[100,1,"<a href=\"Recruitment.php.html#367\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::setCreator<\/a>"],[100,1,"<a href=\"Recruitment.php.html#373\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getEstablishment<\/a>"],[100,1,"<a href=\"Recruitment.php.html#377\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::setEstablishment<\/a>"],[100,1,"<a href=\"Recruitment.php.html#383\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getValidationFlow<\/a>"],[100,1,"<a href=\"Recruitment.php.html#387\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::setValidationFlow<\/a>"],[100,1,"<a href=\"Recruitment.php.html#394\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getCollaborators<\/a>"],[0,2,"<a href=\"Recruitment.php.html#398\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getCreatorAndCollaboratorsIds<\/a>"],[100,3,"<a href=\"Recruitment.php.html#408\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::addCollaborator<\/a>"],[0,3,"<a href=\"Recruitment.php.html#420\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::removeCollaborator<\/a>"],[100,1,"<a href=\"Recruitment.php.html#433\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getKanbanColumns<\/a>"],[75,3,"<a href=\"Recruitment.php.html#437\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getKanbanColumnById<\/a>"],[75,3,"<a href=\"Recruitment.php.html#447\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getKanbanColumnByPosition<\/a>"],[100,2,"<a href=\"Recruitment.php.html#457\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::addKanbanColumn<\/a>"],[0,3,"<a href=\"Recruitment.php.html#466\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::removeKanbanColumn<\/a>"],[0,1,"<a href=\"Recruitment.php.html#479\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getMeetings<\/a>"],[0,2,"<a href=\"Recruitment.php.html#483\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::addMeeting<\/a>"],[0,3,"<a href=\"Recruitment.php.html#492\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::removeMeeting<\/a>"],[100,1,"<a href=\"Recruitment.php.html#505\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getValidationHistories<\/a>"],[0,2,"<a href=\"Recruitment.php.html#509\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::addValidationHistory<\/a>"],[0,3,"<a href=\"Recruitment.php.html#518\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::removeValidationHistory<\/a>"],[0,1,"<a href=\"Recruitment.php.html#531\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getRecruitmentHistories<\/a>"],[0,2,"<a href=\"Recruitment.php.html#535\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::addRecruitmentHistory<\/a>"],[0,3,"<a href=\"Recruitment.php.html#544\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::removeRecruitmentHistory<\/a>"],[0,1,"<a href=\"Recruitment.php.html#556\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getRecruitmentLastSeens<\/a>"],[0,2,"<a href=\"Recruitment.php.html#560\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::addRecruitmentLastSeen<\/a>"],[0,3,"<a href=\"Recruitment.php.html#569\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::removeRecruitmentLastSeen<\/a>"],[100,1,"<a href=\"Recruitment.php.html#581\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getRecruitmentCandidateRecruiteds<\/a>"],[0,2,"<a href=\"Recruitment.php.html#585\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::addRecruitmentCandidateRecruited<\/a>"],[0,3,"<a href=\"Recruitment.php.html#594\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::removeRecruitmentCandidateRecruited<\/a>"],[100,1,"<a href=\"Recruitment.php.html#605\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getCurrentValidationStep<\/a>"],[100,1,"<a href=\"Recruitment.php.html#609\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::setCurrentValidationStep<\/a>"],[0,1,"<a href=\"Recruitment.php.html#615\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getMessages<\/a>"],[0,1,"<a href=\"Recruitment.php.html#619\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getClosedAt<\/a>"],[100,1,"<a href=\"Recruitment.php.html#623\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::setClosedAt<\/a>"],[100,1,"<a href=\"Recruitment.php.html#629\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getPreRecruitmentData<\/a>"],[100,1,"<a href=\"Recruitment.php.html#633\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::setPreRecruitmentData<\/a>"],[100,1,"<a href=\"Recruitment.php.html#639\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getPostRecruitmentData<\/a>"],[100,1,"<a href=\"Recruitment.php.html#643\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::setPostRecruitmentData<\/a>"],[100,1,"<a href=\"Recruitment.php.html#649\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getMaincareJobId<\/a>"],[100,1,"<a href=\"Recruitment.php.html#653\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::setMaincareJobId<\/a>"],[0,1,"<a href=\"Recruitment.php.html#660\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getFiles<\/a>"],[0,1,"<a href=\"Recruitment.php.html#664\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getPreRecruitmentDataa<\/a>"],[0,1,"<a href=\"Recruitment.php.html#668\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::setPreRecruitmentFile<\/a>"],[0,1,"<a href=\"Recruitment.php.html#680\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::setPreRecruitmentValue<\/a>"],[0,2,"<a href=\"Recruitment.php.html#688\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getFilePathByFileFields<\/a>"],[92.85714285714286,6,"<a href=\"Recruitment.php.html#698\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getCalculatedCurrentValidationStep<\/a>"],[50,6,"<a href=\"Recruitment.php.html#727\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getHasOfferWithAColumn<\/a>"],[42.857142857142854,4,"<a href=\"Recruitment.php.html#744\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getRhsAndValidators<\/a>"],[37.5,5,"<a href=\"Recruitment.php.html#760\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getAllValidators<\/a>"],[0,1,"<a href=\"Recruitment.php.html#777\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::adminCanAccess<\/a>"],[100,2,"<a href=\"Recruitment.php.html#781\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getFirstColumn<\/a>"],[100,1,"<a href=\"Recruitment.php.html#789\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getFormattedName<\/a>"],[0,2,"<a href=\"Recruitment.php.html#793\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getCurrentValidators<\/a>"],[0,3,"<a href=\"Recruitment.php.html#802\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::getNonCurrentValidators<\/a>"],[0,1,"<a href=\"Recruitment.php.html#814\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::isOpen<\/a>"],[100,1,"<a href=\"Recruitment.php.html#818\">App\\Core\\Domain\\Recruitment\\Entity\\Recruitment::isDraft<\/a>"],[100,1,"<a href=\"RecruitmentCandidateRecruited.php.html#60\">App\\Core\\Domain\\Recruitment\\Entity\\RecruitmentCandidateRecruited::__construct<\/a>"],[0,1,"<a href=\"RecruitmentCandidateRecruited.php.html#64\">App\\Core\\Domain\\Recruitment\\Entity\\RecruitmentCandidateRecruited::getId<\/a>"],[100,1,"<a href=\"RecruitmentCandidateRecruited.php.html#68\">App\\Core\\Domain\\Recruitment\\Entity\\RecruitmentCandidateRecruited::getRecruitment<\/a>"],[100,1,"<a href=\"RecruitmentCandidateRecruited.php.html#72\">App\\Core\\Domain\\Recruitment\\Entity\\RecruitmentCandidateRecruited::setRecruitment<\/a>"],[100,1,"<a href=\"RecruitmentCandidateRecruited.php.html#78\">App\\Core\\Domain\\Recruitment\\Entity\\RecruitmentCandidateRecruited::getCandidate<\/a>"],[100,1,"<a href=\"RecruitmentCandidateRecruited.php.html#82\">App\\Core\\Domain\\Recruitment\\Entity\\RecruitmentCandidateRecruited::setCandidate<\/a>"],[0,1,"<a href=\"RecruitmentCandidateRecruited.php.html#88\">App\\Core\\Domain\\Recruitment\\Entity\\RecruitmentCandidateRecruited::getRequestReason<\/a>"],[100,1,"<a href=\"RecruitmentCandidateRecruited.php.html#92\">App\\Core\\Domain\\Recruitment\\Entity\\RecruitmentCandidateRecruited::setRequestReason<\/a>"],[0,1,"<a href=\"RecruitmentCandidateRecruited.php.html#98\">App\\Core\\Domain\\Recruitment\\Entity\\RecruitmentCandidateRecruited::getContractType<\/a>"],[100,1,"<a href=\"RecruitmentCandidateRecruited.php.html#102\">App\\Core\\Domain\\Recruitment\\Entity\\RecruitmentCandidateRecruited::setContractType<\/a>"],[0,1,"<a href=\"RecruitmentCandidateRecruited.php.html#108\">App\\Core\\Domain\\Recruitment\\Entity\\RecruitmentCandidateRecruited::getContractEndDate<\/a>"],[100,1,"<a href=\"RecruitmentCandidateRecruited.php.html#112\">App\\Core\\Domain\\Recruitment\\Entity\\RecruitmentCandidateRecruited::setContractEndDate<\/a>"],[100,1,"<a href=\"RecruitmentCandidateRecruited.php.html#118\">App\\Core\\Domain\\Recruitment\\Entity\\RecruitmentCandidateRecruited::getCreatedAt<\/a>"],[0,1,"<a href=\"RecruitmentCandidateRecruited.php.html#122\">App\\Core\\Domain\\Recruitment\\Entity\\RecruitmentCandidateRecruited::setCreatedAt<\/a>"],[100,1,"<a href=\"RecruitmentCandidateRecruited.php.html#128\">App\\Core\\Domain\\Recruitment\\Entity\\RecruitmentCandidateRecruited::getCreator<\/a>"],[100,1,"<a href=\"RecruitmentCandidateRecruited.php.html#132\">App\\Core\\Domain\\Recruitment\\Entity\\RecruitmentCandidateRecruited::setCreator<\/a>"],[100,1,"<a href=\"ValidationFlow.php.html#70\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationFlow::__construct<\/a>"],[100,1,"<a href=\"ValidationFlow.php.html#76\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationFlow::getId<\/a>"],[100,1,"<a href=\"ValidationFlow.php.html#80\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationFlow::getName<\/a>"],[100,1,"<a href=\"ValidationFlow.php.html#84\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationFlow::setName<\/a>"],[0,1,"<a href=\"ValidationFlow.php.html#90\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationFlow::getDescription<\/a>"],[100,1,"<a href=\"ValidationFlow.php.html#94\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationFlow::setDescription<\/a>"],[100,1,"<a href=\"ValidationFlow.php.html#100\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationFlow::getReasons<\/a>"],[0,1,"<a href=\"ValidationFlow.php.html#104\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationFlow::setReasons<\/a>"],[100,1,"<a href=\"ValidationFlow.php.html#110\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationFlow::getContractTypes<\/a>"],[0,1,"<a href=\"ValidationFlow.php.html#114\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationFlow::setContractTypes<\/a>"],[100,2,"<a href=\"ValidationFlow.php.html#121\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationFlow::getSteps<\/a>"],[100,2,"<a href=\"ValidationFlow.php.html#131\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationFlow::addStep<\/a>"],[0,3,"<a href=\"ValidationFlow.php.html#140\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationFlow::removeStep<\/a>"],[0,1,"<a href=\"ValidationFlow.php.html#153\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationFlow::getRecruitments<\/a>"],[0,2,"<a href=\"ValidationFlow.php.html#157\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationFlow::addRecruitment<\/a>"],[0,3,"<a href=\"ValidationFlow.php.html#166\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationFlow::removeRecruitment<\/a>"],[100,1,"<a href=\"ValidationFlow.php.html#178\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationFlow::getEstablishment<\/a>"],[100,1,"<a href=\"ValidationFlow.php.html#182\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationFlow::setEstablishment<\/a>"],[0,1,"<a href=\"ValidationFlow.php.html#189\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationFlow::getRhGroups<\/a>"],[0,2,"<a href=\"ValidationFlow.php.html#193\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationFlow::addRhGroup<\/a>"],[0,1,"<a href=\"ValidationFlow.php.html#201\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationFlow::removeRhGroup<\/a>"],[0,1,"<a href=\"ValidationFlow.php.html#207\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationFlow::isActivated<\/a>"],[100,1,"<a href=\"ValidationFlow.php.html#211\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationFlow::setActivated<\/a>"],[100,1,"<a href=\"ValidationFlowStep.php.html#45\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationFlowStep::__construct<\/a>"],[100,1,"<a href=\"ValidationFlowStep.php.html#50\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationFlowStep::getId<\/a>"],[100,1,"<a href=\"ValidationFlowStep.php.html#54\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationFlowStep::getName<\/a>"],[100,1,"<a href=\"ValidationFlowStep.php.html#58\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationFlowStep::setName<\/a>"],[100,1,"<a href=\"ValidationFlowStep.php.html#64\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationFlowStep::getPosition<\/a>"],[100,1,"<a href=\"ValidationFlowStep.php.html#68\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationFlowStep::setPosition<\/a>"],[0,1,"<a href=\"ValidationFlowStep.php.html#74\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationFlowStep::getValidationFlow<\/a>"],[100,1,"<a href=\"ValidationFlowStep.php.html#78\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationFlowStep::setValidationFlow<\/a>"],[0,1,"<a href=\"ValidationFlowStep.php.html#85\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationFlowStep::getValidationHistories<\/a>"],[100,1,"<a href=\"ValidationFlowStep.php.html#90\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationFlowStep::getValidators<\/a>"],[100,2,"<a href=\"ValidationFlowStep.php.html#94\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationFlowStep::addValidator<\/a>"],[0,1,"<a href=\"ValidationFlowStep.php.html#102\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationFlowStep::removeValidator<\/a>"],[100,1,"<a href=\"ValidationHistory.php.html#49\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationHistory::__construct<\/a>"],[0,1,"<a href=\"ValidationHistory.php.html#53\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationHistory::getId<\/a>"],[0,1,"<a href=\"ValidationHistory.php.html#57\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationHistory::getDate<\/a>"],[0,1,"<a href=\"ValidationHistory.php.html#61\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationHistory::setDate<\/a>"],[100,1,"<a href=\"ValidationHistory.php.html#67\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationHistory::getIsValidated<\/a>"],[100,1,"<a href=\"ValidationHistory.php.html#71\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationHistory::setIsValidated<\/a>"],[0,1,"<a href=\"ValidationHistory.php.html#77\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationHistory::getComment<\/a>"],[0,1,"<a href=\"ValidationHistory.php.html#81\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationHistory::setComment<\/a>"],[100,1,"<a href=\"ValidationHistory.php.html#87\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationHistory::getStep<\/a>"],[100,1,"<a href=\"ValidationHistory.php.html#91\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationHistory::setStep<\/a>"],[0,1,"<a href=\"ValidationHistory.php.html#97\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationHistory::getValidator<\/a>"],[100,1,"<a href=\"ValidationHistory.php.html#101\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationHistory::setValidator<\/a>"],[0,1,"<a href=\"ValidationHistory.php.html#107\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationHistory::getRecruitment<\/a>"],[100,1,"<a href=\"ValidationHistory.php.html#111\">App\\Core\\Domain\\Recruitment\\Entity\\ValidationHistory::setRecruitment<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

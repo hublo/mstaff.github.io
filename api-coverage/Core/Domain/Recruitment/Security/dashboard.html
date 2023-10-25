@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /Users/alexandre/Dev/mstaff-v3-api/src/Core/Domain/Recruitment/Security</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../_css/bootstrap.min.css?v=9.2.29" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/nv.d3.min.css?v=9.2.29" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/style.css?v=9.2.29" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../../index.html">/Users/alexandre/Dev/mstaff-v3-api/src</a></li>
+         <li class="breadcrumb-item"><a href="../../../index.html">Core</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">Domain</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Recruitment</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Security</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="MeetingVoter.php.html#10">App\Core\Domain\Recruitment\Security\MeetingVoter</a></td><td class="text-right">20%</td></tr>
+       <tr><td><a href="KanbanColumnsTemplateVoter.php.html#10">App\Core\Domain\Recruitment\Security\KanbanColumnsTemplateVoter</a></td><td class="text-right">25%</td></tr>
+       <tr><td><a href="ValidationFlowVoter.php.html#10">App\Core\Domain\Recruitment\Security\ValidationFlowVoter</a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="RecruitmentVoter.php.html#14">App\Core\Domain\Recruitment\Security\RecruitmentVoter</a></td><td class="text-right">81%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="RecruitmentVoter.php.html#14">App\Core\Domain\Recruitment\Security\RecruitmentVoter</a></td><td class="text-right">46</td></tr>
+       <tr><td><a href="MeetingVoter.php.html#10">App\Core\Domain\Recruitment\Security\MeetingVoter</a></td><td class="text-right">17</td></tr>
+       <tr><td><a href="KanbanColumnsTemplateVoter.php.html#10">App\Core\Domain\Recruitment\Security\KanbanColumnsTemplateVoter</a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="KanbanColumnsTemplateVoter.php.html#18"><abbr title="App\Core\Domain\Recruitment\Security\KanbanColumnsTemplateVoter::_ADMIN">_ADMIN</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MeetingVoter.php.html#19"><abbr title="App\Core\Domain\Recruitment\Security\MeetingVoter::_UPDATE">_UPDATE</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MeetingVoter.php.html#24"><abbr title="App\Core\Domain\Recruitment\Security\MeetingVoter::_DELETE">_DELETE</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ValidationFlowVoter.php.html#18"><abbr title="App\Core\Domain\Recruitment\Security\ValidationFlowVoter::_ADMIN">_ADMIN</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentVoter.php.html#114"><abbr title="App\Core\Domain\Recruitment\Security\RecruitmentVoter::_COMMENT_CREATE">_COMMENT_CREATE</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="RecruitmentVoter.php.html#122"><abbr title="App\Core\Domain\Recruitment\Security\RecruitmentVoter::_COMMENT_DELETE">_COMMENT_DELETE</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="RecruitmentVoter.php.html#138"><abbr title="App\Core\Domain\Recruitment\Security\RecruitmentVoter::_FILE_COLLABORATOR_CREATE">_FILE_COLLABORATOR_CREATE</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="RecruitmentVoter.php.html#150"><abbr title="App\Core\Domain\Recruitment\Security\RecruitmentVoter::_OFFER_CREATE">_OFFER_CREATE</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="RecruitmentVoter.php.html#158"><abbr title="App\Core\Domain\Recruitment\Security\RecruitmentVoter::_OFFER_PUBLISH">_OFFER_PUBLISH</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="RecruitmentVoter.php.html#170"><abbr title="App\Core\Domain\Recruitment\Security\RecruitmentVoter::_CANDIDATE_MANAGE">_CANDIDATE_MANAGE</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="RecruitmentVoter.php.html#85"><abbr title="App\Core\Domain\Recruitment\Security\RecruitmentVoter::_DELETE">_DELETE</abbr></a></td><td class="text-right">71%</td></tr>
+       <tr><td><a href="RecruitmentVoter.php.html#101"><abbr title="App\Core\Domain\Recruitment\Security\RecruitmentVoter::_COLLABORATOR_UPDATE">_COLLABORATOR_UPDATE</abbr></a></td><td class="text-right">75%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="KanbanColumnsTemplateVoter.php.html#18"><abbr title="App\Core\Domain\Recruitment\Security\KanbanColumnsTemplateVoter::_ADMIN">_ADMIN</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MeetingVoter.php.html#19"><abbr title="App\Core\Domain\Recruitment\Security\MeetingVoter::_UPDATE">_UPDATE</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MeetingVoter.php.html#24"><abbr title="App\Core\Domain\Recruitment\Security\MeetingVoter::_DELETE">_DELETE</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="RecruitmentVoter.php.html#85"><abbr title="App\Core\Domain\Recruitment\Security\RecruitmentVoter::_DELETE">_DELETE</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="RecruitmentVoter.php.html#101"><abbr title="App\Core\Domain\Recruitment\Security\RecruitmentVoter::_COLLABORATOR_UPDATE">_COLLABORATOR_UPDATE</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="RecruitmentVoter.php.html#114"><abbr title="App\Core\Domain\Recruitment\Security\RecruitmentVoter::_COMMENT_CREATE">_COMMENT_CREATE</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="RecruitmentVoter.php.html#122"><abbr title="App\Core\Domain\Recruitment\Security\RecruitmentVoter::_COMMENT_DELETE">_COMMENT_DELETE</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="RecruitmentVoter.php.html#138"><abbr title="App\Core\Domain\Recruitment\Security\RecruitmentVoter::_FILE_COLLABORATOR_CREATE">_FILE_COLLABORATOR_CREATE</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="RecruitmentVoter.php.html#150"><abbr title="App\Core\Domain\Recruitment\Security\RecruitmentVoter::_OFFER_CREATE">_OFFER_CREATE</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="RecruitmentVoter.php.html#158"><abbr title="App\Core\Domain\Recruitment\Security\RecruitmentVoter::_OFFER_PUBLISH">_OFFER_PUBLISH</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="RecruitmentVoter.php.html#170"><abbr title="App\Core\Domain\Recruitment\Security\RecruitmentVoter::_CANDIDATE_MANAGE">_CANDIDATE_MANAGE</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 9.2.29</a> using <a href="https://secure.php.net/" target="_top">PHP 8.0.30</a> and <a href="https://phpunit.de/">PHPUnit 9.6.13</a> at Wed Oct 25 8:07:49 UTC 2023.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../_js/jquery.min.js?v=9.2.29" type="text/javascript"></script>
+  <script src="../../../../_js/d3.min.js?v=9.2.29" type="text/javascript"></script>
+  <script src="../../../../_js/nv.d3.min.js?v=9.2.29" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([0,0,0,2,0,0,1,0,0,1,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([4,0,0,0,0,0,0,6,2,0,0,15], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[25,3,"<a href=\"KanbanColumnsTemplateVoter.php.html#10\">App\\Core\\Domain\\Recruitment\\Security\\KanbanColumnsTemplateVoter<\/a>"],[20,5,"<a href=\"MeetingVoter.php.html#10\">App\\Core\\Domain\\Recruitment\\Security\\MeetingVoter<\/a>"],[81.25,37,"<a href=\"RecruitmentVoter.php.html#14\">App\\Core\\Domain\\Recruitment\\Security\\RecruitmentVoter<\/a>"],[50,2,"<a href=\"ValidationFlowVoter.php.html#10\">App\\Core\\Domain\\Recruitment\\Security\\ValidationFlowVoter<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"KanbanColumnsTemplateVoter.php.html#14\">App\\Core\\Domain\\Recruitment\\Security\\KanbanColumnsTemplateVoter::getSupportedSubjects<\/a>"],[0,2,"<a href=\"KanbanColumnsTemplateVoter.php.html#18\">App\\Core\\Domain\\Recruitment\\Security\\KanbanColumnsTemplateVoter::_ADMIN<\/a>"],[100,1,"<a href=\"MeetingVoter.php.html#15\">App\\Core\\Domain\\Recruitment\\Security\\MeetingVoter::getSupportedSubjects<\/a>"],[0,2,"<a href=\"MeetingVoter.php.html#19\">App\\Core\\Domain\\Recruitment\\Security\\MeetingVoter::_UPDATE<\/a>"],[0,2,"<a href=\"MeetingVoter.php.html#24\">App\\Core\\Domain\\Recruitment\\Security\\MeetingVoter::_DELETE<\/a>"],[100,1,"<a href=\"RecruitmentVoter.php.html#47\">App\\Core\\Domain\\Recruitment\\Security\\RecruitmentVoter::getSupportedSubjects<\/a>"],[100,1,"<a href=\"RecruitmentVoter.php.html#51\">App\\Core\\Domain\\Recruitment\\Security\\RecruitmentVoter::__construct<\/a>"],[100,1,"<a href=\"RecruitmentVoter.php.html#55\">App\\Core\\Domain\\Recruitment\\Security\\RecruitmentVoter::_READ<\/a>"],[100,4,"<a href=\"RecruitmentVoter.php.html#59\">App\\Core\\Domain\\Recruitment\\Security\\RecruitmentVoter::_UPDATE<\/a>"],[100,3,"<a href=\"RecruitmentVoter.php.html#69\">App\\Core\\Domain\\Recruitment\\Security\\RecruitmentVoter::_VALIDATE<\/a>"],[100,1,"<a href=\"RecruitmentVoter.php.html#77\">App\\Core\\Domain\\Recruitment\\Security\\RecruitmentVoter::_CLOSE<\/a>"],[100,1,"<a href=\"RecruitmentVoter.php.html#81\">App\\Core\\Domain\\Recruitment\\Security\\RecruitmentVoter::_ARCHIVE<\/a>"],[71.42857142857143,5,"<a href=\"RecruitmentVoter.php.html#85\">App\\Core\\Domain\\Recruitment\\Security\\RecruitmentVoter::_DELETE<\/a>"],[75,3,"<a href=\"RecruitmentVoter.php.html#101\">App\\Core\\Domain\\Recruitment\\Security\\RecruitmentVoter::_COLLABORATOR_UPDATE<\/a>"],[100,1,"<a href=\"RecruitmentVoter.php.html#110\">App\\Core\\Domain\\Recruitment\\Security\\RecruitmentVoter::_COMMENT_READ<\/a>"],[66.66666666666666,2,"<a href=\"RecruitmentVoter.php.html#114\">App\\Core\\Domain\\Recruitment\\Security\\RecruitmentVoter::_COMMENT_CREATE<\/a>"],[66.66666666666666,2,"<a href=\"RecruitmentVoter.php.html#122\">App\\Core\\Domain\\Recruitment\\Security\\RecruitmentVoter::_COMMENT_DELETE<\/a>"],[100,1,"<a href=\"RecruitmentVoter.php.html#130\">App\\Core\\Domain\\Recruitment\\Security\\RecruitmentVoter::_FILE_CANDIDATE_READ<\/a>"],[100,1,"<a href=\"RecruitmentVoter.php.html#134\">App\\Core\\Domain\\Recruitment\\Security\\RecruitmentVoter::_FILE_COLLABORATOR_READ<\/a>"],[66.66666666666666,2,"<a href=\"RecruitmentVoter.php.html#138\">App\\Core\\Domain\\Recruitment\\Security\\RecruitmentVoter::_FILE_COLLABORATOR_CREATE<\/a>"],[100,1,"<a href=\"RecruitmentVoter.php.html#146\">App\\Core\\Domain\\Recruitment\\Security\\RecruitmentVoter::_OFFER_READ<\/a>"],[66.66666666666666,2,"<a href=\"RecruitmentVoter.php.html#150\">App\\Core\\Domain\\Recruitment\\Security\\RecruitmentVoter::_OFFER_CREATE<\/a>"],[66.66666666666666,2,"<a href=\"RecruitmentVoter.php.html#158\">App\\Core\\Domain\\Recruitment\\Security\\RecruitmentVoter::_OFFER_PUBLISH<\/a>"],[100,1,"<a href=\"RecruitmentVoter.php.html#166\">App\\Core\\Domain\\Recruitment\\Security\\RecruitmentVoter::_MEETING_CREATE<\/a>"],[66.66666666666666,2,"<a href=\"RecruitmentVoter.php.html#170\">App\\Core\\Domain\\Recruitment\\Security\\RecruitmentVoter::_CANDIDATE_MANAGE<\/a>"],[100,1,"<a href=\"ValidationFlowVoter.php.html#14\">App\\Core\\Domain\\Recruitment\\Security\\ValidationFlowVoter::getSupportedSubjects<\/a>"],[0,1,"<a href=\"ValidationFlowVoter.php.html#18\">App\\Core\\Domain\\Recruitment\\Security\\ValidationFlowVoter::_ADMIN<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

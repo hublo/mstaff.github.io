@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /Users/alexandre/Dev/mstaff-v3-api/src/Core/Domain/Candidate</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../_css/bootstrap.min.css?v=9.2.29" rel="stylesheet" type="text/css">
+  <link href="../../../_css/nv.d3.min.css?v=9.2.29" rel="stylesheet" type="text/css">
+  <link href="../../../_css/style.css?v=9.2.29" rel="stylesheet" type="text/css">
+  <link href="../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../index.html">/Users/alexandre/Dev/mstaff-v3-api/src</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">Core</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Domain</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Candidate</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Exception/NotArchivedException.php.html#10">App\Core\Domain\Candidate\Exception\NotArchivedException</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/CandidateSharedEmail.php.html#10">App\Core\Domain\Candidate\EmailNotification\CandidateSharedEmail</a></td><td class="text-right">46%</td></tr>
+       <tr><td><a href="Event/CandidateRegisteredEvent.php.html#9">App\Core\Domain\Candidate\Event\CandidateRegisteredEvent</a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Exception/AlreadyArchivedException.php.html#10">App\Core\Domain\Candidate\Exception\AlreadyArchivedException</a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Exception/NotACandidateException.php.html#10">App\Core\Domain\Candidate\Exception\NotACandidateException</a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Exception/RegistrationNotFoundException.php.html#10">App\Core\Domain\Candidate\Exception\RegistrationNotFoundException</a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="UseCase/UpdateCandidateProfile/EventHandler/ValidateCandidateProfileHandler.php.html#12">App\Core\Domain\Candidate\UseCase\UpdateCandidateProfile\EventHandler\ValidateCandidateProfileHandler</a></td><td class="text-right">77%</td></tr>
+       <tr><td><a href="Entity/CandidateActivity.php.html#14">App\Core\Domain\Candidate\Entity\CandidateActivity</a></td><td class="text-right">88%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="UseCase/UpdateCandidateProfile/EventHandler/ValidateCandidateProfileHandler.php.html#12">App\Core\Domain\Candidate\UseCase\UpdateCandidateProfile\EventHandler\ValidateCandidateProfileHandler</a></td><td class="text-right">4</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="EmailNotification/CandidateSharedEmail.php.html#27"><abbr title="App\Core\Domain\Candidate\EmailNotification\CandidateSharedEmail::getDefaultSubject">getDefaultSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/CandidateSharedEmail.php.html#31"><abbr title="App\Core\Domain\Candidate\EmailNotification\CandidateSharedEmail::getSubjectVariables">getSubjectVariables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/CandidateSharedEmail.php.html#35"><abbr title="App\Core\Domain\Candidate\EmailNotification\CandidateSharedEmail::getTemplate">getTemplate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/CandidateSharedEmail.php.html#39"><abbr title="App\Core\Domain\Candidate\EmailNotification\CandidateSharedEmail::getUsers">getUsers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/CandidateSharedEmail.php.html#50"><abbr title="App\Core\Domain\Candidate\EmailNotification\CandidateSharedEmail::getAttachments">getAttachments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/CandidateSharedEmail.php.html#54"><abbr title="App\Core\Domain\Candidate\EmailNotification\CandidateSharedEmail::getReplyTo">getReplyTo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/CandidateSharedEmail.php.html#58"><abbr title="App\Core\Domain\Candidate\EmailNotification\CandidateSharedEmail::getCustomSubject">getCustomSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/CandidateActivity.php.html#55"><abbr title="App\Core\Domain\Candidate\Entity\CandidateActivity::getCreatedAt">getCreatedAt</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/Registration.php.html#70"><abbr title="App\Core\Domain\Candidate\Entity\Registration::setId">setId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event/CandidateRegisteredEvent.php.html#14"><abbr title="App\Core\Domain\Candidate\Event\CandidateRegisteredEvent::getCandidateId">getCandidateId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exception/AlreadyArchivedException.php.html#20"><abbr title="App\Core\Domain\Candidate\Exception\AlreadyArchivedException::getInternalCode">getInternalCode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exception/NotACandidateException.php.html#20"><abbr title="App\Core\Domain\Candidate\Exception\NotACandidateException::getInternalCode">getInternalCode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exception/NotArchivedException.php.html#16"><abbr title="App\Core\Domain\Candidate\Exception\NotArchivedException::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exception/NotArchivedException.php.html#20"><abbr title="App\Core\Domain\Candidate\Exception\NotArchivedException::getInternalCode">getInternalCode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exception/RegistrationNotFoundException.php.html#20"><abbr title="App\Core\Domain\Candidate\Exception\RegistrationNotFoundException::getInternalCode">getInternalCode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UseCase/UpdateCandidateProfile/EventHandler/ValidateCandidateProfileHandler.php.html#20"><abbr title="App\Core\Domain\Candidate\UseCase\UpdateCandidateProfile\EventHandler\ValidateCandidateProfileHandler::__invoke">__invoke</abbr></a></td><td class="text-right">75%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="UseCase/UpdateCandidateProfile/EventHandler/ValidateCandidateProfileHandler.php.html#20"><abbr title="App\Core\Domain\Candidate\UseCase\UpdateCandidateProfile\EventHandler\ValidateCandidateProfileHandler::__invoke">__invoke</abbr></a></td><td class="text-right">3</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 9.2.29</a> using <a href="https://secure.php.net/" target="_top">PHP 8.0.30</a> and <a href="https://phpunit.de/">PHPUnit 9.6.13</a> at Wed Oct 25 8:07:49 UTC 2023.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../_js/jquery.min.js?v=9.2.29" type="text/javascript"></script>
+  <script src="../../../_js/d3.min.js?v=9.2.29" type="text/javascript"></script>
+  <script src="../../../_js/nv.d3.min.js?v=9.2.29" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([1,0,0,0,0,1,4,0,1,1,4,38], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([15,0,0,0,0,0,0,0,1,0,3,180], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[46.15384615384615,10,"<a href=\"EmailNotification\/CandidateSharedEmail.php.html#10\">App\\Core\\Domain\\Candidate\\EmailNotification\\CandidateSharedEmail<\/a>"],[88.88888888888889,9,"<a href=\"Entity\/CandidateActivity.php.html#14\">App\\Core\\Domain\\Candidate\\Entity\\CandidateActivity<\/a>"],[94.5945945945946,25,"<a href=\"Entity\/Registration.php.html#16\">App\\Core\\Domain\\Candidate\\Entity\\Registration<\/a>"],[100,7,"<a href=\"Event\/CandidateAddedToRecruitmentEvent.php.html#12\">App\\Core\\Domain\\Candidate\\Event\\CandidateAddedToRecruitmentEvent<\/a>"],[100,8,"<a href=\"Event\/CandidateArchivedFromEstablishmentEvent.php.html#12\">App\\Core\\Domain\\Candidate\\Event\\CandidateArchivedFromEstablishmentEvent<\/a>"],[100,7,"<a href=\"Event\/CandidateEmailSentEvent.php.html#11\">App\\Core\\Domain\\Candidate\\Event\\CandidateEmailSentEvent<\/a>"],[100,1,"<a href=\"Event\/CandidateProfileUpdatedEvent.php.html#10\">App\\Core\\Domain\\Candidate\\Event\\CandidateProfileUpdatedEvent<\/a>"],[50,2,"<a href=\"Event\/CandidateRegisteredEvent.php.html#9\">App\\Core\\Domain\\Candidate\\Event\\CandidateRegisteredEvent<\/a>"],[100,7,"<a href=\"Event\/CandidateRemovedFromRecruitmentEvent.php.html#11\">App\\Core\\Domain\\Candidate\\Event\\CandidateRemovedFromRecruitmentEvent<\/a>"],[100,8,"<a href=\"Event\/CandidateUnarchivedFromEstablishmentEvent.php.html#12\">App\\Core\\Domain\\Candidate\\Event\\CandidateUnarchivedFromEstablishmentEvent<\/a>"],[100,2,"<a href=\"Event\/RegistrationClosedEvent.php.html#9\">App\\Core\\Domain\\Candidate\\Event\\RegistrationClosedEvent<\/a>"],[50,2,"<a href=\"Exception\/AlreadyArchivedException.php.html#10\">App\\Core\\Domain\\Candidate\\Exception\\AlreadyArchivedException<\/a>"],[50,2,"<a href=\"Exception\/NotACandidateException.php.html#10\">App\\Core\\Domain\\Candidate\\Exception\\NotACandidateException<\/a>"],[0,2,"<a href=\"Exception\/NotArchivedException.php.html#10\">App\\Core\\Domain\\Candidate\\Exception\\NotArchivedException<\/a>"],[100,2,"<a href=\"Exception\/RegistrationCompletedException.php.html#10\">App\\Core\\Domain\\Candidate\\Exception\\RegistrationCompletedException<\/a>"],[50,2,"<a href=\"Exception\/RegistrationNotFoundException.php.html#10\">App\\Core\\Domain\\Candidate\\Exception\\RegistrationNotFoundException<\/a>"],[100,2,"<a href=\"Exception\/RegistrationTokenExpiredException.php.html#10\">App\\Core\\Domain\\Candidate\\Exception\\RegistrationTokenExpiredException<\/a>"],[100,6,"<a href=\"InAppNotification\/CandidateSharedNotification.php.html#10\">App\\Core\\Domain\\Candidate\\InAppNotification\\CandidateSharedNotification<\/a>"],[100,6,"<a href=\"UseCase\/Creation\/Message\/CreateTemporaryCandidate.php.html#10\">App\\Core\\Domain\\Candidate\\UseCase\\Creation\\Message\\CreateTemporaryCandidate<\/a>"],[95,5,"<a href=\"UseCase\/Creation\/MessageHandler\/CreateTemporaryCandidateHandler.php.html#17\">App\\Core\\Domain\\Candidate\\UseCase\\Creation\\MessageHandler\\CreateTemporaryCandidateHandler<\/a>"],[100,2,"<a href=\"UseCase\/Creation\/Response\/CreateTemporaryCandidateResponse.php.html#9\">App\\Core\\Domain\\Candidate\\UseCase\\Creation\\Response\\CreateTemporaryCandidateResponse<\/a>"],[100,8,"<a href=\"UseCase\/Establishment\/AddCandidateDocument\/AddCandidateDocumentAtEstablishment.php.html#11\">App\\Core\\Domain\\Candidate\\UseCase\\Establishment\\AddCandidateDocument\\AddCandidateDocumentAtEstablishment<\/a>"],[100,3,"<a href=\"UseCase\/Establishment\/AddCandidateDocument\/AddCandidateDocumentAtEstablishmentHandler.php.html#19\">App\\Core\\Domain\\Candidate\\UseCase\\Establishment\\AddCandidateDocument\\AddCandidateDocumentAtEstablishmentHandler<\/a>"],[100,2,"<a href=\"UseCase\/Establishment\/AddCandidateDocument\/AddCandidateDocumentAtEstablishmentResponse.php.html#9\">App\\Core\\Domain\\Candidate\\UseCase\\Establishment\\AddCandidateDocument\\AddCandidateDocumentAtEstablishmentResponse<\/a>"],[100,3,"<a href=\"UseCase\/Establishment\/ArchiveCandidate\/ArchiveCandidate.php.html#9\">App\\Core\\Domain\\Candidate\\UseCase\\Establishment\\ArchiveCandidate\\ArchiveCandidate<\/a>"],[100,5,"<a href=\"UseCase\/Establishment\/ArchiveCandidate\/ArchiveCandidateHandler.php.html#19\">App\\Core\\Domain\\Candidate\\UseCase\\Establishment\\ArchiveCandidate\\ArchiveCandidateHandler<\/a>"],[100,3,"<a href=\"UseCase\/Establishment\/ArchiveCandidate\/UnarchiveCandidate.php.html#9\">App\\Core\\Domain\\Candidate\\UseCase\\Establishment\\ArchiveCandidate\\UnarchiveCandidate<\/a>"],[94.11764705882352,5,"<a href=\"UseCase\/Establishment\/ArchiveCandidate\/UnarchiveCandidateHandler.php.html#17\">App\\Core\\Domain\\Candidate\\UseCase\\Establishment\\ArchiveCandidate\\UnarchiveCandidateHandler<\/a>"],[100,5,"<a href=\"UseCase\/Establishment\/ShareCandidate\/ShareCandidateWithAdmins.php.html#9\">App\\Core\\Domain\\Candidate\\UseCase\\Establishment\\ShareCandidate\\ShareCandidateWithAdmins<\/a>"],[100,2,"<a href=\"UseCase\/Establishment\/ShareCandidate\/ShareCandidateWithAdminsHandler.php.html#15\">App\\Core\\Domain\\Candidate\\UseCase\\Establishment\\ShareCandidate\\ShareCandidateWithAdminsHandler<\/a>"],[100,6,"<a href=\"UseCase\/Recruitment\/Message\/GetCandidateRecruitmentAtEstablishmentByAdminQuery.php.html#9\">App\\Core\\Domain\\Candidate\\UseCase\\Recruitment\\Message\\GetCandidateRecruitmentAtEstablishmentByAdminQuery<\/a>"],[100,5,"<a href=\"UseCase\/Recruitment\/Message\/GetCandidateRecruitmentAtEstablishmentQuery.php.html#9\">App\\Core\\Domain\\Candidate\\UseCase\\Recruitment\\Message\\GetCandidateRecruitmentAtEstablishmentQuery<\/a>"],[100,3,"<a href=\"UseCase\/Recruitment\/QueryHandler\/GetCandidateRecruitmentAtEstablishmentByAdminHandler.php.html#13\">App\\Core\\Domain\\Candidate\\UseCase\\Recruitment\\QueryHandler\\GetCandidateRecruitmentAtEstablishmentByAdminHandler<\/a>"],[100,4,"<a href=\"UseCase\/Recruitment\/QueryHandler\/GetCandidateRecruitmentAtEstablishmentHandler.php.html#13\">App\\Core\\Domain\\Candidate\\UseCase\\Recruitment\\QueryHandler\\GetCandidateRecruitmentAtEstablishmentHandler<\/a>"],[100,2,"<a href=\"UseCase\/Register\/Message\/CloseRegistration.php.html#10\">App\\Core\\Domain\\Candidate\\UseCase\\Register\\Message\\CloseRegistration<\/a>"],[100,2,"<a href=\"UseCase\/Register\/Message\/RegisterWithEmail.php.html#10\">App\\Core\\Domain\\Candidate\\UseCase\\Register\\Message\\RegisterWithEmail<\/a>"],[100,1,"<a href=\"UseCase\/Register\/Message\/UpdateRegistrationStep.php.html#9\">App\\Core\\Domain\\Candidate\\UseCase\\Register\\Message\\UpdateRegistrationStep<\/a>"],[100,2,"<a href=\"UseCase\/Register\/MessageHandler\/CloseRegistrationHandler.php.html#14\">App\\Core\\Domain\\Candidate\\UseCase\\Register\\MessageHandler\\CloseRegistrationHandler<\/a>"],[100,3,"<a href=\"UseCase\/Register\/MessageHandler\/RegisterWithEmailHandler.php.html#18\">App\\Core\\Domain\\Candidate\\UseCase\\Register\\MessageHandler\\RegisterWithEmailHandler<\/a>"],[100,3,"<a href=\"UseCase\/Register\/MessageHandler\/UpdateRegistrationStepHandler.php.html#12\">App\\Core\\Domain\\Candidate\\UseCase\\Register\\MessageHandler\\UpdateRegistrationStepHandler<\/a>"],[100,2,"<a href=\"UseCase\/Register\/Response\/RegisterCandidateResponse.php.html#9\">App\\Core\\Domain\\Candidate\\UseCase\\Register\\Response\\RegisterCandidateResponse<\/a>"],[100,3,"<a href=\"UseCase\/StoreCandidateActivity\/StoreCandidateActivityHandler.php.html#14\">App\\Core\\Domain\\Candidate\\UseCase\\StoreCandidateActivity\\StoreCandidateActivityHandler<\/a>"],[77.77777777777779,4,"<a href=\"UseCase\/UpdateCandidateProfile\/EventHandler\/ValidateCandidateProfileHandler.php.html#12\">App\\Core\\Domain\\Candidate\\UseCase\\UpdateCandidateProfile\\EventHandler\\ValidateCandidateProfileHandler<\/a>"],[100,5,"<a href=\"UseCase\/UpdateCandidateProfile\/Message\/UpdateCandidateDocuments.php.html#11\">App\\Core\\Domain\\Candidate\\UseCase\\UpdateCandidateProfile\\Message\\UpdateCandidateDocuments<\/a>"],[100,8,"<a href=\"UseCase\/UpdateCandidateProfile\/Message\/UpdateCandidateInformation.php.html#11\">App\\Core\\Domain\\Candidate\\UseCase\\UpdateCandidateProfile\\Message\\UpdateCandidateInformation<\/a>"],[100,4,"<a href=\"UseCase\/UpdateCandidateProfile\/Message\/UpdateCandidateJob.php.html#10\">App\\Core\\Domain\\Candidate\\UseCase\\UpdateCandidateProfile\\Message\\UpdateCandidateJob<\/a>"],[93.33333333333333,8,"<a href=\"UseCase\/UpdateCandidateProfile\/MessageHandler\/UpdateCandidateDocumentsHandler.php.html#16\">App\\Core\\Domain\\Candidate\\UseCase\\UpdateCandidateProfile\\MessageHandler\\UpdateCandidateDocumentsHandler<\/a>"],[100,4,"<a href=\"UseCase\/UpdateCandidateProfile\/MessageHandler\/UpdateCandidateInformationHandler.php.html#15\">App\\Core\\Domain\\Candidate\\UseCase\\UpdateCandidateProfile\\MessageHandler\\UpdateCandidateInformationHandler<\/a>"],[100,4,"<a href=\"UseCase\/UpdateCandidateProfile\/MessageHandler\/UpdateCandidateJobHandler.php.html#15\">App\\Core\\Domain\\Candidate\\UseCase\\UpdateCandidateProfile\\MessageHandler\\UpdateCandidateJobHandler<\/a>"],[100,2,"<a href=\"UseCase\/UpdateCandidateProfile\/Response\/UpdateCandidateProfileResponse.php.html#9\">App\\Core\\Domain\\Candidate\\UseCase\\UpdateCandidateProfile\\Response\\UpdateCandidateProfileResponse<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"EmailNotification\/CandidateSharedEmail.php.html#16\">App\\Core\\Domain\\Candidate\\EmailNotification\\CandidateSharedEmail::__construct<\/a>"],[100,1,"<a href=\"EmailNotification\/CandidateSharedEmail.php.html#23\">App\\Core\\Domain\\Candidate\\EmailNotification\\CandidateSharedEmail::getSlug<\/a>"],[0,1,"<a href=\"EmailNotification\/CandidateSharedEmail.php.html#27\">App\\Core\\Domain\\Candidate\\EmailNotification\\CandidateSharedEmail::getDefaultSubject<\/a>"],[0,1,"<a href=\"EmailNotification\/CandidateSharedEmail.php.html#31\">App\\Core\\Domain\\Candidate\\EmailNotification\\CandidateSharedEmail::getSubjectVariables<\/a>"],[0,1,"<a href=\"EmailNotification\/CandidateSharedEmail.php.html#35\">App\\Core\\Domain\\Candidate\\EmailNotification\\CandidateSharedEmail::getTemplate<\/a>"],[0,1,"<a href=\"EmailNotification\/CandidateSharedEmail.php.html#39\">App\\Core\\Domain\\Candidate\\EmailNotification\\CandidateSharedEmail::getUsers<\/a>"],[100,1,"<a href=\"EmailNotification\/CandidateSharedEmail.php.html#43\">App\\Core\\Domain\\Candidate\\EmailNotification\\CandidateSharedEmail::getVariables<\/a>"],[0,1,"<a href=\"EmailNotification\/CandidateSharedEmail.php.html#50\">App\\Core\\Domain\\Candidate\\EmailNotification\\CandidateSharedEmail::getAttachments<\/a>"],[0,1,"<a href=\"EmailNotification\/CandidateSharedEmail.php.html#54\">App\\Core\\Domain\\Candidate\\EmailNotification\\CandidateSharedEmail::getReplyTo<\/a>"],[0,1,"<a href=\"EmailNotification\/CandidateSharedEmail.php.html#58\">App\\Core\\Domain\\Candidate\\EmailNotification\\CandidateSharedEmail::getCustomSubject<\/a>"],[100,1,"<a href=\"Entity\/CandidateActivity.php.html#29\">App\\Core\\Domain\\Candidate\\Entity\\CandidateActivity::__construct<\/a>"],[100,1,"<a href=\"Entity\/CandidateActivity.php.html#51\">App\\Core\\Domain\\Candidate\\Entity\\CandidateActivity::getId<\/a>"],[0,1,"<a href=\"Entity\/CandidateActivity.php.html#55\">App\\Core\\Domain\\Candidate\\Entity\\CandidateActivity::getCreatedAt<\/a>"],[100,1,"<a href=\"Entity\/CandidateActivity.php.html#59\">App\\Core\\Domain\\Candidate\\Entity\\CandidateActivity::getEvent<\/a>"],[100,1,"<a href=\"Entity\/CandidateActivity.php.html#63\">App\\Core\\Domain\\Candidate\\Entity\\CandidateActivity::getMetadata<\/a>"],[100,1,"<a href=\"Entity\/CandidateActivity.php.html#67\">App\\Core\\Domain\\Candidate\\Entity\\CandidateActivity::getCandidate<\/a>"],[100,1,"<a href=\"Entity\/CandidateActivity.php.html#71\">App\\Core\\Domain\\Candidate\\Entity\\CandidateActivity::getAdmin<\/a>"],[100,1,"<a href=\"Entity\/CandidateActivity.php.html#75\">App\\Core\\Domain\\Candidate\\Entity\\CandidateActivity::getEstablishment<\/a>"],[100,1,"<a href=\"Entity\/CandidateActivity.php.html#79\">App\\Core\\Domain\\Candidate\\Entity\\CandidateActivity::getOccurredAt<\/a>"],[100,1,"<a href=\"Entity\/Registration.php.html#66\">App\\Core\\Domain\\Candidate\\Entity\\Registration::getId<\/a>"],[0,1,"<a href=\"Entity\/Registration.php.html#70\">App\\Core\\Domain\\Candidate\\Entity\\Registration::setId<\/a>"],[100,1,"<a href=\"Entity\/Registration.php.html#76\">App\\Core\\Domain\\Candidate\\Entity\\Registration::getCreatedAt<\/a>"],[100,1,"<a href=\"Entity\/Registration.php.html#80\">App\\Core\\Domain\\Candidate\\Entity\\Registration::setCreatedAt<\/a>"],[100,1,"<a href=\"Entity\/Registration.php.html#86\">App\\Core\\Domain\\Candidate\\Entity\\Registration::getCandidate<\/a>"],[100,1,"<a href=\"Entity\/Registration.php.html#90\">App\\Core\\Domain\\Candidate\\Entity\\Registration::setCandidate<\/a>"],[100,1,"<a href=\"Entity\/Registration.php.html#96\">App\\Core\\Domain\\Candidate\\Entity\\Registration::isCompleted<\/a>"],[100,1,"<a href=\"Entity\/Registration.php.html#100\">App\\Core\\Domain\\Candidate\\Entity\\Registration::isIncomplete<\/a>"],[100,1,"<a href=\"Entity\/Registration.php.html#104\">App\\Core\\Domain\\Candidate\\Entity\\Registration::setCompleted<\/a>"],[100,1,"<a href=\"Entity\/Registration.php.html#110\">App\\Core\\Domain\\Candidate\\Entity\\Registration::getRegistrationToken<\/a>"],[100,1,"<a href=\"Entity\/Registration.php.html#114\">App\\Core\\Domain\\Candidate\\Entity\\Registration::setRegistrationToken<\/a>"],[100,1,"<a href=\"Entity\/Registration.php.html#120\">App\\Core\\Domain\\Candidate\\Entity\\Registration::getRegistrationTokenExpiration<\/a>"],[100,1,"<a href=\"Entity\/Registration.php.html#124\">App\\Core\\Domain\\Candidate\\Entity\\Registration::setRegistrationTokenExpiration<\/a>"],[100,1,"<a href=\"Entity\/Registration.php.html#130\">App\\Core\\Domain\\Candidate\\Entity\\Registration::getOffer<\/a>"],[100,1,"<a href=\"Entity\/Registration.php.html#134\">App\\Core\\Domain\\Candidate\\Entity\\Registration::setOffer<\/a>"],[100,1,"<a href=\"Entity\/Registration.php.html#140\">App\\Core\\Domain\\Candidate\\Entity\\Registration::getEstablishment<\/a>"],[100,1,"<a href=\"Entity\/Registration.php.html#144\">App\\Core\\Domain\\Candidate\\Entity\\Registration::setEstablishment<\/a>"],[100,2,"<a href=\"Entity\/Registration.php.html#150\">App\\Core\\Domain\\Candidate\\Entity\\Registration::isRegistrationTokenExpired<\/a>"],[100,1,"<a href=\"Entity\/Registration.php.html#158\">App\\Core\\Domain\\Candidate\\Entity\\Registration::isInvitation<\/a>"],[100,1,"<a href=\"Entity\/Registration.php.html#162\">App\\Core\\Domain\\Candidate\\Entity\\Registration::setIsInvitation<\/a>"],[100,1,"<a href=\"Entity\/Registration.php.html#168\">App\\Core\\Domain\\Candidate\\Entity\\Registration::getReferer<\/a>"],[100,1,"<a href=\"Entity\/Registration.php.html#172\">App\\Core\\Domain\\Candidate\\Entity\\Registration::setReferer<\/a>"],[100,1,"<a href=\"Entity\/Registration.php.html#178\">App\\Core\\Domain\\Candidate\\Entity\\Registration::getStep<\/a>"],[100,1,"<a href=\"Entity\/Registration.php.html#182\">App\\Core\\Domain\\Candidate\\Entity\\Registration::setStep<\/a>"],[100,1,"<a href=\"Event\/CandidateAddedToRecruitmentEvent.php.html#16\">App\\Core\\Domain\\Candidate\\Event\\CandidateAddedToRecruitmentEvent::__construct<\/a>"],[100,1,"<a href=\"Event\/CandidateAddedToRecruitmentEvent.php.html#26\">App\\Core\\Domain\\Candidate\\Event\\CandidateAddedToRecruitmentEvent::getCandidateId<\/a>"],[100,1,"<a href=\"Event\/CandidateAddedToRecruitmentEvent.php.html#30\">App\\Core\\Domain\\Candidate\\Event\\CandidateAddedToRecruitmentEvent::getEstablishmentId<\/a>"],[100,1,"<a href=\"Event\/CandidateAddedToRecruitmentEvent.php.html#34\">App\\Core\\Domain\\Candidate\\Event\\CandidateAddedToRecruitmentEvent::getAdminId<\/a>"],[100,1,"<a href=\"Event\/CandidateAddedToRecruitmentEvent.php.html#38\">App\\Core\\Domain\\Candidate\\Event\\CandidateAddedToRecruitmentEvent::occurredAt<\/a>"],[100,1,"<a href=\"Event\/CandidateAddedToRecruitmentEvent.php.html#42\">App\\Core\\Domain\\Candidate\\Event\\CandidateAddedToRecruitmentEvent::getEventName<\/a>"],[100,1,"<a href=\"Event\/CandidateAddedToRecruitmentEvent.php.html#46\">App\\Core\\Domain\\Candidate\\Event\\CandidateAddedToRecruitmentEvent::getMetadata<\/a>"],[100,1,"<a href=\"Event\/CandidateArchivedFromEstablishmentEvent.php.html#16\">App\\Core\\Domain\\Candidate\\Event\\CandidateArchivedFromEstablishmentEvent::__construct<\/a>"],[100,1,"<a href=\"Event\/CandidateArchivedFromEstablishmentEvent.php.html#24\">App\\Core\\Domain\\Candidate\\Event\\CandidateArchivedFromEstablishmentEvent::getCandidateId<\/a>"],[100,1,"<a href=\"Event\/CandidateArchivedFromEstablishmentEvent.php.html#28\">App\\Core\\Domain\\Candidate\\Event\\CandidateArchivedFromEstablishmentEvent::getEstablishmentId<\/a>"],[100,1,"<a href=\"Event\/CandidateArchivedFromEstablishmentEvent.php.html#32\">App\\Core\\Domain\\Candidate\\Event\\CandidateArchivedFromEstablishmentEvent::getAdminId<\/a>"],[100,1,"<a href=\"Event\/CandidateArchivedFromEstablishmentEvent.php.html#36\">App\\Core\\Domain\\Candidate\\Event\\CandidateArchivedFromEstablishmentEvent::occurredAt<\/a>"],[100,1,"<a href=\"Event\/CandidateArchivedFromEstablishmentEvent.php.html#40\">App\\Core\\Domain\\Candidate\\Event\\CandidateArchivedFromEstablishmentEvent::getEventName<\/a>"],[100,1,"<a href=\"Event\/CandidateArchivedFromEstablishmentEvent.php.html#44\">App\\Core\\Domain\\Candidate\\Event\\CandidateArchivedFromEstablishmentEvent::getMetadata<\/a>"],[100,1,"<a href=\"Event\/CandidateArchivedFromEstablishmentEvent.php.html#48\">App\\Core\\Domain\\Candidate\\Event\\CandidateArchivedFromEstablishmentEvent::isArchived<\/a>"],[100,1,"<a href=\"Event\/CandidateEmailSentEvent.php.html#15\">App\\Core\\Domain\\Candidate\\Event\\CandidateEmailSentEvent::__construct<\/a>"],[100,1,"<a href=\"Event\/CandidateEmailSentEvent.php.html#24\">App\\Core\\Domain\\Candidate\\Event\\CandidateEmailSentEvent::getCandidateId<\/a>"],[100,1,"<a href=\"Event\/CandidateEmailSentEvent.php.html#28\">App\\Core\\Domain\\Candidate\\Event\\CandidateEmailSentEvent::getEstablishmentId<\/a>"],[100,1,"<a href=\"Event\/CandidateEmailSentEvent.php.html#32\">App\\Core\\Domain\\Candidate\\Event\\CandidateEmailSentEvent::getAdminId<\/a>"],[100,1,"<a href=\"Event\/CandidateEmailSentEvent.php.html#36\">App\\Core\\Domain\\Candidate\\Event\\CandidateEmailSentEvent::getEventName<\/a>"],[100,1,"<a href=\"Event\/CandidateEmailSentEvent.php.html#40\">App\\Core\\Domain\\Candidate\\Event\\CandidateEmailSentEvent::getMetadata<\/a>"],[100,1,"<a href=\"Event\/CandidateEmailSentEvent.php.html#48\">App\\Core\\Domain\\Candidate\\Event\\CandidateEmailSentEvent::occurredAt<\/a>"],[100,1,"<a href=\"Event\/CandidateProfileUpdatedEvent.php.html#12\">App\\Core\\Domain\\Candidate\\Event\\CandidateProfileUpdatedEvent::__construct<\/a>"],[100,1,"<a href=\"Event\/CandidateRegisteredEvent.php.html#11\">App\\Core\\Domain\\Candidate\\Event\\CandidateRegisteredEvent::__construct<\/a>"],[0,1,"<a href=\"Event\/CandidateRegisteredEvent.php.html#14\">App\\Core\\Domain\\Candidate\\Event\\CandidateRegisteredEvent::getCandidateId<\/a>"],[100,1,"<a href=\"Event\/CandidateRemovedFromRecruitmentEvent.php.html#15\">App\\Core\\Domain\\Candidate\\Event\\CandidateRemovedFromRecruitmentEvent::__construct<\/a>"],[100,1,"<a href=\"Event\/CandidateRemovedFromRecruitmentEvent.php.html#25\">App\\Core\\Domain\\Candidate\\Event\\CandidateRemovedFromRecruitmentEvent::getCandidateId<\/a>"],[100,1,"<a href=\"Event\/CandidateRemovedFromRecruitmentEvent.php.html#29\">App\\Core\\Domain\\Candidate\\Event\\CandidateRemovedFromRecruitmentEvent::getEstablishmentId<\/a>"],[100,1,"<a href=\"Event\/CandidateRemovedFromRecruitmentEvent.php.html#33\">App\\Core\\Domain\\Candidate\\Event\\CandidateRemovedFromRecruitmentEvent::getAdminId<\/a>"],[100,1,"<a href=\"Event\/CandidateRemovedFromRecruitmentEvent.php.html#37\">App\\Core\\Domain\\Candidate\\Event\\CandidateRemovedFromRecruitmentEvent::occurredAt<\/a>"],[100,1,"<a href=\"Event\/CandidateRemovedFromRecruitmentEvent.php.html#41\">App\\Core\\Domain\\Candidate\\Event\\CandidateRemovedFromRecruitmentEvent::getEventName<\/a>"],[100,1,"<a href=\"Event\/CandidateRemovedFromRecruitmentEvent.php.html#45\">App\\Core\\Domain\\Candidate\\Event\\CandidateRemovedFromRecruitmentEvent::getMetadata<\/a>"],[100,1,"<a href=\"Event\/CandidateUnarchivedFromEstablishmentEvent.php.html#16\">App\\Core\\Domain\\Candidate\\Event\\CandidateUnarchivedFromEstablishmentEvent::__construct<\/a>"],[100,1,"<a href=\"Event\/CandidateUnarchivedFromEstablishmentEvent.php.html#24\">App\\Core\\Domain\\Candidate\\Event\\CandidateUnarchivedFromEstablishmentEvent::getCandidateId<\/a>"],[100,1,"<a href=\"Event\/CandidateUnarchivedFromEstablishmentEvent.php.html#28\">App\\Core\\Domain\\Candidate\\Event\\CandidateUnarchivedFromEstablishmentEvent::getEstablishmentId<\/a>"],[100,1,"<a href=\"Event\/CandidateUnarchivedFromEstablishmentEvent.php.html#32\">App\\Core\\Domain\\Candidate\\Event\\CandidateUnarchivedFromEstablishmentEvent::getAdminId<\/a>"],[100,1,"<a href=\"Event\/CandidateUnarchivedFromEstablishmentEvent.php.html#36\">App\\Core\\Domain\\Candidate\\Event\\CandidateUnarchivedFromEstablishmentEvent::occurredAt<\/a>"],[100,1,"<a href=\"Event\/CandidateUnarchivedFromEstablishmentEvent.php.html#40\">App\\Core\\Domain\\Candidate\\Event\\CandidateUnarchivedFromEstablishmentEvent::getEventName<\/a>"],[100,1,"<a href=\"Event\/CandidateUnarchivedFromEstablishmentEvent.php.html#44\">App\\Core\\Domain\\Candidate\\Event\\CandidateUnarchivedFromEstablishmentEvent::getMetadata<\/a>"],[100,1,"<a href=\"Event\/CandidateUnarchivedFromEstablishmentEvent.php.html#48\">App\\Core\\Domain\\Candidate\\Event\\CandidateUnarchivedFromEstablishmentEvent::isArchived<\/a>"],[100,1,"<a href=\"Event\/RegistrationClosedEvent.php.html#11\">App\\Core\\Domain\\Candidate\\Event\\RegistrationClosedEvent::__construct<\/a>"],[100,1,"<a href=\"Event\/RegistrationClosedEvent.php.html#14\">App\\Core\\Domain\\Candidate\\Event\\RegistrationClosedEvent::getRegistrationId<\/a>"],[100,1,"<a href=\"Exception\/AlreadyArchivedException.php.html#16\">App\\Core\\Domain\\Candidate\\Exception\\AlreadyArchivedException::__construct<\/a>"],[0,1,"<a href=\"Exception\/AlreadyArchivedException.php.html#20\">App\\Core\\Domain\\Candidate\\Exception\\AlreadyArchivedException::getInternalCode<\/a>"],[100,1,"<a href=\"Exception\/NotACandidateException.php.html#16\">App\\Core\\Domain\\Candidate\\Exception\\NotACandidateException::__construct<\/a>"],[0,1,"<a href=\"Exception\/NotACandidateException.php.html#20\">App\\Core\\Domain\\Candidate\\Exception\\NotACandidateException::getInternalCode<\/a>"],[0,1,"<a href=\"Exception\/NotArchivedException.php.html#16\">App\\Core\\Domain\\Candidate\\Exception\\NotArchivedException::__construct<\/a>"],[0,1,"<a href=\"Exception\/NotArchivedException.php.html#20\">App\\Core\\Domain\\Candidate\\Exception\\NotArchivedException::getInternalCode<\/a>"],[100,1,"<a href=\"Exception\/RegistrationCompletedException.php.html#16\">App\\Core\\Domain\\Candidate\\Exception\\RegistrationCompletedException::__construct<\/a>"],[100,1,"<a href=\"Exception\/RegistrationCompletedException.php.html#20\">App\\Core\\Domain\\Candidate\\Exception\\RegistrationCompletedException::getInternalCode<\/a>"],[100,1,"<a href=\"Exception\/RegistrationNotFoundException.php.html#16\">App\\Core\\Domain\\Candidate\\Exception\\RegistrationNotFoundException::__construct<\/a>"],[0,1,"<a href=\"Exception\/RegistrationNotFoundException.php.html#20\">App\\Core\\Domain\\Candidate\\Exception\\RegistrationNotFoundException::getInternalCode<\/a>"],[100,1,"<a href=\"Exception\/RegistrationTokenExpiredException.php.html#16\">App\\Core\\Domain\\Candidate\\Exception\\RegistrationTokenExpiredException::__construct<\/a>"],[100,1,"<a href=\"Exception\/RegistrationTokenExpiredException.php.html#20\">App\\Core\\Domain\\Candidate\\Exception\\RegistrationTokenExpiredException::getInternalCode<\/a>"],[100,1,"<a href=\"InAppNotification\/CandidateSharedNotification.php.html#14\">App\\Core\\Domain\\Candidate\\InAppNotification\\CandidateSharedNotification::__construct<\/a>"],[100,1,"<a href=\"InAppNotification\/CandidateSharedNotification.php.html#21\">App\\Core\\Domain\\Candidate\\InAppNotification\\CandidateSharedNotification::getSlug<\/a>"],[100,1,"<a href=\"InAppNotification\/CandidateSharedNotification.php.html#25\">App\\Core\\Domain\\Candidate\\InAppNotification\\CandidateSharedNotification::getContent<\/a>"],[100,1,"<a href=\"InAppNotification\/CandidateSharedNotification.php.html#29\">App\\Core\\Domain\\Candidate\\InAppNotification\\CandidateSharedNotification::getUsers<\/a>"],[100,1,"<a href=\"InAppNotification\/CandidateSharedNotification.php.html#33\">App\\Core\\Domain\\Candidate\\InAppNotification\\CandidateSharedNotification::getContext<\/a>"],[100,1,"<a href=\"InAppNotification\/CandidateSharedNotification.php.html#41\">App\\Core\\Domain\\Candidate\\InAppNotification\\CandidateSharedNotification::getVariables<\/a>"],[100,1,"<a href=\"UseCase\/Creation\/Message\/CreateTemporaryCandidate.php.html#12\">App\\Core\\Domain\\Candidate\\UseCase\\Creation\\Message\\CreateTemporaryCandidate::__construct<\/a>"],[100,1,"<a href=\"UseCase\/Creation\/Message\/CreateTemporaryCandidate.php.html#23\">App\\Core\\Domain\\Candidate\\UseCase\\Creation\\Message\\CreateTemporaryCandidate::getEmail<\/a>"],[100,1,"<a href=\"UseCase\/Creation\/Message\/CreateTemporaryCandidate.php.html#27\">App\\Core\\Domain\\Candidate\\UseCase\\Creation\\Message\\CreateTemporaryCandidate::getFirstname<\/a>"],[100,1,"<a href=\"UseCase\/Creation\/Message\/CreateTemporaryCandidate.php.html#31\">App\\Core\\Domain\\Candidate\\UseCase\\Creation\\Message\\CreateTemporaryCandidate::getLastname<\/a>"],[100,1,"<a href=\"UseCase\/Creation\/Message\/CreateTemporaryCandidate.php.html#35\">App\\Core\\Domain\\Candidate\\UseCase\\Creation\\Message\\CreateTemporaryCandidate::getJobs<\/a>"],[100,1,"<a href=\"UseCase\/Creation\/Message\/CreateTemporaryCandidate.php.html#39\">App\\Core\\Domain\\Candidate\\UseCase\\Creation\\Message\\CreateTemporaryCandidate::getSpecialities<\/a>"],[100,1,"<a href=\"UseCase\/Creation\/MessageHandler\/CreateTemporaryCandidateHandler.php.html#19\">App\\Core\\Domain\\Candidate\\UseCase\\Creation\\MessageHandler\\CreateTemporaryCandidateHandler::__construct<\/a>"],[94.73684210526315,4,"<a href=\"UseCase\/Creation\/MessageHandler\/CreateTemporaryCandidateHandler.php.html#27\">App\\Core\\Domain\\Candidate\\UseCase\\Creation\\MessageHandler\\CreateTemporaryCandidateHandler::__invoke<\/a>"],[100,1,"<a href=\"UseCase\/Creation\/Response\/CreateTemporaryCandidateResponse.php.html#11\">App\\Core\\Domain\\Candidate\\UseCase\\Creation\\Response\\CreateTemporaryCandidateResponse::__construct<\/a>"],[100,1,"<a href=\"UseCase\/Creation\/Response\/CreateTemporaryCandidateResponse.php.html#14\">App\\Core\\Domain\\Candidate\\UseCase\\Creation\\Response\\CreateTemporaryCandidateResponse::getObjectId<\/a>"],[100,1,"<a href=\"UseCase\/Establishment\/AddCandidateDocument\/AddCandidateDocumentAtEstablishment.php.html#13\">App\\Core\\Domain\\Candidate\\UseCase\\Establishment\\AddCandidateDocument\\AddCandidateDocumentAtEstablishment::__construct<\/a>"],[100,1,"<a href=\"UseCase\/Establishment\/AddCandidateDocument\/AddCandidateDocumentAtEstablishment.php.html#24\">App\\Core\\Domain\\Candidate\\UseCase\\Establishment\\AddCandidateDocument\\AddCandidateDocumentAtEstablishment::getDocument<\/a>"],[100,1,"<a href=\"UseCase\/Establishment\/AddCandidateDocument\/AddCandidateDocumentAtEstablishment.php.html#28\">App\\Core\\Domain\\Candidate\\UseCase\\Establishment\\AddCandidateDocument\\AddCandidateDocumentAtEstablishment::getAuthor<\/a>"],[100,1,"<a href=\"UseCase\/Establishment\/AddCandidateDocument\/AddCandidateDocumentAtEstablishment.php.html#32\">App\\Core\\Domain\\Candidate\\UseCase\\Establishment\\AddCandidateDocument\\AddCandidateDocumentAtEstablishment::getName<\/a>"],[100,1,"<a href=\"UseCase\/Establishment\/AddCandidateDocument\/AddCandidateDocumentAtEstablishment.php.html#36\">App\\Core\\Domain\\Candidate\\UseCase\\Establishment\\AddCandidateDocument\\AddCandidateDocumentAtEstablishment::getDocumentType<\/a>"],[100,1,"<a href=\"UseCase\/Establishment\/AddCandidateDocument\/AddCandidateDocumentAtEstablishment.php.html#40\">App\\Core\\Domain\\Candidate\\UseCase\\Establishment\\AddCandidateDocument\\AddCandidateDocumentAtEstablishment::getCandidateId<\/a>"],[100,1,"<a href=\"UseCase\/Establishment\/AddCandidateDocument\/AddCandidateDocumentAtEstablishment.php.html#44\">App\\Core\\Domain\\Candidate\\UseCase\\Establishment\\AddCandidateDocument\\AddCandidateDocumentAtEstablishment::getEstablishmentId<\/a>"],[100,1,"<a href=\"UseCase\/Establishment\/AddCandidateDocument\/AddCandidateDocumentAtEstablishment.php.html#48\">App\\Core\\Domain\\Candidate\\UseCase\\Establishment\\AddCandidateDocument\\AddCandidateDocumentAtEstablishment::getRecruitmentId<\/a>"],[100,1,"<a href=\"UseCase\/Establishment\/AddCandidateDocument\/AddCandidateDocumentAtEstablishmentHandler.php.html#21\">App\\Core\\Domain\\Candidate\\UseCase\\Establishment\\AddCandidateDocument\\AddCandidateDocumentAtEstablishmentHandler::__construct<\/a>"],[100,2,"<a href=\"UseCase\/Establishment\/AddCandidateDocument\/AddCandidateDocumentAtEstablishmentHandler.php.html#31\">App\\Core\\Domain\\Candidate\\UseCase\\Establishment\\AddCandidateDocument\\AddCandidateDocumentAtEstablishmentHandler::__invoke<\/a>"],[100,1,"<a href=\"UseCase\/Establishment\/AddCandidateDocument\/AddCandidateDocumentAtEstablishmentResponse.php.html#11\">App\\Core\\Domain\\Candidate\\UseCase\\Establishment\\AddCandidateDocument\\AddCandidateDocumentAtEstablishmentResponse::__construct<\/a>"],[100,1,"<a href=\"UseCase\/Establishment\/AddCandidateDocument\/AddCandidateDocumentAtEstablishmentResponse.php.html#14\">App\\Core\\Domain\\Candidate\\UseCase\\Establishment\\AddCandidateDocument\\AddCandidateDocumentAtEstablishmentResponse::getObjectId<\/a>"],[100,1,"<a href=\"UseCase\/Establishment\/ArchiveCandidate\/ArchiveCandidate.php.html#11\">App\\Core\\Domain\\Candidate\\UseCase\\Establishment\\ArchiveCandidate\\ArchiveCandidate::__construct<\/a>"],[100,1,"<a href=\"UseCase\/Establishment\/ArchiveCandidate\/ArchiveCandidate.php.html#14\">App\\Core\\Domain\\Candidate\\UseCase\\Establishment\\ArchiveCandidate\\ArchiveCandidate::getCandidateId<\/a>"],[100,1,"<a href=\"UseCase\/Establishment\/ArchiveCandidate\/ArchiveCandidate.php.html#18\">App\\Core\\Domain\\Candidate\\UseCase\\Establishment\\ArchiveCandidate\\ArchiveCandidate::getEstablishmentId<\/a>"],[100,1,"<a href=\"UseCase\/Establishment\/ArchiveCandidate\/ArchiveCandidateHandler.php.html#21\">App\\Core\\Domain\\Candidate\\UseCase\\Establishment\\ArchiveCandidate\\ArchiveCandidateHandler::__construct<\/a>"],[100,4,"<a href=\"UseCase\/Establishment\/ArchiveCandidate\/ArchiveCandidateHandler.php.html#30\">App\\Core\\Domain\\Candidate\\UseCase\\Establishment\\ArchiveCandidate\\ArchiveCandidateHandler::__invoke<\/a>"],[100,1,"<a href=\"UseCase\/Establishment\/ArchiveCandidate\/UnarchiveCandidate.php.html#11\">App\\Core\\Domain\\Candidate\\UseCase\\Establishment\\ArchiveCandidate\\UnarchiveCandidate::__construct<\/a>"],[100,1,"<a href=\"UseCase\/Establishment\/ArchiveCandidate\/UnarchiveCandidate.php.html#14\">App\\Core\\Domain\\Candidate\\UseCase\\Establishment\\ArchiveCandidate\\UnarchiveCandidate::getCandidateId<\/a>"],[100,1,"<a href=\"UseCase\/Establishment\/ArchiveCandidate\/UnarchiveCandidate.php.html#18\">App\\Core\\Domain\\Candidate\\UseCase\\Establishment\\ArchiveCandidate\\UnarchiveCandidate::getEstablishmentId<\/a>"],[100,1,"<a href=\"UseCase\/Establishment\/ArchiveCandidate\/UnarchiveCandidateHandler.php.html#19\">App\\Core\\Domain\\Candidate\\UseCase\\Establishment\\ArchiveCandidate\\UnarchiveCandidateHandler::__construct<\/a>"],[93.75,4,"<a href=\"UseCase\/Establishment\/ArchiveCandidate\/UnarchiveCandidateHandler.php.html#27\">App\\Core\\Domain\\Candidate\\UseCase\\Establishment\\ArchiveCandidate\\UnarchiveCandidateHandler::__invoke<\/a>"],[100,1,"<a href=\"UseCase\/Establishment\/ShareCandidate\/ShareCandidateWithAdmins.php.html#11\">App\\Core\\Domain\\Candidate\\UseCase\\Establishment\\ShareCandidate\\ShareCandidateWithAdmins::__construct<\/a>"],[100,1,"<a href=\"UseCase\/Establishment\/ShareCandidate\/ShareCandidateWithAdmins.php.html#19\">App\\Core\\Domain\\Candidate\\UseCase\\Establishment\\ShareCandidate\\ShareCandidateWithAdmins::getAuthorId<\/a>"],[100,1,"<a href=\"UseCase\/Establishment\/ShareCandidate\/ShareCandidateWithAdmins.php.html#23\">App\\Core\\Domain\\Candidate\\UseCase\\Establishment\\ShareCandidate\\ShareCandidateWithAdmins::getCandidateId<\/a>"],[100,1,"<a href=\"UseCase\/Establishment\/ShareCandidate\/ShareCandidateWithAdmins.php.html#27\">App\\Core\\Domain\\Candidate\\UseCase\\Establishment\\ShareCandidate\\ShareCandidateWithAdmins::getEstablishmentId<\/a>"],[100,1,"<a href=\"UseCase\/Establishment\/ShareCandidate\/ShareCandidateWithAdmins.php.html#31\">App\\Core\\Domain\\Candidate\\UseCase\\Establishment\\ShareCandidate\\ShareCandidateWithAdmins::getAdminIds<\/a>"],[100,1,"<a href=\"UseCase\/Establishment\/ShareCandidate\/ShareCandidateWithAdminsHandler.php.html#17\">App\\Core\\Domain\\Candidate\\UseCase\\Establishment\\ShareCandidate\\ShareCandidateWithAdminsHandler::__construct<\/a>"],[100,1,"<a href=\"UseCase\/Establishment\/ShareCandidate\/ShareCandidateWithAdminsHandler.php.html#25\">App\\Core\\Domain\\Candidate\\UseCase\\Establishment\\ShareCandidate\\ShareCandidateWithAdminsHandler::__invoke<\/a>"],[100,1,"<a href=\"UseCase\/Recruitment\/Message\/GetCandidateRecruitmentAtEstablishmentByAdminQuery.php.html#11\">App\\Core\\Domain\\Candidate\\UseCase\\Recruitment\\Message\\GetCandidateRecruitmentAtEstablishmentByAdminQuery::__construct<\/a>"],[100,1,"<a href=\"UseCase\/Recruitment\/Message\/GetCandidateRecruitmentAtEstablishmentByAdminQuery.php.html#20\">App\\Core\\Domain\\Candidate\\UseCase\\Recruitment\\Message\\GetCandidateRecruitmentAtEstablishmentByAdminQuery::getEstablishmentId<\/a>"],[100,1,"<a href=\"UseCase\/Recruitment\/Message\/GetCandidateRecruitmentAtEstablishmentByAdminQuery.php.html#24\">App\\Core\\Domain\\Candidate\\UseCase\\Recruitment\\Message\\GetCandidateRecruitmentAtEstablishmentByAdminQuery::getCandidateId<\/a>"],[100,1,"<a href=\"UseCase\/Recruitment\/Message\/GetCandidateRecruitmentAtEstablishmentByAdminQuery.php.html#28\">App\\Core\\Domain\\Candidate\\UseCase\\Recruitment\\Message\\GetCandidateRecruitmentAtEstablishmentByAdminQuery::getAdminId<\/a>"],[100,1,"<a href=\"UseCase\/Recruitment\/Message\/GetCandidateRecruitmentAtEstablishmentByAdminQuery.php.html#32\">App\\Core\\Domain\\Candidate\\UseCase\\Recruitment\\Message\\GetCandidateRecruitmentAtEstablishmentByAdminQuery::getFilters<\/a>"],[100,1,"<a href=\"UseCase\/Recruitment\/Message\/GetCandidateRecruitmentAtEstablishmentByAdminQuery.php.html#36\">App\\Core\\Domain\\Candidate\\UseCase\\Recruitment\\Message\\GetCandidateRecruitmentAtEstablishmentByAdminQuery::isWithCandidate<\/a>"],[100,1,"<a href=\"UseCase\/Recruitment\/Message\/GetCandidateRecruitmentAtEstablishmentQuery.php.html#11\">App\\Core\\Domain\\Candidate\\UseCase\\Recruitment\\Message\\GetCandidateRecruitmentAtEstablishmentQuery::__construct<\/a>"],[100,1,"<a href=\"UseCase\/Recruitment\/Message\/GetCandidateRecruitmentAtEstablishmentQuery.php.html#19\">App\\Core\\Domain\\Candidate\\UseCase\\Recruitment\\Message\\GetCandidateRecruitmentAtEstablishmentQuery::getEstablishmentId<\/a>"],[100,1,"<a href=\"UseCase\/Recruitment\/Message\/GetCandidateRecruitmentAtEstablishmentQuery.php.html#23\">App\\Core\\Domain\\Candidate\\UseCase\\Recruitment\\Message\\GetCandidateRecruitmentAtEstablishmentQuery::getCandidateId<\/a>"],[100,1,"<a href=\"UseCase\/Recruitment\/Message\/GetCandidateRecruitmentAtEstablishmentQuery.php.html#27\">App\\Core\\Domain\\Candidate\\UseCase\\Recruitment\\Message\\GetCandidateRecruitmentAtEstablishmentQuery::getAdminId<\/a>"],[100,1,"<a href=\"UseCase\/Recruitment\/Message\/GetCandidateRecruitmentAtEstablishmentQuery.php.html#31\">App\\Core\\Domain\\Candidate\\UseCase\\Recruitment\\Message\\GetCandidateRecruitmentAtEstablishmentQuery::getFilters<\/a>"],[100,1,"<a href=\"UseCase\/Recruitment\/QueryHandler\/GetCandidateRecruitmentAtEstablishmentByAdminHandler.php.html#15\">App\\Core\\Domain\\Candidate\\UseCase\\Recruitment\\QueryHandler\\GetCandidateRecruitmentAtEstablishmentByAdminHandler::__construct<\/a>"],[100,2,"<a href=\"UseCase\/Recruitment\/QueryHandler\/GetCandidateRecruitmentAtEstablishmentByAdminHandler.php.html#22\">App\\Core\\Domain\\Candidate\\UseCase\\Recruitment\\QueryHandler\\GetCandidateRecruitmentAtEstablishmentByAdminHandler::__invoke<\/a>"],[100,1,"<a href=\"UseCase\/Recruitment\/QueryHandler\/GetCandidateRecruitmentAtEstablishmentHandler.php.html#15\">App\\Core\\Domain\\Candidate\\UseCase\\Recruitment\\QueryHandler\\GetCandidateRecruitmentAtEstablishmentHandler::__construct<\/a>"],[100,3,"<a href=\"UseCase\/Recruitment\/QueryHandler\/GetCandidateRecruitmentAtEstablishmentHandler.php.html#22\">App\\Core\\Domain\\Candidate\\UseCase\\Recruitment\\QueryHandler\\GetCandidateRecruitmentAtEstablishmentHandler::__invoke<\/a>"],[100,1,"<a href=\"UseCase\/Register\/Message\/CloseRegistration.php.html#12\">App\\Core\\Domain\\Candidate\\UseCase\\Register\\Message\\CloseRegistration::__construct<\/a>"],[100,1,"<a href=\"UseCase\/Register\/Message\/CloseRegistration.php.html#15\">App\\Core\\Domain\\Candidate\\UseCase\\Register\\Message\\CloseRegistration::getRegistration<\/a>"],[100,1,"<a href=\"UseCase\/Register\/Message\/RegisterWithEmail.php.html#12\">App\\Core\\Domain\\Candidate\\UseCase\\Register\\Message\\RegisterWithEmail::__construct<\/a>"],[100,1,"<a href=\"UseCase\/Register\/Message\/RegisterWithEmail.php.html#19\">App\\Core\\Domain\\Candidate\\UseCase\\Register\\Message\\RegisterWithEmail::getEmail<\/a>"],[100,1,"<a href=\"UseCase\/Register\/Message\/UpdateRegistrationStep.php.html#11\">App\\Core\\Domain\\Candidate\\UseCase\\Register\\Message\\UpdateRegistrationStep::__construct<\/a>"],[100,1,"<a href=\"UseCase\/Register\/MessageHandler\/CloseRegistrationHandler.php.html#16\">App\\Core\\Domain\\Candidate\\UseCase\\Register\\MessageHandler\\CloseRegistrationHandler::__construct<\/a>"],[100,1,"<a href=\"UseCase\/Register\/MessageHandler\/CloseRegistrationHandler.php.html#23\">App\\Core\\Domain\\Candidate\\UseCase\\Register\\MessageHandler\\CloseRegistrationHandler::__invoke<\/a>"],[100,1,"<a href=\"UseCase\/Register\/MessageHandler\/RegisterWithEmailHandler.php.html#20\">App\\Core\\Domain\\Candidate\\UseCase\\Register\\MessageHandler\\RegisterWithEmailHandler::__construct<\/a>"],[100,2,"<a href=\"UseCase\/Register\/MessageHandler\/RegisterWithEmailHandler.php.html#28\">App\\Core\\Domain\\Candidate\\UseCase\\Register\\MessageHandler\\RegisterWithEmailHandler::__invoke<\/a>"],[100,1,"<a href=\"UseCase\/Register\/MessageHandler\/UpdateRegistrationStepHandler.php.html#14\">App\\Core\\Domain\\Candidate\\UseCase\\Register\\MessageHandler\\UpdateRegistrationStepHandler::__construct<\/a>"],[100,2,"<a href=\"UseCase\/Register\/MessageHandler\/UpdateRegistrationStepHandler.php.html#19\">App\\Core\\Domain\\Candidate\\UseCase\\Register\\MessageHandler\\UpdateRegistrationStepHandler::__invoke<\/a>"],[100,1,"<a href=\"UseCase\/Register\/Response\/RegisterCandidateResponse.php.html#11\">App\\Core\\Domain\\Candidate\\UseCase\\Register\\Response\\RegisterCandidateResponse::__construct<\/a>"],[100,1,"<a href=\"UseCase\/Register\/Response\/RegisterCandidateResponse.php.html#14\">App\\Core\\Domain\\Candidate\\UseCase\\Register\\Response\\RegisterCandidateResponse::getObjectId<\/a>"],[100,1,"<a href=\"UseCase\/StoreCandidateActivity\/StoreCandidateActivityHandler.php.html#16\">App\\Core\\Domain\\Candidate\\UseCase\\StoreCandidateActivity\\StoreCandidateActivityHandler::__construct<\/a>"],[100,2,"<a href=\"UseCase\/StoreCandidateActivity\/StoreCandidateActivityHandler.php.html#23\">App\\Core\\Domain\\Candidate\\UseCase\\StoreCandidateActivity\\StoreCandidateActivityHandler::__invoke<\/a>"],[100,1,"<a href=\"UseCase\/UpdateCandidateProfile\/EventHandler\/ValidateCandidateProfileHandler.php.html#14\">App\\Core\\Domain\\Candidate\\UseCase\\UpdateCandidateProfile\\EventHandler\\ValidateCandidateProfileHandler::__construct<\/a>"],[75,3,"<a href=\"UseCase\/UpdateCandidateProfile\/EventHandler\/ValidateCandidateProfileHandler.php.html#20\">App\\Core\\Domain\\Candidate\\UseCase\\UpdateCandidateProfile\\EventHandler\\ValidateCandidateProfileHandler::__invoke<\/a>"],[100,1,"<a href=\"UseCase\/UpdateCandidateProfile\/Message\/UpdateCandidateDocuments.php.html#13\">App\\Core\\Domain\\Candidate\\UseCase\\UpdateCandidateProfile\\Message\\UpdateCandidateDocuments::__construct<\/a>"],[100,1,"<a href=\"UseCase\/UpdateCandidateProfile\/Message\/UpdateCandidateDocuments.php.html#21\">App\\Core\\Domain\\Candidate\\UseCase\\UpdateCandidateProfile\\Message\\UpdateCandidateDocuments::getCandidate<\/a>"],[100,1,"<a href=\"UseCase\/UpdateCandidateProfile\/Message\/UpdateCandidateDocuments.php.html#25\">App\\Core\\Domain\\Candidate\\UseCase\\UpdateCandidateProfile\\Message\\UpdateCandidateDocuments::getCv<\/a>"],[100,1,"<a href=\"UseCase\/UpdateCandidateProfile\/Message\/UpdateCandidateDocuments.php.html#29\">App\\Core\\Domain\\Candidate\\UseCase\\UpdateCandidateProfile\\Message\\UpdateCandidateDocuments::getMotivationLetter<\/a>"],[100,1,"<a href=\"UseCase\/UpdateCandidateProfile\/Message\/UpdateCandidateDocuments.php.html#33\">App\\Core\\Domain\\Candidate\\UseCase\\UpdateCandidateProfile\\Message\\UpdateCandidateDocuments::getLastDiploma<\/a>"],[100,1,"<a href=\"UseCase\/UpdateCandidateProfile\/Message\/UpdateCandidateInformation.php.html#13\">App\\Core\\Domain\\Candidate\\UseCase\\UpdateCandidateProfile\\Message\\UpdateCandidateInformation::__construct<\/a>"],[100,1,"<a href=\"UseCase\/UpdateCandidateProfile\/Message\/UpdateCandidateInformation.php.html#25\">App\\Core\\Domain\\Candidate\\UseCase\\UpdateCandidateProfile\\Message\\UpdateCandidateInformation::getCandidate<\/a>"],[100,1,"<a href=\"UseCase\/UpdateCandidateProfile\/Message\/UpdateCandidateInformation.php.html#29\">App\\Core\\Domain\\Candidate\\UseCase\\UpdateCandidateProfile\\Message\\UpdateCandidateInformation::getFirstname<\/a>"],[100,1,"<a href=\"UseCase\/UpdateCandidateProfile\/Message\/UpdateCandidateInformation.php.html#33\">App\\Core\\Domain\\Candidate\\UseCase\\UpdateCandidateProfile\\Message\\UpdateCandidateInformation::getLastname<\/a>"],[100,1,"<a href=\"UseCase\/UpdateCandidateProfile\/Message\/UpdateCandidateInformation.php.html#37\">App\\Core\\Domain\\Candidate\\UseCase\\UpdateCandidateProfile\\Message\\UpdateCandidateInformation::getBirthDate<\/a>"],[100,1,"<a href=\"UseCase\/UpdateCandidateProfile\/Message\/UpdateCandidateInformation.php.html#41\">App\\Core\\Domain\\Candidate\\UseCase\\UpdateCandidateProfile\\Message\\UpdateCandidateInformation::getAddress<\/a>"],[100,1,"<a href=\"UseCase\/UpdateCandidateProfile\/Message\/UpdateCandidateInformation.php.html#45\">App\\Core\\Domain\\Candidate\\UseCase\\UpdateCandidateProfile\\Message\\UpdateCandidateInformation::getMatricule<\/a>"],[100,1,"<a href=\"UseCase\/UpdateCandidateProfile\/Message\/UpdateCandidateInformation.php.html#49\">App\\Core\\Domain\\Candidate\\UseCase\\UpdateCandidateProfile\\Message\\UpdateCandidateInformation::getPhoneNumber<\/a>"],[100,1,"<a href=\"UseCase\/UpdateCandidateProfile\/Message\/UpdateCandidateJob.php.html#12\">App\\Core\\Domain\\Candidate\\UseCase\\UpdateCandidateProfile\\Message\\UpdateCandidateJob::__construct<\/a>"],[100,1,"<a href=\"UseCase\/UpdateCandidateProfile\/Message\/UpdateCandidateJob.php.html#19\">App\\Core\\Domain\\Candidate\\UseCase\\UpdateCandidateProfile\\Message\\UpdateCandidateJob::getCandidate<\/a>"],[100,1,"<a href=\"UseCase\/UpdateCandidateProfile\/Message\/UpdateCandidateJob.php.html#23\">App\\Core\\Domain\\Candidate\\UseCase\\UpdateCandidateProfile\\Message\\UpdateCandidateJob::getJobs<\/a>"],[100,1,"<a href=\"UseCase\/UpdateCandidateProfile\/Message\/UpdateCandidateJob.php.html#27\">App\\Core\\Domain\\Candidate\\UseCase\\UpdateCandidateProfile\\Message\\UpdateCandidateJob::getDiplomas<\/a>"],[100,1,"<a href=\"UseCase\/UpdateCandidateProfile\/MessageHandler\/UpdateCandidateDocumentsHandler.php.html#18\">App\\Core\\Domain\\Candidate\\UseCase\\UpdateCandidateProfile\\MessageHandler\\UpdateCandidateDocumentsHandler::__construct<\/a>"],[93.10344827586206,7,"<a href=\"UseCase\/UpdateCandidateProfile\/MessageHandler\/UpdateCandidateDocumentsHandler.php.html#24\">App\\Core\\Domain\\Candidate\\UseCase\\UpdateCandidateProfile\\MessageHandler\\UpdateCandidateDocumentsHandler::__invoke<\/a>"],[100,1,"<a href=\"UseCase\/UpdateCandidateProfile\/MessageHandler\/UpdateCandidateInformationHandler.php.html#17\">App\\Core\\Domain\\Candidate\\UseCase\\UpdateCandidateProfile\\MessageHandler\\UpdateCandidateInformationHandler::__construct<\/a>"],[100,3,"<a href=\"UseCase\/UpdateCandidateProfile\/MessageHandler\/UpdateCandidateInformationHandler.php.html#24\">App\\Core\\Domain\\Candidate\\UseCase\\UpdateCandidateProfile\\MessageHandler\\UpdateCandidateInformationHandler::__invoke<\/a>"],[100,1,"<a href=\"UseCase\/UpdateCandidateProfile\/MessageHandler\/UpdateCandidateJobHandler.php.html#17\">App\\Core\\Domain\\Candidate\\UseCase\\UpdateCandidateProfile\\MessageHandler\\UpdateCandidateJobHandler::__construct<\/a>"],[100,3,"<a href=\"UseCase\/UpdateCandidateProfile\/MessageHandler\/UpdateCandidateJobHandler.php.html#24\">App\\Core\\Domain\\Candidate\\UseCase\\UpdateCandidateProfile\\MessageHandler\\UpdateCandidateJobHandler::__invoke<\/a>"],[100,1,"<a href=\"UseCase\/UpdateCandidateProfile\/Response\/UpdateCandidateProfileResponse.php.html#11\">App\\Core\\Domain\\Candidate\\UseCase\\UpdateCandidateProfile\\Response\\UpdateCandidateProfileResponse::__construct<\/a>"],[100,1,"<a href=\"UseCase\/UpdateCandidateProfile\/Response\/UpdateCandidateProfileResponse.php.html#16\">App\\Core\\Domain\\Candidate\\UseCase\\UpdateCandidateProfile\\Response\\UpdateCandidateProfileResponse::getObjectId<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

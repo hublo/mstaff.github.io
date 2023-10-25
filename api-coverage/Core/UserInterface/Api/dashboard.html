@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /Users/alexandre/Dev/mstaff-v3-api/src/Core/UserInterface/Api</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../_css/bootstrap.min.css?v=9.2.29" rel="stylesheet" type="text/css">
+  <link href="../../../_css/nv.d3.min.css?v=9.2.29" rel="stylesheet" type="text/css">
+  <link href="../../../_css/style.css?v=9.2.29" rel="stylesheet" type="text/css">
+  <link href="../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../index.html">/Users/alexandre/Dev/mstaff-v3-api/src</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">Core</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">UserInterface</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Api</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Candidate/Archive/ArchiveController.php.html#23">App\Core\UserInterface\Api\Candidate\Archive\ArchiveController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Candidate/Document/CandidateDocumentController.php.html#22">App\Core\UserInterface\Api\Candidate\Document\CandidateDocumentController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Document/DocumentController.php.html#14">App\Core\UserInterface\Api\Document\DocumentController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Recruiter/ListRecruiterController.php.html#15">App\Core\UserInterface\Api\Recruiter\ListRecruiterController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RhGroup/RhGroupHistoryController.php.html#15">App\Core\UserInterface\Api\RhGroup\RhGroupHistoryController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User/ImportUserController.php.html#22">App\Core\UserInterface\Api\User\ImportUserController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LaunchDarkly/FeatureFlagController.php.html#17">App\Core\UserInterface\Api\LaunchDarkly\FeatureFlagController</a></td><td class="text-right">45%</td></tr>
+       <tr><td><a href="User/ResetPasswordController.php.html#18">App\Core\UserInterface\Api\User\ResetPasswordController</a></td><td class="text-right">48%</td></tr>
+       <tr><td><a href="Candidate/Recruitment/ListRecruitmentController.php.html#19">App\Core\UserInterface\Api\Candidate\Recruitment\ListRecruitmentController</a></td><td class="text-right">69%</td></tr>
+       <tr><td><a href="Recruitment/UpdateRecruitmentController.php.html#30">App\Core\UserInterface\Api\Recruitment\UpdateRecruitmentController</a></td><td class="text-right">70%</td></tr>
+       <tr><td><a href="Recruitment/CandidateRecruitmentController.php.html#39">App\Core\UserInterface\Api\Recruitment\CandidateRecruitmentController</a></td><td class="text-right">71%</td></tr>
+       <tr><td><a href="Label/LabelController.php.html#22">App\Core\UserInterface\Api\Label\LabelController</a></td><td class="text-right">77%</td></tr>
+       <tr><td><a href="Establishment/Invitation/CandidateInvitationController.php.html#22">App\Core\UserInterface\Api\Establishment\Invitation\CandidateInvitationController</a></td><td class="text-right">78%</td></tr>
+       <tr><td><a href="Comment/CandidateCommentController.php.html#26">App\Core\UserInterface\Api\Comment\CandidateCommentController</a></td><td class="text-right">79%</td></tr>
+       <tr><td><a href="Offer/OfferCreationWorkflowController.php.html#25">App\Core\UserInterface\Api\Offer\OfferCreationWorkflowController</a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="Recruitment/CreateRecruitmentController.php.html#22">App\Core\UserInterface\Api\Recruitment\CreateRecruitmentController</a></td><td class="text-right">87%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="User/ImportUserController.php.html#22">App\Core\UserInterface\Api\User\ImportUserController</a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="Recruitment/UpdateRecruitmentController.php.html#30">App\Core\UserInterface\Api\Recruitment\UpdateRecruitmentController</a></td><td class="text-right">63</td></tr>
+       <tr><td><a href="Recruitment/CandidateRecruitmentController.php.html#39">App\Core\UserInterface\Api\Recruitment\CandidateRecruitmentController</a></td><td class="text-right">54</td></tr>
+       <tr><td><a href="Candidate/Document/CandidateDocumentController.php.html#22">App\Core\UserInterface\Api\Candidate\Document\CandidateDocumentController</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="LaunchDarkly/FeatureFlagController.php.html#17">App\Core\UserInterface\Api\LaunchDarkly\FeatureFlagController</a></td><td class="text-right">34</td></tr>
+       <tr><td><a href="Candidate/Archive/ArchiveController.php.html#23">App\Core\UserInterface\Api\Candidate\Archive\ArchiveController</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Document/DocumentController.php.html#14">App\Core\UserInterface\Api\Document\DocumentController</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Offer/OfferCreationWorkflowController.php.html#25">App\Core\UserInterface\Api\Offer\OfferCreationWorkflowController</a></td><td class="text-right">11</td></tr>
+       <tr><td><a href="Label/LabelController.php.html#22">App\Core\UserInterface\Api\Label\LabelController</a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="Recruitment/CreateRecruitmentController.php.html#22">App\Core\UserInterface\Api\Recruitment\CreateRecruitmentController</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Recruiter/ListRecruiterController.php.html#15">App\Core\UserInterface\Api\Recruiter\ListRecruiterController</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Establishment/Invitation/CandidateInvitationController.php.html#22">App\Core\UserInterface\Api\Establishment\Invitation\CandidateInvitationController</a></td><td class="text-right">4</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Candidate/Archive/ArchiveController.php.html#26"><abbr title="App\Core\UserInterface\Api\Candidate\Archive\ArchiveController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Candidate/Archive/ArchiveController.php.html#31"><abbr title="App\Core\UserInterface\Api\Candidate\Archive\ArchiveController::isArchived">isArchived</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Candidate/Archive/ArchiveController.php.html#39"><abbr title="App\Core\UserInterface\Api\Candidate\Archive\ArchiveController::archive">archive</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Candidate/Archive/ArchiveController.php.html#52"><abbr title="App\Core\UserInterface\Api\Candidate\Archive\ArchiveController::unarchive">unarchive</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Candidate/Document/CandidateDocumentController.php.html#25"><abbr title="App\Core\UserInterface\Api\Candidate\Document\CandidateDocumentController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Candidate/Document/CandidateDocumentController.php.html#34"><abbr title="App\Core\UserInterface\Api\Candidate\Document\CandidateDocumentController::listByCandidate">listByCandidate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Candidate/Document/CandidateDocumentController.php.html#48"><abbr title="App\Core\UserInterface\Api\Candidate\Document\CandidateDocumentController::listByCandidateAndEstablishmentFromCandidate">listByCandidateAndEstablishmentFromCandidate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Candidate/Document/CandidateDocumentController.php.html#70"><abbr title="App\Core\UserInterface\Api\Candidate\Document\CandidateDocumentController::listByCandidateAndEstablishmentFromRecruiter">listByCandidateAndEstablishmentFromRecruiter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Candidate/Document/CandidateDocumentController.php.html#89"><abbr title="App\Core\UserInterface\Api\Candidate\Document\CandidateDocumentController::addCandidateDocumentAtEstablishment">addCandidateDocumentAtEstablishment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Candidate/Recruitment/ListRecruitmentController.php.html#66"><abbr title="App\Core\UserInterface\Api\Candidate\Recruitment\ListRecruitmentController::byEstablishmentWithCandidate">byEstablishmentWithCandidate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Comment/CandidateCommentController.php.html#99"><abbr title="App\Core\UserInterface\Api\Comment\CandidateCommentController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Document/DocumentController.php.html#16"><abbr title="App\Core\UserInterface\Api\Document\DocumentController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Document/DocumentController.php.html#23"><abbr title="App\Core\UserInterface\Api\Document\DocumentController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Label/LabelController.php.html#28"><abbr title="App\Core\UserInterface\Api\Label\LabelController::listByEstablishment">listByEstablishment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LaunchDarkly/FeatureFlagController.php.html#77"><abbr title="App\Core\UserInterface\Api\LaunchDarkly\FeatureFlagController::isMaintenanceEnabled">isMaintenanceEnabled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Recruiter/ListRecruiterController.php.html#19"><abbr title="App\Core\UserInterface\Api\Recruiter\ListRecruiterController::listByEstablishment">listByEstablishment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RhGroup/RhGroupHistoryController.php.html#18"><abbr title="App\Core\UserInterface\Api\RhGroup\RhGroupHistoryController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RhGroup/RhGroupHistoryController.php.html#22"><abbr title="App\Core\UserInterface\Api\RhGroup\RhGroupHistoryController::listByGroup">listByGroup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User/ImportUserController.php.html#26"><abbr title="App\Core\UserInterface\Api\User\ImportUserController::importUsersFromXLS">importUsersFromXLS</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User/ImportUserController.php.html#53"><abbr title="App\Core\UserInterface\Api\User\ImportUserController::importUsersToEstablishmentFromXLS">importUsersToEstablishmentFromXLS</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User/ImportUserController.php.html#86"><abbr title="App\Core\UserInterface\Api\User\ImportUserController::importUsersToRhGroupFromXLS">importUsersToRhGroupFromXLS</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User/ImportUserController.php.html#119"><abbr title="App\Core\UserInterface\Api\User\ImportUserController::getResponseFromImportResult">getResponseFromImportResult</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User/ImportUserController.php.html#132"><abbr title="App\Core\UserInterface\Api\User\ImportUserController::sendMailsFromImportResult">sendMailsFromImportResult</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User/ResetPasswordController.php.html#48"><abbr title="App\Core\UserInterface\Api\User\ResetPasswordController::changePassword">changePassword</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User/ResetPasswordController.php.html#60"><abbr title="App\Core\UserInterface\Api\User\ResetPasswordController::selfChangePassword">selfChangePassword</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LaunchDarkly/FeatureFlagController.php.html#25"><abbr title="App\Core\UserInterface\Api\LaunchDarkly\FeatureFlagController::isEnabledForUser">isEnabledForUser</abbr></a></td><td class="text-right">53%</td></tr>
+       <tr><td><a href="Offer/OfferCreationWorkflowController.php.html#81"><abbr title="App\Core\UserInterface\Api\Offer\OfferCreationWorkflowController::update">update</abbr></a></td><td class="text-right">53%</td></tr>
+       <tr><td><a href="Recruitment/CandidateRecruitmentController.php.html#160"><abbr title="App\Core\UserInterface\Api\Recruitment\CandidateRecruitmentController::import">import</abbr></a></td><td class="text-right">56%</td></tr>
+       <tr><td><a href="Recruitment/CandidateRecruitmentController.php.html#127"><abbr title="App\Core\UserInterface\Api\Recruitment\CandidateRecruitmentController::move">move</abbr></a></td><td class="text-right">57%</td></tr>
+       <tr><td><a href="Recruitment/UpdateRecruitmentController.php.html#65"><abbr title="App\Core\UserInterface\Api\Recruitment\UpdateRecruitmentController::update">update</abbr></a></td><td class="text-right">64%</td></tr>
+       <tr><td><a href="LaunchDarkly/FeatureFlagController.php.html#53"><abbr title="App\Core\UserInterface\Api\LaunchDarkly\FeatureFlagController::isEnabledForEstablishment">isEnabledForEstablishment</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Establishment/Invitation/CandidateInvitationController.php.html#32"><abbr title="App\Core\UserInterface\Api\Establishment\Invitation\CandidateInvitationController::inviteCandidate">inviteCandidate</abbr></a></td><td class="text-right">77%</td></tr>
+       <tr><td><a href="Label/LabelController.php.html#69"><abbr title="App\Core\UserInterface\Api\Label\LabelController::delete">delete</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="Label/LabelController.php.html#54"><abbr title="App\Core\UserInterface\Api\Label\LabelController::update">update</abbr></a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="Recruitment/CreateRecruitmentController.php.html#34"><abbr title="App\Core\UserInterface\Api\Recruitment\CreateRecruitmentController::createByEstablishment">createByEstablishment</abbr></a></td><td class="text-right">87%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Recruitment/UpdateRecruitmentController.php.html#65"><abbr title="App\Core\UserInterface\Api\Recruitment\UpdateRecruitmentController::update">update</abbr></a></td><td class="text-right">71</td></tr>
+       <tr><td><a href="Recruitment/CandidateRecruitmentController.php.html#160"><abbr title="App\Core\UserInterface\Api\Recruitment\CandidateRecruitmentController::import">import</abbr></a></td><td class="text-right">44</td></tr>
+       <tr><td><a href="User/ImportUserController.php.html#53"><abbr title="App\Core\UserInterface\Api\User\ImportUserController::importUsersToEstablishmentFromXLS">importUsersToEstablishmentFromXLS</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="User/ImportUserController.php.html#86"><abbr title="App\Core\UserInterface\Api\User\ImportUserController::importUsersToRhGroupFromXLS">importUsersToRhGroupFromXLS</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="User/ImportUserController.php.html#26"><abbr title="App\Core\UserInterface\Api\User\ImportUserController::importUsersFromXLS">importUsersFromXLS</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="LaunchDarkly/FeatureFlagController.php.html#77"><abbr title="App\Core\UserInterface\Api\LaunchDarkly\FeatureFlagController::isMaintenanceEnabled">isMaintenanceEnabled</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Candidate/Archive/ArchiveController.php.html#31"><abbr title="App\Core\UserInterface\Api\Candidate\Archive\ArchiveController::isArchived">isArchived</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Candidate/Document/CandidateDocumentController.php.html#48"><abbr title="App\Core\UserInterface\Api\Candidate\Document\CandidateDocumentController::listByCandidateAndEstablishmentFromCandidate">listByCandidateAndEstablishmentFromCandidate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Document/DocumentController.php.html#23"><abbr title="App\Core\UserInterface\Api\Document\DocumentController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Recruiter/ListRecruiterController.php.html#19"><abbr title="App\Core\UserInterface\Api\Recruiter\ListRecruiterController::listByEstablishment">listByEstablishment</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="User/ImportUserController.php.html#132"><abbr title="App\Core\UserInterface\Api\User\ImportUserController::sendMailsFromImportResult">sendMailsFromImportResult</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="LaunchDarkly/FeatureFlagController.php.html#25"><abbr title="App\Core\UserInterface\Api\LaunchDarkly\FeatureFlagController::isEnabledForUser">isEnabledForUser</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="Recruitment/CreateRecruitmentController.php.html#34"><abbr title="App\Core\UserInterface\Api\Recruitment\CreateRecruitmentController::createByEstablishment">createByEstablishment</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="LaunchDarkly/FeatureFlagController.php.html#53"><abbr title="App\Core\UserInterface\Api\LaunchDarkly\FeatureFlagController::isEnabledForEstablishment">isEnabledForEstablishment</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Offer/OfferCreationWorkflowController.php.html#81"><abbr title="App\Core\UserInterface\Api\Offer\OfferCreationWorkflowController::update">update</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Recruitment/CandidateRecruitmentController.php.html#127"><abbr title="App\Core\UserInterface\Api\Recruitment\CandidateRecruitmentController::move">move</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Establishment/Invitation/CandidateInvitationController.php.html#32"><abbr title="App\Core\UserInterface\Api\Establishment\Invitation\CandidateInvitationController::inviteCandidate">inviteCandidate</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Label/LabelController.php.html#69"><abbr title="App\Core\UserInterface\Api\Label\LabelController::delete">delete</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Label/LabelController.php.html#54"><abbr title="App\Core\UserInterface\Api\Label\LabelController::update">update</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 9.2.29</a> using <a href="https://secure.php.net/" target="_top">PHP 8.0.30</a> and <a href="https://phpunit.de/">PHPUnit 9.6.13</a> at Wed Oct 25 8:07:49 UTC 2023.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../_js/jquery.min.js?v=9.2.29" type="text/javascript"></script>
+  <script src="../../../_js/d3.min.js?v=9.2.29" type="text/javascript"></script>
+  <script src="../../../_js/nv.d3.min.js?v=9.2.29" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([6,0,0,0,0,2,0,1,5,2,2,7], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([25,0,0,0,0,0,4,2,1,3,4,41], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,5,"<a href=\"Candidate\/Archive\/ArchiveController.php.html#23\">App\\Core\\UserInterface\\Api\\Candidate\\Archive\\ArchiveController<\/a>"],[0,6,"<a href=\"Candidate\/Document\/CandidateDocumentController.php.html#22\">App\\Core\\UserInterface\\Api\\Candidate\\Document\\CandidateDocumentController<\/a>"],[100,3,"<a href=\"Candidate\/Profile\/RetrieveCvController.php.html#15\">App\\Core\\UserInterface\\Api\\Candidate\\Profile\\RetrieveCvController<\/a>"],[100,2,"<a href=\"Candidate\/Profile\/ShareController.php.html#17\">App\\Core\\UserInterface\\Api\\Candidate\\Profile\\ShareController<\/a>"],[69.23076923076923,4,"<a href=\"Candidate\/Recruitment\/ListRecruitmentController.php.html#19\">App\\Core\\UserInterface\\Api\\Candidate\\Recruitment\\ListRecruitmentController<\/a>"],[100,5,"<a href=\"Candidate\/Register\/CloseRegistrationController.php.html#18\">App\\Core\\UserInterface\\Api\\Candidate\\Register\\CloseRegistrationController<\/a>"],[92,10,"<a href=\"Candidate\/Register\/OpenRegistrationController.php.html#23\">App\\Core\\UserInterface\\Api\\Candidate\\Register\\OpenRegistrationController<\/a>"],[100,1,"<a href=\"Candidate\/Register\/ReadRegistrationController.php.html#13\">App\\Core\\UserInterface\\Api\\Candidate\\Register\\ReadRegistrationController<\/a>"],[97.77777777777777,16,"<a href=\"Candidate\/Register\/UpdateRegistrationController.php.html#22\">App\\Core\\UserInterface\\Api\\Candidate\\Register\\UpdateRegistrationController<\/a>"],[79.41176470588235,5,"<a href=\"Comment\/CandidateCommentController.php.html#26\">App\\Core\\UserInterface\\Api\\Comment\\CandidateCommentController<\/a>"],[0,3,"<a href=\"Document\/DocumentController.php.html#14\">App\\Core\\UserInterface\\Api\\Document\\DocumentController<\/a>"],[78.57142857142857,4,"<a href=\"Establishment\/Invitation\/CandidateInvitationController.php.html#22\">App\\Core\\UserInterface\\Api\\Establishment\\Invitation\\CandidateInvitationController<\/a>"],[77.41935483870968,8,"<a href=\"Label\/LabelController.php.html#22\">App\\Core\\UserInterface\\Api\\Label\\LabelController<\/a>"],[45.94594594594595,12,"<a href=\"LaunchDarkly\/FeatureFlagController.php.html#17\">App\\Core\\UserInterface\\Api\\LaunchDarkly\\FeatureFlagController<\/a>"],[100,2,"<a href=\"Offer\/DeleteOfferController.php.html#15\">App\\Core\\UserInterface\\Api\\Offer\\DeleteOfferController<\/a>"],[100,2,"<a href=\"Offer\/ListOfferRecruitmentController.php.html#15\">App\\Core\\UserInterface\\Api\\Offer\\ListOfferRecruitmentController<\/a>"],[83.72093023255815,11,"<a href=\"Offer\/OfferCreationWorkflowController.php.html#25\">App\\Core\\UserInterface\\Api\\Offer\\OfferCreationWorkflowController<\/a>"],[0,2,"<a href=\"Recruiter\/ListRecruiterController.php.html#15\">App\\Core\\UserInterface\\Api\\Recruiter\\ListRecruiterController<\/a>"],[71.96969696969697,32,"<a href=\"Recruitment\/CandidateRecruitmentController.php.html#39\">App\\Core\\UserInterface\\Api\\Recruitment\\CandidateRecruitmentController<\/a>"],[87.8048780487805,6,"<a href=\"Recruitment\/CreateRecruitmentController.php.html#22\">App\\Core\\UserInterface\\Api\\Recruitment\\CreateRecruitmentController<\/a>"],[100,11,"<a href=\"Recruitment\/DeleteRecruitmentController.php.html#24\">App\\Core\\UserInterface\\Api\\Recruitment\\DeleteRecruitmentController<\/a>"],[70.58823529411765,34,"<a href=\"Recruitment\/UpdateRecruitmentController.php.html#30\">App\\Core\\UserInterface\\Api\\Recruitment\\UpdateRecruitmentController<\/a>"],[0,2,"<a href=\"RhGroup\/RhGroupHistoryController.php.html#15\">App\\Core\\UserInterface\\Api\\RhGroup\\RhGroupHistoryController<\/a>"],[0,20,"<a href=\"User\/ImportUserController.php.html#22\">App\\Core\\UserInterface\\Api\\User\\ImportUserController<\/a>"],[48.275862068965516,5,"<a href=\"User\/ResetPasswordController.php.html#18\">App\\Core\\UserInterface\\Api\\User\\ResetPasswordController<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Candidate\/Archive\/ArchiveController.php.html#26\">App\\Core\\UserInterface\\Api\\Candidate\\Archive\\ArchiveController::__construct<\/a>"],[0,2,"<a href=\"Candidate\/Archive\/ArchiveController.php.html#31\">App\\Core\\UserInterface\\Api\\Candidate\\Archive\\ArchiveController::isArchived<\/a>"],[0,1,"<a href=\"Candidate\/Archive\/ArchiveController.php.html#39\">App\\Core\\UserInterface\\Api\\Candidate\\Archive\\ArchiveController::archive<\/a>"],[0,1,"<a href=\"Candidate\/Archive\/ArchiveController.php.html#52\">App\\Core\\UserInterface\\Api\\Candidate\\Archive\\ArchiveController::unarchive<\/a>"],[0,1,"<a href=\"Candidate\/Document\/CandidateDocumentController.php.html#25\">App\\Core\\UserInterface\\Api\\Candidate\\Document\\CandidateDocumentController::__construct<\/a>"],[0,1,"<a href=\"Candidate\/Document\/CandidateDocumentController.php.html#34\">App\\Core\\UserInterface\\Api\\Candidate\\Document\\CandidateDocumentController::listByCandidate<\/a>"],[0,2,"<a href=\"Candidate\/Document\/CandidateDocumentController.php.html#48\">App\\Core\\UserInterface\\Api\\Candidate\\Document\\CandidateDocumentController::listByCandidateAndEstablishmentFromCandidate<\/a>"],[0,1,"<a href=\"Candidate\/Document\/CandidateDocumentController.php.html#70\">App\\Core\\UserInterface\\Api\\Candidate\\Document\\CandidateDocumentController::listByCandidateAndEstablishmentFromRecruiter<\/a>"],[0,1,"<a href=\"Candidate\/Document\/CandidateDocumentController.php.html#89\">App\\Core\\UserInterface\\Api\\Candidate\\Document\\CandidateDocumentController::addCandidateDocumentAtEstablishment<\/a>"],[100,1,"<a href=\"Candidate\/Profile\/RetrieveCvController.php.html#17\">App\\Core\\UserInterface\\Api\\Candidate\\Profile\\RetrieveCvController::__construct<\/a>"],[100,2,"<a href=\"Candidate\/Profile\/RetrieveCvController.php.html#21\">App\\Core\\UserInterface\\Api\\Candidate\\Profile\\RetrieveCvController::retrieveCv<\/a>"],[100,1,"<a href=\"Candidate\/Profile\/ShareController.php.html#19\">App\\Core\\UserInterface\\Api\\Candidate\\Profile\\ShareController::__construct<\/a>"],[100,1,"<a href=\"Candidate\/Profile\/ShareController.php.html#26\">App\\Core\\UserInterface\\Api\\Candidate\\Profile\\ShareController::share<\/a>"],[100,1,"<a href=\"Candidate\/Recruitment\/ListRecruitmentController.php.html#22\">App\\Core\\UserInterface\\Api\\Candidate\\Recruitment\\ListRecruitmentController::__construct<\/a>"],[100,1,"<a href=\"Candidate\/Recruitment\/ListRecruitmentController.php.html#29\">App\\Core\\UserInterface\\Api\\Candidate\\Recruitment\\ListRecruitmentController::mineByEstablishmentWithCandidate<\/a>"],[100,1,"<a href=\"Candidate\/Recruitment\/ListRecruitmentController.php.html#47\">App\\Core\\UserInterface\\Api\\Candidate\\Recruitment\\ListRecruitmentController::mineByEstablishmentWithoutCandidate<\/a>"],[0,1,"<a href=\"Candidate\/Recruitment\/ListRecruitmentController.php.html#66\">App\\Core\\UserInterface\\Api\\Candidate\\Recruitment\\ListRecruitmentController::byEstablishmentWithCandidate<\/a>"],[100,1,"<a href=\"Candidate\/Register\/CloseRegistrationController.php.html#20\">App\\Core\\UserInterface\\Api\\Candidate\\Register\\CloseRegistrationController::__construct<\/a>"],[100,4,"<a href=\"Candidate\/Register\/CloseRegistrationController.php.html#26\">App\\Core\\UserInterface\\Api\\Candidate\\Register\\CloseRegistrationController::closeRegistrationOffer<\/a>"],[100,1,"<a href=\"Candidate\/Register\/OpenRegistrationController.php.html#25\">App\\Core\\UserInterface\\Api\\Candidate\\Register\\OpenRegistrationController::__construct<\/a>"],[91.66666666666666,9,"<a href=\"Candidate\/Register\/OpenRegistrationController.php.html#32\">App\\Core\\UserInterface\\Api\\Candidate\\Register\\OpenRegistrationController::openRegistration<\/a>"],[100,1,"<a href=\"Candidate\/Register\/ReadRegistrationController.php.html#16\">App\\Core\\UserInterface\\Api\\Candidate\\Register\\ReadRegistrationController::read<\/a>"],[100,1,"<a href=\"Candidate\/Register\/UpdateRegistrationController.php.html#24\">App\\Core\\UserInterface\\Api\\Candidate\\Register\\UpdateRegistrationController::__construct<\/a>"],[97.72727272727273,15,"<a href=\"Candidate\/Register\/UpdateRegistrationController.php.html#30\">App\\Core\\UserInterface\\Api\\Candidate\\Register\\UpdateRegistrationController::update<\/a>"],[100,1,"<a href=\"Comment\/CandidateCommentController.php.html#29\">App\\Core\\UserInterface\\Api\\Comment\\CandidateCommentController::__construct<\/a>"],[100,1,"<a href=\"Comment\/CandidateCommentController.php.html#41\">App\\Core\\UserInterface\\Api\\Comment\\CandidateCommentController::listComment<\/a>"],[100,1,"<a href=\"Comment\/CandidateCommentController.php.html#57\">App\\Core\\UserInterface\\Api\\Comment\\CandidateCommentController::create<\/a>"],[100,1,"<a href=\"Comment\/CandidateCommentController.php.html#79\">App\\Core\\UserInterface\\Api\\Comment\\CandidateCommentController::update<\/a>"],[0,1,"<a href=\"Comment\/CandidateCommentController.php.html#99\">App\\Core\\UserInterface\\Api\\Comment\\CandidateCommentController::delete<\/a>"],[0,1,"<a href=\"Document\/DocumentController.php.html#16\">App\\Core\\UserInterface\\Api\\Document\\DocumentController::__construct<\/a>"],[0,2,"<a href=\"Document\/DocumentController.php.html#23\">App\\Core\\UserInterface\\Api\\Document\\DocumentController::delete<\/a>"],[100,1,"<a href=\"Establishment\/Invitation\/CandidateInvitationController.php.html#24\">App\\Core\\UserInterface\\Api\\Establishment\\Invitation\\CandidateInvitationController::__construct<\/a>"],[77.77777777777779,3,"<a href=\"Establishment\/Invitation\/CandidateInvitationController.php.html#32\">App\\Core\\UserInterface\\Api\\Establishment\\Invitation\\CandidateInvitationController::inviteCandidate<\/a>"],[100,1,"<a href=\"Label\/LabelController.php.html#25\">App\\Core\\UserInterface\\Api\\Label\\LabelController::__construct<\/a>"],[0,1,"<a href=\"Label\/LabelController.php.html#28\">App\\Core\\UserInterface\\Api\\Label\\LabelController::listByEstablishment<\/a>"],[100,1,"<a href=\"Label\/LabelController.php.html#43\">App\\Core\\UserInterface\\Api\\Label\\LabelController::create<\/a>"],[85.71428571428571,2,"<a href=\"Label\/LabelController.php.html#54\">App\\Core\\UserInterface\\Api\\Label\\LabelController::update<\/a>"],[83.33333333333334,2,"<a href=\"Label\/LabelController.php.html#69\">App\\Core\\UserInterface\\Api\\Label\\LabelController::delete<\/a>"],[100,1,"<a href=\"Label\/LabelController.php.html#86\">App\\Core\\UserInterface\\Api\\Label\\LabelController::synchronize<\/a>"],[100,1,"<a href=\"LaunchDarkly\/FeatureFlagController.php.html#20\">App\\Core\\UserInterface\\Api\\LaunchDarkly\\FeatureFlagController::__construct<\/a>"],[53.333333333333336,4,"<a href=\"LaunchDarkly\/FeatureFlagController.php.html#25\">App\\Core\\UserInterface\\Api\\LaunchDarkly\\FeatureFlagController::isEnabledForUser<\/a>"],[66.66666666666666,4,"<a href=\"LaunchDarkly\/FeatureFlagController.php.html#53\">App\\Core\\UserInterface\\Api\\LaunchDarkly\\FeatureFlagController::isEnabledForEstablishment<\/a>"],[0,3,"<a href=\"LaunchDarkly\/FeatureFlagController.php.html#77\">App\\Core\\UserInterface\\Api\\LaunchDarkly\\FeatureFlagController::isMaintenanceEnabled<\/a>"],[100,1,"<a href=\"Offer\/DeleteOfferController.php.html#17\">App\\Core\\UserInterface\\Api\\Offer\\DeleteOfferController::__construct<\/a>"],[100,1,"<a href=\"Offer\/DeleteOfferController.php.html#21\">App\\Core\\UserInterface\\Api\\Offer\\DeleteOfferController::delete<\/a>"],[100,1,"<a href=\"Offer\/ListOfferRecruitmentController.php.html#18\">App\\Core\\UserInterface\\Api\\Offer\\ListOfferRecruitmentController::__construct<\/a>"],[100,1,"<a href=\"Offer\/ListOfferRecruitmentController.php.html#22\">App\\Core\\UserInterface\\Api\\Offer\\ListOfferRecruitmentController::listByRecruitment<\/a>"],[100,1,"<a href=\"Offer\/OfferCreationWorkflowController.php.html#28\">App\\Core\\UserInterface\\Api\\Offer\\OfferCreationWorkflowController::__construct<\/a>"],[96.29629629629629,6,"<a href=\"Offer\/OfferCreationWorkflowController.php.html#38\">App\\Core\\UserInterface\\Api\\Offer\\OfferCreationWorkflowController::createByRecruitment<\/a>"],[53.84615384615385,3,"<a href=\"Offer\/OfferCreationWorkflowController.php.html#81\">App\\Core\\UserInterface\\Api\\Offer\\OfferCreationWorkflowController::update<\/a>"],[100,1,"<a href=\"Offer\/OfferCreationWorkflowController.php.html#107\">App\\Core\\UserInterface\\Api\\Offer\\OfferCreationWorkflowController::undraft<\/a>"],[0,2,"<a href=\"Recruiter\/ListRecruiterController.php.html#19\">App\\Core\\UserInterface\\Api\\Recruiter\\ListRecruiterController::listByEstablishment<\/a>"],[100,1,"<a href=\"Recruitment\/CandidateRecruitmentController.php.html#42\">App\\Core\\UserInterface\\Api\\Recruitment\\CandidateRecruitmentController::__construct<\/a>"],[92.3076923076923,9,"<a href=\"Recruitment\/CandidateRecruitmentController.php.html#49\">App\\Core\\UserInterface\\Api\\Recruitment\\CandidateRecruitmentController::addMany<\/a>"],[100,1,"<a href=\"Recruitment\/CandidateRecruitmentController.php.html#107\">App\\Core\\UserInterface\\Api\\Recruitment\\CandidateRecruitmentController::remove<\/a>"],[57.89473684210527,3,"<a href=\"Recruitment\/CandidateRecruitmentController.php.html#127\">App\\Core\\UserInterface\\Api\\Recruitment\\CandidateRecruitmentController::move<\/a>"],[56.666666666666664,18,"<a href=\"Recruitment\/CandidateRecruitmentController.php.html#160\">App\\Core\\UserInterface\\Api\\Recruitment\\CandidateRecruitmentController::import<\/a>"],[100,1,"<a href=\"Recruitment\/CreateRecruitmentController.php.html#25\">App\\Core\\UserInterface\\Api\\Recruitment\\CreateRecruitmentController::__construct<\/a>"],[87.5,5,"<a href=\"Recruitment\/CreateRecruitmentController.php.html#34\">App\\Core\\UserInterface\\Api\\Recruitment\\CreateRecruitmentController::createByEstablishment<\/a>"],[100,1,"<a href=\"Recruitment\/DeleteRecruitmentController.php.html#27\">App\\Core\\UserInterface\\Api\\Recruitment\\DeleteRecruitmentController::__construct<\/a>"],[100,2,"<a href=\"Recruitment\/DeleteRecruitmentController.php.html#37\">App\\Core\\UserInterface\\Api\\Recruitment\\DeleteRecruitmentController::delete<\/a>"],[100,2,"<a href=\"Recruitment\/DeleteRecruitmentController.php.html#52\">App\\Core\\UserInterface\\Api\\Recruitment\\DeleteRecruitmentController::close<\/a>"],[100,5,"<a href=\"Recruitment\/DeleteRecruitmentController.php.html#75\">App\\Core\\UserInterface\\Api\\Recruitment\\DeleteRecruitmentController::unclose<\/a>"],[100,1,"<a href=\"Recruitment\/DeleteRecruitmentController.php.html#96\">App\\Core\\UserInterface\\Api\\Recruitment\\DeleteRecruitmentController::archive<\/a>"],[100,1,"<a href=\"Recruitment\/UpdateRecruitmentController.php.html#33\">App\\Core\\UserInterface\\Api\\Recruitment\\UpdateRecruitmentController::__construct<\/a>"],[100,1,"<a href=\"Recruitment\/UpdateRecruitmentController.php.html#45\">App\\Core\\UserInterface\\Api\\Recruitment\\UpdateRecruitmentController::syncCollaborators<\/a>"],[64.28571428571429,30,"<a href=\"Recruitment\/UpdateRecruitmentController.php.html#65\">App\\Core\\UserInterface\\Api\\Recruitment\\UpdateRecruitmentController::update<\/a>"],[100,2,"<a href=\"Recruitment\/UpdateRecruitmentController.php.html#206\">App\\Core\\UserInterface\\Api\\Recruitment\\UpdateRecruitmentController::updateFeedback<\/a>"],[0,1,"<a href=\"RhGroup\/RhGroupHistoryController.php.html#18\">App\\Core\\UserInterface\\Api\\RhGroup\\RhGroupHistoryController::__construct<\/a>"],[0,1,"<a href=\"RhGroup\/RhGroupHistoryController.php.html#22\">App\\Core\\UserInterface\\Api\\RhGroup\\RhGroupHistoryController::listByGroup<\/a>"],[0,5,"<a href=\"User\/ImportUserController.php.html#26\">App\\Core\\UserInterface\\Api\\User\\ImportUserController::importUsersFromXLS<\/a>"],[0,6,"<a href=\"User\/ImportUserController.php.html#53\">App\\Core\\UserInterface\\Api\\User\\ImportUserController::importUsersToEstablishmentFromXLS<\/a>"],[0,6,"<a href=\"User\/ImportUserController.php.html#86\">App\\Core\\UserInterface\\Api\\User\\ImportUserController::importUsersToRhGroupFromXLS<\/a>"],[0,1,"<a href=\"User\/ImportUserController.php.html#119\">App\\Core\\UserInterface\\Api\\User\\ImportUserController::getResponseFromImportResult<\/a>"],[0,2,"<a href=\"User\/ImportUserController.php.html#132\">App\\Core\\UserInterface\\Api\\User\\ImportUserController::sendMailsFromImportResult<\/a>"],[100,1,"<a href=\"User\/ResetPasswordController.php.html#21\">App\\Core\\UserInterface\\Api\\User\\ResetPasswordController::__construct<\/a>"],[100,1,"<a href=\"User\/ResetPasswordController.php.html#24\">App\\Core\\UserInterface\\Api\\User\\ResetPasswordController::passwordResetRequest<\/a>"],[100,1,"<a href=\"User\/ResetPasswordController.php.html#35\">App\\Core\\UserInterface\\Api\\User\\ResetPasswordController::doResetPassword<\/a>"],[0,1,"<a href=\"User\/ResetPasswordController.php.html#48\">App\\Core\\UserInterface\\Api\\User\\ResetPasswordController::changePassword<\/a>"],[0,1,"<a href=\"User\/ResetPasswordController.php.html#60\">App\\Core\\UserInterface\\Api\\User\\ResetPasswordController::selfChangePassword<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

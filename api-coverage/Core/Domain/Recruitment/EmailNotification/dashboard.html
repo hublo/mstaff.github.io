@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /Users/alexandre/Dev/mstaff-v3-api/src/Core/Domain/Recruitment/EmailNotification</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../_css/bootstrap.min.css?v=9.2.29" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/nv.d3.min.css?v=9.2.29" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/style.css?v=9.2.29" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../../index.html">/Users/alexandre/Dev/mstaff-v3-api/src</a></li>
+         <li class="breadcrumb-item"><a href="../../../index.html">Core</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">Domain</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Recruitment</a></li>
+         <li class="breadcrumb-item"><a href="index.html">EmailNotification</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="RecruitmentCreatedToTemporaryCollaboratorsEmail.php.html#11">App\Core\Domain\Recruitment\EmailNotification\RecruitmentCreatedToTemporaryCollaboratorsEmail</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewStepValidatedEmail.php.html#11">App\Core\Domain\Recruitment\EmailNotification\RecruitmentNewStepValidatedEmail</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentOpenedEmail.php.html#11">App\Core\Domain\Recruitment\EmailNotification\RecruitmentOpenedEmail</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentTemporaryCollaboratorsAddedEmail.php.html#11">App\Core\Domain\Recruitment\EmailNotification\RecruitmentTemporaryCollaboratorsAddedEmail</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCandidateMovedEmail.php.html#13">App\Core\Domain\Recruitment\EmailNotification\RecruitmentCandidateMovedEmail</a></td><td class="text-right">15%</td></tr>
+       <tr><td><a href="NewCandidacyEmail.php.html#10">App\Core\Domain\Recruitment\EmailNotification\NewCandidacyEmail</a></td><td class="text-right">41%</td></tr>
+       <tr><td><a href="RecruitmentClosedToCollaboratorsAndValidatorsEmail.php.html#11">App\Core\Domain\Recruitment\EmailNotification\RecruitmentClosedToCollaboratorsAndValidatorsEmail</a></td><td class="text-right">53%</td></tr>
+       <tr><td><a href="RecruitmentCollaboratorsAddedEmail.php.html#11">App\Core\Domain\Recruitment\EmailNotification\RecruitmentCollaboratorsAddedEmail</a></td><td class="text-right">53%</td></tr>
+       <tr><td><a href="RecruitmentCreatedToCollaboratorsEmail.php.html#11">App\Core\Domain\Recruitment\EmailNotification\RecruitmentCreatedToCollaboratorsEmail</a></td><td class="text-right">53%</td></tr>
+       <tr><td><a href="RecruitmentCreatedToCurrentStepValidatorsEmail.php.html#11">App\Core\Domain\Recruitment\EmailNotification\RecruitmentCreatedToCurrentStepValidatorsEmail</a></td><td class="text-right">53%</td></tr>
+       <tr><td><a href="RecruitmentUnClosedToCollaboratorsAndValidatorsEmail.php.html#11">App\Core\Domain\Recruitment\EmailNotification\RecruitmentUnClosedToCollaboratorsAndValidatorsEmail</a></td><td class="text-right">53%</td></tr>
+       <tr><td><a href="RecruitmentNewValidationToCreatorEmail.php.html#11">App\Core\Domain\Recruitment\EmailNotification\RecruitmentNewValidationToCreatorEmail</a></td><td class="text-right">58%</td></tr>
+       <tr><td><a href="RecruitmentNewValidationToCurrentStepValidatorsEmail.php.html#11">App\Core\Domain\Recruitment\EmailNotification\RecruitmentNewValidationToCurrentStepValidatorsEmail</a></td><td class="text-right">58%</td></tr>
+       <tr><td><a href="RecruitmentUpdatedEmail.php.html#11">App\Core\Domain\Recruitment\EmailNotification\RecruitmentUpdatedEmail</a></td><td class="text-right">62%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="NewCandidacyEmail.php.html#22"><abbr title="App\Core\Domain\Recruitment\EmailNotification\NewCandidacyEmail::getSlug">getSlug</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NewCandidacyEmail.php.html#26"><abbr title="App\Core\Domain\Recruitment\EmailNotification\NewCandidacyEmail::getDefaultSubject">getDefaultSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NewCandidacyEmail.php.html#30"><abbr title="App\Core\Domain\Recruitment\EmailNotification\NewCandidacyEmail::getSubjectVariables">getSubjectVariables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NewCandidacyEmail.php.html#34"><abbr title="App\Core\Domain\Recruitment\EmailNotification\NewCandidacyEmail::getTemplate">getTemplate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NewCandidacyEmail.php.html#48"><abbr title="App\Core\Domain\Recruitment\EmailNotification\NewCandidacyEmail::getAttachments">getAttachments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NewCandidacyEmail.php.html#52"><abbr title="App\Core\Domain\Recruitment\EmailNotification\NewCandidacyEmail::getReplyTo">getReplyTo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NewCandidacyEmail.php.html#56"><abbr title="App\Core\Domain\Recruitment\EmailNotification\NewCandidacyEmail::getCustomSubject">getCustomSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCandidateMovedEmail.php.html#34"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentCandidateMovedEmail::getDefaultSubject">getDefaultSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCandidateMovedEmail.php.html#38"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentCandidateMovedEmail::getSubjectVariables">getSubjectVariables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCandidateMovedEmail.php.html#42"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentCandidateMovedEmail::getTemplate">getTemplate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCandidateMovedEmail.php.html#50"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentCandidateMovedEmail::getVariables">getVariables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCandidateMovedEmail.php.html#64"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentCandidateMovedEmail::getAttachments">getAttachments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCandidateMovedEmail.php.html#68"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentCandidateMovedEmail::getReplyTo">getReplyTo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCandidateMovedEmail.php.html#72"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentCandidateMovedEmail::getCustomSubject">getCustomSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentClosedToCollaboratorsAndValidatorsEmail.php.html#24"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentClosedToCollaboratorsAndValidatorsEmail::getAttachments">getAttachments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentClosedToCollaboratorsAndValidatorsEmail.php.html#28"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentClosedToCollaboratorsAndValidatorsEmail::getCustomSubject">getCustomSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentClosedToCollaboratorsAndValidatorsEmail.php.html#32"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentClosedToCollaboratorsAndValidatorsEmail::getDefaultSubject">getDefaultSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentClosedToCollaboratorsAndValidatorsEmail.php.html#36"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentClosedToCollaboratorsAndValidatorsEmail::getReplyTo">getReplyTo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentClosedToCollaboratorsAndValidatorsEmail.php.html#40"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentClosedToCollaboratorsAndValidatorsEmail::getSlug">getSlug</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentClosedToCollaboratorsAndValidatorsEmail.php.html#44"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentClosedToCollaboratorsAndValidatorsEmail::getSubjectVariables">getSubjectVariables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentClosedToCollaboratorsAndValidatorsEmail.php.html#52"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentClosedToCollaboratorsAndValidatorsEmail::getUsers">getUsers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCollaboratorsAddedEmail.php.html#24"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentCollaboratorsAddedEmail::getAttachments">getAttachments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCollaboratorsAddedEmail.php.html#28"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentCollaboratorsAddedEmail::getCustomSubject">getCustomSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCollaboratorsAddedEmail.php.html#32"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentCollaboratorsAddedEmail::getDefaultSubject">getDefaultSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCollaboratorsAddedEmail.php.html#36"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentCollaboratorsAddedEmail::getReplyTo">getReplyTo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCollaboratorsAddedEmail.php.html#40"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentCollaboratorsAddedEmail::getSlug">getSlug</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCollaboratorsAddedEmail.php.html#44"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentCollaboratorsAddedEmail::getSubjectVariables">getSubjectVariables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCollaboratorsAddedEmail.php.html#52"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentCollaboratorsAddedEmail::getUsers">getUsers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCreatedToCollaboratorsEmail.php.html#24"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentCreatedToCollaboratorsEmail::getAttachments">getAttachments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCreatedToCollaboratorsEmail.php.html#28"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentCreatedToCollaboratorsEmail::getCustomSubject">getCustomSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCreatedToCollaboratorsEmail.php.html#32"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentCreatedToCollaboratorsEmail::getDefaultSubject">getDefaultSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCreatedToCollaboratorsEmail.php.html#36"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentCreatedToCollaboratorsEmail::getReplyTo">getReplyTo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCreatedToCollaboratorsEmail.php.html#40"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentCreatedToCollaboratorsEmail::getSlug">getSlug</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCreatedToCollaboratorsEmail.php.html#44"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentCreatedToCollaboratorsEmail::getSubjectVariables">getSubjectVariables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCreatedToCollaboratorsEmail.php.html#52"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentCreatedToCollaboratorsEmail::getUsers">getUsers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCreatedToCurrentStepValidatorsEmail.php.html#24"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentCreatedToCurrentStepValidatorsEmail::getSlug">getSlug</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCreatedToCurrentStepValidatorsEmail.php.html#28"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentCreatedToCurrentStepValidatorsEmail::getDefaultSubject">getDefaultSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCreatedToCurrentStepValidatorsEmail.php.html#32"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentCreatedToCurrentStepValidatorsEmail::getSubjectVariables">getSubjectVariables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCreatedToCurrentStepValidatorsEmail.php.html#40"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentCreatedToCurrentStepValidatorsEmail::getUsers">getUsers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCreatedToCurrentStepValidatorsEmail.php.html#53"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentCreatedToCurrentStepValidatorsEmail::getAttachments">getAttachments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCreatedToCurrentStepValidatorsEmail.php.html#57"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentCreatedToCurrentStepValidatorsEmail::getReplyTo">getReplyTo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCreatedToCurrentStepValidatorsEmail.php.html#61"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentCreatedToCurrentStepValidatorsEmail::getCustomSubject">getCustomSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCreatedToTemporaryCollaboratorsEmail.php.html#17"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentCreatedToTemporaryCollaboratorsEmail::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCreatedToTemporaryCollaboratorsEmail.php.html#25"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentCreatedToTemporaryCollaboratorsEmail::getAttachments">getAttachments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCreatedToTemporaryCollaboratorsEmail.php.html#29"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentCreatedToTemporaryCollaboratorsEmail::getCustomSubject">getCustomSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCreatedToTemporaryCollaboratorsEmail.php.html#33"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentCreatedToTemporaryCollaboratorsEmail::getDefaultSubject">getDefaultSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCreatedToTemporaryCollaboratorsEmail.php.html#37"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentCreatedToTemporaryCollaboratorsEmail::getReplyTo">getReplyTo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCreatedToTemporaryCollaboratorsEmail.php.html#41"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentCreatedToTemporaryCollaboratorsEmail::getSlug">getSlug</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCreatedToTemporaryCollaboratorsEmail.php.html#45"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentCreatedToTemporaryCollaboratorsEmail::getSubjectVariables">getSubjectVariables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCreatedToTemporaryCollaboratorsEmail.php.html#49"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentCreatedToTemporaryCollaboratorsEmail::getTemplate">getTemplate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCreatedToTemporaryCollaboratorsEmail.php.html#53"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentCreatedToTemporaryCollaboratorsEmail::getUsers">getUsers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCreatedToTemporaryCollaboratorsEmail.php.html#57"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentCreatedToTemporaryCollaboratorsEmail::getVariables">getVariables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewStepValidatedEmail.php.html#17"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentNewStepValidatedEmail::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewStepValidatedEmail.php.html#24"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentNewStepValidatedEmail::getSlug">getSlug</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewStepValidatedEmail.php.html#28"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentNewStepValidatedEmail::getDefaultSubject">getDefaultSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewStepValidatedEmail.php.html#32"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentNewStepValidatedEmail::getSubjectVariables">getSubjectVariables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewStepValidatedEmail.php.html#36"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentNewStepValidatedEmail::getTemplate">getTemplate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewStepValidatedEmail.php.html#40"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentNewStepValidatedEmail::getUsers">getUsers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewStepValidatedEmail.php.html#44"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentNewStepValidatedEmail::getVariables">getVariables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewStepValidatedEmail.php.html#54"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentNewStepValidatedEmail::getAttachments">getAttachments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewStepValidatedEmail.php.html#58"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentNewStepValidatedEmail::getReplyTo">getReplyTo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewStepValidatedEmail.php.html#62"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentNewStepValidatedEmail::getCustomSubject">getCustomSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewValidationToCreatorEmail.php.html#25"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentNewValidationToCreatorEmail::getSlug">getSlug</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewValidationToCreatorEmail.php.html#29"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentNewValidationToCreatorEmail::getDefaultSubject">getDefaultSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewValidationToCreatorEmail.php.html#33"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentNewValidationToCreatorEmail::getSubjectVariables">getSubjectVariables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewValidationToCreatorEmail.php.html#41"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentNewValidationToCreatorEmail::getUsers">getUsers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewValidationToCreatorEmail.php.html#56"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentNewValidationToCreatorEmail::getAttachments">getAttachments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewValidationToCreatorEmail.php.html#60"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentNewValidationToCreatorEmail::getReplyTo">getReplyTo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewValidationToCreatorEmail.php.html#64"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentNewValidationToCreatorEmail::getCustomSubject">getCustomSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewValidationToCurrentStepValidatorsEmail.php.html#25"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentNewValidationToCurrentStepValidatorsEmail::getSlug">getSlug</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewValidationToCurrentStepValidatorsEmail.php.html#29"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentNewValidationToCurrentStepValidatorsEmail::getDefaultSubject">getDefaultSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewValidationToCurrentStepValidatorsEmail.php.html#33"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentNewValidationToCurrentStepValidatorsEmail::getSubjectVariables">getSubjectVariables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewValidationToCurrentStepValidatorsEmail.php.html#41"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentNewValidationToCurrentStepValidatorsEmail::getUsers">getUsers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewValidationToCurrentStepValidatorsEmail.php.html#56"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentNewValidationToCurrentStepValidatorsEmail::getAttachments">getAttachments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewValidationToCurrentStepValidatorsEmail.php.html#60"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentNewValidationToCurrentStepValidatorsEmail::getReplyTo">getReplyTo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewValidationToCurrentStepValidatorsEmail.php.html#64"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentNewValidationToCurrentStepValidatorsEmail::getCustomSubject">getCustomSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentOpenedEmail.php.html#17"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentOpenedEmail::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentOpenedEmail.php.html#24"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentOpenedEmail::getSlug">getSlug</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentOpenedEmail.php.html#28"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentOpenedEmail::getDefaultSubject">getDefaultSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentOpenedEmail.php.html#32"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentOpenedEmail::getSubjectVariables">getSubjectVariables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentOpenedEmail.php.html#36"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentOpenedEmail::getTemplate">getTemplate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentOpenedEmail.php.html#40"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentOpenedEmail::getUsers">getUsers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentOpenedEmail.php.html#44"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentOpenedEmail::getVariables">getVariables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentOpenedEmail.php.html#54"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentOpenedEmail::getAttachments">getAttachments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentOpenedEmail.php.html#58"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentOpenedEmail::getReplyTo">getReplyTo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentOpenedEmail.php.html#62"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentOpenedEmail::getCustomSubject">getCustomSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentTemporaryCollaboratorsAddedEmail.php.html#17"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentTemporaryCollaboratorsAddedEmail::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentTemporaryCollaboratorsAddedEmail.php.html#25"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentTemporaryCollaboratorsAddedEmail::getAttachments">getAttachments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentTemporaryCollaboratorsAddedEmail.php.html#29"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentTemporaryCollaboratorsAddedEmail::getCustomSubject">getCustomSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentTemporaryCollaboratorsAddedEmail.php.html#33"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentTemporaryCollaboratorsAddedEmail::getDefaultSubject">getDefaultSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentTemporaryCollaboratorsAddedEmail.php.html#37"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentTemporaryCollaboratorsAddedEmail::getReplyTo">getReplyTo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentTemporaryCollaboratorsAddedEmail.php.html#41"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentTemporaryCollaboratorsAddedEmail::getSlug">getSlug</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentTemporaryCollaboratorsAddedEmail.php.html#45"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentTemporaryCollaboratorsAddedEmail::getSubjectVariables">getSubjectVariables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentTemporaryCollaboratorsAddedEmail.php.html#49"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentTemporaryCollaboratorsAddedEmail::getTemplate">getTemplate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentTemporaryCollaboratorsAddedEmail.php.html#53"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentTemporaryCollaboratorsAddedEmail::getUsers">getUsers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentTemporaryCollaboratorsAddedEmail.php.html#57"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentTemporaryCollaboratorsAddedEmail::getVariables">getVariables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentUnClosedToCollaboratorsAndValidatorsEmail.php.html#24"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentUnClosedToCollaboratorsAndValidatorsEmail::getAttachments">getAttachments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentUnClosedToCollaboratorsAndValidatorsEmail.php.html#28"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentUnClosedToCollaboratorsAndValidatorsEmail::getCustomSubject">getCustomSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentUnClosedToCollaboratorsAndValidatorsEmail.php.html#32"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentUnClosedToCollaboratorsAndValidatorsEmail::getDefaultSubject">getDefaultSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentUnClosedToCollaboratorsAndValidatorsEmail.php.html#36"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentUnClosedToCollaboratorsAndValidatorsEmail::getReplyTo">getReplyTo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentUnClosedToCollaboratorsAndValidatorsEmail.php.html#40"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentUnClosedToCollaboratorsAndValidatorsEmail::getSlug">getSlug</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentUnClosedToCollaboratorsAndValidatorsEmail.php.html#44"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentUnClosedToCollaboratorsAndValidatorsEmail::getSubjectVariables">getSubjectVariables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentUnClosedToCollaboratorsAndValidatorsEmail.php.html#52"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentUnClosedToCollaboratorsAndValidatorsEmail::getUsers">getUsers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentUpdatedEmail.php.html#27"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentUpdatedEmail::getDefaultSubject">getDefaultSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentUpdatedEmail.php.html#31"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentUpdatedEmail::getSubjectVariables">getSubjectVariables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentUpdatedEmail.php.html#35"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentUpdatedEmail::getTemplate">getTemplate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentUpdatedEmail.php.html#53"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentUpdatedEmail::getAttachments">getAttachments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentUpdatedEmail.php.html#57"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentUpdatedEmail::getReplyTo">getReplyTo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentUpdatedEmail.php.html#61"><abbr title="App\Core\Domain\Recruitment\EmailNotification\RecruitmentUpdatedEmail::getCustomSubject">getCustomSubject</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 9.2.29</a> using <a href="https://secure.php.net/" target="_top">PHP 8.0.30</a> and <a href="https://phpunit.de/">PHPUnit 9.6.13</a> at Wed Oct 25 8:07:49 UTC 2023.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../_js/jquery.min.js?v=9.2.29" type="text/javascript"></script>
+  <script src="../../../../_js/d3.min.js?v=9.2.29" type="text/javascript"></script>
+  <script src="../../../../_js/nv.d3.min.js?v=9.2.29" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([4,0,1,0,0,1,7,1,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([109,0,0,0,0,0,0,0,0,0,0,31], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[41.66666666666667,10,"<a href=\"NewCandidacyEmail.php.html#10\">App\\Core\\Domain\\Recruitment\\EmailNotification\\NewCandidacyEmail<\/a>"],[15,10,"<a href=\"RecruitmentCandidateMovedEmail.php.html#13\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCandidateMovedEmail<\/a>"],[53.333333333333336,10,"<a href=\"RecruitmentClosedToCollaboratorsAndValidatorsEmail.php.html#11\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentClosedToCollaboratorsAndValidatorsEmail<\/a>"],[53.333333333333336,10,"<a href=\"RecruitmentCollaboratorsAddedEmail.php.html#11\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCollaboratorsAddedEmail<\/a>"],[53.333333333333336,10,"<a href=\"RecruitmentCreatedToCollaboratorsEmail.php.html#11\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCreatedToCollaboratorsEmail<\/a>"],[53.333333333333336,10,"<a href=\"RecruitmentCreatedToCurrentStepValidatorsEmail.php.html#11\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCreatedToCurrentStepValidatorsEmail<\/a>"],[0,10,"<a href=\"RecruitmentCreatedToTemporaryCollaboratorsEmail.php.html#11\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCreatedToTemporaryCollaboratorsEmail<\/a>"],[0,10,"<a href=\"RecruitmentNewStepValidatedEmail.php.html#11\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentNewStepValidatedEmail<\/a>"],[58.82352941176471,10,"<a href=\"RecruitmentNewValidationToCreatorEmail.php.html#11\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentNewValidationToCreatorEmail<\/a>"],[58.82352941176471,10,"<a href=\"RecruitmentNewValidationToCurrentStepValidatorsEmail.php.html#11\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentNewValidationToCurrentStepValidatorsEmail<\/a>"],[0,10,"<a href=\"RecruitmentOpenedEmail.php.html#11\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentOpenedEmail<\/a>"],[0,10,"<a href=\"RecruitmentTemporaryCollaboratorsAddedEmail.php.html#11\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentTemporaryCollaboratorsAddedEmail<\/a>"],[53.333333333333336,10,"<a href=\"RecruitmentUnClosedToCollaboratorsAndValidatorsEmail.php.html#11\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentUnClosedToCollaboratorsAndValidatorsEmail<\/a>"],[62.5,10,"<a href=\"RecruitmentUpdatedEmail.php.html#11\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentUpdatedEmail<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"NewCandidacyEmail.php.html#16\">App\\Core\\Domain\\Recruitment\\EmailNotification\\NewCandidacyEmail::__construct<\/a>"],[0,1,"<a href=\"NewCandidacyEmail.php.html#22\">App\\Core\\Domain\\Recruitment\\EmailNotification\\NewCandidacyEmail::getSlug<\/a>"],[0,1,"<a href=\"NewCandidacyEmail.php.html#26\">App\\Core\\Domain\\Recruitment\\EmailNotification\\NewCandidacyEmail::getDefaultSubject<\/a>"],[0,1,"<a href=\"NewCandidacyEmail.php.html#30\">App\\Core\\Domain\\Recruitment\\EmailNotification\\NewCandidacyEmail::getSubjectVariables<\/a>"],[0,1,"<a href=\"NewCandidacyEmail.php.html#34\">App\\Core\\Domain\\Recruitment\\EmailNotification\\NewCandidacyEmail::getTemplate<\/a>"],[100,1,"<a href=\"NewCandidacyEmail.php.html#38\">App\\Core\\Domain\\Recruitment\\EmailNotification\\NewCandidacyEmail::getUsers<\/a>"],[100,1,"<a href=\"NewCandidacyEmail.php.html#42\">App\\Core\\Domain\\Recruitment\\EmailNotification\\NewCandidacyEmail::getVariables<\/a>"],[0,1,"<a href=\"NewCandidacyEmail.php.html#48\">App\\Core\\Domain\\Recruitment\\EmailNotification\\NewCandidacyEmail::getAttachments<\/a>"],[0,1,"<a href=\"NewCandidacyEmail.php.html#52\">App\\Core\\Domain\\Recruitment\\EmailNotification\\NewCandidacyEmail::getReplyTo<\/a>"],[0,1,"<a href=\"NewCandidacyEmail.php.html#56\">App\\Core\\Domain\\Recruitment\\EmailNotification\\NewCandidacyEmail::getCustomSubject<\/a>"],[100,1,"<a href=\"RecruitmentCandidateMovedEmail.php.html#19\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCandidateMovedEmail::__construct<\/a>"],[100,1,"<a href=\"RecruitmentCandidateMovedEmail.php.html#30\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCandidateMovedEmail::getSlug<\/a>"],[0,1,"<a href=\"RecruitmentCandidateMovedEmail.php.html#34\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCandidateMovedEmail::getDefaultSubject<\/a>"],[0,1,"<a href=\"RecruitmentCandidateMovedEmail.php.html#38\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCandidateMovedEmail::getSubjectVariables<\/a>"],[0,1,"<a href=\"RecruitmentCandidateMovedEmail.php.html#42\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCandidateMovedEmail::getTemplate<\/a>"],[100,1,"<a href=\"RecruitmentCandidateMovedEmail.php.html#46\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCandidateMovedEmail::getUsers<\/a>"],[0,1,"<a href=\"RecruitmentCandidateMovedEmail.php.html#50\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCandidateMovedEmail::getVariables<\/a>"],[0,1,"<a href=\"RecruitmentCandidateMovedEmail.php.html#64\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCandidateMovedEmail::getAttachments<\/a>"],[0,1,"<a href=\"RecruitmentCandidateMovedEmail.php.html#68\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCandidateMovedEmail::getReplyTo<\/a>"],[0,1,"<a href=\"RecruitmentCandidateMovedEmail.php.html#72\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCandidateMovedEmail::getCustomSubject<\/a>"],[100,1,"<a href=\"RecruitmentClosedToCollaboratorsAndValidatorsEmail.php.html#17\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentClosedToCollaboratorsAndValidatorsEmail::__construct<\/a>"],[0,1,"<a href=\"RecruitmentClosedToCollaboratorsAndValidatorsEmail.php.html#24\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentClosedToCollaboratorsAndValidatorsEmail::getAttachments<\/a>"],[0,1,"<a href=\"RecruitmentClosedToCollaboratorsAndValidatorsEmail.php.html#28\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentClosedToCollaboratorsAndValidatorsEmail::getCustomSubject<\/a>"],[0,1,"<a href=\"RecruitmentClosedToCollaboratorsAndValidatorsEmail.php.html#32\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentClosedToCollaboratorsAndValidatorsEmail::getDefaultSubject<\/a>"],[0,1,"<a href=\"RecruitmentClosedToCollaboratorsAndValidatorsEmail.php.html#36\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentClosedToCollaboratorsAndValidatorsEmail::getReplyTo<\/a>"],[0,1,"<a href=\"RecruitmentClosedToCollaboratorsAndValidatorsEmail.php.html#40\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentClosedToCollaboratorsAndValidatorsEmail::getSlug<\/a>"],[0,1,"<a href=\"RecruitmentClosedToCollaboratorsAndValidatorsEmail.php.html#44\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentClosedToCollaboratorsAndValidatorsEmail::getSubjectVariables<\/a>"],[100,1,"<a href=\"RecruitmentClosedToCollaboratorsAndValidatorsEmail.php.html#48\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentClosedToCollaboratorsAndValidatorsEmail::getTemplate<\/a>"],[0,1,"<a href=\"RecruitmentClosedToCollaboratorsAndValidatorsEmail.php.html#52\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentClosedToCollaboratorsAndValidatorsEmail::getUsers<\/a>"],[100,1,"<a href=\"RecruitmentClosedToCollaboratorsAndValidatorsEmail.php.html#56\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentClosedToCollaboratorsAndValidatorsEmail::getVariables<\/a>"],[100,1,"<a href=\"RecruitmentCollaboratorsAddedEmail.php.html#17\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCollaboratorsAddedEmail::__construct<\/a>"],[0,1,"<a href=\"RecruitmentCollaboratorsAddedEmail.php.html#24\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCollaboratorsAddedEmail::getAttachments<\/a>"],[0,1,"<a href=\"RecruitmentCollaboratorsAddedEmail.php.html#28\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCollaboratorsAddedEmail::getCustomSubject<\/a>"],[0,1,"<a href=\"RecruitmentCollaboratorsAddedEmail.php.html#32\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCollaboratorsAddedEmail::getDefaultSubject<\/a>"],[0,1,"<a href=\"RecruitmentCollaboratorsAddedEmail.php.html#36\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCollaboratorsAddedEmail::getReplyTo<\/a>"],[0,1,"<a href=\"RecruitmentCollaboratorsAddedEmail.php.html#40\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCollaboratorsAddedEmail::getSlug<\/a>"],[0,1,"<a href=\"RecruitmentCollaboratorsAddedEmail.php.html#44\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCollaboratorsAddedEmail::getSubjectVariables<\/a>"],[100,1,"<a href=\"RecruitmentCollaboratorsAddedEmail.php.html#48\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCollaboratorsAddedEmail::getTemplate<\/a>"],[0,1,"<a href=\"RecruitmentCollaboratorsAddedEmail.php.html#52\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCollaboratorsAddedEmail::getUsers<\/a>"],[100,1,"<a href=\"RecruitmentCollaboratorsAddedEmail.php.html#56\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCollaboratorsAddedEmail::getVariables<\/a>"],[100,1,"<a href=\"RecruitmentCreatedToCollaboratorsEmail.php.html#17\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCreatedToCollaboratorsEmail::__construct<\/a>"],[0,1,"<a href=\"RecruitmentCreatedToCollaboratorsEmail.php.html#24\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCreatedToCollaboratorsEmail::getAttachments<\/a>"],[0,1,"<a href=\"RecruitmentCreatedToCollaboratorsEmail.php.html#28\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCreatedToCollaboratorsEmail::getCustomSubject<\/a>"],[0,1,"<a href=\"RecruitmentCreatedToCollaboratorsEmail.php.html#32\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCreatedToCollaboratorsEmail::getDefaultSubject<\/a>"],[0,1,"<a href=\"RecruitmentCreatedToCollaboratorsEmail.php.html#36\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCreatedToCollaboratorsEmail::getReplyTo<\/a>"],[0,1,"<a href=\"RecruitmentCreatedToCollaboratorsEmail.php.html#40\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCreatedToCollaboratorsEmail::getSlug<\/a>"],[0,1,"<a href=\"RecruitmentCreatedToCollaboratorsEmail.php.html#44\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCreatedToCollaboratorsEmail::getSubjectVariables<\/a>"],[100,1,"<a href=\"RecruitmentCreatedToCollaboratorsEmail.php.html#48\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCreatedToCollaboratorsEmail::getTemplate<\/a>"],[0,1,"<a href=\"RecruitmentCreatedToCollaboratorsEmail.php.html#52\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCreatedToCollaboratorsEmail::getUsers<\/a>"],[100,1,"<a href=\"RecruitmentCreatedToCollaboratorsEmail.php.html#56\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCreatedToCollaboratorsEmail::getVariables<\/a>"],[100,1,"<a href=\"RecruitmentCreatedToCurrentStepValidatorsEmail.php.html#17\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCreatedToCurrentStepValidatorsEmail::__construct<\/a>"],[0,1,"<a href=\"RecruitmentCreatedToCurrentStepValidatorsEmail.php.html#24\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCreatedToCurrentStepValidatorsEmail::getSlug<\/a>"],[0,1,"<a href=\"RecruitmentCreatedToCurrentStepValidatorsEmail.php.html#28\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCreatedToCurrentStepValidatorsEmail::getDefaultSubject<\/a>"],[0,1,"<a href=\"RecruitmentCreatedToCurrentStepValidatorsEmail.php.html#32\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCreatedToCurrentStepValidatorsEmail::getSubjectVariables<\/a>"],[100,1,"<a href=\"RecruitmentCreatedToCurrentStepValidatorsEmail.php.html#36\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCreatedToCurrentStepValidatorsEmail::getTemplate<\/a>"],[0,1,"<a href=\"RecruitmentCreatedToCurrentStepValidatorsEmail.php.html#40\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCreatedToCurrentStepValidatorsEmail::getUsers<\/a>"],[100,1,"<a href=\"RecruitmentCreatedToCurrentStepValidatorsEmail.php.html#44\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCreatedToCurrentStepValidatorsEmail::getVariables<\/a>"],[0,1,"<a href=\"RecruitmentCreatedToCurrentStepValidatorsEmail.php.html#53\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCreatedToCurrentStepValidatorsEmail::getAttachments<\/a>"],[0,1,"<a href=\"RecruitmentCreatedToCurrentStepValidatorsEmail.php.html#57\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCreatedToCurrentStepValidatorsEmail::getReplyTo<\/a>"],[0,1,"<a href=\"RecruitmentCreatedToCurrentStepValidatorsEmail.php.html#61\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCreatedToCurrentStepValidatorsEmail::getCustomSubject<\/a>"],[0,1,"<a href=\"RecruitmentCreatedToTemporaryCollaboratorsEmail.php.html#17\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCreatedToTemporaryCollaboratorsEmail::__construct<\/a>"],[0,1,"<a href=\"RecruitmentCreatedToTemporaryCollaboratorsEmail.php.html#25\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCreatedToTemporaryCollaboratorsEmail::getAttachments<\/a>"],[0,1,"<a href=\"RecruitmentCreatedToTemporaryCollaboratorsEmail.php.html#29\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCreatedToTemporaryCollaboratorsEmail::getCustomSubject<\/a>"],[0,1,"<a href=\"RecruitmentCreatedToTemporaryCollaboratorsEmail.php.html#33\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCreatedToTemporaryCollaboratorsEmail::getDefaultSubject<\/a>"],[0,1,"<a href=\"RecruitmentCreatedToTemporaryCollaboratorsEmail.php.html#37\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCreatedToTemporaryCollaboratorsEmail::getReplyTo<\/a>"],[0,1,"<a href=\"RecruitmentCreatedToTemporaryCollaboratorsEmail.php.html#41\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCreatedToTemporaryCollaboratorsEmail::getSlug<\/a>"],[0,1,"<a href=\"RecruitmentCreatedToTemporaryCollaboratorsEmail.php.html#45\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCreatedToTemporaryCollaboratorsEmail::getSubjectVariables<\/a>"],[0,1,"<a href=\"RecruitmentCreatedToTemporaryCollaboratorsEmail.php.html#49\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCreatedToTemporaryCollaboratorsEmail::getTemplate<\/a>"],[0,1,"<a href=\"RecruitmentCreatedToTemporaryCollaboratorsEmail.php.html#53\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCreatedToTemporaryCollaboratorsEmail::getUsers<\/a>"],[0,1,"<a href=\"RecruitmentCreatedToTemporaryCollaboratorsEmail.php.html#57\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentCreatedToTemporaryCollaboratorsEmail::getVariables<\/a>"],[0,1,"<a href=\"RecruitmentNewStepValidatedEmail.php.html#17\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentNewStepValidatedEmail::__construct<\/a>"],[0,1,"<a href=\"RecruitmentNewStepValidatedEmail.php.html#24\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentNewStepValidatedEmail::getSlug<\/a>"],[0,1,"<a href=\"RecruitmentNewStepValidatedEmail.php.html#28\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentNewStepValidatedEmail::getDefaultSubject<\/a>"],[0,1,"<a href=\"RecruitmentNewStepValidatedEmail.php.html#32\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentNewStepValidatedEmail::getSubjectVariables<\/a>"],[0,1,"<a href=\"RecruitmentNewStepValidatedEmail.php.html#36\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentNewStepValidatedEmail::getTemplate<\/a>"],[0,1,"<a href=\"RecruitmentNewStepValidatedEmail.php.html#40\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentNewStepValidatedEmail::getUsers<\/a>"],[0,1,"<a href=\"RecruitmentNewStepValidatedEmail.php.html#44\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentNewStepValidatedEmail::getVariables<\/a>"],[0,1,"<a href=\"RecruitmentNewStepValidatedEmail.php.html#54\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentNewStepValidatedEmail::getAttachments<\/a>"],[0,1,"<a href=\"RecruitmentNewStepValidatedEmail.php.html#58\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentNewStepValidatedEmail::getReplyTo<\/a>"],[0,1,"<a href=\"RecruitmentNewStepValidatedEmail.php.html#62\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentNewStepValidatedEmail::getCustomSubject<\/a>"],[100,1,"<a href=\"RecruitmentNewValidationToCreatorEmail.php.html#17\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentNewValidationToCreatorEmail::__construct<\/a>"],[0,1,"<a href=\"RecruitmentNewValidationToCreatorEmail.php.html#25\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentNewValidationToCreatorEmail::getSlug<\/a>"],[0,1,"<a href=\"RecruitmentNewValidationToCreatorEmail.php.html#29\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentNewValidationToCreatorEmail::getDefaultSubject<\/a>"],[0,1,"<a href=\"RecruitmentNewValidationToCreatorEmail.php.html#33\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentNewValidationToCreatorEmail::getSubjectVariables<\/a>"],[100,1,"<a href=\"RecruitmentNewValidationToCreatorEmail.php.html#37\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentNewValidationToCreatorEmail::getTemplate<\/a>"],[0,1,"<a href=\"RecruitmentNewValidationToCreatorEmail.php.html#41\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentNewValidationToCreatorEmail::getUsers<\/a>"],[100,1,"<a href=\"RecruitmentNewValidationToCreatorEmail.php.html#45\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentNewValidationToCreatorEmail::getVariables<\/a>"],[0,1,"<a href=\"RecruitmentNewValidationToCreatorEmail.php.html#56\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentNewValidationToCreatorEmail::getAttachments<\/a>"],[0,1,"<a href=\"RecruitmentNewValidationToCreatorEmail.php.html#60\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentNewValidationToCreatorEmail::getReplyTo<\/a>"],[0,1,"<a href=\"RecruitmentNewValidationToCreatorEmail.php.html#64\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentNewValidationToCreatorEmail::getCustomSubject<\/a>"],[100,1,"<a href=\"RecruitmentNewValidationToCurrentStepValidatorsEmail.php.html#17\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentNewValidationToCurrentStepValidatorsEmail::__construct<\/a>"],[0,1,"<a href=\"RecruitmentNewValidationToCurrentStepValidatorsEmail.php.html#25\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentNewValidationToCurrentStepValidatorsEmail::getSlug<\/a>"],[0,1,"<a href=\"RecruitmentNewValidationToCurrentStepValidatorsEmail.php.html#29\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentNewValidationToCurrentStepValidatorsEmail::getDefaultSubject<\/a>"],[0,1,"<a href=\"RecruitmentNewValidationToCurrentStepValidatorsEmail.php.html#33\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentNewValidationToCurrentStepValidatorsEmail::getSubjectVariables<\/a>"],[100,1,"<a href=\"RecruitmentNewValidationToCurrentStepValidatorsEmail.php.html#37\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentNewValidationToCurrentStepValidatorsEmail::getTemplate<\/a>"],[0,1,"<a href=\"RecruitmentNewValidationToCurrentStepValidatorsEmail.php.html#41\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentNewValidationToCurrentStepValidatorsEmail::getUsers<\/a>"],[100,1,"<a href=\"RecruitmentNewValidationToCurrentStepValidatorsEmail.php.html#45\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentNewValidationToCurrentStepValidatorsEmail::getVariables<\/a>"],[0,1,"<a href=\"RecruitmentNewValidationToCurrentStepValidatorsEmail.php.html#56\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentNewValidationToCurrentStepValidatorsEmail::getAttachments<\/a>"],[0,1,"<a href=\"RecruitmentNewValidationToCurrentStepValidatorsEmail.php.html#60\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentNewValidationToCurrentStepValidatorsEmail::getReplyTo<\/a>"],[0,1,"<a href=\"RecruitmentNewValidationToCurrentStepValidatorsEmail.php.html#64\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentNewValidationToCurrentStepValidatorsEmail::getCustomSubject<\/a>"],[0,1,"<a href=\"RecruitmentOpenedEmail.php.html#17\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentOpenedEmail::__construct<\/a>"],[0,1,"<a href=\"RecruitmentOpenedEmail.php.html#24\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentOpenedEmail::getSlug<\/a>"],[0,1,"<a href=\"RecruitmentOpenedEmail.php.html#28\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentOpenedEmail::getDefaultSubject<\/a>"],[0,1,"<a href=\"RecruitmentOpenedEmail.php.html#32\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentOpenedEmail::getSubjectVariables<\/a>"],[0,1,"<a href=\"RecruitmentOpenedEmail.php.html#36\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentOpenedEmail::getTemplate<\/a>"],[0,1,"<a href=\"RecruitmentOpenedEmail.php.html#40\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentOpenedEmail::getUsers<\/a>"],[0,1,"<a href=\"RecruitmentOpenedEmail.php.html#44\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentOpenedEmail::getVariables<\/a>"],[0,1,"<a href=\"RecruitmentOpenedEmail.php.html#54\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentOpenedEmail::getAttachments<\/a>"],[0,1,"<a href=\"RecruitmentOpenedEmail.php.html#58\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentOpenedEmail::getReplyTo<\/a>"],[0,1,"<a href=\"RecruitmentOpenedEmail.php.html#62\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentOpenedEmail::getCustomSubject<\/a>"],[0,1,"<a href=\"RecruitmentTemporaryCollaboratorsAddedEmail.php.html#17\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentTemporaryCollaboratorsAddedEmail::__construct<\/a>"],[0,1,"<a href=\"RecruitmentTemporaryCollaboratorsAddedEmail.php.html#25\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentTemporaryCollaboratorsAddedEmail::getAttachments<\/a>"],[0,1,"<a href=\"RecruitmentTemporaryCollaboratorsAddedEmail.php.html#29\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentTemporaryCollaboratorsAddedEmail::getCustomSubject<\/a>"],[0,1,"<a href=\"RecruitmentTemporaryCollaboratorsAddedEmail.php.html#33\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentTemporaryCollaboratorsAddedEmail::getDefaultSubject<\/a>"],[0,1,"<a href=\"RecruitmentTemporaryCollaboratorsAddedEmail.php.html#37\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentTemporaryCollaboratorsAddedEmail::getReplyTo<\/a>"],[0,1,"<a href=\"RecruitmentTemporaryCollaboratorsAddedEmail.php.html#41\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentTemporaryCollaboratorsAddedEmail::getSlug<\/a>"],[0,1,"<a href=\"RecruitmentTemporaryCollaboratorsAddedEmail.php.html#45\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentTemporaryCollaboratorsAddedEmail::getSubjectVariables<\/a>"],[0,1,"<a href=\"RecruitmentTemporaryCollaboratorsAddedEmail.php.html#49\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentTemporaryCollaboratorsAddedEmail::getTemplate<\/a>"],[0,1,"<a href=\"RecruitmentTemporaryCollaboratorsAddedEmail.php.html#53\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentTemporaryCollaboratorsAddedEmail::getUsers<\/a>"],[0,1,"<a href=\"RecruitmentTemporaryCollaboratorsAddedEmail.php.html#57\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentTemporaryCollaboratorsAddedEmail::getVariables<\/a>"],[100,1,"<a href=\"RecruitmentUnClosedToCollaboratorsAndValidatorsEmail.php.html#17\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentUnClosedToCollaboratorsAndValidatorsEmail::__construct<\/a>"],[0,1,"<a href=\"RecruitmentUnClosedToCollaboratorsAndValidatorsEmail.php.html#24\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentUnClosedToCollaboratorsAndValidatorsEmail::getAttachments<\/a>"],[0,1,"<a href=\"RecruitmentUnClosedToCollaboratorsAndValidatorsEmail.php.html#28\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentUnClosedToCollaboratorsAndValidatorsEmail::getCustomSubject<\/a>"],[0,1,"<a href=\"RecruitmentUnClosedToCollaboratorsAndValidatorsEmail.php.html#32\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentUnClosedToCollaboratorsAndValidatorsEmail::getDefaultSubject<\/a>"],[0,1,"<a href=\"RecruitmentUnClosedToCollaboratorsAndValidatorsEmail.php.html#36\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentUnClosedToCollaboratorsAndValidatorsEmail::getReplyTo<\/a>"],[0,1,"<a href=\"RecruitmentUnClosedToCollaboratorsAndValidatorsEmail.php.html#40\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentUnClosedToCollaboratorsAndValidatorsEmail::getSlug<\/a>"],[0,1,"<a href=\"RecruitmentUnClosedToCollaboratorsAndValidatorsEmail.php.html#44\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentUnClosedToCollaboratorsAndValidatorsEmail::getSubjectVariables<\/a>"],[100,1,"<a href=\"RecruitmentUnClosedToCollaboratorsAndValidatorsEmail.php.html#48\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentUnClosedToCollaboratorsAndValidatorsEmail::getTemplate<\/a>"],[0,1,"<a href=\"RecruitmentUnClosedToCollaboratorsAndValidatorsEmail.php.html#52\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentUnClosedToCollaboratorsAndValidatorsEmail::getUsers<\/a>"],[100,1,"<a href=\"RecruitmentUnClosedToCollaboratorsAndValidatorsEmail.php.html#56\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentUnClosedToCollaboratorsAndValidatorsEmail::getVariables<\/a>"],[100,1,"<a href=\"RecruitmentUpdatedEmail.php.html#16\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentUpdatedEmail::__construct<\/a>"],[100,1,"<a href=\"RecruitmentUpdatedEmail.php.html#23\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentUpdatedEmail::getSlug<\/a>"],[0,1,"<a href=\"RecruitmentUpdatedEmail.php.html#27\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentUpdatedEmail::getDefaultSubject<\/a>"],[0,1,"<a href=\"RecruitmentUpdatedEmail.php.html#31\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentUpdatedEmail::getSubjectVariables<\/a>"],[0,1,"<a href=\"RecruitmentUpdatedEmail.php.html#35\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentUpdatedEmail::getTemplate<\/a>"],[100,1,"<a href=\"RecruitmentUpdatedEmail.php.html#39\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentUpdatedEmail::getUsers<\/a>"],[100,1,"<a href=\"RecruitmentUpdatedEmail.php.html#43\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentUpdatedEmail::getVariables<\/a>"],[0,1,"<a href=\"RecruitmentUpdatedEmail.php.html#53\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentUpdatedEmail::getAttachments<\/a>"],[0,1,"<a href=\"RecruitmentUpdatedEmail.php.html#57\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentUpdatedEmail::getReplyTo<\/a>"],[0,1,"<a href=\"RecruitmentUpdatedEmail.php.html#61\">App\\Core\\Domain\\Recruitment\\EmailNotification\\RecruitmentUpdatedEmail::getCustomSubject<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

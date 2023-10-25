@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /Users/alexandre/Dev/mstaff-v3-api/src/MstaffCli/Domain/Shared</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../_css/bootstrap.min.css?v=9.2.29" rel="stylesheet" type="text/css">
+  <link href="../../../_css/nv.d3.min.css?v=9.2.29" rel="stylesheet" type="text/css">
+  <link href="../../../_css/style.css?v=9.2.29" rel="stylesheet" type="text/css">
+  <link href="../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../index.html">/Users/alexandre/Dev/mstaff-v3-api/src</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">MstaffCli</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Domain</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Shared</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Exception/RandomizerTermNotFoundException.php.html#9">App\MstaffCli\Domain\Shared\Exception\RandomizerTermNotFoundException</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/CompositeRandomizerTerm.php.html#11">App\MstaffCli\Domain\Shared\Service\CompositeRandomizerTerm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/RandomizerContractType.php.html#11">App\MstaffCli\Domain\Shared\Service\RandomizerContractType</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/RandomizerDiploma.php.html#12">App\MstaffCli\Domain\Shared\Service\RandomizerDiploma</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/RandomizerEstablishmentLabel.php.html#12">App\MstaffCli\Domain\Shared\Service\RandomizerEstablishmentLabel</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/RandomizerHobby.php.html#11">App\MstaffCli\Domain\Shared\Service\RandomizerHobby</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/RandomizerJob.php.html#11">App\MstaffCli\Domain\Shared\Service\RandomizerJob</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/RandomizerQuality.php.html#11">App\MstaffCli\Domain\Shared\Service\RandomizerQuality</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/RandomizerRequestReason.php.html#11">App\MstaffCli\Domain\Shared\Service\RandomizerRequestReason</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/RandomizerSkill.php.html#12">App\MstaffCli\Domain\Shared\Service\RandomizerSkill</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/RandomizerSpeciality.php.html#11">App\MstaffCli\Domain\Shared\Service\RandomizerSpeciality</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/TermRandomizer.php.html#10">App\MstaffCli\Domain\Shared\Service\TermRandomizer</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Service/RandomizerEstablishmentLabel.php.html#12">App\MstaffCli\Domain\Shared\Service\RandomizerEstablishmentLabel</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Service/CompositeRandomizerTerm.php.html#11">App\MstaffCli\Domain\Shared\Service\CompositeRandomizerTerm</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Service/TermRandomizer.php.html#10">App\MstaffCli\Domain\Shared\Service\TermRandomizer</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Service/RandomizerDiploma.php.html#12">App\MstaffCli\Domain\Shared\Service\RandomizerDiploma</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Service/RandomizerSkill.php.html#12">App\MstaffCli\Domain\Shared\Service\RandomizerSkill</a></td><td class="text-right">20</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Exception/RandomizerTermNotFoundException.php.html#13"><abbr title="App\MstaffCli\Domain\Shared\Exception\RandomizerTermNotFoundException::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/CompositeRandomizerTerm.php.html#16"><abbr title="App\MstaffCli\Domain\Shared\Service\CompositeRandomizerTerm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/CompositeRandomizerTerm.php.html#22"><abbr title="App\MstaffCli\Domain\Shared\Service\CompositeRandomizerTerm::randomize">randomize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/RandomizerContractType.php.html#13"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerContractType::randomize">randomize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/RandomizerContractType.php.html#20"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerContractType::support">support</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/RandomizerContractType.php.html#24"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerContractType::getType">getType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/RandomizerDiploma.php.html#14"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerDiploma::randomize">randomize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/RandomizerDiploma.php.html#36"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerDiploma::support">support</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/RandomizerDiploma.php.html#40"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerDiploma::getType">getType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/RandomizerEstablishmentLabel.php.html#14"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerEstablishmentLabel::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/RandomizerEstablishmentLabel.php.html#19"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerEstablishmentLabel::randomize">randomize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/RandomizerEstablishmentLabel.php.html#43"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerEstablishmentLabel::support">support</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/RandomizerEstablishmentLabel.php.html#47"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerEstablishmentLabel::getType">getType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/RandomizerHobby.php.html#13"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerHobby::randomize">randomize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/RandomizerHobby.php.html#20"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerHobby::support">support</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/RandomizerHobby.php.html#24"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerHobby::getType">getType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/RandomizerJob.php.html#13"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerJob::randomize">randomize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/RandomizerJob.php.html#20"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerJob::support">support</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/RandomizerJob.php.html#24"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerJob::getType">getType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/RandomizerQuality.php.html#13"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerQuality::randomize">randomize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/RandomizerQuality.php.html#20"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerQuality::support">support</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/RandomizerQuality.php.html#24"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerQuality::getType">getType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/RandomizerRequestReason.php.html#13"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerRequestReason::randomize">randomize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/RandomizerRequestReason.php.html#20"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerRequestReason::support">support</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/RandomizerRequestReason.php.html#24"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerRequestReason::getType">getType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/RandomizerSkill.php.html#14"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerSkill::randomize">randomize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/RandomizerSkill.php.html#39"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerSkill::support">support</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/RandomizerSkill.php.html#43"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerSkill::getType">getType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/RandomizerSpeciality.php.html#13"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerSpeciality::randomize">randomize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/RandomizerSpeciality.php.html#20"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerSpeciality::support">support</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/RandomizerSpeciality.php.html#24"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerSpeciality::getType">getType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/TermRandomizer.php.html#12"><abbr title="App\MstaffCli\Domain\Shared\Service\TermRandomizer::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/TermRandomizer.php.html#15"><abbr title="App\MstaffCli\Domain\Shared\Service\TermRandomizer::randomizeTerm">randomizeTerm</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Service/RandomizerEstablishmentLabel.php.html#19"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerEstablishmentLabel::randomize">randomize</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Service/TermRandomizer.php.html#15"><abbr title="App\MstaffCli\Domain\Shared\Service\TermRandomizer::randomizeTerm">randomizeTerm</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Service/CompositeRandomizerTerm.php.html#22"><abbr title="App\MstaffCli\Domain\Shared\Service\CompositeRandomizerTerm::randomize">randomize</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Service/CompositeRandomizerTerm.php.html#16"><abbr title="App\MstaffCli\Domain\Shared\Service\CompositeRandomizerTerm::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Service/RandomizerDiploma.php.html#14"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerDiploma::randomize">randomize</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Service/RandomizerSkill.php.html#14"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerSkill::randomize">randomize</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 9.2.29</a> using <a href="https://secure.php.net/" target="_top">PHP 8.0.30</a> and <a href="https://phpunit.de/">PHPUnit 9.6.13</a> at Wed Oct 25 8:07:49 UTC 2023.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../_js/jquery.min.js?v=9.2.29" type="text/javascript"></script>
+  <script src="../../../_js/d3.min.js?v=9.2.29" type="text/javascript"></script>
+  <script src="../../../_js/nv.d3.min.js?v=9.2.29" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([12,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([33,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Exception\/RandomizerTermNotFoundException.php.html#9\">App\\MstaffCli\\Domain\\Shared\\Exception\\RandomizerTermNotFoundException<\/a>"],[0,5,"<a href=\"Service\/CompositeRandomizerTerm.php.html#11\">App\\MstaffCli\\Domain\\Shared\\Service\\CompositeRandomizerTerm<\/a>"],[0,3,"<a href=\"Service\/RandomizerContractType.php.html#11\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerContractType<\/a>"],[0,4,"<a href=\"Service\/RandomizerDiploma.php.html#12\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerDiploma<\/a>"],[0,7,"<a href=\"Service\/RandomizerEstablishmentLabel.php.html#12\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerEstablishmentLabel<\/a>"],[0,3,"<a href=\"Service\/RandomizerHobby.php.html#11\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerHobby<\/a>"],[0,3,"<a href=\"Service\/RandomizerJob.php.html#11\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerJob<\/a>"],[0,3,"<a href=\"Service\/RandomizerQuality.php.html#11\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerQuality<\/a>"],[0,3,"<a href=\"Service\/RandomizerRequestReason.php.html#11\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerRequestReason<\/a>"],[0,4,"<a href=\"Service\/RandomizerSkill.php.html#12\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerSkill<\/a>"],[0,3,"<a href=\"Service\/RandomizerSpeciality.php.html#11\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerSpeciality<\/a>"],[0,5,"<a href=\"Service\/TermRandomizer.php.html#10\">App\\MstaffCli\\Domain\\Shared\\Service\\TermRandomizer<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Exception\/RandomizerTermNotFoundException.php.html#13\">App\\MstaffCli\\Domain\\Shared\\Exception\\RandomizerTermNotFoundException::__construct<\/a>"],[0,2,"<a href=\"Service\/CompositeRandomizerTerm.php.html#16\">App\\MstaffCli\\Domain\\Shared\\Service\\CompositeRandomizerTerm::__construct<\/a>"],[0,3,"<a href=\"Service\/CompositeRandomizerTerm.php.html#22\">App\\MstaffCli\\Domain\\Shared\\Service\\CompositeRandomizerTerm::randomize<\/a>"],[0,1,"<a href=\"Service\/RandomizerContractType.php.html#13\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerContractType::randomize<\/a>"],[0,1,"<a href=\"Service\/RandomizerContractType.php.html#20\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerContractType::support<\/a>"],[0,1,"<a href=\"Service\/RandomizerContractType.php.html#24\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerContractType::getType<\/a>"],[0,2,"<a href=\"Service\/RandomizerDiploma.php.html#14\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerDiploma::randomize<\/a>"],[0,1,"<a href=\"Service\/RandomizerDiploma.php.html#36\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerDiploma::support<\/a>"],[0,1,"<a href=\"Service\/RandomizerDiploma.php.html#40\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerDiploma::getType<\/a>"],[0,1,"<a href=\"Service\/RandomizerEstablishmentLabel.php.html#14\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerEstablishmentLabel::__construct<\/a>"],[0,4,"<a href=\"Service\/RandomizerEstablishmentLabel.php.html#19\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerEstablishmentLabel::randomize<\/a>"],[0,1,"<a href=\"Service\/RandomizerEstablishmentLabel.php.html#43\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerEstablishmentLabel::support<\/a>"],[0,1,"<a href=\"Service\/RandomizerEstablishmentLabel.php.html#47\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerEstablishmentLabel::getType<\/a>"],[0,1,"<a href=\"Service\/RandomizerHobby.php.html#13\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerHobby::randomize<\/a>"],[0,1,"<a href=\"Service\/RandomizerHobby.php.html#20\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerHobby::support<\/a>"],[0,1,"<a href=\"Service\/RandomizerHobby.php.html#24\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerHobby::getType<\/a>"],[0,1,"<a href=\"Service\/RandomizerJob.php.html#13\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerJob::randomize<\/a>"],[0,1,"<a href=\"Service\/RandomizerJob.php.html#20\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerJob::support<\/a>"],[0,1,"<a href=\"Service\/RandomizerJob.php.html#24\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerJob::getType<\/a>"],[0,1,"<a href=\"Service\/RandomizerQuality.php.html#13\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerQuality::randomize<\/a>"],[0,1,"<a href=\"Service\/RandomizerQuality.php.html#20\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerQuality::support<\/a>"],[0,1,"<a href=\"Service\/RandomizerQuality.php.html#24\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerQuality::getType<\/a>"],[0,1,"<a href=\"Service\/RandomizerRequestReason.php.html#13\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerRequestReason::randomize<\/a>"],[0,1,"<a href=\"Service\/RandomizerRequestReason.php.html#20\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerRequestReason::support<\/a>"],[0,1,"<a href=\"Service\/RandomizerRequestReason.php.html#24\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerRequestReason::getType<\/a>"],[0,2,"<a href=\"Service\/RandomizerSkill.php.html#14\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerSkill::randomize<\/a>"],[0,1,"<a href=\"Service\/RandomizerSkill.php.html#39\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerSkill::support<\/a>"],[0,1,"<a href=\"Service\/RandomizerSkill.php.html#43\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerSkill::getType<\/a>"],[0,1,"<a href=\"Service\/RandomizerSpeciality.php.html#13\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerSpeciality::randomize<\/a>"],[0,1,"<a href=\"Service\/RandomizerSpeciality.php.html#20\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerSpeciality::support<\/a>"],[0,1,"<a href=\"Service\/RandomizerSpeciality.php.html#24\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerSpeciality::getType<\/a>"],[0,1,"<a href=\"Service\/TermRandomizer.php.html#12\">App\\MstaffCli\\Domain\\Shared\\Service\\TermRandomizer::__construct<\/a>"],[0,4,"<a href=\"Service\/TermRandomizer.php.html#15\">App\\MstaffCli\\Domain\\Shared\\Service\\TermRandomizer::randomizeTerm<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /Users/alexandre/Dev/mstaff-v3-api/src/MstaffCli</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../_css/bootstrap.min.css?v=9.2.29" rel="stylesheet" type="text/css">
+  <link href="../_css/nv.d3.min.css?v=9.2.29" rel="stylesheet" type="text/css">
+  <link href="../_css/style.css?v=9.2.29" rel="stylesheet" type="text/css">
+  <link href="../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../index.html">/Users/alexandre/Dev/mstaff-v3-api/src</a></li>
+         <li class="breadcrumb-item"><a href="index.html">MstaffCli</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Domain/CvBank/Event/CandidateSessionAddedEvent.php.html#9">App\MstaffCli\Domain\CvBank\Event\CandidateSessionAddedEvent</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/CvBank/UseCase/EventHandler/AddCandidateToEstablishmentCvBankHandler.php.html#14">App\MstaffCli\Domain\CvBank\UseCase\EventHandler\AddCandidateToEstablishmentCvBankHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/CvBank/UseCase/Message/AddCandidateToSession.php.html#9">App\MstaffCli\Domain\CvBank\UseCase\Message\AddCandidateToSession</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/CvBank/UseCase/MessageHandler/AddCandidateSessionHandler.php.html#37">App\MstaffCli\Domain\CvBank\UseCase\MessageHandler\AddCandidateSessionHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/CvBank/UseCase/Response/CandidateSessionAddedResponse.php.html#9">App\MstaffCli\Domain\CvBank\UseCase\Response\CandidateSessionAddedResponse</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Recruitment/Entity/JobTypeValue.php.html#7">App\MstaffCli\Domain\Recruitment\Entity\JobTypeValue</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Recruitment/Entity/ScheduleValue.php.html#7">App\MstaffCli\Domain\Recruitment\Entity\ScheduleValue</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Recruitment/UseCase/Message/AddRecruitmentToSession.php.html#9">App\MstaffCli\Domain\Recruitment\UseCase\Message\AddRecruitmentToSession</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Recruitment/UseCase/MessageHandler/AddRecruitmentToSessionHandler.php.html#26">App\MstaffCli\Domain\Recruitment\UseCase\MessageHandler\AddRecruitmentToSessionHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Recruitment/UseCase/Response/AddRecruitmentOnEstablishmentResponse.php.html#9">App\MstaffCli\Domain\Recruitment\UseCase\Response\AddRecruitmentOnEstablishmentResponse</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/Entity/LabelValue.php.html#7">App\MstaffCli\Domain\Session\Entity\LabelValue</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/Entity/Session.php.html#15">App\MstaffCli\Domain\Session\Entity\Session</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/Exception/NoSessionOpenException.php.html#9">App\MstaffCli\Domain\Session\Exception\NoSessionOpenException</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/UseCase/Message/AddEstablishmentSession.php.html#9">App\MstaffCli\Domain\Session\UseCase\Message\AddEstablishmentSession</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/UseCase/Message/CloseSession.php.html#9">App\MstaffCli\Domain\Session\UseCase\Message\CloseSession</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/UseCase/Message/CreateAdminsEstablishmentSession.php.html#9">App\MstaffCli\Domain\Session\UseCase\Message\CreateAdminsEstablishmentSession</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/UseCase/Message/OpenSession.php.html#10">App\MstaffCli\Domain\Session\UseCase\Message\OpenSession</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/UseCase/MessageHandler/AddEstablishmentSessionHandler.php.html#20">App\MstaffCli\Domain\Session\UseCase\MessageHandler\AddEstablishmentSessionHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/UseCase/MessageHandler/CloseSessionHandler.php.html#13">App\MstaffCli\Domain\Session\UseCase\MessageHandler\CloseSessionHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/UseCase/MessageHandler/CreateAdminsEstablishmentSessionHandler.php.html#15">App\MstaffCli\Domain\Session\UseCase\MessageHandler\CreateAdminsEstablishmentSessionHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/UseCase/MessageHandler/OpenSessionHandler.php.html#13">App\MstaffCli\Domain\Session\UseCase\MessageHandler\OpenSessionHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/UseCase/Response/EstablishmentSessionAddedResponse.php.html#9">App\MstaffCli\Domain\Session\UseCase\Response\EstablishmentSessionAddedResponse</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/UseCase/Response/OpenSessionResponse.php.html#9">App\MstaffCli\Domain\Session\UseCase\Response\OpenSessionResponse</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Exception/RandomizerTermNotFoundException.php.html#9">App\MstaffCli\Domain\Shared\Exception\RandomizerTermNotFoundException</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/CompositeRandomizerTerm.php.html#11">App\MstaffCli\Domain\Shared\Service\CompositeRandomizerTerm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerContractType.php.html#11">App\MstaffCli\Domain\Shared\Service\RandomizerContractType</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerDiploma.php.html#12">App\MstaffCli\Domain\Shared\Service\RandomizerDiploma</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerEstablishmentLabel.php.html#12">App\MstaffCli\Domain\Shared\Service\RandomizerEstablishmentLabel</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerHobby.php.html#11">App\MstaffCli\Domain\Shared\Service\RandomizerHobby</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerJob.php.html#11">App\MstaffCli\Domain\Shared\Service\RandomizerJob</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerQuality.php.html#11">App\MstaffCli\Domain\Shared\Service\RandomizerQuality</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerRequestReason.php.html#11">App\MstaffCli\Domain\Shared\Service\RandomizerRequestReason</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerSkill.php.html#12">App\MstaffCli\Domain\Shared\Service\RandomizerSkill</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerSpeciality.php.html#11">App\MstaffCli\Domain\Shared\Service\RandomizerSpeciality</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/TermRandomizer.php.html#10">App\MstaffCli\Domain\Shared\Service\TermRandomizer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Infrastructure/Doctrine/Repository/DoctrineSessionRepository.php.html#12">App\MstaffCli\Infrastructure\Doctrine\Repository\DoctrineSessionRepository</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserInterface/Api/CvBank/SetupCvBankController.php.html#15">App\MstaffCli\UserInterface\Api\CvBank\SetupCvBankController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserInterface/Api/Recruitment/SetupRecruitmentController.php.html#15">App\MstaffCli\UserInterface\Api\Recruitment\SetupRecruitmentController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserInterface/Api/Session/SessionController.php.html#18">App\MstaffCli\UserInterface\Api\Session\SessionController</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Domain/CvBank/UseCase/MessageHandler/AddCandidateSessionHandler.php.html#37">App\MstaffCli\Domain\CvBank\UseCase\MessageHandler\AddCandidateSessionHandler</a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="Domain/Recruitment/UseCase/MessageHandler/AddRecruitmentToSessionHandler.php.html#26">App\MstaffCli\Domain\Recruitment\UseCase\MessageHandler\AddRecruitmentToSessionHandler</a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="Domain/Session/Entity/Session.php.html#15">App\MstaffCli\Domain\Session\Entity\Session</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="Domain/Session/UseCase/MessageHandler/CloseSessionHandler.php.html#13">App\MstaffCli\Domain\Session\UseCase\MessageHandler\CloseSessionHandler</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerEstablishmentLabel.php.html#12">App\MstaffCli\Domain\Shared\Service\RandomizerEstablishmentLabel</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="UserInterface/Api/Session/SessionController.php.html#18">App\MstaffCli\UserInterface\Api\Session\SessionController</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Domain/Session/UseCase/MessageHandler/AddEstablishmentSessionHandler.php.html#20">App\MstaffCli\Domain\Session\UseCase\MessageHandler\AddEstablishmentSessionHandler</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Domain/Shared/Service/CompositeRandomizerTerm.php.html#11">App\MstaffCli\Domain\Shared\Service\CompositeRandomizerTerm</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Domain/Shared/Service/TermRandomizer.php.html#10">App\MstaffCli\Domain\Shared\Service\TermRandomizer</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Domain/Session/Entity/LabelValue.php.html#7">App\MstaffCli\Domain\Session\Entity\LabelValue</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Domain/Session/UseCase/MessageHandler/CreateAdminsEstablishmentSessionHandler.php.html#15">App\MstaffCli\Domain\Session\UseCase\MessageHandler\CreateAdminsEstablishmentSessionHandler</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerDiploma.php.html#12">App\MstaffCli\Domain\Shared\Service\RandomizerDiploma</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerSkill.php.html#12">App\MstaffCli\Domain\Shared\Service\RandomizerSkill</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="UserInterface/Api/CvBank/SetupCvBankController.php.html#15">App\MstaffCli\UserInterface\Api\CvBank\SetupCvBankController</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="UserInterface/Api/Recruitment/SetupRecruitmentController.php.html#15">App\MstaffCli\UserInterface\Api\Recruitment\SetupRecruitmentController</a></td><td class="text-right">20</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Domain/CvBank/Event/CandidateSessionAddedEvent.php.html#11"><abbr title="App\MstaffCli\Domain\CvBank\Event\CandidateSessionAddedEvent::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/CvBank/UseCase/EventHandler/AddCandidateToEstablishmentCvBankHandler.php.html#16"><abbr title="App\MstaffCli\Domain\CvBank\UseCase\EventHandler\AddCandidateToEstablishmentCvBankHandler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/CvBank/UseCase/EventHandler/AddCandidateToEstablishmentCvBankHandler.php.html#23"><abbr title="App\MstaffCli\Domain\CvBank\UseCase\EventHandler\AddCandidateToEstablishmentCvBankHandler::__invoke">__invoke</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/CvBank/UseCase/Message/AddCandidateToSession.php.html#11"><abbr title="App\MstaffCli\Domain\CvBank\UseCase\Message\AddCandidateToSession::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/CvBank/UseCase/MessageHandler/AddCandidateSessionHandler.php.html#39"><abbr title="App\MstaffCli\Domain\CvBank\UseCase\MessageHandler\AddCandidateSessionHandler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/CvBank/UseCase/MessageHandler/AddCandidateSessionHandler.php.html#50"><abbr title="App\MstaffCli\Domain\CvBank\UseCase\MessageHandler\AddCandidateSessionHandler::__invoke">__invoke</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/CvBank/UseCase/MessageHandler/AddCandidateSessionHandler.php.html#116"><abbr title="App\MstaffCli\Domain\CvBank\UseCase\MessageHandler\AddCandidateSessionHandler::handleSkill">handleSkill</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/CvBank/UseCase/MessageHandler/AddCandidateSessionHandler.php.html#130"><abbr title="App\MstaffCli\Domain\CvBank\UseCase\MessageHandler\AddCandidateSessionHandler::handleDiplomas">handleDiplomas</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/CvBank/UseCase/MessageHandler/AddCandidateSessionHandler.php.html#144"><abbr title="App\MstaffCli\Domain\CvBank\UseCase\MessageHandler\AddCandidateSessionHandler::handleDocuments">handleDocuments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/CvBank/UseCase/MessageHandler/AddCandidateSessionHandler.php.html#176"><abbr title="App\MstaffCli\Domain\CvBank\UseCase\MessageHandler\AddCandidateSessionHandler::handleComment">handleComment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/CvBank/UseCase/MessageHandler/AddCandidateSessionHandler.php.html#200"><abbr title="App\MstaffCli\Domain\CvBank\UseCase\MessageHandler\AddCandidateSessionHandler::handleExperiences">handleExperiences</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/CvBank/UseCase/Response/CandidateSessionAddedResponse.php.html#11"><abbr title="App\MstaffCli\Domain\CvBank\UseCase\Response\CandidateSessionAddedResponse::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/CvBank/UseCase/Response/CandidateSessionAddedResponse.php.html#14"><abbr title="App\MstaffCli\Domain\CvBank\UseCase\Response\CandidateSessionAddedResponse::getObjectId">getObjectId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Recruitment/Entity/JobTypeValue.php.html#14"><abbr title="App\MstaffCli\Domain\Recruitment\Entity\JobTypeValue::getRandomValue">getRandomValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Recruitment/Entity/ScheduleValue.php.html#17"><abbr title="App\MstaffCli\Domain\Recruitment\Entity\ScheduleValue::getRandomValue">getRandomValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Recruitment/UseCase/Message/AddRecruitmentToSession.php.html#11"><abbr title="App\MstaffCli\Domain\Recruitment\UseCase\Message\AddRecruitmentToSession::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Recruitment/UseCase/MessageHandler/AddRecruitmentToSessionHandler.php.html#28"><abbr title="App\MstaffCli\Domain\Recruitment\UseCase\MessageHandler\AddRecruitmentToSessionHandler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Recruitment/UseCase/MessageHandler/AddRecruitmentToSessionHandler.php.html#37"><abbr title="App\MstaffCli\Domain\Recruitment\UseCase\MessageHandler\AddRecruitmentToSessionHandler::__invoke">__invoke</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Recruitment/UseCase/MessageHandler/AddRecruitmentToSessionHandler.php.html#68"><abbr title="App\MstaffCli\Domain\Recruitment\UseCase\MessageHandler\AddRecruitmentToSessionHandler::handlePreRecruitmentData">handlePreRecruitmentData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Recruitment/UseCase/MessageHandler/AddRecruitmentToSessionHandler.php.html#99"><abbr title="App\MstaffCli\Domain\Recruitment\UseCase\MessageHandler\AddRecruitmentToSessionHandler::handleCollaborators">handleCollaborators</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Recruitment/UseCase/MessageHandler/AddRecruitmentToSessionHandler.php.html#113"><abbr title="App\MstaffCli\Domain\Recruitment\UseCase\MessageHandler\AddRecruitmentToSessionHandler::handleKanbanColumn">handleKanbanColumn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Recruitment/UseCase/MessageHandler/AddRecruitmentToSessionHandler.php.html#127"><abbr title="App\MstaffCli\Domain\Recruitment\UseCase\MessageHandler\AddRecruitmentToSessionHandler::handleCandidate">handleCandidate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Recruitment/UseCase/MessageHandler/AddRecruitmentToSessionHandler.php.html#145"><abbr title="App\MstaffCli\Domain\Recruitment\UseCase\MessageHandler\AddRecruitmentToSessionHandler::handleComments">handleComments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Recruitment/UseCase/Response/AddRecruitmentOnEstablishmentResponse.php.html#11"><abbr title="App\MstaffCli\Domain\Recruitment\UseCase\Response\AddRecruitmentOnEstablishmentResponse::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Recruitment/UseCase/Response/AddRecruitmentOnEstablishmentResponse.php.html#14"><abbr title="App\MstaffCli\Domain\Recruitment\UseCase\Response\AddRecruitmentOnEstablishmentResponse::getObjectId">getObjectId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/Entity/LabelValue.php.html#25"><abbr title="App\MstaffCli\Domain\Session\Entity\LabelValue::getAvailableValues">getAvailableValues</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/Entity/LabelValue.php.html#29"><abbr title="App\MstaffCli\Domain\Session\Entity\LabelValue::getRandomValue">getRandomValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/Entity/Session.php.html#49"><abbr title="App\MstaffCli\Domain\Session\Entity\Session::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/Entity/Session.php.html#57"><abbr title="App\MstaffCli\Domain\Session\Entity\Session::getId">getId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/Entity/Session.php.html#61"><abbr title="App\MstaffCli\Domain\Session\Entity\Session::getUuid">getUuid</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/Entity/Session.php.html#65"><abbr title="App\MstaffCli\Domain\Session\Entity\Session::getCreatedAt">getCreatedAt</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/Entity/Session.php.html#69"><abbr title="App\MstaffCli\Domain\Session\Entity\Session::getEstablishment">getEstablishment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/Entity/Session.php.html#73"><abbr title="App\MstaffCli\Domain\Session\Entity\Session::setEstablishment">setEstablishment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/Entity/Session.php.html#79"><abbr title="App\MstaffCli\Domain\Session\Entity\Session::addCandidate">addCandidate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/Entity/Session.php.html#87"><abbr title="App\MstaffCli\Domain\Session\Entity\Session::getCandidates">getCandidates</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/Entity/Session.php.html#91"><abbr title="App\MstaffCli\Domain\Session\Entity\Session::addAdmin">addAdmin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/Entity/Session.php.html#99"><abbr title="App\MstaffCli\Domain\Session\Entity\Session::addRecruitment">addRecruitment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/Entity/Session.php.html#107"><abbr title="App\MstaffCli\Domain\Session\Entity\Session::getAdmins">getAdmins</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/Entity/Session.php.html#111"><abbr title="App\MstaffCli\Domain\Session\Entity\Session::getRecruitments">getRecruitments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/Exception/NoSessionOpenException.php.html#13"><abbr title="App\MstaffCli\Domain\Session\Exception\NoSessionOpenException::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/UseCase/Message/AddEstablishmentSession.php.html#11"><abbr title="App\MstaffCli\Domain\Session\UseCase\Message\AddEstablishmentSession::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/UseCase/Message/CloseSession.php.html#11"><abbr title="App\MstaffCli\Domain\Session\UseCase\Message\CloseSession::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/UseCase/Message/CreateAdminsEstablishmentSession.php.html#11"><abbr title="App\MstaffCli\Domain\Session\UseCase\Message\CreateAdminsEstablishmentSession::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/UseCase/Message/OpenSession.php.html#12"><abbr title="App\MstaffCli\Domain\Session\UseCase\Message\OpenSession::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/UseCase/MessageHandler/AddEstablishmentSessionHandler.php.html#22"><abbr title="App\MstaffCli\Domain\Session\UseCase\MessageHandler\AddEstablishmentSessionHandler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/UseCase/MessageHandler/AddEstablishmentSessionHandler.php.html#30"><abbr title="App\MstaffCli\Domain\Session\UseCase\MessageHandler\AddEstablishmentSessionHandler::__invoke">__invoke</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/UseCase/MessageHandler/CloseSessionHandler.php.html#15"><abbr title="App\MstaffCli\Domain\Session\UseCase\MessageHandler\CloseSessionHandler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/UseCase/MessageHandler/CloseSessionHandler.php.html#22"><abbr title="App\MstaffCli\Domain\Session\UseCase\MessageHandler\CloseSessionHandler::__invoke">__invoke</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/UseCase/MessageHandler/CreateAdminsEstablishmentSessionHandler.php.html#17"><abbr title="App\MstaffCli\Domain\Session\UseCase\MessageHandler\CreateAdminsEstablishmentSessionHandler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/UseCase/MessageHandler/CreateAdminsEstablishmentSessionHandler.php.html#24"><abbr title="App\MstaffCli\Domain\Session\UseCase\MessageHandler\CreateAdminsEstablishmentSessionHandler::__invoke">__invoke</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/UseCase/MessageHandler/OpenSessionHandler.php.html#15"><abbr title="App\MstaffCli\Domain\Session\UseCase\MessageHandler\OpenSessionHandler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/UseCase/MessageHandler/OpenSessionHandler.php.html#18"><abbr title="App\MstaffCli\Domain\Session\UseCase\MessageHandler\OpenSessionHandler::__invoke">__invoke</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/UseCase/Response/EstablishmentSessionAddedResponse.php.html#11"><abbr title="App\MstaffCli\Domain\Session\UseCase\Response\EstablishmentSessionAddedResponse::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/UseCase/Response/EstablishmentSessionAddedResponse.php.html#14"><abbr title="App\MstaffCli\Domain\Session\UseCase\Response\EstablishmentSessionAddedResponse::getObjectId">getObjectId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/UseCase/Response/OpenSessionResponse.php.html#11"><abbr title="App\MstaffCli\Domain\Session\UseCase\Response\OpenSessionResponse::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Session/UseCase/Response/OpenSessionResponse.php.html#14"><abbr title="App\MstaffCli\Domain\Session\UseCase\Response\OpenSessionResponse::getObjectId">getObjectId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Exception/RandomizerTermNotFoundException.php.html#13"><abbr title="App\MstaffCli\Domain\Shared\Exception\RandomizerTermNotFoundException::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/CompositeRandomizerTerm.php.html#16"><abbr title="App\MstaffCli\Domain\Shared\Service\CompositeRandomizerTerm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/CompositeRandomizerTerm.php.html#22"><abbr title="App\MstaffCli\Domain\Shared\Service\CompositeRandomizerTerm::randomize">randomize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerContractType.php.html#13"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerContractType::randomize">randomize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerContractType.php.html#20"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerContractType::support">support</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerContractType.php.html#24"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerContractType::getType">getType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerDiploma.php.html#14"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerDiploma::randomize">randomize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerDiploma.php.html#36"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerDiploma::support">support</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerDiploma.php.html#40"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerDiploma::getType">getType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerEstablishmentLabel.php.html#14"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerEstablishmentLabel::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerEstablishmentLabel.php.html#19"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerEstablishmentLabel::randomize">randomize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerEstablishmentLabel.php.html#43"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerEstablishmentLabel::support">support</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerEstablishmentLabel.php.html#47"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerEstablishmentLabel::getType">getType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerHobby.php.html#13"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerHobby::randomize">randomize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerHobby.php.html#20"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerHobby::support">support</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerHobby.php.html#24"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerHobby::getType">getType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerJob.php.html#13"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerJob::randomize">randomize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerJob.php.html#20"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerJob::support">support</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerJob.php.html#24"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerJob::getType">getType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerQuality.php.html#13"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerQuality::randomize">randomize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerQuality.php.html#20"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerQuality::support">support</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerQuality.php.html#24"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerQuality::getType">getType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerRequestReason.php.html#13"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerRequestReason::randomize">randomize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerRequestReason.php.html#20"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerRequestReason::support">support</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerRequestReason.php.html#24"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerRequestReason::getType">getType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerSkill.php.html#14"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerSkill::randomize">randomize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerSkill.php.html#39"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerSkill::support">support</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerSkill.php.html#43"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerSkill::getType">getType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerSpeciality.php.html#13"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerSpeciality::randomize">randomize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerSpeciality.php.html#20"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerSpeciality::support">support</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerSpeciality.php.html#24"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerSpeciality::getType">getType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/TermRandomizer.php.html#12"><abbr title="App\MstaffCli\Domain\Shared\Service\TermRandomizer::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Domain/Shared/Service/TermRandomizer.php.html#15"><abbr title="App\MstaffCli\Domain\Shared\Service\TermRandomizer::randomizeTerm">randomizeTerm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Infrastructure/Doctrine/Repository/DoctrineSessionRepository.php.html#14"><abbr title="App\MstaffCli\Infrastructure\Doctrine\Repository\DoctrineSessionRepository::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Infrastructure/Doctrine/Repository/DoctrineSessionRepository.php.html#18"><abbr title="App\MstaffCli\Infrastructure\Doctrine\Repository\DoctrineSessionRepository::getByUuid">getByUuid</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserInterface/Api/CvBank/SetupCvBankController.php.html#17"><abbr title="App\MstaffCli\UserInterface\Api\CvBank\SetupCvBankController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserInterface/Api/CvBank/SetupCvBankController.php.html#20"><abbr title="App\MstaffCli\UserInterface\Api\CvBank\SetupCvBankController::setUp">setUp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserInterface/Api/Recruitment/SetupRecruitmentController.php.html#17"><abbr title="App\MstaffCli\UserInterface\Api\Recruitment\SetupRecruitmentController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserInterface/Api/Recruitment/SetupRecruitmentController.php.html#20"><abbr title="App\MstaffCli\UserInterface\Api\Recruitment\SetupRecruitmentController::setUp">setUp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserInterface/Api/Session/SessionController.php.html#20"><abbr title="App\MstaffCli\UserInterface\Api\Session\SessionController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserInterface/Api/Session/SessionController.php.html#23"><abbr title="App\MstaffCli\UserInterface\Api\Session\SessionController::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserInterface/Api/Session/SessionController.php.html#57"><abbr title="App\MstaffCli\UserInterface\Api\Session\SessionController::close">close</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserInterface/Api/Session/SessionController.php.html#68"><abbr title="App\MstaffCli\UserInterface\Api\Session\SessionController::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Domain/Session/UseCase/MessageHandler/CloseSessionHandler.php.html#22"><abbr title="App\MstaffCli\Domain\Session\UseCase\MessageHandler\CloseSessionHandler::__invoke">__invoke</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Domain/CvBank/UseCase/MessageHandler/AddCandidateSessionHandler.php.html#144"><abbr title="App\MstaffCli\Domain\CvBank\UseCase\MessageHandler\AddCandidateSessionHandler::handleDocuments">handleDocuments</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Domain/Recruitment/UseCase/MessageHandler/AddRecruitmentToSessionHandler.php.html#145"><abbr title="App\MstaffCli\Domain\Recruitment\UseCase\MessageHandler\AddRecruitmentToSessionHandler::handleComments">handleComments</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Domain/Session/UseCase/MessageHandler/AddEstablishmentSessionHandler.php.html#30"><abbr title="App\MstaffCli\Domain\Session\UseCase\MessageHandler\AddEstablishmentSessionHandler::__invoke">__invoke</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerEstablishmentLabel.php.html#19"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerEstablishmentLabel::randomize">randomize</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Domain/Shared/Service/TermRandomizer.php.html#15"><abbr title="App\MstaffCli\Domain\Shared\Service\TermRandomizer::randomizeTerm">randomizeTerm</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Domain/CvBank/UseCase/MessageHandler/AddCandidateSessionHandler.php.html#176"><abbr title="App\MstaffCli\Domain\CvBank\UseCase\MessageHandler\AddCandidateSessionHandler::handleComment">handleComment</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Domain/Recruitment/UseCase/MessageHandler/AddRecruitmentToSessionHandler.php.html#99"><abbr title="App\MstaffCli\Domain\Recruitment\UseCase\MessageHandler\AddRecruitmentToSessionHandler::handleCollaborators">handleCollaborators</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Domain/Recruitment/UseCase/MessageHandler/AddRecruitmentToSessionHandler.php.html#127"><abbr title="App\MstaffCli\Domain\Recruitment\UseCase\MessageHandler\AddRecruitmentToSessionHandler::handleCandidate">handleCandidate</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Domain/Session/Entity/LabelValue.php.html#29"><abbr title="App\MstaffCli\Domain\Session\Entity\LabelValue::getRandomValue">getRandomValue</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Domain/Session/UseCase/MessageHandler/CreateAdminsEstablishmentSessionHandler.php.html#24"><abbr title="App\MstaffCli\Domain\Session\UseCase\MessageHandler\CreateAdminsEstablishmentSessionHandler::__invoke">__invoke</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Domain/Shared/Service/CompositeRandomizerTerm.php.html#22"><abbr title="App\MstaffCli\Domain\Shared\Service\CompositeRandomizerTerm::randomize">randomize</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="UserInterface/Api/CvBank/SetupCvBankController.php.html#20"><abbr title="App\MstaffCli\UserInterface\Api\CvBank\SetupCvBankController::setUp">setUp</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="UserInterface/Api/Recruitment/SetupRecruitmentController.php.html#20"><abbr title="App\MstaffCli\UserInterface\Api\Recruitment\SetupRecruitmentController::setUp">setUp</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Domain/CvBank/UseCase/MessageHandler/AddCandidateSessionHandler.php.html#50"><abbr title="App\MstaffCli\Domain\CvBank\UseCase\MessageHandler\AddCandidateSessionHandler::__invoke">__invoke</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Domain/CvBank/UseCase/MessageHandler/AddCandidateSessionHandler.php.html#116"><abbr title="App\MstaffCli\Domain\CvBank\UseCase\MessageHandler\AddCandidateSessionHandler::handleSkill">handleSkill</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Domain/CvBank/UseCase/MessageHandler/AddCandidateSessionHandler.php.html#130"><abbr title="App\MstaffCli\Domain\CvBank\UseCase\MessageHandler\AddCandidateSessionHandler::handleDiplomas">handleDiplomas</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Domain/CvBank/UseCase/MessageHandler/AddCandidateSessionHandler.php.html#200"><abbr title="App\MstaffCli\Domain\CvBank\UseCase\MessageHandler\AddCandidateSessionHandler::handleExperiences">handleExperiences</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Domain/Recruitment/UseCase/MessageHandler/AddRecruitmentToSessionHandler.php.html#37"><abbr title="App\MstaffCli\Domain\Recruitment\UseCase\MessageHandler\AddRecruitmentToSessionHandler::__invoke">__invoke</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Domain/Recruitment/UseCase/MessageHandler/AddRecruitmentToSessionHandler.php.html#68"><abbr title="App\MstaffCli\Domain\Recruitment\UseCase\MessageHandler\AddRecruitmentToSessionHandler::handlePreRecruitmentData">handlePreRecruitmentData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Domain/Recruitment/UseCase/MessageHandler/AddRecruitmentToSessionHandler.php.html#113"><abbr title="App\MstaffCli\Domain\Recruitment\UseCase\MessageHandler\AddRecruitmentToSessionHandler::handleKanbanColumn">handleKanbanColumn</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Domain/Session/Entity/Session.php.html#79"><abbr title="App\MstaffCli\Domain\Session\Entity\Session::addCandidate">addCandidate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Domain/Session/Entity/Session.php.html#91"><abbr title="App\MstaffCli\Domain\Session\Entity\Session::addAdmin">addAdmin</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Domain/Session/Entity/Session.php.html#99"><abbr title="App\MstaffCli\Domain\Session\Entity\Session::addRecruitment">addRecruitment</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Domain/Shared/Service/CompositeRandomizerTerm.php.html#16"><abbr title="App\MstaffCli\Domain\Shared\Service\CompositeRandomizerTerm::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerDiploma.php.html#14"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerDiploma::randomize">randomize</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Domain/Shared/Service/RandomizerSkill.php.html#14"><abbr title="App\MstaffCli\Domain\Shared\Service\RandomizerSkill::randomize">randomize</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="UserInterface/Api/Session/SessionController.php.html#23"><abbr title="App\MstaffCli\UserInterface\Api\Session\SessionController::init">init</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="UserInterface/Api/Session/SessionController.php.html#68"><abbr title="App\MstaffCli\UserInterface\Api\Session\SessionController::get">get</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 9.2.29</a> using <a href="https://secure.php.net/" target="_top">PHP 8.0.30</a> and <a href="https://phpunit.de/">PHPUnit 9.6.13</a> at Wed Oct 25 8:07:49 UTC 2023.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../_js/jquery.min.js?v=9.2.29" type="text/javascript"></script>
+  <script src="../_js/d3.min.js?v=9.2.29" type="text/javascript"></script>
+  <script src="../_js/nv.d3.min.js?v=9.2.29" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([39,0,0,0,0,0,0,0,0,0,0,1], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([99,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Domain\/CvBank\/Event\/CandidateSessionAddedEvent.php.html#9\">App\\MstaffCli\\Domain\\CvBank\\Event\\CandidateSessionAddedEvent<\/a>"],[0,2,"<a href=\"Domain\/CvBank\/UseCase\/EventHandler\/AddCandidateToEstablishmentCvBankHandler.php.html#14\">App\\MstaffCli\\Domain\\CvBank\\UseCase\\EventHandler\\AddCandidateToEstablishmentCvBankHandler<\/a>"],[0,1,"<a href=\"Domain\/CvBank\/UseCase\/Message\/AddCandidateToSession.php.html#9\">App\\MstaffCli\\Domain\\CvBank\\UseCase\\Message\\AddCandidateToSession<\/a>"],[0,17,"<a href=\"Domain\/CvBank\/UseCase\/MessageHandler\/AddCandidateSessionHandler.php.html#37\">App\\MstaffCli\\Domain\\CvBank\\UseCase\\MessageHandler\\AddCandidateSessionHandler<\/a>"],[0,2,"<a href=\"Domain\/CvBank\/UseCase\/Response\/CandidateSessionAddedResponse.php.html#9\">App\\MstaffCli\\Domain\\CvBank\\UseCase\\Response\\CandidateSessionAddedResponse<\/a>"],[0,1,"<a href=\"Domain\/Recruitment\/Entity\/JobTypeValue.php.html#7\">App\\MstaffCli\\Domain\\Recruitment\\Entity\\JobTypeValue<\/a>"],[0,1,"<a href=\"Domain\/Recruitment\/Entity\/ScheduleValue.php.html#7\">App\\MstaffCli\\Domain\\Recruitment\\Entity\\ScheduleValue<\/a>"],[0,1,"<a href=\"Domain\/Recruitment\/UseCase\/Message\/AddRecruitmentToSession.php.html#9\">App\\MstaffCli\\Domain\\Recruitment\\UseCase\\Message\\AddRecruitmentToSession<\/a>"],[0,17,"<a href=\"Domain\/Recruitment\/UseCase\/MessageHandler\/AddRecruitmentToSessionHandler.php.html#26\">App\\MstaffCli\\Domain\\Recruitment\\UseCase\\MessageHandler\\AddRecruitmentToSessionHandler<\/a>"],[0,2,"<a href=\"Domain\/Recruitment\/UseCase\/Response\/AddRecruitmentOnEstablishmentResponse.php.html#9\">App\\MstaffCli\\Domain\\Recruitment\\UseCase\\Response\\AddRecruitmentOnEstablishmentResponse<\/a>"],[100,0,"<a href=\"Domain\/Session\/Entity\/AdminPermissionMapping.php.html#7\">App\\MstaffCli\\Domain\\Session\\Entity\\AdminPermissionMapping<\/a>"],[0,4,"<a href=\"Domain\/Session\/Entity\/LabelValue.php.html#7\">App\\MstaffCli\\Domain\\Session\\Entity\\LabelValue<\/a>"],[0,15,"<a href=\"Domain\/Session\/Entity\/Session.php.html#15\">App\\MstaffCli\\Domain\\Session\\Entity\\Session<\/a>"],[0,1,"<a href=\"Domain\/Session\/Exception\/NoSessionOpenException.php.html#9\">App\\MstaffCli\\Domain\\Session\\Exception\\NoSessionOpenException<\/a>"],[0,1,"<a href=\"Domain\/Session\/UseCase\/Message\/AddEstablishmentSession.php.html#9\">App\\MstaffCli\\Domain\\Session\\UseCase\\Message\\AddEstablishmentSession<\/a>"],[0,1,"<a href=\"Domain\/Session\/UseCase\/Message\/CloseSession.php.html#9\">App\\MstaffCli\\Domain\\Session\\UseCase\\Message\\CloseSession<\/a>"],[0,1,"<a href=\"Domain\/Session\/UseCase\/Message\/CreateAdminsEstablishmentSession.php.html#9\">App\\MstaffCli\\Domain\\Session\\UseCase\\Message\\CreateAdminsEstablishmentSession<\/a>"],[0,1,"<a href=\"Domain\/Session\/UseCase\/Message\/OpenSession.php.html#10\">App\\MstaffCli\\Domain\\Session\\UseCase\\Message\\OpenSession<\/a>"],[0,5,"<a href=\"Domain\/Session\/UseCase\/MessageHandler\/AddEstablishmentSessionHandler.php.html#20\">App\\MstaffCli\\Domain\\Session\\UseCase\\MessageHandler\\AddEstablishmentSessionHandler<\/a>"],[0,7,"<a href=\"Domain\/Session\/UseCase\/MessageHandler\/CloseSessionHandler.php.html#13\">App\\MstaffCli\\Domain\\Session\\UseCase\\MessageHandler\\CloseSessionHandler<\/a>"],[0,4,"<a href=\"Domain\/Session\/UseCase\/MessageHandler\/CreateAdminsEstablishmentSessionHandler.php.html#15\">App\\MstaffCli\\Domain\\Session\\UseCase\\MessageHandler\\CreateAdminsEstablishmentSessionHandler<\/a>"],[0,2,"<a href=\"Domain\/Session\/UseCase\/MessageHandler\/OpenSessionHandler.php.html#13\">App\\MstaffCli\\Domain\\Session\\UseCase\\MessageHandler\\OpenSessionHandler<\/a>"],[0,2,"<a href=\"Domain\/Session\/UseCase\/Response\/EstablishmentSessionAddedResponse.php.html#9\">App\\MstaffCli\\Domain\\Session\\UseCase\\Response\\EstablishmentSessionAddedResponse<\/a>"],[0,2,"<a href=\"Domain\/Session\/UseCase\/Response\/OpenSessionResponse.php.html#9\">App\\MstaffCli\\Domain\\Session\\UseCase\\Response\\OpenSessionResponse<\/a>"],[0,1,"<a href=\"Domain\/Shared\/Exception\/RandomizerTermNotFoundException.php.html#9\">App\\MstaffCli\\Domain\\Shared\\Exception\\RandomizerTermNotFoundException<\/a>"],[0,5,"<a href=\"Domain\/Shared\/Service\/CompositeRandomizerTerm.php.html#11\">App\\MstaffCli\\Domain\\Shared\\Service\\CompositeRandomizerTerm<\/a>"],[0,3,"<a href=\"Domain\/Shared\/Service\/RandomizerContractType.php.html#11\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerContractType<\/a>"],[0,4,"<a href=\"Domain\/Shared\/Service\/RandomizerDiploma.php.html#12\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerDiploma<\/a>"],[0,7,"<a href=\"Domain\/Shared\/Service\/RandomizerEstablishmentLabel.php.html#12\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerEstablishmentLabel<\/a>"],[0,3,"<a href=\"Domain\/Shared\/Service\/RandomizerHobby.php.html#11\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerHobby<\/a>"],[0,3,"<a href=\"Domain\/Shared\/Service\/RandomizerJob.php.html#11\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerJob<\/a>"],[0,3,"<a href=\"Domain\/Shared\/Service\/RandomizerQuality.php.html#11\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerQuality<\/a>"],[0,3,"<a href=\"Domain\/Shared\/Service\/RandomizerRequestReason.php.html#11\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerRequestReason<\/a>"],[0,4,"<a href=\"Domain\/Shared\/Service\/RandomizerSkill.php.html#12\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerSkill<\/a>"],[0,3,"<a href=\"Domain\/Shared\/Service\/RandomizerSpeciality.php.html#11\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerSpeciality<\/a>"],[0,5,"<a href=\"Domain\/Shared\/Service\/TermRandomizer.php.html#10\">App\\MstaffCli\\Domain\\Shared\\Service\\TermRandomizer<\/a>"],[0,2,"<a href=\"Infrastructure\/Doctrine\/Repository\/DoctrineSessionRepository.php.html#12\">App\\MstaffCli\\Infrastructure\\Doctrine\\Repository\\DoctrineSessionRepository<\/a>"],[0,4,"<a href=\"UserInterface\/Api\/CvBank\/SetupCvBankController.php.html#15\">App\\MstaffCli\\UserInterface\\Api\\CvBank\\SetupCvBankController<\/a>"],[0,4,"<a href=\"UserInterface\/Api\/Recruitment\/SetupRecruitmentController.php.html#15\">App\\MstaffCli\\UserInterface\\Api\\Recruitment\\SetupRecruitmentController<\/a>"],[0,6,"<a href=\"UserInterface\/Api\/Session\/SessionController.php.html#18\">App\\MstaffCli\\UserInterface\\Api\\Session\\SessionController<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Domain\/CvBank\/Event\/CandidateSessionAddedEvent.php.html#11\">App\\MstaffCli\\Domain\\CvBank\\Event\\CandidateSessionAddedEvent::__construct<\/a>"],[0,1,"<a href=\"Domain\/CvBank\/UseCase\/EventHandler\/AddCandidateToEstablishmentCvBankHandler.php.html#16\">App\\MstaffCli\\Domain\\CvBank\\UseCase\\EventHandler\\AddCandidateToEstablishmentCvBankHandler::__construct<\/a>"],[0,1,"<a href=\"Domain\/CvBank\/UseCase\/EventHandler\/AddCandidateToEstablishmentCvBankHandler.php.html#23\">App\\MstaffCli\\Domain\\CvBank\\UseCase\\EventHandler\\AddCandidateToEstablishmentCvBankHandler::__invoke<\/a>"],[0,1,"<a href=\"Domain\/CvBank\/UseCase\/Message\/AddCandidateToSession.php.html#11\">App\\MstaffCli\\Domain\\CvBank\\UseCase\\Message\\AddCandidateToSession::__construct<\/a>"],[0,1,"<a href=\"Domain\/CvBank\/UseCase\/MessageHandler\/AddCandidateSessionHandler.php.html#39\">App\\MstaffCli\\Domain\\CvBank\\UseCase\\MessageHandler\\AddCandidateSessionHandler::__construct<\/a>"],[0,2,"<a href=\"Domain\/CvBank\/UseCase\/MessageHandler\/AddCandidateSessionHandler.php.html#50\">App\\MstaffCli\\Domain\\CvBank\\UseCase\\MessageHandler\\AddCandidateSessionHandler::__invoke<\/a>"],[0,2,"<a href=\"Domain\/CvBank\/UseCase\/MessageHandler\/AddCandidateSessionHandler.php.html#116\">App\\MstaffCli\\Domain\\CvBank\\UseCase\\MessageHandler\\AddCandidateSessionHandler::handleSkill<\/a>"],[0,2,"<a href=\"Domain\/CvBank\/UseCase\/MessageHandler\/AddCandidateSessionHandler.php.html#130\">App\\MstaffCli\\Domain\\CvBank\\UseCase\\MessageHandler\\AddCandidateSessionHandler::handleDiplomas<\/a>"],[0,5,"<a href=\"Domain\/CvBank\/UseCase\/MessageHandler\/AddCandidateSessionHandler.php.html#144\">App\\MstaffCli\\Domain\\CvBank\\UseCase\\MessageHandler\\AddCandidateSessionHandler::handleDocuments<\/a>"],[0,3,"<a href=\"Domain\/CvBank\/UseCase\/MessageHandler\/AddCandidateSessionHandler.php.html#176\">App\\MstaffCli\\Domain\\CvBank\\UseCase\\MessageHandler\\AddCandidateSessionHandler::handleComment<\/a>"],[0,2,"<a href=\"Domain\/CvBank\/UseCase\/MessageHandler\/AddCandidateSessionHandler.php.html#200\">App\\MstaffCli\\Domain\\CvBank\\UseCase\\MessageHandler\\AddCandidateSessionHandler::handleExperiences<\/a>"],[0,1,"<a href=\"Domain\/CvBank\/UseCase\/Response\/CandidateSessionAddedResponse.php.html#11\">App\\MstaffCli\\Domain\\CvBank\\UseCase\\Response\\CandidateSessionAddedResponse::__construct<\/a>"],[0,1,"<a href=\"Domain\/CvBank\/UseCase\/Response\/CandidateSessionAddedResponse.php.html#14\">App\\MstaffCli\\Domain\\CvBank\\UseCase\\Response\\CandidateSessionAddedResponse::getObjectId<\/a>"],[0,1,"<a href=\"Domain\/Recruitment\/Entity\/JobTypeValue.php.html#14\">App\\MstaffCli\\Domain\\Recruitment\\Entity\\JobTypeValue::getRandomValue<\/a>"],[0,1,"<a href=\"Domain\/Recruitment\/Entity\/ScheduleValue.php.html#17\">App\\MstaffCli\\Domain\\Recruitment\\Entity\\ScheduleValue::getRandomValue<\/a>"],[0,1,"<a href=\"Domain\/Recruitment\/UseCase\/Message\/AddRecruitmentToSession.php.html#11\">App\\MstaffCli\\Domain\\Recruitment\\UseCase\\Message\\AddRecruitmentToSession::__construct<\/a>"],[0,1,"<a href=\"Domain\/Recruitment\/UseCase\/MessageHandler\/AddRecruitmentToSessionHandler.php.html#28\">App\\MstaffCli\\Domain\\Recruitment\\UseCase\\MessageHandler\\AddRecruitmentToSessionHandler::__construct<\/a>"],[0,2,"<a href=\"Domain\/Recruitment\/UseCase\/MessageHandler\/AddRecruitmentToSessionHandler.php.html#37\">App\\MstaffCli\\Domain\\Recruitment\\UseCase\\MessageHandler\\AddRecruitmentToSessionHandler::__invoke<\/a>"],[0,2,"<a href=\"Domain\/Recruitment\/UseCase\/MessageHandler\/AddRecruitmentToSessionHandler.php.html#68\">App\\MstaffCli\\Domain\\Recruitment\\UseCase\\MessageHandler\\AddRecruitmentToSessionHandler::handlePreRecruitmentData<\/a>"],[0,3,"<a href=\"Domain\/Recruitment\/UseCase\/MessageHandler\/AddRecruitmentToSessionHandler.php.html#99\">App\\MstaffCli\\Domain\\Recruitment\\UseCase\\MessageHandler\\AddRecruitmentToSessionHandler::handleCollaborators<\/a>"],[0,2,"<a href=\"Domain\/Recruitment\/UseCase\/MessageHandler\/AddRecruitmentToSessionHandler.php.html#113\">App\\MstaffCli\\Domain\\Recruitment\\UseCase\\MessageHandler\\AddRecruitmentToSessionHandler::handleKanbanColumn<\/a>"],[0,3,"<a href=\"Domain\/Recruitment\/UseCase\/MessageHandler\/AddRecruitmentToSessionHandler.php.html#127\">App\\MstaffCli\\Domain\\Recruitment\\UseCase\\MessageHandler\\AddRecruitmentToSessionHandler::handleCandidate<\/a>"],[0,4,"<a href=\"Domain\/Recruitment\/UseCase\/MessageHandler\/AddRecruitmentToSessionHandler.php.html#145\">App\\MstaffCli\\Domain\\Recruitment\\UseCase\\MessageHandler\\AddRecruitmentToSessionHandler::handleComments<\/a>"],[0,1,"<a href=\"Domain\/Recruitment\/UseCase\/Response\/AddRecruitmentOnEstablishmentResponse.php.html#11\">App\\MstaffCli\\Domain\\Recruitment\\UseCase\\Response\\AddRecruitmentOnEstablishmentResponse::__construct<\/a>"],[0,1,"<a href=\"Domain\/Recruitment\/UseCase\/Response\/AddRecruitmentOnEstablishmentResponse.php.html#14\">App\\MstaffCli\\Domain\\Recruitment\\UseCase\\Response\\AddRecruitmentOnEstablishmentResponse::getObjectId<\/a>"],[0,1,"<a href=\"Domain\/Session\/Entity\/LabelValue.php.html#25\">App\\MstaffCli\\Domain\\Session\\Entity\\LabelValue::getAvailableValues<\/a>"],[0,3,"<a href=\"Domain\/Session\/Entity\/LabelValue.php.html#29\">App\\MstaffCli\\Domain\\Session\\Entity\\LabelValue::getRandomValue<\/a>"],[0,1,"<a href=\"Domain\/Session\/Entity\/Session.php.html#49\">App\\MstaffCli\\Domain\\Session\\Entity\\Session::__construct<\/a>"],[0,1,"<a href=\"Domain\/Session\/Entity\/Session.php.html#57\">App\\MstaffCli\\Domain\\Session\\Entity\\Session::getId<\/a>"],[0,1,"<a href=\"Domain\/Session\/Entity\/Session.php.html#61\">App\\MstaffCli\\Domain\\Session\\Entity\\Session::getUuid<\/a>"],[0,1,"<a href=\"Domain\/Session\/Entity\/Session.php.html#65\">App\\MstaffCli\\Domain\\Session\\Entity\\Session::getCreatedAt<\/a>"],[0,1,"<a href=\"Domain\/Session\/Entity\/Session.php.html#69\">App\\MstaffCli\\Domain\\Session\\Entity\\Session::getEstablishment<\/a>"],[0,1,"<a href=\"Domain\/Session\/Entity\/Session.php.html#73\">App\\MstaffCli\\Domain\\Session\\Entity\\Session::setEstablishment<\/a>"],[0,2,"<a href=\"Domain\/Session\/Entity\/Session.php.html#79\">App\\MstaffCli\\Domain\\Session\\Entity\\Session::addCandidate<\/a>"],[0,1,"<a href=\"Domain\/Session\/Entity\/Session.php.html#87\">App\\MstaffCli\\Domain\\Session\\Entity\\Session::getCandidates<\/a>"],[0,2,"<a href=\"Domain\/Session\/Entity\/Session.php.html#91\">App\\MstaffCli\\Domain\\Session\\Entity\\Session::addAdmin<\/a>"],[0,2,"<a href=\"Domain\/Session\/Entity\/Session.php.html#99\">App\\MstaffCli\\Domain\\Session\\Entity\\Session::addRecruitment<\/a>"],[0,1,"<a href=\"Domain\/Session\/Entity\/Session.php.html#107\">App\\MstaffCli\\Domain\\Session\\Entity\\Session::getAdmins<\/a>"],[0,1,"<a href=\"Domain\/Session\/Entity\/Session.php.html#111\">App\\MstaffCli\\Domain\\Session\\Entity\\Session::getRecruitments<\/a>"],[0,1,"<a href=\"Domain\/Session\/Exception\/NoSessionOpenException.php.html#13\">App\\MstaffCli\\Domain\\Session\\Exception\\NoSessionOpenException::__construct<\/a>"],[0,1,"<a href=\"Domain\/Session\/UseCase\/Message\/AddEstablishmentSession.php.html#11\">App\\MstaffCli\\Domain\\Session\\UseCase\\Message\\AddEstablishmentSession::__construct<\/a>"],[0,1,"<a href=\"Domain\/Session\/UseCase\/Message\/CloseSession.php.html#11\">App\\MstaffCli\\Domain\\Session\\UseCase\\Message\\CloseSession::__construct<\/a>"],[0,1,"<a href=\"Domain\/Session\/UseCase\/Message\/CreateAdminsEstablishmentSession.php.html#11\">App\\MstaffCli\\Domain\\Session\\UseCase\\Message\\CreateAdminsEstablishmentSession::__construct<\/a>"],[0,1,"<a href=\"Domain\/Session\/UseCase\/Message\/OpenSession.php.html#12\">App\\MstaffCli\\Domain\\Session\\UseCase\\Message\\OpenSession::__construct<\/a>"],[0,1,"<a href=\"Domain\/Session\/UseCase\/MessageHandler\/AddEstablishmentSessionHandler.php.html#22\">App\\MstaffCli\\Domain\\Session\\UseCase\\MessageHandler\\AddEstablishmentSessionHandler::__construct<\/a>"],[0,4,"<a href=\"Domain\/Session\/UseCase\/MessageHandler\/AddEstablishmentSessionHandler.php.html#30\">App\\MstaffCli\\Domain\\Session\\UseCase\\MessageHandler\\AddEstablishmentSessionHandler::__invoke<\/a>"],[0,1,"<a href=\"Domain\/Session\/UseCase\/MessageHandler\/CloseSessionHandler.php.html#15\">App\\MstaffCli\\Domain\\Session\\UseCase\\MessageHandler\\CloseSessionHandler::__construct<\/a>"],[0,6,"<a href=\"Domain\/Session\/UseCase\/MessageHandler\/CloseSessionHandler.php.html#22\">App\\MstaffCli\\Domain\\Session\\UseCase\\MessageHandler\\CloseSessionHandler::__invoke<\/a>"],[0,1,"<a href=\"Domain\/Session\/UseCase\/MessageHandler\/CreateAdminsEstablishmentSessionHandler.php.html#17\">App\\MstaffCli\\Domain\\Session\\UseCase\\MessageHandler\\CreateAdminsEstablishmentSessionHandler::__construct<\/a>"],[0,3,"<a href=\"Domain\/Session\/UseCase\/MessageHandler\/CreateAdminsEstablishmentSessionHandler.php.html#24\">App\\MstaffCli\\Domain\\Session\\UseCase\\MessageHandler\\CreateAdminsEstablishmentSessionHandler::__invoke<\/a>"],[0,1,"<a href=\"Domain\/Session\/UseCase\/MessageHandler\/OpenSessionHandler.php.html#15\">App\\MstaffCli\\Domain\\Session\\UseCase\\MessageHandler\\OpenSessionHandler::__construct<\/a>"],[0,1,"<a href=\"Domain\/Session\/UseCase\/MessageHandler\/OpenSessionHandler.php.html#18\">App\\MstaffCli\\Domain\\Session\\UseCase\\MessageHandler\\OpenSessionHandler::__invoke<\/a>"],[0,1,"<a href=\"Domain\/Session\/UseCase\/Response\/EstablishmentSessionAddedResponse.php.html#11\">App\\MstaffCli\\Domain\\Session\\UseCase\\Response\\EstablishmentSessionAddedResponse::__construct<\/a>"],[0,1,"<a href=\"Domain\/Session\/UseCase\/Response\/EstablishmentSessionAddedResponse.php.html#14\">App\\MstaffCli\\Domain\\Session\\UseCase\\Response\\EstablishmentSessionAddedResponse::getObjectId<\/a>"],[0,1,"<a href=\"Domain\/Session\/UseCase\/Response\/OpenSessionResponse.php.html#11\">App\\MstaffCli\\Domain\\Session\\UseCase\\Response\\OpenSessionResponse::__construct<\/a>"],[0,1,"<a href=\"Domain\/Session\/UseCase\/Response\/OpenSessionResponse.php.html#14\">App\\MstaffCli\\Domain\\Session\\UseCase\\Response\\OpenSessionResponse::getObjectId<\/a>"],[0,1,"<a href=\"Domain\/Shared\/Exception\/RandomizerTermNotFoundException.php.html#13\">App\\MstaffCli\\Domain\\Shared\\Exception\\RandomizerTermNotFoundException::__construct<\/a>"],[0,2,"<a href=\"Domain\/Shared\/Service\/CompositeRandomizerTerm.php.html#16\">App\\MstaffCli\\Domain\\Shared\\Service\\CompositeRandomizerTerm::__construct<\/a>"],[0,3,"<a href=\"Domain\/Shared\/Service\/CompositeRandomizerTerm.php.html#22\">App\\MstaffCli\\Domain\\Shared\\Service\\CompositeRandomizerTerm::randomize<\/a>"],[0,1,"<a href=\"Domain\/Shared\/Service\/RandomizerContractType.php.html#13\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerContractType::randomize<\/a>"],[0,1,"<a href=\"Domain\/Shared\/Service\/RandomizerContractType.php.html#20\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerContractType::support<\/a>"],[0,1,"<a href=\"Domain\/Shared\/Service\/RandomizerContractType.php.html#24\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerContractType::getType<\/a>"],[0,2,"<a href=\"Domain\/Shared\/Service\/RandomizerDiploma.php.html#14\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerDiploma::randomize<\/a>"],[0,1,"<a href=\"Domain\/Shared\/Service\/RandomizerDiploma.php.html#36\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerDiploma::support<\/a>"],[0,1,"<a href=\"Domain\/Shared\/Service\/RandomizerDiploma.php.html#40\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerDiploma::getType<\/a>"],[0,1,"<a href=\"Domain\/Shared\/Service\/RandomizerEstablishmentLabel.php.html#14\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerEstablishmentLabel::__construct<\/a>"],[0,4,"<a href=\"Domain\/Shared\/Service\/RandomizerEstablishmentLabel.php.html#19\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerEstablishmentLabel::randomize<\/a>"],[0,1,"<a href=\"Domain\/Shared\/Service\/RandomizerEstablishmentLabel.php.html#43\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerEstablishmentLabel::support<\/a>"],[0,1,"<a href=\"Domain\/Shared\/Service\/RandomizerEstablishmentLabel.php.html#47\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerEstablishmentLabel::getType<\/a>"],[0,1,"<a href=\"Domain\/Shared\/Service\/RandomizerHobby.php.html#13\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerHobby::randomize<\/a>"],[0,1,"<a href=\"Domain\/Shared\/Service\/RandomizerHobby.php.html#20\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerHobby::support<\/a>"],[0,1,"<a href=\"Domain\/Shared\/Service\/RandomizerHobby.php.html#24\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerHobby::getType<\/a>"],[0,1,"<a href=\"Domain\/Shared\/Service\/RandomizerJob.php.html#13\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerJob::randomize<\/a>"],[0,1,"<a href=\"Domain\/Shared\/Service\/RandomizerJob.php.html#20\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerJob::support<\/a>"],[0,1,"<a href=\"Domain\/Shared\/Service\/RandomizerJob.php.html#24\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerJob::getType<\/a>"],[0,1,"<a href=\"Domain\/Shared\/Service\/RandomizerQuality.php.html#13\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerQuality::randomize<\/a>"],[0,1,"<a href=\"Domain\/Shared\/Service\/RandomizerQuality.php.html#20\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerQuality::support<\/a>"],[0,1,"<a href=\"Domain\/Shared\/Service\/RandomizerQuality.php.html#24\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerQuality::getType<\/a>"],[0,1,"<a href=\"Domain\/Shared\/Service\/RandomizerRequestReason.php.html#13\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerRequestReason::randomize<\/a>"],[0,1,"<a href=\"Domain\/Shared\/Service\/RandomizerRequestReason.php.html#20\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerRequestReason::support<\/a>"],[0,1,"<a href=\"Domain\/Shared\/Service\/RandomizerRequestReason.php.html#24\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerRequestReason::getType<\/a>"],[0,2,"<a href=\"Domain\/Shared\/Service\/RandomizerSkill.php.html#14\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerSkill::randomize<\/a>"],[0,1,"<a href=\"Domain\/Shared\/Service\/RandomizerSkill.php.html#39\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerSkill::support<\/a>"],[0,1,"<a href=\"Domain\/Shared\/Service\/RandomizerSkill.php.html#43\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerSkill::getType<\/a>"],[0,1,"<a href=\"Domain\/Shared\/Service\/RandomizerSpeciality.php.html#13\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerSpeciality::randomize<\/a>"],[0,1,"<a href=\"Domain\/Shared\/Service\/RandomizerSpeciality.php.html#20\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerSpeciality::support<\/a>"],[0,1,"<a href=\"Domain\/Shared\/Service\/RandomizerSpeciality.php.html#24\">App\\MstaffCli\\Domain\\Shared\\Service\\RandomizerSpeciality::getType<\/a>"],[0,1,"<a href=\"Domain\/Shared\/Service\/TermRandomizer.php.html#12\">App\\MstaffCli\\Domain\\Shared\\Service\\TermRandomizer::__construct<\/a>"],[0,4,"<a href=\"Domain\/Shared\/Service\/TermRandomizer.php.html#15\">App\\MstaffCli\\Domain\\Shared\\Service\\TermRandomizer::randomizeTerm<\/a>"],[0,1,"<a href=\"Infrastructure\/Doctrine\/Repository\/DoctrineSessionRepository.php.html#14\">App\\MstaffCli\\Infrastructure\\Doctrine\\Repository\\DoctrineSessionRepository::__construct<\/a>"],[0,1,"<a href=\"Infrastructure\/Doctrine\/Repository\/DoctrineSessionRepository.php.html#18\">App\\MstaffCli\\Infrastructure\\Doctrine\\Repository\\DoctrineSessionRepository::getByUuid<\/a>"],[0,1,"<a href=\"UserInterface\/Api\/CvBank\/SetupCvBankController.php.html#17\">App\\MstaffCli\\UserInterface\\Api\\CvBank\\SetupCvBankController::__construct<\/a>"],[0,3,"<a href=\"UserInterface\/Api\/CvBank\/SetupCvBankController.php.html#20\">App\\MstaffCli\\UserInterface\\Api\\CvBank\\SetupCvBankController::setUp<\/a>"],[0,1,"<a href=\"UserInterface\/Api\/Recruitment\/SetupRecruitmentController.php.html#17\">App\\MstaffCli\\UserInterface\\Api\\Recruitment\\SetupRecruitmentController::__construct<\/a>"],[0,3,"<a href=\"UserInterface\/Api\/Recruitment\/SetupRecruitmentController.php.html#20\">App\\MstaffCli\\UserInterface\\Api\\Recruitment\\SetupRecruitmentController::setUp<\/a>"],[0,1,"<a href=\"UserInterface\/Api\/Session\/SessionController.php.html#20\">App\\MstaffCli\\UserInterface\\Api\\Session\\SessionController::__construct<\/a>"],[0,2,"<a href=\"UserInterface\/Api\/Session\/SessionController.php.html#23\">App\\MstaffCli\\UserInterface\\Api\\Session\\SessionController::init<\/a>"],[0,1,"<a href=\"UserInterface\/Api\/Session\/SessionController.php.html#57\">App\\MstaffCli\\UserInterface\\Api\\Session\\SessionController::close<\/a>"],[0,2,"<a href=\"UserInterface\/Api\/Session\/SessionController.php.html#68\">App\\MstaffCli\\UserInterface\\Api\\Session\\SessionController::get<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

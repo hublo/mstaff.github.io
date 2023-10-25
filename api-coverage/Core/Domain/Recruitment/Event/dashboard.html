@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /Users/alexandre/Dev/mstaff-v3-api/src/Core/Domain/Recruitment/Event</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../_css/bootstrap.min.css?v=9.2.29" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/nv.d3.min.css?v=9.2.29" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/style.css?v=9.2.29" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../../index.html">/Users/alexandre/Dev/mstaff-v3-api/src</a></li>
+         <li class="breadcrumb-item"><a href="../../../index.html">Core</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">Domain</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Recruitment</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Event</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="MeetingDeleted.php.html#8">App\Core\Domain\Recruitment\Event\MeetingDeleted</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MeetingUpdated.php.html#8">App\Core\Domain\Recruitment\Event\MeetingUpdated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentAndOfferSummaryEvent.php.html#8">App\Core\Domain\Recruitment\Event\RecruitmentAndOfferSummaryEvent</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewCandidateComment.php.html#8">App\Core\Domain\Recruitment\Event\RecruitmentNewCandidateComment</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewCandidateFile.php.html#8">App\Core\Domain\Recruitment\Event\RecruitmentNewCandidateFile</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewCandidatesFromOffer.php.html#7">App\Core\Domain\Recruitment\Event\RecruitmentNewCandidatesFromOffer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewStepValidated.php.html#7">App\Core\Domain\Recruitment\Event\RecruitmentNewStepValidated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewValidation.php.html#7">App\Core\Domain\Recruitment\Event\RecruitmentNewValidation</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentOpened.php.html#7">App\Core\Domain\Recruitment\Event\RecruitmentOpened</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentPostrecruitUpdated.php.html#8">App\Core\Domain\Recruitment\Event\RecruitmentPostrecruitUpdated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ValidationFlowAdded.php.html#8">App\Core\Domain\Recruitment\Event\ValidationFlowAdded</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCandidateDocumentRequired.php.html#9">App\Core\Domain\Recruitment\Event\RecruitmentCandidateDocumentRequired</a></td><td class="text-right">20%</td></tr>
+       <tr><td><a href="RecruitmentCollaboratorsUpdated.php.html#7">App\Core\Domain\Recruitment\Event\RecruitmentCollaboratorsUpdated</a></td><td class="text-right">20%</td></tr>
+       <tr><td><a href="RecruitmentClosed.php.html#7">App\Core\Domain\Recruitment\Event\RecruitmentClosed</a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="RecruitmentUnclosed.php.html#7">App\Core\Domain\Recruitment\Event\RecruitmentUnclosed</a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="MeetingCreated.php.html#8">App\Core\Domain\Recruitment\Event\MeetingCreated</a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="RecruitmentCreated.php.html#7">App\Core\Domain\Recruitment\Event\RecruitmentCreated</a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="RecruitmentEvent.php.html#8">App\Core\Domain\Recruitment\Event\RecruitmentEvent</a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="RecruitmentNewCandidates.php.html#7">App\Core\Domain\Recruitment\Event\RecruitmentNewCandidates</a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="RecruitmentPrerecruitUpdated.php.html#10">App\Core\Domain\Recruitment\Event\RecruitmentPrerecruitUpdated</a></td><td class="text-right">75%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="MeetingCreated.php.html#15"><abbr title="App\Core\Domain\Recruitment\Event\MeetingCreated::getMeeting">getMeeting</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MeetingDeleted.php.html#12"><abbr title="App\Core\Domain\Recruitment\Event\MeetingDeleted::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MeetingDeleted.php.html#15"><abbr title="App\Core\Domain\Recruitment\Event\MeetingDeleted::getMeeting">getMeeting</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MeetingUpdated.php.html#12"><abbr title="App\Core\Domain\Recruitment\Event\MeetingUpdated::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MeetingUpdated.php.html#15"><abbr title="App\Core\Domain\Recruitment\Event\MeetingUpdated::getMeeting">getMeeting</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentAndOfferSummaryEvent.php.html#12"><abbr title="App\Core\Domain\Recruitment\Event\RecruitmentAndOfferSummaryEvent::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentAndOfferSummaryEvent.php.html#15"><abbr title="App\Core\Domain\Recruitment\Event\RecruitmentAndOfferSummaryEvent::getUser">getUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentAndOfferSummaryEvent.php.html#19"><abbr title="App\Core\Domain\Recruitment\Event\RecruitmentAndOfferSummaryEvent::getRecruitmentAndOfferData">getRecruitmentAndOfferData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentAndOfferSummaryEvent.php.html#23"><abbr title="App\Core\Domain\Recruitment\Event\RecruitmentAndOfferSummaryEvent::getDateWeek">getDateWeek</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCandidateDocumentRequired.php.html#16"><abbr title="App\Core\Domain\Recruitment\Event\RecruitmentCandidateDocumentRequired::getRecruitment">getRecruitment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCandidateDocumentRequired.php.html#20"><abbr title="App\Core\Domain\Recruitment\Event\RecruitmentCandidateDocumentRequired::getUser">getUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCandidateDocumentRequired.php.html#24"><abbr title="App\Core\Domain\Recruitment\Event\RecruitmentCandidateDocumentRequired::getDocuments">getDocuments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCandidateDocumentRequired.php.html#28"><abbr title="App\Core\Domain\Recruitment\Event\RecruitmentCandidateDocumentRequired::getOtherDocumentDetails">getOtherDocumentDetails</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentClosed.php.html#17"><abbr title="App\Core\Domain\Recruitment\Event\RecruitmentClosed::getRecruitmentId">getRecruitmentId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentClosed.php.html#21"><abbr title="App\Core\Domain\Recruitment\Event\RecruitmentClosed::getUserId">getUserId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCollaboratorsUpdated.php.html#19"><abbr title="App\Core\Domain\Recruitment\Event\RecruitmentCollaboratorsUpdated::getRecruitmentId">getRecruitmentId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCollaboratorsUpdated.php.html#23"><abbr title="App\Core\Domain\Recruitment\Event\RecruitmentCollaboratorsUpdated::getCollaboratorsAdded">getCollaboratorsAdded</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCollaboratorsUpdated.php.html#27"><abbr title="App\Core\Domain\Recruitment\Event\RecruitmentCollaboratorsUpdated::getCollaboratorsRemoved">getCollaboratorsRemoved</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCollaboratorsUpdated.php.html#31"><abbr title="App\Core\Domain\Recruitment\Event\RecruitmentCollaboratorsUpdated::getAuthorId">getAuthorId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentCreated.php.html#16"><abbr title="App\Core\Domain\Recruitment\Event\RecruitmentCreated::getRecruitmentId">getRecruitmentId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentEvent.php.html#13"><abbr title="App\Core\Domain\Recruitment\Event\RecruitmentEvent::getRecruitment">getRecruitment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewCandidateComment.php.html#12"><abbr title="App\Core\Domain\Recruitment\Event\RecruitmentNewCandidateComment::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewCandidateComment.php.html#16"><abbr title="App\Core\Domain\Recruitment\Event\RecruitmentNewCandidateComment::getRecruitment">getRecruitment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewCandidateComment.php.html#20"><abbr title="App\Core\Domain\Recruitment\Event\RecruitmentNewCandidateComment::getComment">getComment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewCandidateFile.php.html#12"><abbr title="App\Core\Domain\Recruitment\Event\RecruitmentNewCandidateFile::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewCandidateFile.php.html#16"><abbr title="App\Core\Domain\Recruitment\Event\RecruitmentNewCandidateFile::getFile">getFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewCandidates.php.html#15"><abbr title="App\Core\Domain\Recruitment\Event\RecruitmentNewCandidates::getCandidates">getCandidates</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewCandidatesFromOffer.php.html#11"><abbr title="App\Core\Domain\Recruitment\Event\RecruitmentNewCandidatesFromOffer::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewCandidatesFromOffer.php.html#14"><abbr title="App\Core\Domain\Recruitment\Event\RecruitmentNewCandidatesFromOffer::getAutoAddedCandidates">getAutoAddedCandidates</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewStepValidated.php.html#11"><abbr title="App\Core\Domain\Recruitment\Event\RecruitmentNewStepValidated::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewStepValidated.php.html#17"><abbr title="App\Core\Domain\Recruitment\Event\RecruitmentNewStepValidated::getRecruitmentId">getRecruitmentId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewStepValidated.php.html#21"><abbr title="App\Core\Domain\Recruitment\Event\RecruitmentNewStepValidated::getValidatorId">getValidatorId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewValidation.php.html#11"><abbr title="App\Core\Domain\Recruitment\Event\RecruitmentNewValidation::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewValidation.php.html#18"><abbr title="App\Core\Domain\Recruitment\Event\RecruitmentNewValidation::getRecruitmentId">getRecruitmentId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewValidation.php.html#22"><abbr title="App\Core\Domain\Recruitment\Event\RecruitmentNewValidation::getValidatorId">getValidatorId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentNewValidation.php.html#26"><abbr title="App\Core\Domain\Recruitment\Event\RecruitmentNewValidation::getValidationHistoryId">getValidationHistoryId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentOpened.php.html#11"><abbr title="App\Core\Domain\Recruitment\Event\RecruitmentOpened::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentOpened.php.html#17"><abbr title="App\Core\Domain\Recruitment\Event\RecruitmentOpened::getRecruitmentId">getRecruitmentId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentOpened.php.html#21"><abbr title="App\Core\Domain\Recruitment\Event\RecruitmentOpened::getValidatorId">getValidatorId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentPostrecruitUpdated.php.html#12"><abbr title="App\Core\Domain\Recruitment\Event\RecruitmentPostrecruitUpdated::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentPostrecruitUpdated.php.html#15"><abbr title="App\Core\Domain\Recruitment\Event\RecruitmentPostrecruitUpdated::getRecruitment">getRecruitment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentPostrecruitUpdated.php.html#19"><abbr title="App\Core\Domain\Recruitment\Event\RecruitmentPostrecruitUpdated::getPostRecruitmentData">getPostRecruitmentData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentPrerecruitUpdated.php.html#26"><abbr title="App\Core\Domain\Recruitment\Event\RecruitmentPrerecruitUpdated::getPreRecruitmentData">getPreRecruitmentData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentUnclosed.php.html#17"><abbr title="App\Core\Domain\Recruitment\Event\RecruitmentUnclosed::getRecruitmentId">getRecruitmentId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecruitmentUnclosed.php.html#21"><abbr title="App\Core\Domain\Recruitment\Event\RecruitmentUnclosed::getUserId">getUserId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ValidationFlowAdded.php.html#12"><abbr title="App\Core\Domain\Recruitment\Event\ValidationFlowAdded::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ValidationFlowAdded.php.html#15"><abbr title="App\Core\Domain\Recruitment\Event\ValidationFlowAdded::getRecruitment">getRecruitment</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 9.2.29</a> using <a href="https://secure.php.net/" target="_top">PHP 8.0.30</a> and <a href="https://phpunit.de/">PHPUnit 9.6.13</a> at Wed Oct 25 8:07:49 UTC 2023.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../_js/jquery.min.js?v=9.2.29" type="text/javascript"></script>
+  <script src="../../../../_js/d3.min.js?v=9.2.29" type="text/javascript"></script>
+  <script src="../../../../_js/nv.d3.min.js?v=9.2.29" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([11,0,0,2,2,0,4,0,1,0,0,8], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([47,0,0,0,0,0,0,0,0,0,0,17], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[50,2,"<a href=\"MeetingCreated.php.html#8\">App\\Core\\Domain\\Recruitment\\Event\\MeetingCreated<\/a>"],[0,2,"<a href=\"MeetingDeleted.php.html#8\">App\\Core\\Domain\\Recruitment\\Event\\MeetingDeleted<\/a>"],[0,2,"<a href=\"MeetingUpdated.php.html#8\">App\\Core\\Domain\\Recruitment\\Event\\MeetingUpdated<\/a>"],[0,4,"<a href=\"RecruitmentAndOfferSummaryEvent.php.html#8\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentAndOfferSummaryEvent<\/a>"],[100,0,"<a href=\"RecruitmentArchived.php.html#5\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentArchived<\/a>"],[100,0,"<a href=\"RecruitmentCanceled.php.html#5\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentCanceled<\/a>"],[20,5,"<a href=\"RecruitmentCandidateDocumentRequired.php.html#9\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentCandidateDocumentRequired<\/a>"],[100,6,"<a href=\"RecruitmentCandidateMoved.php.html#7\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentCandidateMoved<\/a>"],[33.33333333333333,3,"<a href=\"RecruitmentClosed.php.html#7\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentClosed<\/a>"],[20,5,"<a href=\"RecruitmentCollaboratorsUpdated.php.html#7\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentCollaboratorsUpdated<\/a>"],[50,2,"<a href=\"RecruitmentCreated.php.html#7\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentCreated<\/a>"],[100,0,"<a href=\"RecruitmentDeleted.php.html#5\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentDeleted<\/a>"],[50,2,"<a href=\"RecruitmentEvent.php.html#8\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentEvent<\/a>"],[100,0,"<a href=\"RecruitmentKanbanUpdated.php.html#5\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentKanbanUpdated<\/a>"],[100,0,"<a href=\"RecruitmentNameUpdated.php.html#5\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentNameUpdated<\/a>"],[0,3,"<a href=\"RecruitmentNewCandidateComment.php.html#8\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentNewCandidateComment<\/a>"],[0,2,"<a href=\"RecruitmentNewCandidateFile.php.html#8\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentNewCandidateFile<\/a>"],[50,2,"<a href=\"RecruitmentNewCandidates.php.html#7\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentNewCandidates<\/a>"],[0,2,"<a href=\"RecruitmentNewCandidatesFromOffer.php.html#7\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentNewCandidatesFromOffer<\/a>"],[0,3,"<a href=\"RecruitmentNewStepValidated.php.html#7\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentNewStepValidated<\/a>"],[0,4,"<a href=\"RecruitmentNewValidation.php.html#7\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentNewValidation<\/a>"],[0,3,"<a href=\"RecruitmentOpened.php.html#7\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentOpened<\/a>"],[0,3,"<a href=\"RecruitmentPostrecruitUpdated.php.html#8\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentPostrecruitUpdated<\/a>"],[75,4,"<a href=\"RecruitmentPrerecruitUpdated.php.html#10\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentPrerecruitUpdated<\/a>"],[100,0,"<a href=\"RecruitmentUnarchived.php.html#5\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentUnarchived<\/a>"],[33.33333333333333,3,"<a href=\"RecruitmentUnclosed.php.html#7\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentUnclosed<\/a>"],[100,0,"<a href=\"RecruitmentUndrafted.php.html#5\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentUndrafted<\/a>"],[0,2,"<a href=\"ValidationFlowAdded.php.html#8\">App\\Core\\Domain\\Recruitment\\Event\\ValidationFlowAdded<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"MeetingCreated.php.html#12\">App\\Core\\Domain\\Recruitment\\Event\\MeetingCreated::__construct<\/a>"],[0,1,"<a href=\"MeetingCreated.php.html#15\">App\\Core\\Domain\\Recruitment\\Event\\MeetingCreated::getMeeting<\/a>"],[0,1,"<a href=\"MeetingDeleted.php.html#12\">App\\Core\\Domain\\Recruitment\\Event\\MeetingDeleted::__construct<\/a>"],[0,1,"<a href=\"MeetingDeleted.php.html#15\">App\\Core\\Domain\\Recruitment\\Event\\MeetingDeleted::getMeeting<\/a>"],[0,1,"<a href=\"MeetingUpdated.php.html#12\">App\\Core\\Domain\\Recruitment\\Event\\MeetingUpdated::__construct<\/a>"],[0,1,"<a href=\"MeetingUpdated.php.html#15\">App\\Core\\Domain\\Recruitment\\Event\\MeetingUpdated::getMeeting<\/a>"],[0,1,"<a href=\"RecruitmentAndOfferSummaryEvent.php.html#12\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentAndOfferSummaryEvent::__construct<\/a>"],[0,1,"<a href=\"RecruitmentAndOfferSummaryEvent.php.html#15\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentAndOfferSummaryEvent::getUser<\/a>"],[0,1,"<a href=\"RecruitmentAndOfferSummaryEvent.php.html#19\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentAndOfferSummaryEvent::getRecruitmentAndOfferData<\/a>"],[0,1,"<a href=\"RecruitmentAndOfferSummaryEvent.php.html#23\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentAndOfferSummaryEvent::getDateWeek<\/a>"],[100,1,"<a href=\"RecruitmentCandidateDocumentRequired.php.html#13\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentCandidateDocumentRequired::__construct<\/a>"],[0,1,"<a href=\"RecruitmentCandidateDocumentRequired.php.html#16\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentCandidateDocumentRequired::getRecruitment<\/a>"],[0,1,"<a href=\"RecruitmentCandidateDocumentRequired.php.html#20\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentCandidateDocumentRequired::getUser<\/a>"],[0,1,"<a href=\"RecruitmentCandidateDocumentRequired.php.html#24\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentCandidateDocumentRequired::getDocuments<\/a>"],[0,1,"<a href=\"RecruitmentCandidateDocumentRequired.php.html#28\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentCandidateDocumentRequired::getOtherDocumentDetails<\/a>"],[100,1,"<a href=\"RecruitmentCandidateMoved.php.html#11\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentCandidateMoved::__construct<\/a>"],[100,1,"<a href=\"RecruitmentCandidateMoved.php.html#20\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentCandidateMoved::getRecruitmentId<\/a>"],[100,1,"<a href=\"RecruitmentCandidateMoved.php.html#24\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentCandidateMoved::getFromColumnId<\/a>"],[100,1,"<a href=\"RecruitmentCandidateMoved.php.html#28\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentCandidateMoved::getToColumnId<\/a>"],[100,1,"<a href=\"RecruitmentCandidateMoved.php.html#32\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentCandidateMoved::getCandidateId<\/a>"],[100,1,"<a href=\"RecruitmentCandidateMoved.php.html#36\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentCandidateMoved::getAuthorId<\/a>"],[100,1,"<a href=\"RecruitmentClosed.php.html#11\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentClosed::__construct<\/a>"],[0,1,"<a href=\"RecruitmentClosed.php.html#17\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentClosed::getRecruitmentId<\/a>"],[0,1,"<a href=\"RecruitmentClosed.php.html#21\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentClosed::getUserId<\/a>"],[100,1,"<a href=\"RecruitmentCollaboratorsUpdated.php.html#11\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentCollaboratorsUpdated::__construct<\/a>"],[0,1,"<a href=\"RecruitmentCollaboratorsUpdated.php.html#19\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentCollaboratorsUpdated::getRecruitmentId<\/a>"],[0,1,"<a href=\"RecruitmentCollaboratorsUpdated.php.html#23\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentCollaboratorsUpdated::getCollaboratorsAdded<\/a>"],[0,1,"<a href=\"RecruitmentCollaboratorsUpdated.php.html#27\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentCollaboratorsUpdated::getCollaboratorsRemoved<\/a>"],[0,1,"<a href=\"RecruitmentCollaboratorsUpdated.php.html#31\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentCollaboratorsUpdated::getAuthorId<\/a>"],[100,1,"<a href=\"RecruitmentCreated.php.html#11\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentCreated::__construct<\/a>"],[0,1,"<a href=\"RecruitmentCreated.php.html#16\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentCreated::getRecruitmentId<\/a>"],[100,1,"<a href=\"RecruitmentEvent.php.html#10\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentEvent::__construct<\/a>"],[0,1,"<a href=\"RecruitmentEvent.php.html#13\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentEvent::getRecruitment<\/a>"],[0,1,"<a href=\"RecruitmentNewCandidateComment.php.html#12\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentNewCandidateComment::__construct<\/a>"],[0,1,"<a href=\"RecruitmentNewCandidateComment.php.html#16\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentNewCandidateComment::getRecruitment<\/a>"],[0,1,"<a href=\"RecruitmentNewCandidateComment.php.html#20\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentNewCandidateComment::getComment<\/a>"],[0,1,"<a href=\"RecruitmentNewCandidateFile.php.html#12\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentNewCandidateFile::__construct<\/a>"],[0,1,"<a href=\"RecruitmentNewCandidateFile.php.html#16\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentNewCandidateFile::getFile<\/a>"],[100,1,"<a href=\"RecruitmentNewCandidates.php.html#11\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentNewCandidates::__construct<\/a>"],[0,1,"<a href=\"RecruitmentNewCandidates.php.html#15\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentNewCandidates::getCandidates<\/a>"],[0,1,"<a href=\"RecruitmentNewCandidatesFromOffer.php.html#11\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentNewCandidatesFromOffer::__construct<\/a>"],[0,1,"<a href=\"RecruitmentNewCandidatesFromOffer.php.html#14\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentNewCandidatesFromOffer::getAutoAddedCandidates<\/a>"],[0,1,"<a href=\"RecruitmentNewStepValidated.php.html#11\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentNewStepValidated::__construct<\/a>"],[0,1,"<a href=\"RecruitmentNewStepValidated.php.html#17\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentNewStepValidated::getRecruitmentId<\/a>"],[0,1,"<a href=\"RecruitmentNewStepValidated.php.html#21\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentNewStepValidated::getValidatorId<\/a>"],[0,1,"<a href=\"RecruitmentNewValidation.php.html#11\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentNewValidation::__construct<\/a>"],[0,1,"<a href=\"RecruitmentNewValidation.php.html#18\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentNewValidation::getRecruitmentId<\/a>"],[0,1,"<a href=\"RecruitmentNewValidation.php.html#22\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentNewValidation::getValidatorId<\/a>"],[0,1,"<a href=\"RecruitmentNewValidation.php.html#26\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentNewValidation::getValidationHistoryId<\/a>"],[0,1,"<a href=\"RecruitmentOpened.php.html#11\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentOpened::__construct<\/a>"],[0,1,"<a href=\"RecruitmentOpened.php.html#17\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentOpened::getRecruitmentId<\/a>"],[0,1,"<a href=\"RecruitmentOpened.php.html#21\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentOpened::getValidatorId<\/a>"],[0,1,"<a href=\"RecruitmentPostrecruitUpdated.php.html#12\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentPostrecruitUpdated::__construct<\/a>"],[0,1,"<a href=\"RecruitmentPostrecruitUpdated.php.html#15\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentPostrecruitUpdated::getRecruitment<\/a>"],[0,1,"<a href=\"RecruitmentPostrecruitUpdated.php.html#19\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentPostrecruitUpdated::getPostRecruitmentData<\/a>"],[100,1,"<a href=\"RecruitmentPrerecruitUpdated.php.html#14\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentPrerecruitUpdated::__construct<\/a>"],[100,1,"<a href=\"RecruitmentPrerecruitUpdated.php.html#22\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentPrerecruitUpdated::getRecruitment<\/a>"],[0,1,"<a href=\"RecruitmentPrerecruitUpdated.php.html#26\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentPrerecruitUpdated::getPreRecruitmentData<\/a>"],[100,1,"<a href=\"RecruitmentPrerecruitUpdated.php.html#30\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentPrerecruitUpdated::getModificator<\/a>"],[100,1,"<a href=\"RecruitmentUnclosed.php.html#11\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentUnclosed::__construct<\/a>"],[0,1,"<a href=\"RecruitmentUnclosed.php.html#17\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentUnclosed::getRecruitmentId<\/a>"],[0,1,"<a href=\"RecruitmentUnclosed.php.html#21\">App\\Core\\Domain\\Recruitment\\Event\\RecruitmentUnclosed::getUserId<\/a>"],[0,1,"<a href=\"ValidationFlowAdded.php.html#12\">App\\Core\\Domain\\Recruitment\\Event\\ValidationFlowAdded::__construct<\/a>"],[0,1,"<a href=\"ValidationFlowAdded.php.html#15\">App\\Core\\Domain\\Recruitment\\Event\\ValidationFlowAdded::getRecruitment<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

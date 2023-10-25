@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /Users/alexandre/Dev/mstaff-v3-api/src/Core/Domain/Cvtheque</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../_css/bootstrap.min.css?v=9.2.29" rel="stylesheet" type="text/css">
+  <link href="../../../_css/nv.d3.min.css?v=9.2.29" rel="stylesheet" type="text/css">
+  <link href="../../../_css/style.css?v=9.2.29" rel="stylesheet" type="text/css">
+  <link href="../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../index.html">/Users/alexandre/Dev/mstaff-v3-api/src</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">Core</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Domain</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Cvtheque</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Controller/CandidateVisibilityController.php.html#23">App\Core\Domain\Cvtheque\Controller\CandidateVisibilityController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/RhCandidateFavorites.php.html#12">App\Core\Domain\Cvtheque\Entity\RhCandidateFavorites</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/RhCandidateNotified.php.html#12">App\Core\Domain\Cvtheque\Entity\RhCandidateNotified</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event/CandidateNotified.php.html#9">App\Core\Domain\Cvtheque\Event\CandidateNotified</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event/CvthequeShareCandidate.php.html#9">App\Core\Domain\Cvtheque\Event\CvthequeShareCandidate</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/CvthequeRepository.php.html#21">App\Core\Domain\Cvtheque\Repository\CvthequeRepository</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/RhCandidateFavoritesRepository.php.html#11">App\Core\Domain\Cvtheque\Repository\RhCandidateFavoritesRepository</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/RhCandidateNotifiedRepository.php.html#17">App\Core\Domain\Cvtheque\Repository\RhCandidateNotifiedRepository</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/CvthequeController.php.html#47">App\Core\Domain\Cvtheque\Controller\CvthequeController</a></td><td class="text-right">5%</td></tr>
+       <tr><td><a href="Event/CvthequeNewTemporaryCandidate.php.html#8">App\Core\Domain\Cvtheque\Event\CvthequeNewTemporaryCandidate</a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Entity/EstablishmentSourcedCandidate.php.html#13">App\Core\Domain\Cvtheque\Entity\EstablishmentSourcedCandidate</a></td><td class="text-right">55%</td></tr>
+       <tr><td><a href="Entity/EstablishmentAddedCandidate.php.html#15">App\Core\Domain\Cvtheque\Entity\EstablishmentAddedCandidate</a></td><td class="text-right">77%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Repository/CvthequeRepository.php.html#21">App\Core\Domain\Cvtheque\Repository\CvthequeRepository</a></td><td class="text-right">2970</td></tr>
+       <tr><td><a href="Controller/CvthequeController.php.html#47">App\Core\Domain\Cvtheque\Controller\CvthequeController</a></td><td class="text-right">2363</td></tr>
+       <tr><td><a href="Controller/CandidateVisibilityController.php.html#23">App\Core\Domain\Cvtheque\Controller\CandidateVisibilityController</a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="Entity/RhCandidateFavorites.php.html#12">App\Core\Domain\Cvtheque\Entity\RhCandidateFavorites</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Event/CvthequeShareCandidate.php.html#9">App\Core\Domain\Cvtheque\Event\CvthequeShareCandidate</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Repository/RhCandidateNotifiedRepository.php.html#17">App\Core\Domain\Cvtheque\Repository\RhCandidateNotifiedRepository</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Entity/EstablishmentSourcedCandidate.php.html#13">App\Core\Domain\Cvtheque\Entity\EstablishmentSourcedCandidate</a></td><td class="text-right">27</td></tr>
+       <tr><td><a href="Entity/EstablishmentAddedCandidate.php.html#15">App\Core\Domain\Cvtheque\Entity\EstablishmentAddedCandidate</a></td><td class="text-right">14</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Controller/CandidateVisibilityController.php.html#26"><abbr title="App\Core\Domain\Cvtheque\Controller\CandidateVisibilityController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/CandidateVisibilityController.php.html#29"><abbr title="App\Core\Domain\Cvtheque\Controller\CandidateVisibilityController::addFavorite">addFavorite</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/CandidateVisibilityController.php.html#52"><abbr title="App\Core\Domain\Cvtheque\Controller\CandidateVisibilityController::removeFavorite">removeFavorite</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/CandidateVisibilityController.php.html#74"><abbr title="App\Core\Domain\Cvtheque\Controller\CandidateVisibilityController::addArchived">addArchived</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/CandidateVisibilityController.php.html#109"><abbr title="App\Core\Domain\Cvtheque\Controller\CandidateVisibilityController::removeArchived">removeArchived</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/CvthequeController.php.html#51"><abbr title="App\Core\Domain\Cvtheque\Controller\CvthequeController::cvtheque">cvtheque</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/CvthequeController.php.html#242"><abbr title="App\Core\Domain\Cvtheque\Controller\CvthequeController::sourcing">sourcing</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/CvthequeController.php.html#291"><abbr title="App\Core\Domain\Cvtheque\Controller\CvthequeController::addCandidate">addCandidate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/CvthequeController.php.html#324"><abbr title="App\Core\Domain\Cvtheque\Controller\CvthequeController::removeCandidate">removeCandidate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/CvthequeController.php.html#360"><abbr title="App\Core\Domain\Cvtheque\Controller\CvthequeController::shareProfile">shareProfile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/CvthequeController.php.html#373"><abbr title="App\Core\Domain\Cvtheque\Controller\CvthequeController::createRhCandidateNotified">createRhCandidateNotified</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/CvthequeController.php.html#391"><abbr title="App\Core\Domain\Cvtheque\Controller\CvthequeController::checkRhCandidateNotified">checkRhCandidateNotified</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/CvthequeController.php.html#396"><abbr title="App\Core\Domain\Cvtheque\Controller\CvthequeController::createCvthequeLastseen">createCvthequeLastseen</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/EstablishmentAddedCandidate.php.html#47"><abbr title="App\Core\Domain\Cvtheque\Entity\EstablishmentAddedCandidate::getId">getId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/EstablishmentAddedCandidate.php.html#61"><abbr title="App\Core\Domain\Cvtheque\Entity\EstablishmentAddedCandidate::getCreatedAt">getCreatedAt</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/EstablishmentSourcedCandidate.php.html#44"><abbr title="App\Core\Domain\Cvtheque\Entity\EstablishmentSourcedCandidate::getId">getId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/EstablishmentSourcedCandidate.php.html#58"><abbr title="App\Core\Domain\Cvtheque\Entity\EstablishmentSourcedCandidate::getCreatedAt">getCreatedAt</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/EstablishmentSourcedCandidate.php.html#62"><abbr title="App\Core\Domain\Cvtheque\Entity\EstablishmentSourcedCandidate::setCreatedAt">setCreatedAt</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/EstablishmentSourcedCandidate.php.html#68"><abbr title="App\Core\Domain\Cvtheque\Entity\EstablishmentSourcedCandidate::getCandidate">getCandidate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/EstablishmentSourcedCandidate.php.html#82"><abbr title="App\Core\Domain\Cvtheque\Entity\EstablishmentSourcedCandidate::getAuthor">getAuthor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/RhCandidateArchived.php.html#50"><abbr title="App\Core\Domain\Cvtheque\Entity\RhCandidateArchived::getCandidates">getCandidates</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/RhCandidateFavorites.php.html#29"><abbr title="App\Core\Domain\Cvtheque\Entity\RhCandidateFavorites::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/RhCandidateFavorites.php.html#33"><abbr title="App\Core\Domain\Cvtheque\Entity\RhCandidateFavorites::getId">getId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/RhCandidateFavorites.php.html#37"><abbr title="App\Core\Domain\Cvtheque\Entity\RhCandidateFavorites::getRh">getRh</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/RhCandidateFavorites.php.html#41"><abbr title="App\Core\Domain\Cvtheque\Entity\RhCandidateFavorites::setRh">setRh</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/RhCandidateFavorites.php.html#48"><abbr title="App\Core\Domain\Cvtheque\Entity\RhCandidateFavorites::getCandidates">getCandidates</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/RhCandidateFavorites.php.html#52"><abbr title="App\Core\Domain\Cvtheque\Entity\RhCandidateFavorites::addCandidate">addCandidate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/RhCandidateFavorites.php.html#61"><abbr title="App\Core\Domain\Cvtheque\Entity\RhCandidateFavorites::removeCandidate">removeCandidate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/RhCandidateNotified.php.html#38"><abbr title="App\Core\Domain\Cvtheque\Entity\RhCandidateNotified::getId">getId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/RhCandidateNotified.php.html#42"><abbr title="App\Core\Domain\Cvtheque\Entity\RhCandidateNotified::getDateWasNotified">getDateWasNotified</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/RhCandidateNotified.php.html#46"><abbr title="App\Core\Domain\Cvtheque\Entity\RhCandidateNotified::setDateWasNotified">setDateWasNotified</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/RhCandidateNotified.php.html#52"><abbr title="App\Core\Domain\Cvtheque\Entity\RhCandidateNotified::getEstablishment">getEstablishment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/RhCandidateNotified.php.html#56"><abbr title="App\Core\Domain\Cvtheque\Entity\RhCandidateNotified::setEstablishment">setEstablishment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/RhCandidateNotified.php.html#62"><abbr title="App\Core\Domain\Cvtheque\Entity\RhCandidateNotified::getCandidate">getCandidate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/RhCandidateNotified.php.html#66"><abbr title="App\Core\Domain\Cvtheque\Entity\RhCandidateNotified::setCandidate">setCandidate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/RhCandidateNotified.php.html#72"><abbr title="App\Core\Domain\Cvtheque\Entity\RhCandidateNotified::getAuthor">getAuthor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/RhCandidateNotified.php.html#76"><abbr title="App\Core\Domain\Cvtheque\Entity\RhCandidateNotified::setAuthor">setAuthor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event/CandidateNotified.php.html#13"><abbr title="App\Core\Domain\Cvtheque\Event\CandidateNotified::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event/CandidateNotified.php.html#16"><abbr title="App\Core\Domain\Cvtheque\Event\CandidateNotified::getEstablishment">getEstablishment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event/CandidateNotified.php.html#20"><abbr title="App\Core\Domain\Cvtheque\Event\CandidateNotified::getUser">getUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event/CvthequeNewTemporaryCandidate.php.html#15"><abbr title="App\Core\Domain\Cvtheque\Event\CvthequeNewTemporaryCandidate::getSourcedCandidate">getSourcedCandidate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event/CvthequeShareCandidate.php.html#13"><abbr title="App\Core\Domain\Cvtheque\Event\CvthequeShareCandidate::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event/CvthequeShareCandidate.php.html#21"><abbr title="App\Core\Domain\Cvtheque\Event\CvthequeShareCandidate::getUser">getUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event/CvthequeShareCandidate.php.html#25"><abbr title="App\Core\Domain\Cvtheque\Event\CvthequeShareCandidate::getCandidate">getCandidate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event/CvthequeShareCandidate.php.html#29"><abbr title="App\Core\Domain\Cvtheque\Event\CvthequeShareCandidate::getRecruiters">getRecruiters</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event/CvthequeShareCandidate.php.html#33"><abbr title="App\Core\Domain\Cvtheque\Event\CvthequeShareCandidate::getShareVariable">getShareVariable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event/CvthequeShareCandidate.php.html#71"><abbr title="App\Core\Domain\Cvtheque\Event\CvthequeShareCandidate::getEmails">getEmails</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/CvthequeRepository.php.html#25"><abbr title="App\Core\Domain\Cvtheque\Repository\CvthequeRepository::getSubscribedServices">getSubscribedServices</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/CvthequeRepository.php.html#32"><abbr title="App\Core\Domain\Cvtheque\Repository\CvthequeRepository::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/CvthequeRepository.php.html#38"><abbr title="App\Core\Domain\Cvtheque\Repository\CvthequeRepository::createQueryBuilder">createQueryBuilder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/CvthequeRepository.php.html#48"><abbr title="App\Core\Domain\Cvtheque\Repository\CvthequeRepository::joinAndFilterFrom">joinAndFilterFrom</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/CvthequeRepository.php.html#90"><abbr title="App\Core\Domain\Cvtheque\Repository\CvthequeRepository::joinAndFilterNotFrom">joinAndFilterNotFrom</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/CvthequeRepository.php.html#106"><abbr title="App\Core\Domain\Cvtheque\Repository\CvthequeRepository::joinEstablishmentSourcedCandidate">joinEstablishmentSourcedCandidate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/CvthequeRepository.php.html#111"><abbr title="App\Core\Domain\Cvtheque\Repository\CvthequeRepository::joinEstablishmentAddedCandidate">joinEstablishmentAddedCandidate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/CvthequeRepository.php.html#116"><abbr title="App\Core\Domain\Cvtheque\Repository\CvthequeRepository::joinEstablishmentCandidacy">joinEstablishmentCandidacy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/CvthequeRepository.php.html#121"><abbr title="App\Core\Domain\Cvtheque\Repository\CvthequeRepository::joinOfferCandidacy">joinOfferCandidacy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/CvthequeRepository.php.html#127"><abbr title="App\Core\Domain\Cvtheque\Repository\CvthequeRepository::filterSearch">filterSearch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/CvthequeRepository.php.html#153"><abbr title="App\Core\Domain\Cvtheque\Repository\CvthequeRepository::filterVisibility">filterVisibility</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/CvthequeRepository.php.html#170"><abbr title="App\Core\Domain\Cvtheque\Repository\CvthequeRepository::filterTerms">filterTerms</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/CvthequeRepository.php.html#182"><abbr title="App\Core\Domain\Cvtheque\Repository\CvthequeRepository::filterPublicTags">filterPublicTags</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/CvthequeRepository.php.html#194"><abbr title="App\Core\Domain\Cvtheque\Repository\CvthequeRepository::filterPrivateTags">filterPrivateTags</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/CvthequeRepository.php.html#206"><abbr title="App\Core\Domain\Cvtheque\Repository\CvthequeRepository::filterAddress">filterAddress</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/CvthequeRepository.php.html#231"><abbr title="App\Core\Domain\Cvtheque\Repository\CvthequeRepository::filterOffers">filterOffers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/CvthequeRepository.php.html#248"><abbr title="App\Core\Domain\Cvtheque\Repository\CvthequeRepository::filterInRecruitment">filterInRecruitment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/CvthequeRepository.php.html#259"><abbr title="App\Core\Domain\Cvtheque\Repository\CvthequeRepository::filterHasMeeting">filterHasMeeting</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/CvthequeRepository.php.html#269"><abbr title="App\Core\Domain\Cvtheque\Repository\CvthequeRepository::filterHasAvailability">filterHasAvailability</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/CvthequeRepository.php.html#277"><abbr title="App\Core\Domain\Cvtheque\Repository\CvthequeRepository::filterActiveUsers">filterActiveUsers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/CvthequeRepository.php.html#283"><abbr title="App\Core\Domain\Cvtheque\Repository\CvthequeRepository::orderByMostRecentInput">orderByMostRecentInput</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/CvthequeRepository.php.html#298"><abbr title="App\Core\Domain\Cvtheque\Repository\CvthequeRepository::orderByField">orderByField</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/CvthequeRepository.php.html#316"><abbr title="App\Core\Domain\Cvtheque\Repository\CvthequeRepository::filterMobiliteInterne">filterMobiliteInterne</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/CvthequeRepository.php.html#322"><abbr title="App\Core\Domain\Cvtheque\Repository\CvthequeRepository::filterMobiliteExterne">filterMobiliteExterne</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/CvthequeRepository.php.html#328"><abbr title="App\Core\Domain\Cvtheque\Repository\CvthequeRepository::filterUserVisible">filterUserVisible</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/RhCandidateFavoritesRepository.php.html#13"><abbr title="App\Core\Domain\Cvtheque\Repository\RhCandidateFavoritesRepository::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/RhCandidateNotifiedRepository.php.html#19"><abbr title="App\Core\Domain\Cvtheque\Repository\RhCandidateNotifiedRepository::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/RhCandidateNotifiedRepository.php.html#23"><abbr title="App\Core\Domain\Cvtheque\Repository\RhCandidateNotifiedRepository::add">add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository/RhCandidateNotifiedRepository.php.html#31"><abbr title="App\Core\Domain\Cvtheque\Repository\RhCandidateNotifiedRepository::remove">remove</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/CvthequeController.php.html#332"><abbr title="App\Core\Domain\Cvtheque\Controller\CvthequeController::addTemporaryCandidate">addTemporaryCandidate</abbr></a></td><td class="text-right">73%</td></tr>
+       <tr><td><a href="Entity/EstablishmentAddedCandidate.php.html#51"><abbr title="App\Core\Domain\Cvtheque\Entity\EstablishmentAddedCandidate::setAddedBy">setAddedBy</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Entity/EstablishmentAddedCandidate.php.html#75"><abbr title="App\Core\Domain\Cvtheque\Entity\EstablishmentAddedCandidate::setCandidate">setCandidate</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Entity/EstablishmentSourcedCandidate.php.html#48"><abbr title="App\Core\Domain\Cvtheque\Entity\EstablishmentSourcedCandidate::setAuthor">setAuthor</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Entity/EstablishmentSourcedCandidate.php.html#72"><abbr title="App\Core\Domain\Cvtheque\Entity\EstablishmentSourcedCandidate::setCandidate">setCandidate</abbr></a></td><td class="text-right">75%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Controller/CvthequeController.php.html#51"><abbr title="App\Core\Domain\Cvtheque\Controller\CvthequeController::cvtheque">cvtheque</abbr></a></td><td class="text-right">1332</td></tr>
+       <tr><td><a href="Repository/CvthequeRepository.php.html#48"><abbr title="App\Core\Domain\Cvtheque\Repository\CvthequeRepository::joinAndFilterFrom">joinAndFilterFrom</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Repository/CvthequeRepository.php.html#153"><abbr title="App\Core\Domain\Cvtheque\Repository\CvthequeRepository::filterVisibility">filterVisibility</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Repository/CvthequeRepository.php.html#298"><abbr title="App\Core\Domain\Cvtheque\Repository\CvthequeRepository::orderByField">orderByField</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Repository/CvthequeRepository.php.html#206"><abbr title="App\Core\Domain\Cvtheque\Repository\CvthequeRepository::filterAddress">filterAddress</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Controller/CandidateVisibilityController.php.html#29"><abbr title="App\Core\Domain\Cvtheque\Controller\CandidateVisibilityController::addFavorite">addFavorite</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Controller/CandidateVisibilityController.php.html#52"><abbr title="App\Core\Domain\Cvtheque\Controller\CandidateVisibilityController::removeFavorite">removeFavorite</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Controller/CandidateVisibilityController.php.html#74"><abbr title="App\Core\Domain\Cvtheque\Controller\CandidateVisibilityController::addArchived">addArchived</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Controller/CandidateVisibilityController.php.html#109"><abbr title="App\Core\Domain\Cvtheque\Controller\CandidateVisibilityController::removeArchived">removeArchived</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Controller/CvthequeController.php.html#242"><abbr title="App\Core\Domain\Cvtheque\Controller\CvthequeController::sourcing">sourcing</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Repository/CvthequeRepository.php.html#127"><abbr title="App\Core\Domain\Cvtheque\Repository\CvthequeRepository::filterSearch">filterSearch</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Controller/CvthequeController.php.html#291"><abbr title="App\Core\Domain\Cvtheque\Controller\CvthequeController::addCandidate">addCandidate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controller/CvthequeController.php.html#373"><abbr title="App\Core\Domain\Cvtheque\Controller\CvthequeController::createRhCandidateNotified">createRhCandidateNotified</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controller/CvthequeController.php.html#396"><abbr title="App\Core\Domain\Cvtheque\Controller\CvthequeController::createCvthequeLastseen">createCvthequeLastseen</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Entity/RhCandidateFavorites.php.html#52"><abbr title="App\Core\Domain\Cvtheque\Entity\RhCandidateFavorites::addCandidate">addCandidate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Entity/RhCandidateFavorites.php.html#61"><abbr title="App\Core\Domain\Cvtheque\Entity\RhCandidateFavorites::removeCandidate">removeCandidate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Event/CvthequeShareCandidate.php.html#71"><abbr title="App\Core\Domain\Cvtheque\Event\CvthequeShareCandidate::getEmails">getEmails</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Repository/CvthequeRepository.php.html#170"><abbr title="App\Core\Domain\Cvtheque\Repository\CvthequeRepository::filterTerms">filterTerms</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Repository/CvthequeRepository.php.html#182"><abbr title="App\Core\Domain\Cvtheque\Repository\CvthequeRepository::filterPublicTags">filterPublicTags</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Repository/CvthequeRepository.php.html#194"><abbr title="App\Core\Domain\Cvtheque\Repository\CvthequeRepository::filterPrivateTags">filterPrivateTags</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Repository/CvthequeRepository.php.html#231"><abbr title="App\Core\Domain\Cvtheque\Repository\CvthequeRepository::filterOffers">filterOffers</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Repository/RhCandidateNotifiedRepository.php.html#23"><abbr title="App\Core\Domain\Cvtheque\Repository\RhCandidateNotifiedRepository::add">add</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Repository/RhCandidateNotifiedRepository.php.html#31"><abbr title="App\Core\Domain\Cvtheque\Repository\RhCandidateNotifiedRepository::remove">remove</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controller/CvthequeController.php.html#332"><abbr title="App\Core\Domain\Cvtheque\Controller\CvthequeController::addTemporaryCandidate">addTemporaryCandidate</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Entity/EstablishmentAddedCandidate.php.html#75"><abbr title="App\Core\Domain\Cvtheque\Entity\EstablishmentAddedCandidate::setCandidate">setCandidate</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Entity/EstablishmentSourcedCandidate.php.html#72"><abbr title="App\Core\Domain\Cvtheque\Entity\EstablishmentSourcedCandidate::setCandidate">setCandidate</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Entity/EstablishmentAddedCandidate.php.html#51"><abbr title="App\Core\Domain\Cvtheque\Entity\EstablishmentAddedCandidate::setAddedBy">setAddedBy</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Entity/EstablishmentSourcedCandidate.php.html#48"><abbr title="App\Core\Domain\Cvtheque\Entity\EstablishmentSourcedCandidate::setAuthor">setAuthor</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 9.2.29</a> using <a href="https://secure.php.net/" target="_top">PHP 8.0.30</a> and <a href="https://phpunit.de/">PHPUnit 9.6.13</a> at Wed Oct 25 8:07:49 UTC 2023.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../_js/jquery.min.js?v=9.2.29" type="text/javascript"></script>
+  <script src="../../../_js/d3.min.js?v=9.2.29" type="text/javascript"></script>
+  <script src="../../../_js/nv.d3.min.js?v=9.2.29" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([8,1,0,0,0,0,2,0,1,0,1,1], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([76,0,0,0,0,0,0,0,5,0,0,18], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,17,"<a href=\"Controller\/CandidateVisibilityController.php.html#23\">App\\Core\\Domain\\Cvtheque\\Controller\\CandidateVisibilityController<\/a>"],[5.092592592592593,52,"<a href=\"Controller\/CvthequeController.php.html#47\">App\\Core\\Domain\\Cvtheque\\Controller\\CvthequeController<\/a>"],[77.77777777777779,13,"<a href=\"Entity\/EstablishmentAddedCandidate.php.html#15\">App\\Core\\Domain\\Cvtheque\\Entity\\EstablishmentAddedCandidate<\/a>"],[55.55555555555556,13,"<a href=\"Entity\/EstablishmentSourcedCandidate.php.html#13\">App\\Core\\Domain\\Cvtheque\\Entity\\EstablishmentSourcedCandidate<\/a>"],[93.75,10,"<a href=\"Entity\/RhCandidateArchived.php.html#13\">App\\Core\\Domain\\Cvtheque\\Entity\\RhCandidateArchived<\/a>"],[0,9,"<a href=\"Entity\/RhCandidateFavorites.php.html#12\">App\\Core\\Domain\\Cvtheque\\Entity\\RhCandidateFavorites<\/a>"],[0,9,"<a href=\"Entity\/RhCandidateNotified.php.html#12\">App\\Core\\Domain\\Cvtheque\\Entity\\RhCandidateNotified<\/a>"],[0,3,"<a href=\"Event\/CandidateNotified.php.html#9\">App\\Core\\Domain\\Cvtheque\\Event\\CandidateNotified<\/a>"],[50,2,"<a href=\"Event\/CvthequeNewTemporaryCandidate.php.html#8\">App\\Core\\Domain\\Cvtheque\\Event\\CvthequeNewTemporaryCandidate<\/a>"],[0,7,"<a href=\"Event\/CvthequeShareCandidate.php.html#9\">App\\Core\\Domain\\Cvtheque\\Event\\CvthequeShareCandidate<\/a>"],[0,54,"<a href=\"Repository\/CvthequeRepository.php.html#21\">App\\Core\\Domain\\Cvtheque\\Repository\\CvthequeRepository<\/a>"],[100,1,"<a href=\"Repository\/EstablishmentSourcedCandidateRepository.php.html#11\">App\\Core\\Domain\\Cvtheque\\Repository\\EstablishmentSourcedCandidateRepository<\/a>"],[0,1,"<a href=\"Repository\/RhCandidateFavoritesRepository.php.html#11\">App\\Core\\Domain\\Cvtheque\\Repository\\RhCandidateFavoritesRepository<\/a>"],[0,5,"<a href=\"Repository\/RhCandidateNotifiedRepository.php.html#17\">App\\Core\\Domain\\Cvtheque\\Repository\\RhCandidateNotifiedRepository<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Controller\/CandidateVisibilityController.php.html#26\">App\\Core\\Domain\\Cvtheque\\Controller\\CandidateVisibilityController::__construct<\/a>"],[0,4,"<a href=\"Controller\/CandidateVisibilityController.php.html#29\">App\\Core\\Domain\\Cvtheque\\Controller\\CandidateVisibilityController::addFavorite<\/a>"],[0,4,"<a href=\"Controller\/CandidateVisibilityController.php.html#52\">App\\Core\\Domain\\Cvtheque\\Controller\\CandidateVisibilityController::removeFavorite<\/a>"],[0,4,"<a href=\"Controller\/CandidateVisibilityController.php.html#74\">App\\Core\\Domain\\Cvtheque\\Controller\\CandidateVisibilityController::addArchived<\/a>"],[0,4,"<a href=\"Controller\/CandidateVisibilityController.php.html#109\">App\\Core\\Domain\\Cvtheque\\Controller\\CandidateVisibilityController::removeArchived<\/a>"],[0,36,"<a href=\"Controller\/CvthequeController.php.html#51\">App\\Core\\Domain\\Cvtheque\\Controller\\CvthequeController::cvtheque<\/a>"],[0,4,"<a href=\"Controller\/CvthequeController.php.html#242\">App\\Core\\Domain\\Cvtheque\\Controller\\CvthequeController::sourcing<\/a>"],[0,2,"<a href=\"Controller\/CvthequeController.php.html#291\">App\\Core\\Domain\\Cvtheque\\Controller\\CvthequeController::addCandidate<\/a>"],[0,1,"<a href=\"Controller\/CvthequeController.php.html#324\">App\\Core\\Domain\\Cvtheque\\Controller\\CvthequeController::removeCandidate<\/a>"],[73.33333333333333,3,"<a href=\"Controller\/CvthequeController.php.html#332\">App\\Core\\Domain\\Cvtheque\\Controller\\CvthequeController::addTemporaryCandidate<\/a>"],[0,1,"<a href=\"Controller\/CvthequeController.php.html#360\">App\\Core\\Domain\\Cvtheque\\Controller\\CvthequeController::shareProfile<\/a>"],[0,2,"<a href=\"Controller\/CvthequeController.php.html#373\">App\\Core\\Domain\\Cvtheque\\Controller\\CvthequeController::createRhCandidateNotified<\/a>"],[0,1,"<a href=\"Controller\/CvthequeController.php.html#391\">App\\Core\\Domain\\Cvtheque\\Controller\\CvthequeController::checkRhCandidateNotified<\/a>"],[0,2,"<a href=\"Controller\/CvthequeController.php.html#396\">App\\Core\\Domain\\Cvtheque\\Controller\\CvthequeController::createCvthequeLastseen<\/a>"],[100,1,"<a href=\"Entity\/EstablishmentAddedCandidate.php.html#43\">App\\Core\\Domain\\Cvtheque\\Entity\\EstablishmentAddedCandidate::__construct<\/a>"],[0,1,"<a href=\"Entity\/EstablishmentAddedCandidate.php.html#47\">App\\Core\\Domain\\Cvtheque\\Entity\\EstablishmentAddedCandidate::getId<\/a>"],[75,2,"<a href=\"Entity\/EstablishmentAddedCandidate.php.html#51\">App\\Core\\Domain\\Cvtheque\\Entity\\EstablishmentAddedCandidate::setAddedBy<\/a>"],[0,1,"<a href=\"Entity\/EstablishmentAddedCandidate.php.html#61\">App\\Core\\Domain\\Cvtheque\\Entity\\EstablishmentAddedCandidate::getCreatedAt<\/a>"],[100,1,"<a href=\"Entity\/EstablishmentAddedCandidate.php.html#65\">App\\Core\\Domain\\Cvtheque\\Entity\\EstablishmentAddedCandidate::setCreatedAt<\/a>"],[100,1,"<a href=\"Entity\/EstablishmentAddedCandidate.php.html#71\">App\\Core\\Domain\\Cvtheque\\Entity\\EstablishmentAddedCandidate::getCandidate<\/a>"],[75,3,"<a href=\"Entity\/EstablishmentAddedCandidate.php.html#75\">App\\Core\\Domain\\Cvtheque\\Entity\\EstablishmentAddedCandidate::setCandidate<\/a>"],[100,1,"<a href=\"Entity\/EstablishmentAddedCandidate.php.html#85\">App\\Core\\Domain\\Cvtheque\\Entity\\EstablishmentAddedCandidate::getAddedBy<\/a>"],[100,1,"<a href=\"Entity\/EstablishmentAddedCandidate.php.html#89\">App\\Core\\Domain\\Cvtheque\\Entity\\EstablishmentAddedCandidate::getEstablishment<\/a>"],[100,1,"<a href=\"Entity\/EstablishmentAddedCandidate.php.html#93\">App\\Core\\Domain\\Cvtheque\\Entity\\EstablishmentAddedCandidate::setEstablishment<\/a>"],[100,1,"<a href=\"Entity\/EstablishmentSourcedCandidate.php.html#40\">App\\Core\\Domain\\Cvtheque\\Entity\\EstablishmentSourcedCandidate::__construct<\/a>"],[0,1,"<a href=\"Entity\/EstablishmentSourcedCandidate.php.html#44\">App\\Core\\Domain\\Cvtheque\\Entity\\EstablishmentSourcedCandidate::getId<\/a>"],[75,2,"<a href=\"Entity\/EstablishmentSourcedCandidate.php.html#48\">App\\Core\\Domain\\Cvtheque\\Entity\\EstablishmentSourcedCandidate::setAuthor<\/a>"],[0,1,"<a href=\"Entity\/EstablishmentSourcedCandidate.php.html#58\">App\\Core\\Domain\\Cvtheque\\Entity\\EstablishmentSourcedCandidate::getCreatedAt<\/a>"],[0,1,"<a href=\"Entity\/EstablishmentSourcedCandidate.php.html#62\">App\\Core\\Domain\\Cvtheque\\Entity\\EstablishmentSourcedCandidate::setCreatedAt<\/a>"],[0,1,"<a href=\"Entity\/EstablishmentSourcedCandidate.php.html#68\">App\\Core\\Domain\\Cvtheque\\Entity\\EstablishmentSourcedCandidate::getCandidate<\/a>"],[75,3,"<a href=\"Entity\/EstablishmentSourcedCandidate.php.html#72\">App\\Core\\Domain\\Cvtheque\\Entity\\EstablishmentSourcedCandidate::setCandidate<\/a>"],[0,1,"<a href=\"Entity\/EstablishmentSourcedCandidate.php.html#82\">App\\Core\\Domain\\Cvtheque\\Entity\\EstablishmentSourcedCandidate::getAuthor<\/a>"],[100,1,"<a href=\"Entity\/EstablishmentSourcedCandidate.php.html#86\">App\\Core\\Domain\\Cvtheque\\Entity\\EstablishmentSourcedCandidate::getEstablishment<\/a>"],[100,1,"<a href=\"Entity\/EstablishmentSourcedCandidate.php.html#90\">App\\Core\\Domain\\Cvtheque\\Entity\\EstablishmentSourcedCandidate::setEstablishment<\/a>"],[100,1,"<a href=\"Entity\/RhCandidateArchived.php.html#30\">App\\Core\\Domain\\Cvtheque\\Entity\\RhCandidateArchived::__construct<\/a>"],[100,1,"<a href=\"Entity\/RhCandidateArchived.php.html#34\">App\\Core\\Domain\\Cvtheque\\Entity\\RhCandidateArchived::getId<\/a>"],[100,1,"<a href=\"Entity\/RhCandidateArchived.php.html#38\">App\\Core\\Domain\\Cvtheque\\Entity\\RhCandidateArchived::getEstablishment<\/a>"],[100,1,"<a href=\"Entity\/RhCandidateArchived.php.html#42\">App\\Core\\Domain\\Cvtheque\\Entity\\RhCandidateArchived::setEstablishment<\/a>"],[0,1,"<a href=\"Entity\/RhCandidateArchived.php.html#50\">App\\Core\\Domain\\Cvtheque\\Entity\\RhCandidateArchived::getCandidates<\/a>"],[100,2,"<a href=\"Entity\/RhCandidateArchived.php.html#54\">App\\Core\\Domain\\Cvtheque\\Entity\\RhCandidateArchived::addCandidate<\/a>"],[100,2,"<a href=\"Entity\/RhCandidateArchived.php.html#63\">App\\Core\\Domain\\Cvtheque\\Entity\\RhCandidateArchived::removeCandidate<\/a>"],[100,1,"<a href=\"Entity\/RhCandidateArchived.php.html#72\">App\\Core\\Domain\\Cvtheque\\Entity\\RhCandidateArchived::hasCandidate<\/a>"],[0,1,"<a href=\"Entity\/RhCandidateFavorites.php.html#29\">App\\Core\\Domain\\Cvtheque\\Entity\\RhCandidateFavorites::__construct<\/a>"],[0,1,"<a href=\"Entity\/RhCandidateFavorites.php.html#33\">App\\Core\\Domain\\Cvtheque\\Entity\\RhCandidateFavorites::getId<\/a>"],[0,1,"<a href=\"Entity\/RhCandidateFavorites.php.html#37\">App\\Core\\Domain\\Cvtheque\\Entity\\RhCandidateFavorites::getRh<\/a>"],[0,1,"<a href=\"Entity\/RhCandidateFavorites.php.html#41\">App\\Core\\Domain\\Cvtheque\\Entity\\RhCandidateFavorites::setRh<\/a>"],[0,1,"<a href=\"Entity\/RhCandidateFavorites.php.html#48\">App\\Core\\Domain\\Cvtheque\\Entity\\RhCandidateFavorites::getCandidates<\/a>"],[0,2,"<a href=\"Entity\/RhCandidateFavorites.php.html#52\">App\\Core\\Domain\\Cvtheque\\Entity\\RhCandidateFavorites::addCandidate<\/a>"],[0,2,"<a href=\"Entity\/RhCandidateFavorites.php.html#61\">App\\Core\\Domain\\Cvtheque\\Entity\\RhCandidateFavorites::removeCandidate<\/a>"],[0,1,"<a href=\"Entity\/RhCandidateNotified.php.html#38\">App\\Core\\Domain\\Cvtheque\\Entity\\RhCandidateNotified::getId<\/a>"],[0,1,"<a href=\"Entity\/RhCandidateNotified.php.html#42\">App\\Core\\Domain\\Cvtheque\\Entity\\RhCandidateNotified::getDateWasNotified<\/a>"],[0,1,"<a href=\"Entity\/RhCandidateNotified.php.html#46\">App\\Core\\Domain\\Cvtheque\\Entity\\RhCandidateNotified::setDateWasNotified<\/a>"],[0,1,"<a href=\"Entity\/RhCandidateNotified.php.html#52\">App\\Core\\Domain\\Cvtheque\\Entity\\RhCandidateNotified::getEstablishment<\/a>"],[0,1,"<a href=\"Entity\/RhCandidateNotified.php.html#56\">App\\Core\\Domain\\Cvtheque\\Entity\\RhCandidateNotified::setEstablishment<\/a>"],[0,1,"<a href=\"Entity\/RhCandidateNotified.php.html#62\">App\\Core\\Domain\\Cvtheque\\Entity\\RhCandidateNotified::getCandidate<\/a>"],[0,1,"<a href=\"Entity\/RhCandidateNotified.php.html#66\">App\\Core\\Domain\\Cvtheque\\Entity\\RhCandidateNotified::setCandidate<\/a>"],[0,1,"<a href=\"Entity\/RhCandidateNotified.php.html#72\">App\\Core\\Domain\\Cvtheque\\Entity\\RhCandidateNotified::getAuthor<\/a>"],[0,1,"<a href=\"Entity\/RhCandidateNotified.php.html#76\">App\\Core\\Domain\\Cvtheque\\Entity\\RhCandidateNotified::setAuthor<\/a>"],[0,1,"<a href=\"Event\/CandidateNotified.php.html#13\">App\\Core\\Domain\\Cvtheque\\Event\\CandidateNotified::__construct<\/a>"],[0,1,"<a href=\"Event\/CandidateNotified.php.html#16\">App\\Core\\Domain\\Cvtheque\\Event\\CandidateNotified::getEstablishment<\/a>"],[0,1,"<a href=\"Event\/CandidateNotified.php.html#20\">App\\Core\\Domain\\Cvtheque\\Event\\CandidateNotified::getUser<\/a>"],[100,1,"<a href=\"Event\/CvthequeNewTemporaryCandidate.php.html#12\">App\\Core\\Domain\\Cvtheque\\Event\\CvthequeNewTemporaryCandidate::__construct<\/a>"],[0,1,"<a href=\"Event\/CvthequeNewTemporaryCandidate.php.html#15\">App\\Core\\Domain\\Cvtheque\\Event\\CvthequeNewTemporaryCandidate::getSourcedCandidate<\/a>"],[0,1,"<a href=\"Event\/CvthequeShareCandidate.php.html#13\">App\\Core\\Domain\\Cvtheque\\Event\\CvthequeShareCandidate::__construct<\/a>"],[0,1,"<a href=\"Event\/CvthequeShareCandidate.php.html#21\">App\\Core\\Domain\\Cvtheque\\Event\\CvthequeShareCandidate::getUser<\/a>"],[0,1,"<a href=\"Event\/CvthequeShareCandidate.php.html#25\">App\\Core\\Domain\\Cvtheque\\Event\\CvthequeShareCandidate::getCandidate<\/a>"],[0,1,"<a href=\"Event\/CvthequeShareCandidate.php.html#29\">App\\Core\\Domain\\Cvtheque\\Event\\CvthequeShareCandidate::getRecruiters<\/a>"],[0,1,"<a href=\"Event\/CvthequeShareCandidate.php.html#33\">App\\Core\\Domain\\Cvtheque\\Event\\CvthequeShareCandidate::getShareVariable<\/a>"],[0,2,"<a href=\"Event\/CvthequeShareCandidate.php.html#71\">App\\Core\\Domain\\Cvtheque\\Event\\CvthequeShareCandidate::getEmails<\/a>"],[0,1,"<a href=\"Repository\/CvthequeRepository.php.html#25\">App\\Core\\Domain\\Cvtheque\\Repository\\CvthequeRepository::getSubscribedServices<\/a>"],[0,1,"<a href=\"Repository\/CvthequeRepository.php.html#32\">App\\Core\\Domain\\Cvtheque\\Repository\\CvthequeRepository::__construct<\/a>"],[0,1,"<a href=\"Repository\/CvthequeRepository.php.html#38\">App\\Core\\Domain\\Cvtheque\\Repository\\CvthequeRepository::createQueryBuilder<\/a>"],[0,8,"<a href=\"Repository\/CvthequeRepository.php.html#48\">App\\Core\\Domain\\Cvtheque\\Repository\\CvthequeRepository::joinAndFilterFrom<\/a>"],[0,1,"<a href=\"Repository\/CvthequeRepository.php.html#90\">App\\Core\\Domain\\Cvtheque\\Repository\\CvthequeRepository::joinAndFilterNotFrom<\/a>"],[0,1,"<a href=\"Repository\/CvthequeRepository.php.html#106\">App\\Core\\Domain\\Cvtheque\\Repository\\CvthequeRepository::joinEstablishmentSourcedCandidate<\/a>"],[0,1,"<a href=\"Repository\/CvthequeRepository.php.html#111\">App\\Core\\Domain\\Cvtheque\\Repository\\CvthequeRepository::joinEstablishmentAddedCandidate<\/a>"],[0,1,"<a href=\"Repository\/CvthequeRepository.php.html#116\">App\\Core\\Domain\\Cvtheque\\Repository\\CvthequeRepository::joinEstablishmentCandidacy<\/a>"],[0,1,"<a href=\"Repository\/CvthequeRepository.php.html#121\">App\\Core\\Domain\\Cvtheque\\Repository\\CvthequeRepository::joinOfferCandidacy<\/a>"],[0,4,"<a href=\"Repository\/CvthequeRepository.php.html#127\">App\\Core\\Domain\\Cvtheque\\Repository\\CvthequeRepository::filterSearch<\/a>"],[0,7,"<a href=\"Repository\/CvthequeRepository.php.html#153\">App\\Core\\Domain\\Cvtheque\\Repository\\CvthequeRepository::filterVisibility<\/a>"],[0,2,"<a href=\"Repository\/CvthequeRepository.php.html#170\">App\\Core\\Domain\\Cvtheque\\Repository\\CvthequeRepository::filterTerms<\/a>"],[0,2,"<a href=\"Repository\/CvthequeRepository.php.html#182\">App\\Core\\Domain\\Cvtheque\\Repository\\CvthequeRepository::filterPublicTags<\/a>"],[0,2,"<a href=\"Repository\/CvthequeRepository.php.html#194\">App\\Core\\Domain\\Cvtheque\\Repository\\CvthequeRepository::filterPrivateTags<\/a>"],[0,5,"<a href=\"Repository\/CvthequeRepository.php.html#206\">App\\Core\\Domain\\Cvtheque\\Repository\\CvthequeRepository::filterAddress<\/a>"],[0,2,"<a href=\"Repository\/CvthequeRepository.php.html#231\">App\\Core\\Domain\\Cvtheque\\Repository\\CvthequeRepository::filterOffers<\/a>"],[0,1,"<a href=\"Repository\/CvthequeRepository.php.html#248\">App\\Core\\Domain\\Cvtheque\\Repository\\CvthequeRepository::filterInRecruitment<\/a>"],[0,1,"<a href=\"Repository\/CvthequeRepository.php.html#259\">App\\Core\\Domain\\Cvtheque\\Repository\\CvthequeRepository::filterHasMeeting<\/a>"],[0,1,"<a href=\"Repository\/CvthequeRepository.php.html#269\">App\\Core\\Domain\\Cvtheque\\Repository\\CvthequeRepository::filterHasAvailability<\/a>"],[0,1,"<a href=\"Repository\/CvthequeRepository.php.html#277\">App\\Core\\Domain\\Cvtheque\\Repository\\CvthequeRepository::filterActiveUsers<\/a>"],[0,1,"<a href=\"Repository\/CvthequeRepository.php.html#283\">App\\Core\\Domain\\Cvtheque\\Repository\\CvthequeRepository::orderByMostRecentInput<\/a>"],[0,6,"<a href=\"Repository\/CvthequeRepository.php.html#298\">App\\Core\\Domain\\Cvtheque\\Repository\\CvthequeRepository::orderByField<\/a>"],[0,1,"<a href=\"Repository\/CvthequeRepository.php.html#316\">App\\Core\\Domain\\Cvtheque\\Repository\\CvthequeRepository::filterMobiliteInterne<\/a>"],[0,1,"<a href=\"Repository\/CvthequeRepository.php.html#322\">App\\Core\\Domain\\Cvtheque\\Repository\\CvthequeRepository::filterMobiliteExterne<\/a>"],[0,1,"<a href=\"Repository\/CvthequeRepository.php.html#328\">App\\Core\\Domain\\Cvtheque\\Repository\\CvthequeRepository::filterUserVisible<\/a>"],[100,1,"<a href=\"Repository\/EstablishmentSourcedCandidateRepository.php.html#13\">App\\Core\\Domain\\Cvtheque\\Repository\\EstablishmentSourcedCandidateRepository::__construct<\/a>"],[0,1,"<a href=\"Repository\/RhCandidateFavoritesRepository.php.html#13\">App\\Core\\Domain\\Cvtheque\\Repository\\RhCandidateFavoritesRepository::__construct<\/a>"],[0,1,"<a href=\"Repository\/RhCandidateNotifiedRepository.php.html#19\">App\\Core\\Domain\\Cvtheque\\Repository\\RhCandidateNotifiedRepository::__construct<\/a>"],[0,2,"<a href=\"Repository\/RhCandidateNotifiedRepository.php.html#23\">App\\Core\\Domain\\Cvtheque\\Repository\\RhCandidateNotifiedRepository::add<\/a>"],[0,2,"<a href=\"Repository\/RhCandidateNotifiedRepository.php.html#31\">App\\Core\\Domain\\Cvtheque\\Repository\\RhCandidateNotifiedRepository::remove<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

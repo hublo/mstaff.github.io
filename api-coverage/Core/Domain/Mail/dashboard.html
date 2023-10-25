@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /Users/alexandre/Dev/mstaff-v3-api/src/Core/Domain/Mail</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../_css/bootstrap.min.css?v=9.2.29" rel="stylesheet" type="text/css">
+  <link href="../../../_css/nv.d3.min.css?v=9.2.29" rel="stylesheet" type="text/css">
+  <link href="../../../_css/style.css?v=9.2.29" rel="stylesheet" type="text/css">
+  <link href="../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../index.html">/Users/alexandre/Dev/mstaff-v3-api/src</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">Core</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Domain</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Mail</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Controller/MailHistoryController.php.html#14">App\Core\Domain\Mail\Controller\MailHistoryController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/MailTemplateController.php.html#16">App\Core\Domain\Mail\Controller\MailTemplateController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event/Subscriber/MailSubscriber.php.html#32">App\Core\Domain\Mail\Event\Subscriber\MailSubscriber</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exception/EmailContentCannotBeEmptyException.php.html#8">App\Core\Domain\Mail\Exception\EmailContentCannotBeEmptyException</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exception/MailTemplateNotFoundException.php.html#8">App\Core\Domain\Mail\Exception\MailTemplateNotFoundException</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Notification/ManualEmailToCandidateEmail.php.html#12">App\Core\Domain\Mail\Notification\ManualEmailToCandidateEmail</a></td><td class="text-right">4%</td></tr>
+       <tr><td><a href="Security/MailTemplateVoter.php.html#10">App\Core\Domain\Mail\Security\MailTemplateVoter</a></td><td class="text-right">25%</td></tr>
+       <tr><td><a href="Entity/MailHistory.php.html#15">App\Core\Domain\Mail\Entity\MailHistory</a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="UseCase/SendEmailToCandidate/SendEmailToCandidateCommandHandler.php.html#20">App\Core\Domain\Mail\UseCase\SendEmailToCandidate\SendEmailToCandidateCommandHandler</a></td><td class="text-right">82%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Event/Subscriber/MailSubscriber.php.html#32">App\Core\Domain\Mail\Event\Subscriber\MailSubscriber</a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="Controller/MailTemplateController.php.html#16">App\Core\Domain\Mail\Controller\MailTemplateController</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Controller/MailHistoryController.php.html#14">App\Core\Domain\Mail\Controller\MailHistoryController</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Entity/MailHistory.php.html#15">App\Core\Domain\Mail\Entity\MailHistory</a></td><td class="text-right">25</td></tr>
+       <tr><td><a href="Security/MailTemplateVoter.php.html#10">App\Core\Domain\Mail\Security\MailTemplateVoter</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="UseCase/SendEmailToCandidate/SendEmailToCandidateCommandHandler.php.html#20">App\Core\Domain\Mail\UseCase\SendEmailToCandidate\SendEmailToCandidateCommandHandler</a></td><td class="text-right">5</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Controller/MailHistoryController.php.html#18"><abbr title="App\Core\Domain\Mail\Controller\MailHistoryController::listByEstablishment">listByEstablishment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/MailHistoryController.php.html#33"><abbr title="App\Core\Domain\Mail\Controller\MailHistoryController::listByEstablishmentAndSender">listByEstablishmentAndSender</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/MailHistoryController.php.html#47"><abbr title="App\Core\Domain\Mail\Controller\MailHistoryController::listByEstablishmentAndReceiver">listByEstablishmentAndReceiver</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/MailHistoryController.php.html#61"><abbr title="App\Core\Domain\Mail\Controller\MailHistoryController::testRemoveAll">testRemoveAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/MailTemplateController.php.html#20"><abbr title="App\Core\Domain\Mail\Controller\MailTemplateController::list">list</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/MailTemplateController.php.html#34"><abbr title="App\Core\Domain\Mail\Controller\MailTemplateController::listByEstablishment">listByEstablishment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/MailTemplateController.php.html#57"><abbr title="App\Core\Domain\Mail\Controller\MailTemplateController::listByRh">listByRh</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/MailTemplateController.php.html#69"><abbr title="App\Core\Domain\Mail\Controller\MailTemplateController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/MailTemplateController.php.html#82"><abbr title="App\Core\Domain\Mail\Controller\MailTemplateController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/MailTemplateController.php.html#88"><abbr title="App\Core\Domain\Mail\Controller\MailTemplateController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/MailTemplateController.php.html#93"><abbr title="App\Core\Domain\Mail\Controller\MailTemplateController::read">read</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/MailHistory.php.html#56"><abbr title="App\Core\Domain\Mail\Entity\MailHistory::addAttachment">addAttachment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/MailHistory.php.html#104"><abbr title="App\Core\Domain\Mail\Entity\MailHistory::removeAttachment">removeAttachment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/MailHistory.php.html#110"><abbr title="App\Core\Domain\Mail\Entity\MailHistory::setAttachments">setAttachments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event/Subscriber/MailSubscriber.php.html#97"><abbr title="App\Core\Domain\Mail\Event\Subscriber\MailSubscriber::getSubscribedEvents">getSubscribedEvents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event/Subscriber/MailSubscriber.php.html#119"><abbr title="App\Core\Domain\Mail\Event\Subscriber\MailSubscriber::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event/Subscriber/MailSubscriber.php.html#131"><abbr title="App\Core\Domain\Mail\Event\Subscriber\MailSubscriber::onCandidateRGPDRenew">onCandidateRGPDRenew</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event/Subscriber/MailSubscriber.php.html#151"><abbr title="App\Core\Domain\Mail\Event\Subscriber\MailSubscriber::onCvthequeNewTemporaryCandidate">onCvthequeNewTemporaryCandidate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event/Subscriber/MailSubscriber.php.html#161"><abbr title="App\Core\Domain\Mail\Event\Subscriber\MailSubscriber::onSendEstablishmentAlert">onSendEstablishmentAlert</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event/Subscriber/MailSubscriber.php.html#178"><abbr title="App\Core\Domain\Mail\Event\Subscriber\MailSubscriber::onCandidateNotified">onCandidateNotified</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event/Subscriber/MailSubscriber.php.html#188"><abbr title="App\Core\Domain\Mail\Event\Subscriber\MailSubscriber::onRecruitmentCandidateDocumentRequired">onRecruitmentCandidateDocumentRequired</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event/Subscriber/MailSubscriber.php.html#204"><abbr title="App\Core\Domain\Mail\Event\Subscriber\MailSubscriber::onMeetingCreated">onMeetingCreated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event/Subscriber/MailSubscriber.php.html#214"><abbr title="App\Core\Domain\Mail\Event\Subscriber\MailSubscriber::onMeetingUpdated">onMeetingUpdated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event/Subscriber/MailSubscriber.php.html#220"><abbr title="App\Core\Domain\Mail\Event\Subscriber\MailSubscriber::onMeetingDeleted">onMeetingDeleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event/Subscriber/MailSubscriber.php.html#227"><abbr title="App\Core\Domain\Mail\Event\Subscriber\MailSubscriber::onShareCandidate">onShareCandidate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event/Subscriber/MailSubscriber.php.html#234"><abbr title="App\Core\Domain\Mail\Event\Subscriber\MailSubscriber::onRecruitmentAndOfferSummaryEvent">onRecruitmentAndOfferSummaryEvent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event/Subscriber/MailSubscriber.php.html#250"><abbr title="App\Core\Domain\Mail\Event\Subscriber\MailSubscriber::send">send</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event/Subscriber/MailSubscriber.php.html#267"><abbr title="App\Core\Domain\Mail\Event\Subscriber\MailSubscriber::getMeetingVariables">getMeetingVariables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event/Subscriber/MailSubscriber.php.html#283"><abbr title="App\Core\Domain\Mail\Event\Subscriber\MailSubscriber::onRecruitmentNewCandidatesFromOffer">onRecruitmentNewCandidatesFromOffer</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exception/EmailContentCannotBeEmptyException.php.html#13"><abbr title="App\Core\Domain\Mail\Exception\EmailContentCannotBeEmptyException::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exception/EmailContentCannotBeEmptyException.php.html#17"><abbr title="App\Core\Domain\Mail\Exception\EmailContentCannotBeEmptyException::getInternalCode">getInternalCode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exception/MailTemplateNotFoundException.php.html#13"><abbr title="App\Core\Domain\Mail\Exception\MailTemplateNotFoundException::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exception/MailTemplateNotFoundException.php.html#17"><abbr title="App\Core\Domain\Mail\Exception\MailTemplateNotFoundException::getInternalCode">getInternalCode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Notification/ManualEmailToCandidateEmail.php.html#28"><abbr title="App\Core\Domain\Mail\Notification\ManualEmailToCandidateEmail::getAttachments">getAttachments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Notification/ManualEmailToCandidateEmail.php.html#32"><abbr title="App\Core\Domain\Mail\Notification\ManualEmailToCandidateEmail::getReplyTo">getReplyTo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Notification/ManualEmailToCandidateEmail.php.html#36"><abbr title="App\Core\Domain\Mail\Notification\ManualEmailToCandidateEmail::getSlug">getSlug</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Notification/ManualEmailToCandidateEmail.php.html#40"><abbr title="App\Core\Domain\Mail\Notification\ManualEmailToCandidateEmail::getDefaultSubject">getDefaultSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Notification/ManualEmailToCandidateEmail.php.html#44"><abbr title="App\Core\Domain\Mail\Notification\ManualEmailToCandidateEmail::getSubjectVariables">getSubjectVariables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Notification/ManualEmailToCandidateEmail.php.html#48"><abbr title="App\Core\Domain\Mail\Notification\ManualEmailToCandidateEmail::getTemplate">getTemplate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Notification/ManualEmailToCandidateEmail.php.html#52"><abbr title="App\Core\Domain\Mail\Notification\ManualEmailToCandidateEmail::getUsers">getUsers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Notification/ManualEmailToCandidateEmail.php.html#56"><abbr title="App\Core\Domain\Mail\Notification\ManualEmailToCandidateEmail::getVariables">getVariables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Notification/ManualEmailToCandidateEmail.php.html#73"><abbr title="App\Core\Domain\Mail\Notification\ManualEmailToCandidateEmail::getCustomSubject">getCustomSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Security/MailTemplateVoter.php.html#18"><abbr title="App\Core\Domain\Mail\Security\MailTemplateVoter::_ADMIN">_ADMIN</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UseCase/SendEmailToCandidate/SendEmailToCandidateCommandHandler.php.html#31"><abbr title="App\Core\Domain\Mail\UseCase\SendEmailToCandidate\SendEmailToCandidateCommandHandler::__invoke">__invoke</abbr></a></td><td class="text-right">82%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Controller/MailTemplateController.php.html#69"><abbr title="App\Core\Domain\Mail\Controller\MailTemplateController::create">create</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Controller/MailHistoryController.php.html#61"><abbr title="App\Core\Domain\Mail\Controller\MailHistoryController::testRemoveAll">testRemoveAll</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controller/MailTemplateController.php.html#34"><abbr title="App\Core\Domain\Mail\Controller\MailTemplateController::listByEstablishment">listByEstablishment</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Entity/MailHistory.php.html#56"><abbr title="App\Core\Domain\Mail\Entity\MailHistory::addAttachment">addAttachment</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Event/Subscriber/MailSubscriber.php.html#131"><abbr title="App\Core\Domain\Mail\Event\Subscriber\MailSubscriber::onCandidateRGPDRenew">onCandidateRGPDRenew</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Event/Subscriber/MailSubscriber.php.html#161"><abbr title="App\Core\Domain\Mail\Event\Subscriber\MailSubscriber::onSendEstablishmentAlert">onSendEstablishmentAlert</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Event/Subscriber/MailSubscriber.php.html#227"><abbr title="App\Core\Domain\Mail\Event\Subscriber\MailSubscriber::onShareCandidate">onShareCandidate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Event/Subscriber/MailSubscriber.php.html#250"><abbr title="App\Core\Domain\Mail\Event\Subscriber\MailSubscriber::send">send</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Event/Subscriber/MailSubscriber.php.html#283"><abbr title="App\Core\Domain\Mail\Event\Subscriber\MailSubscriber::onRecruitmentNewCandidatesFromOffer">onRecruitmentNewCandidatesFromOffer</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Security/MailTemplateVoter.php.html#18"><abbr title="App\Core\Domain\Mail\Security\MailTemplateVoter::_ADMIN">_ADMIN</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="UseCase/SendEmailToCandidate/SendEmailToCandidateCommandHandler.php.html#31"><abbr title="App\Core\Domain\Mail\UseCase\SendEmailToCandidate\SendEmailToCandidateCommandHandler::__invoke">__invoke</abbr></a></td><td class="text-right">4</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 9.2.29</a> using <a href="https://secure.php.net/" target="_top">PHP 8.0.30</a> and <a href="https://phpunit.de/">PHPUnit 9.6.13</a> at Wed Oct 25 8:07:49 UTC 2023.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../_js/jquery.min.js?v=9.2.29" type="text/javascript"></script>
+  <script src="../../../_js/d3.min.js?v=9.2.29" type="text/javascript"></script>
+  <script src="../../../_js/nv.d3.min.js?v=9.2.29" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([5,1,0,1,0,0,0,0,1,1,0,3], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([43,0,0,0,0,0,0,0,0,1,0,39], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,5,"<a href=\"Controller\/MailHistoryController.php.html#14\">App\\Core\\Domain\\Mail\\Controller\\MailHistoryController<\/a>"],[0,11,"<a href=\"Controller\/MailTemplateController.php.html#16\">App\\Core\\Domain\\Mail\\Controller\\MailTemplateController<\/a>"],[75.86206896551724,20,"<a href=\"Entity\/MailHistory.php.html#15\">App\\Core\\Domain\\Mail\\Entity\\MailHistory<\/a>"],[100,10,"<a href=\"Entity\/MailTemplate.php.html#12\">App\\Core\\Domain\\Mail\\Entity\\MailTemplate<\/a>"],[0,20,"<a href=\"Event\/Subscriber\/MailSubscriber.php.html#32\">App\\Core\\Domain\\Mail\\Event\\Subscriber\\MailSubscriber<\/a>"],[0,2,"<a href=\"Exception\/EmailContentCannotBeEmptyException.php.html#8\">App\\Core\\Domain\\Mail\\Exception\\EmailContentCannotBeEmptyException<\/a>"],[0,2,"<a href=\"Exception\/MailTemplateNotFoundException.php.html#8\">App\\Core\\Domain\\Mail\\Exception\\MailTemplateNotFoundException<\/a>"],[4.3478260869565215,10,"<a href=\"Notification\/ManualEmailToCandidateEmail.php.html#12\">App\\Core\\Domain\\Mail\\Notification\\ManualEmailToCandidateEmail<\/a>"],[25,3,"<a href=\"Security\/MailTemplateVoter.php.html#10\">App\\Core\\Domain\\Mail\\Security\\MailTemplateVoter<\/a>"],[100,8,"<a href=\"UseCase\/SendEmailToCandidate\/SendEmailToCandidateCommand.php.html#11\">App\\Core\\Domain\\Mail\\UseCase\\SendEmailToCandidate\\SendEmailToCandidateCommand<\/a>"],[82.92682926829268,5,"<a href=\"UseCase\/SendEmailToCandidate\/SendEmailToCandidateCommandHandler.php.html#20\">App\\Core\\Domain\\Mail\\UseCase\\SendEmailToCandidate\\SendEmailToCandidateCommandHandler<\/a>"],[100,2,"<a href=\"UseCase\/SendEmailToCandidate\/SendEmailToCandidateResponse.php.html#7\">App\\Core\\Domain\\Mail\\UseCase\\SendEmailToCandidate\\SendEmailToCandidateResponse<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Controller\/MailHistoryController.php.html#18\">App\\Core\\Domain\\Mail\\Controller\\MailHistoryController::listByEstablishment<\/a>"],[0,1,"<a href=\"Controller\/MailHistoryController.php.html#33\">App\\Core\\Domain\\Mail\\Controller\\MailHistoryController::listByEstablishmentAndSender<\/a>"],[0,1,"<a href=\"Controller\/MailHistoryController.php.html#47\">App\\Core\\Domain\\Mail\\Controller\\MailHistoryController::listByEstablishmentAndReceiver<\/a>"],[0,2,"<a href=\"Controller\/MailHistoryController.php.html#61\">App\\Core\\Domain\\Mail\\Controller\\MailHistoryController::testRemoveAll<\/a>"],[0,1,"<a href=\"Controller\/MailTemplateController.php.html#20\">App\\Core\\Domain\\Mail\\Controller\\MailTemplateController::list<\/a>"],[0,2,"<a href=\"Controller\/MailTemplateController.php.html#34\">App\\Core\\Domain\\Mail\\Controller\\MailTemplateController::listByEstablishment<\/a>"],[0,1,"<a href=\"Controller\/MailTemplateController.php.html#57\">App\\Core\\Domain\\Mail\\Controller\\MailTemplateController::listByRh<\/a>"],[0,4,"<a href=\"Controller\/MailTemplateController.php.html#69\">App\\Core\\Domain\\Mail\\Controller\\MailTemplateController::create<\/a>"],[0,1,"<a href=\"Controller\/MailTemplateController.php.html#82\">App\\Core\\Domain\\Mail\\Controller\\MailTemplateController::update<\/a>"],[0,1,"<a href=\"Controller\/MailTemplateController.php.html#88\">App\\Core\\Domain\\Mail\\Controller\\MailTemplateController::delete<\/a>"],[0,1,"<a href=\"Controller\/MailTemplateController.php.html#93\">App\\Core\\Domain\\Mail\\Controller\\MailTemplateController::read<\/a>"],[100,1,"<a href=\"Entity\/MailHistory.php.html#51\">App\\Core\\Domain\\Mail\\Entity\\MailHistory::__construct<\/a>"],[0,2,"<a href=\"Entity\/MailHistory.php.html#56\">App\\Core\\Domain\\Mail\\Entity\\MailHistory::addAttachment<\/a>"],[100,1,"<a href=\"Entity\/MailHistory.php.html#64\">App\\Core\\Domain\\Mail\\Entity\\MailHistory::getAttachments<\/a>"],[100,1,"<a href=\"Entity\/MailHistory.php.html#68\">App\\Core\\Domain\\Mail\\Entity\\MailHistory::getContent<\/a>"],[100,1,"<a href=\"Entity\/MailHistory.php.html#72\">App\\Core\\Domain\\Mail\\Entity\\MailHistory::getCreatedAt<\/a>"],[100,1,"<a href=\"Entity\/MailHistory.php.html#76\">App\\Core\\Domain\\Mail\\Entity\\MailHistory::getEstablishment<\/a>"],[100,1,"<a href=\"Entity\/MailHistory.php.html#80\">App\\Core\\Domain\\Mail\\Entity\\MailHistory::getId<\/a>"],[100,1,"<a href=\"Entity\/MailHistory.php.html#84\">App\\Core\\Domain\\Mail\\Entity\\MailHistory::getMail<\/a>"],[100,1,"<a href=\"Entity\/MailHistory.php.html#88\">App\\Core\\Domain\\Mail\\Entity\\MailHistory::getReceiver<\/a>"],[100,1,"<a href=\"Entity\/MailHistory.php.html#92\">App\\Core\\Domain\\Mail\\Entity\\MailHistory::getSender<\/a>"],[100,1,"<a href=\"Entity\/MailHistory.php.html#96\">App\\Core\\Domain\\Mail\\Entity\\MailHistory::getSubject<\/a>"],[100,1,"<a href=\"Entity\/MailHistory.php.html#100\">App\\Core\\Domain\\Mail\\Entity\\MailHistory::getTitle<\/a>"],[0,1,"<a href=\"Entity\/MailHistory.php.html#104\">App\\Core\\Domain\\Mail\\Entity\\MailHistory::removeAttachment<\/a>"],[0,1,"<a href=\"Entity\/MailHistory.php.html#110\">App\\Core\\Domain\\Mail\\Entity\\MailHistory::setAttachments<\/a>"],[100,1,"<a href=\"Entity\/MailHistory.php.html#116\">App\\Core\\Domain\\Mail\\Entity\\MailHistory::setCreatedAt<\/a>"],[100,1,"<a href=\"Entity\/MailHistory.php.html#122\">App\\Core\\Domain\\Mail\\Entity\\MailHistory::setEstablishment<\/a>"],[100,1,"<a href=\"Entity\/MailHistory.php.html#128\">App\\Core\\Domain\\Mail\\Entity\\MailHistory::setMail<\/a>"],[100,1,"<a href=\"Entity\/MailHistory.php.html#134\">App\\Core\\Domain\\Mail\\Entity\\MailHistory::setReceiver<\/a>"],[100,1,"<a href=\"Entity\/MailHistory.php.html#140\">App\\Core\\Domain\\Mail\\Entity\\MailHistory::setSender<\/a>"],[100,1,"<a href=\"Entity\/MailTemplate.php.html#43\">App\\Core\\Domain\\Mail\\Entity\\MailTemplate::__construct<\/a>"],[100,1,"<a href=\"Entity\/MailTemplate.php.html#46\">App\\Core\\Domain\\Mail\\Entity\\MailTemplate::getContent<\/a>"],[100,1,"<a href=\"Entity\/MailTemplate.php.html#50\">App\\Core\\Domain\\Mail\\Entity\\MailTemplate::setContent<\/a>"],[100,1,"<a href=\"Entity\/MailTemplate.php.html#56\">App\\Core\\Domain\\Mail\\Entity\\MailTemplate::getEstablishment<\/a>"],[100,1,"<a href=\"Entity\/MailTemplate.php.html#60\">App\\Core\\Domain\\Mail\\Entity\\MailTemplate::setEstablishment<\/a>"],[100,1,"<a href=\"Entity\/MailTemplate.php.html#66\">App\\Core\\Domain\\Mail\\Entity\\MailTemplate::getId<\/a>"],[100,1,"<a href=\"Entity\/MailTemplate.php.html#70\">App\\Core\\Domain\\Mail\\Entity\\MailTemplate::getName<\/a>"],[100,1,"<a href=\"Entity\/MailTemplate.php.html#74\">App\\Core\\Domain\\Mail\\Entity\\MailTemplate::setName<\/a>"],[100,1,"<a href=\"Entity\/MailTemplate.php.html#80\">App\\Core\\Domain\\Mail\\Entity\\MailTemplate::getRh<\/a>"],[100,1,"<a href=\"Entity\/MailTemplate.php.html#84\">App\\Core\\Domain\\Mail\\Entity\\MailTemplate::setRh<\/a>"],[0,1,"<a href=\"Event\/Subscriber\/MailSubscriber.php.html#97\">App\\Core\\Domain\\Mail\\Event\\Subscriber\\MailSubscriber::getSubscribedEvents<\/a>"],[0,1,"<a href=\"Event\/Subscriber\/MailSubscriber.php.html#119\">App\\Core\\Domain\\Mail\\Event\\Subscriber\\MailSubscriber::__construct<\/a>"],[0,2,"<a href=\"Event\/Subscriber\/MailSubscriber.php.html#131\">App\\Core\\Domain\\Mail\\Event\\Subscriber\\MailSubscriber::onCandidateRGPDRenew<\/a>"],[0,1,"<a href=\"Event\/Subscriber\/MailSubscriber.php.html#151\">App\\Core\\Domain\\Mail\\Event\\Subscriber\\MailSubscriber::onCvthequeNewTemporaryCandidate<\/a>"],[0,2,"<a href=\"Event\/Subscriber\/MailSubscriber.php.html#161\">App\\Core\\Domain\\Mail\\Event\\Subscriber\\MailSubscriber::onSendEstablishmentAlert<\/a>"],[0,1,"<a href=\"Event\/Subscriber\/MailSubscriber.php.html#178\">App\\Core\\Domain\\Mail\\Event\\Subscriber\\MailSubscriber::onCandidateNotified<\/a>"],[0,1,"<a href=\"Event\/Subscriber\/MailSubscriber.php.html#188\">App\\Core\\Domain\\Mail\\Event\\Subscriber\\MailSubscriber::onRecruitmentCandidateDocumentRequired<\/a>"],[0,1,"<a href=\"Event\/Subscriber\/MailSubscriber.php.html#204\">App\\Core\\Domain\\Mail\\Event\\Subscriber\\MailSubscriber::onMeetingCreated<\/a>"],[0,1,"<a href=\"Event\/Subscriber\/MailSubscriber.php.html#214\">App\\Core\\Domain\\Mail\\Event\\Subscriber\\MailSubscriber::onMeetingUpdated<\/a>"],[0,1,"<a href=\"Event\/Subscriber\/MailSubscriber.php.html#220\">App\\Core\\Domain\\Mail\\Event\\Subscriber\\MailSubscriber::onMeetingDeleted<\/a>"],[0,2,"<a href=\"Event\/Subscriber\/MailSubscriber.php.html#227\">App\\Core\\Domain\\Mail\\Event\\Subscriber\\MailSubscriber::onShareCandidate<\/a>"],[0,1,"<a href=\"Event\/Subscriber\/MailSubscriber.php.html#234\">App\\Core\\Domain\\Mail\\Event\\Subscriber\\MailSubscriber::onRecruitmentAndOfferSummaryEvent<\/a>"],[0,2,"<a href=\"Event\/Subscriber\/MailSubscriber.php.html#250\">App\\Core\\Domain\\Mail\\Event\\Subscriber\\MailSubscriber::send<\/a>"],[0,1,"<a href=\"Event\/Subscriber\/MailSubscriber.php.html#267\">App\\Core\\Domain\\Mail\\Event\\Subscriber\\MailSubscriber::getMeetingVariables<\/a>"],[0,2,"<a href=\"Event\/Subscriber\/MailSubscriber.php.html#283\">App\\Core\\Domain\\Mail\\Event\\Subscriber\\MailSubscriber::onRecruitmentNewCandidatesFromOffer<\/a>"],[0,1,"<a href=\"Exception\/EmailContentCannotBeEmptyException.php.html#13\">App\\Core\\Domain\\Mail\\Exception\\EmailContentCannotBeEmptyException::__construct<\/a>"],[0,1,"<a href=\"Exception\/EmailContentCannotBeEmptyException.php.html#17\">App\\Core\\Domain\\Mail\\Exception\\EmailContentCannotBeEmptyException::getInternalCode<\/a>"],[0,1,"<a href=\"Exception\/MailTemplateNotFoundException.php.html#13\">App\\Core\\Domain\\Mail\\Exception\\MailTemplateNotFoundException::__construct<\/a>"],[0,1,"<a href=\"Exception\/MailTemplateNotFoundException.php.html#17\">App\\Core\\Domain\\Mail\\Exception\\MailTemplateNotFoundException::getInternalCode<\/a>"],[100,1,"<a href=\"Notification\/ManualEmailToCandidateEmail.php.html#18\">App\\Core\\Domain\\Mail\\Notification\\ManualEmailToCandidateEmail::__construct<\/a>"],[0,1,"<a href=\"Notification\/ManualEmailToCandidateEmail.php.html#28\">App\\Core\\Domain\\Mail\\Notification\\ManualEmailToCandidateEmail::getAttachments<\/a>"],[0,1,"<a href=\"Notification\/ManualEmailToCandidateEmail.php.html#32\">App\\Core\\Domain\\Mail\\Notification\\ManualEmailToCandidateEmail::getReplyTo<\/a>"],[0,1,"<a href=\"Notification\/ManualEmailToCandidateEmail.php.html#36\">App\\Core\\Domain\\Mail\\Notification\\ManualEmailToCandidateEmail::getSlug<\/a>"],[0,1,"<a href=\"Notification\/ManualEmailToCandidateEmail.php.html#40\">App\\Core\\Domain\\Mail\\Notification\\ManualEmailToCandidateEmail::getDefaultSubject<\/a>"],[0,1,"<a href=\"Notification\/ManualEmailToCandidateEmail.php.html#44\">App\\Core\\Domain\\Mail\\Notification\\ManualEmailToCandidateEmail::getSubjectVariables<\/a>"],[0,1,"<a href=\"Notification\/ManualEmailToCandidateEmail.php.html#48\">App\\Core\\Domain\\Mail\\Notification\\ManualEmailToCandidateEmail::getTemplate<\/a>"],[0,1,"<a href=\"Notification\/ManualEmailToCandidateEmail.php.html#52\">App\\Core\\Domain\\Mail\\Notification\\ManualEmailToCandidateEmail::getUsers<\/a>"],[0,1,"<a href=\"Notification\/ManualEmailToCandidateEmail.php.html#56\">App\\Core\\Domain\\Mail\\Notification\\ManualEmailToCandidateEmail::getVariables<\/a>"],[0,1,"<a href=\"Notification\/ManualEmailToCandidateEmail.php.html#73\">App\\Core\\Domain\\Mail\\Notification\\ManualEmailToCandidateEmail::getCustomSubject<\/a>"],[100,1,"<a href=\"Security\/MailTemplateVoter.php.html#14\">App\\Core\\Domain\\Mail\\Security\\MailTemplateVoter::getSupportedSubjects<\/a>"],[0,2,"<a href=\"Security\/MailTemplateVoter.php.html#18\">App\\Core\\Domain\\Mail\\Security\\MailTemplateVoter::_ADMIN<\/a>"],[100,1,"<a href=\"UseCase\/SendEmailToCandidate\/SendEmailToCandidateCommand.php.html#13\">App\\Core\\Domain\\Mail\\UseCase\\SendEmailToCandidate\\SendEmailToCandidateCommand::__construct<\/a>"],[100,1,"<a href=\"UseCase\/SendEmailToCandidate\/SendEmailToCandidateCommand.php.html#24\">App\\Core\\Domain\\Mail\\UseCase\\SendEmailToCandidate\\SendEmailToCandidateCommand::getAttachments<\/a>"],[100,1,"<a href=\"UseCase\/SendEmailToCandidate\/SendEmailToCandidateCommand.php.html#28\">App\\Core\\Domain\\Mail\\UseCase\\SendEmailToCandidate\\SendEmailToCandidateCommand::getContent<\/a>"],[100,1,"<a href=\"UseCase\/SendEmailToCandidate\/SendEmailToCandidateCommand.php.html#32\">App\\Core\\Domain\\Mail\\UseCase\\SendEmailToCandidate\\SendEmailToCandidateCommand::getEstablishment<\/a>"],[100,1,"<a href=\"UseCase\/SendEmailToCandidate\/SendEmailToCandidateCommand.php.html#36\">App\\Core\\Domain\\Mail\\UseCase\\SendEmailToCandidate\\SendEmailToCandidateCommand::getRecipient<\/a>"],[100,1,"<a href=\"UseCase\/SendEmailToCandidate\/SendEmailToCandidateCommand.php.html#40\">App\\Core\\Domain\\Mail\\UseCase\\SendEmailToCandidate\\SendEmailToCandidateCommand::getSender<\/a>"],[100,1,"<a href=\"UseCase\/SendEmailToCandidate\/SendEmailToCandidateCommand.php.html#44\">App\\Core\\Domain\\Mail\\UseCase\\SendEmailToCandidate\\SendEmailToCandidateCommand::getSubject<\/a>"],[100,1,"<a href=\"UseCase\/SendEmailToCandidate\/SendEmailToCandidateCommand.php.html#48\">App\\Core\\Domain\\Mail\\UseCase\\SendEmailToCandidate\\SendEmailToCandidateCommand::getTitle<\/a>"],[100,1,"<a href=\"UseCase\/SendEmailToCandidate\/SendEmailToCandidateCommandHandler.php.html#22\">App\\Core\\Domain\\Mail\\UseCase\\SendEmailToCandidate\\SendEmailToCandidateCommandHandler::__construct<\/a>"],[82.5,4,"<a href=\"UseCase\/SendEmailToCandidate\/SendEmailToCandidateCommandHandler.php.html#31\">App\\Core\\Domain\\Mail\\UseCase\\SendEmailToCandidate\\SendEmailToCandidateCommandHandler::__invoke<\/a>"],[100,1,"<a href=\"UseCase\/SendEmailToCandidate\/SendEmailToCandidateResponse.php.html#9\">App\\Core\\Domain\\Mail\\UseCase\\SendEmailToCandidate\\SendEmailToCandidateResponse::__construct<\/a>"],[100,1,"<a href=\"UseCase\/SendEmailToCandidate\/SendEmailToCandidateResponse.php.html#14\">App\\Core\\Domain\\Mail\\UseCase\\SendEmailToCandidate\\SendEmailToCandidateResponse::getObjectId<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

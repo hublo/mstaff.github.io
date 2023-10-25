@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /Users/alexandre/Dev/mstaff-v3-api/src/Core/Domain/Candidacy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../_css/bootstrap.min.css?v=9.2.29" rel="stylesheet" type="text/css">
+  <link href="../../../_css/nv.d3.min.css?v=9.2.29" rel="stylesheet" type="text/css">
+  <link href="../../../_css/style.css?v=9.2.29" rel="stylesheet" type="text/css">
+  <link href="../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../index.html">/Users/alexandre/Dev/mstaff-v3-api/src</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">Core</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Domain</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Candidacy</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Controller/EstablishmentCandidacyController.php.html#18">App\Core\Domain\Candidacy\Controller\EstablishmentCandidacyController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/OfferCandidacyController.php.html#25">App\Core\Domain\Candidacy\Controller\OfferCandidacyController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event/NewEstablishmentCandidacy.php.html#8">App\Core\Domain\Candidacy\Event\NewEstablishmentCandidacy</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event/NewOfferCandidacy.php.html#8">App\Core\Domain\Candidacy\Event\NewOfferCandidacy</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exception/NonCandidateCannotApplyToAnEstablishmentException.php.html#9">App\Core\Domain\Candidacy\Exception\NonCandidateCannotApplyToAnEstablishmentException</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exception/NonCandidateCannotApplyToAnOfferException.php.html#9">App\Core\Domain\Candidacy\Exception\NonCandidateCannotApplyToAnOfferException</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/ContinueOfferCandidacyEmail.php.html#10">App\Core\Domain\Candidacy\EmailNotification\ContinueOfferCandidacyEmail</a></td><td class="text-right">47%</td></tr>
+       <tr><td><a href="EmailNotification/NewEstablishmentCandidacyRhEmail.php.html#11">App\Core\Domain\Candidacy\EmailNotification\NewEstablishmentCandidacyRhEmail</a></td><td class="text-right">53%</td></tr>
+       <tr><td><a href="EmailNotification/FollowOfferCandidacyEmail.php.html#12">App\Core\Domain\Candidacy\EmailNotification\FollowOfferCandidacyEmail</a></td><td class="text-right">57%</td></tr>
+       <tr><td><a href="EmailNotification/ContinueEstablishmentCandidacyEmail.php.html#10">App\Core\Domain\Candidacy\EmailNotification\ContinueEstablishmentCandidacyEmail</a></td><td class="text-right">58%</td></tr>
+       <tr><td><a href="EmailNotification/FollowEstablishmentCandidacyEmail.php.html#11">App\Core\Domain\Candidacy\EmailNotification\FollowEstablishmentCandidacyEmail</a></td><td class="text-right">58%</td></tr>
+       <tr><td><a href="UseCase/EstablishmentApplication/StartEstablishmentCandidacy.php.html#10">App\Core\Domain\Candidacy\UseCase\EstablishmentApplication\StartEstablishmentCandidacy</a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="UseCase/JobApplication/StartOfferCandidacy.php.html#10">App\Core\Domain\Candidacy\UseCase\JobApplication\StartOfferCandidacy</a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Entity/EstablishmentCandidacy.php.html#13">App\Core\Domain\Candidacy\Entity\EstablishmentCandidacy</a></td><td class="text-right">81%</td></tr>
+       <tr><td><a href="InAppNotification/NewEstablishmentCandidacyNotification.php.html#11">App\Core\Domain\Candidacy\InAppNotification\NewEstablishmentCandidacyNotification</a></td><td class="text-right">81%</td></tr>
+       <tr><td><a href="InAppNotification/NewEstablishmentCandidacyRhNotification.php.html#11">App\Core\Domain\Candidacy\InAppNotification\NewEstablishmentCandidacyRhNotification</a></td><td class="text-right">84%</td></tr>
+       <tr><td><a href="InAppNotification/NewOfferCandidacyNotification.php.html#11">App\Core\Domain\Candidacy\InAppNotification\NewOfferCandidacyNotification</a></td><td class="text-right">85%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Controller/OfferCandidacyController.php.html#25">App\Core\Domain\Candidacy\Controller\OfferCandidacyController</a></td><td class="text-right">506</td></tr>
+       <tr><td><a href="EmailNotification/ContinueOfferCandidacyEmail.php.html#10">App\Core\Domain\Candidacy\EmailNotification\ContinueOfferCandidacyEmail</a></td><td class="text-right">32</td></tr>
+       <tr><td><a href="EmailNotification/FollowOfferCandidacyEmail.php.html#12">App\Core\Domain\Candidacy\EmailNotification\FollowOfferCandidacyEmail</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Entity/EstablishmentCandidacy.php.html#13">App\Core\Domain\Candidacy\Entity\EstablishmentCandidacy</a></td><td class="text-right">12</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Controller/EstablishmentCandidacyController.php.html#21"><abbr title="App\Core\Domain\Candidacy\Controller\EstablishmentCandidacyController::listSelf">listSelf</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/EstablishmentCandidacyController.php.html#32"><abbr title="App\Core\Domain\Candidacy\Controller\EstablishmentCandidacyController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/EstablishmentCandidacyController.php.html#40"><abbr title="App\Core\Domain\Candidacy\Controller\EstablishmentCandidacyController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/EstablishmentCandidacyController.php.html#50"><abbr title="App\Core\Domain\Candidacy\Controller\EstablishmentCandidacyController::listByCandidate">listByCandidate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/OfferCandidacyController.php.html#29"><abbr title="App\Core\Domain\Candidacy\Controller\OfferCandidacyController::list">list</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/OfferCandidacyController.php.html#41"><abbr title="App\Core\Domain\Candidacy\Controller\OfferCandidacyController::listSelf">listSelf</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/OfferCandidacyController.php.html#53"><abbr title="App\Core\Domain\Candidacy\Controller\OfferCandidacyController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/OfferCandidacyController.php.html#61"><abbr title="App\Core\Domain\Candidacy\Controller\OfferCandidacyController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/OfferCandidacyController.php.html#68"><abbr title="App\Core\Domain\Candidacy\Controller\OfferCandidacyController::listCandidacySteps">listCandidacySteps</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/OfferCandidacyController.php.html#175"><abbr title="App\Core\Domain\Candidacy\Controller\OfferCandidacyController::listCandidateCandidacy">listCandidateCandidacy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/OfferCandidacyController.php.html#190"><abbr title="App\Core\Domain\Candidacy\Controller\OfferCandidacyController::listSelfWithRecruitments">listSelfWithRecruitments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/ContinueEstablishmentCandidacyEmail.php.html#17"><abbr title="App\Core\Domain\Candidacy\EmailNotification\ContinueEstablishmentCandidacyEmail::getSlug">getSlug</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/ContinueEstablishmentCandidacyEmail.php.html#21"><abbr title="App\Core\Domain\Candidacy\EmailNotification\ContinueEstablishmentCandidacyEmail::getDefaultSubject">getDefaultSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/ContinueEstablishmentCandidacyEmail.php.html#25"><abbr title="App\Core\Domain\Candidacy\EmailNotification\ContinueEstablishmentCandidacyEmail::getSubjectVariables">getSubjectVariables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/ContinueEstablishmentCandidacyEmail.php.html#29"><abbr title="App\Core\Domain\Candidacy\EmailNotification\ContinueEstablishmentCandidacyEmail::getTemplate">getTemplate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/ContinueEstablishmentCandidacyEmail.php.html#48"><abbr title="App\Core\Domain\Candidacy\EmailNotification\ContinueEstablishmentCandidacyEmail::getAttachments">getAttachments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/ContinueEstablishmentCandidacyEmail.php.html#52"><abbr title="App\Core\Domain\Candidacy\EmailNotification\ContinueEstablishmentCandidacyEmail::getReplyTo">getReplyTo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/ContinueEstablishmentCandidacyEmail.php.html#56"><abbr title="App\Core\Domain\Candidacy\EmailNotification\ContinueEstablishmentCandidacyEmail::getCustomSubject">getCustomSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/ContinueOfferCandidacyEmail.php.html#18"><abbr title="App\Core\Domain\Candidacy\EmailNotification\ContinueOfferCandidacyEmail::getSlug">getSlug</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/ContinueOfferCandidacyEmail.php.html#22"><abbr title="App\Core\Domain\Candidacy\EmailNotification\ContinueOfferCandidacyEmail::getDefaultSubject">getDefaultSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/ContinueOfferCandidacyEmail.php.html#32"><abbr title="App\Core\Domain\Candidacy\EmailNotification\ContinueOfferCandidacyEmail::getSubjectVariables">getSubjectVariables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/ContinueOfferCandidacyEmail.php.html#36"><abbr title="App\Core\Domain\Candidacy\EmailNotification\ContinueOfferCandidacyEmail::getTemplate">getTemplate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/ContinueOfferCandidacyEmail.php.html#60"><abbr title="App\Core\Domain\Candidacy\EmailNotification\ContinueOfferCandidacyEmail::getAttachments">getAttachments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/ContinueOfferCandidacyEmail.php.html#64"><abbr title="App\Core\Domain\Candidacy\EmailNotification\ContinueOfferCandidacyEmail::getReplyTo">getReplyTo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/ContinueOfferCandidacyEmail.php.html#68"><abbr title="App\Core\Domain\Candidacy\EmailNotification\ContinueOfferCandidacyEmail::getCustomSubject">getCustomSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/FollowEstablishmentCandidacyEmail.php.html#19"><abbr title="App\Core\Domain\Candidacy\EmailNotification\FollowEstablishmentCandidacyEmail::getSlug">getSlug</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/FollowEstablishmentCandidacyEmail.php.html#23"><abbr title="App\Core\Domain\Candidacy\EmailNotification\FollowEstablishmentCandidacyEmail::getDefaultSubject">getDefaultSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/FollowEstablishmentCandidacyEmail.php.html#27"><abbr title="App\Core\Domain\Candidacy\EmailNotification\FollowEstablishmentCandidacyEmail::getSubjectVariables">getSubjectVariables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/FollowEstablishmentCandidacyEmail.php.html#31"><abbr title="App\Core\Domain\Candidacy\EmailNotification\FollowEstablishmentCandidacyEmail::getTemplate">getTemplate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/FollowEstablishmentCandidacyEmail.php.html#50"><abbr title="App\Core\Domain\Candidacy\EmailNotification\FollowEstablishmentCandidacyEmail::getAttachments">getAttachments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/FollowEstablishmentCandidacyEmail.php.html#54"><abbr title="App\Core\Domain\Candidacy\EmailNotification\FollowEstablishmentCandidacyEmail::getReplyTo">getReplyTo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/FollowEstablishmentCandidacyEmail.php.html#58"><abbr title="App\Core\Domain\Candidacy\EmailNotification\FollowEstablishmentCandidacyEmail::getCustomSubject">getCustomSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/FollowOfferCandidacyEmail.php.html#22"><abbr title="App\Core\Domain\Candidacy\EmailNotification\FollowOfferCandidacyEmail::getSlug">getSlug</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/FollowOfferCandidacyEmail.php.html#26"><abbr title="App\Core\Domain\Candidacy\EmailNotification\FollowOfferCandidacyEmail::getDefaultSubject">getDefaultSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/FollowOfferCandidacyEmail.php.html#30"><abbr title="App\Core\Domain\Candidacy\EmailNotification\FollowOfferCandidacyEmail::getSubjectVariables">getSubjectVariables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/FollowOfferCandidacyEmail.php.html#34"><abbr title="App\Core\Domain\Candidacy\EmailNotification\FollowOfferCandidacyEmail::getTemplate">getTemplate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/FollowOfferCandidacyEmail.php.html#59"><abbr title="App\Core\Domain\Candidacy\EmailNotification\FollowOfferCandidacyEmail::getAttachments">getAttachments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/FollowOfferCandidacyEmail.php.html#63"><abbr title="App\Core\Domain\Candidacy\EmailNotification\FollowOfferCandidacyEmail::getReplyTo">getReplyTo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/FollowOfferCandidacyEmail.php.html#67"><abbr title="App\Core\Domain\Candidacy\EmailNotification\FollowOfferCandidacyEmail::getCustomSubject">getCustomSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/NewEstablishmentCandidacyRhEmail.php.html#24"><abbr title="App\Core\Domain\Candidacy\EmailNotification\NewEstablishmentCandidacyRhEmail::getSlug">getSlug</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/NewEstablishmentCandidacyRhEmail.php.html#28"><abbr title="App\Core\Domain\Candidacy\EmailNotification\NewEstablishmentCandidacyRhEmail::getDefaultSubject">getDefaultSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/NewEstablishmentCandidacyRhEmail.php.html#32"><abbr title="App\Core\Domain\Candidacy\EmailNotification\NewEstablishmentCandidacyRhEmail::getSubjectVariables">getSubjectVariables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/NewEstablishmentCandidacyRhEmail.php.html#36"><abbr title="App\Core\Domain\Candidacy\EmailNotification\NewEstablishmentCandidacyRhEmail::getTemplate">getTemplate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/NewEstablishmentCandidacyRhEmail.php.html#53"><abbr title="App\Core\Domain\Candidacy\EmailNotification\NewEstablishmentCandidacyRhEmail::getAttachments">getAttachments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/NewEstablishmentCandidacyRhEmail.php.html#57"><abbr title="App\Core\Domain\Candidacy\EmailNotification\NewEstablishmentCandidacyRhEmail::getReplyTo">getReplyTo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailNotification/NewEstablishmentCandidacyRhEmail.php.html#61"><abbr title="App\Core\Domain\Candidacy\EmailNotification\NewEstablishmentCandidacyRhEmail::getCustomSubject">getCustomSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/EstablishmentCandidacy.php.html#52"><abbr title="App\Core\Domain\Candidacy\Entity\EstablishmentCandidacy::setCreatedAt">setCreatedAt</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/EstablishmentCandidacy.php.html#82"><abbr title="App\Core\Domain\Candidacy\Entity\EstablishmentCandidacy::getReferer">getReferer</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/OfferCandidacy.php.html#77"><abbr title="App\Core\Domain\Candidacy\Entity\OfferCandidacy::getReferer">getReferer</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event/NewEstablishmentCandidacy.php.html#12"><abbr title="App\Core\Domain\Candidacy\Event\NewEstablishmentCandidacy::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event/NewEstablishmentCandidacy.php.html#15"><abbr title="App\Core\Domain\Candidacy\Event\NewEstablishmentCandidacy::getCandidacy">getCandidacy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event/NewOfferCandidacy.php.html#12"><abbr title="App\Core\Domain\Candidacy\Event\NewOfferCandidacy::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Event/NewOfferCandidacy.php.html#15"><abbr title="App\Core\Domain\Candidacy\Event\NewOfferCandidacy::getCandidacy">getCandidacy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exception/NonCandidateCannotApplyToAnEstablishmentException.php.html#13"><abbr title="App\Core\Domain\Candidacy\Exception\NonCandidateCannotApplyToAnEstablishmentException::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exception/NonCandidateCannotApplyToAnOfferException.php.html#13"><abbr title="App\Core\Domain\Candidacy\Exception\NonCandidateCannotApplyToAnOfferException::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InAppNotification/NewEstablishmentCandidacyNotification.php.html#21"><abbr title="App\Core\Domain\Candidacy\InAppNotification\NewEstablishmentCandidacyNotification::getSlug">getSlug</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InAppNotification/NewEstablishmentCandidacyNotification.php.html#25"><abbr title="App\Core\Domain\Candidacy\InAppNotification\NewEstablishmentCandidacyNotification::getContent">getContent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InAppNotification/NewEstablishmentCandidacyRhNotification.php.html#22"><abbr title="App\Core\Domain\Candidacy\InAppNotification\NewEstablishmentCandidacyRhNotification::getSlug">getSlug</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InAppNotification/NewEstablishmentCandidacyRhNotification.php.html#26"><abbr title="App\Core\Domain\Candidacy\InAppNotification\NewEstablishmentCandidacyRhNotification::getContent">getContent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InAppNotification/NewOfferCandidacyNotification.php.html#21"><abbr title="App\Core\Domain\Candidacy\InAppNotification\NewOfferCandidacyNotification::getSlug">getSlug</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InAppNotification/NewOfferCandidacyNotification.php.html#25"><abbr title="App\Core\Domain\Candidacy\InAppNotification\NewOfferCandidacyNotification::getContent">getContent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UseCase/EstablishmentApplication/StartEstablishmentCandidacy.php.html#28"><abbr title="App\Core\Domain\Candidacy\UseCase\EstablishmentApplication\StartEstablishmentCandidacy::getExpressInterestAt">getExpressInterestAt</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UseCase/JobApplication/StartOfferCandidacy.php.html#28"><abbr title="App\Core\Domain\Candidacy\UseCase\JobApplication\StartOfferCandidacy::getExpressInterestAt">getExpressInterestAt</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Controller/OfferCandidacyController.php.html#68"><abbr title="App\Core\Domain\Candidacy\Controller\OfferCandidacyController::listCandidacySteps">listCandidacySteps</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="Controller/OfferCandidacyController.php.html#190"><abbr title="App\Core\Domain\Candidacy\Controller\OfferCandidacyController::listSelfWithRecruitments">listSelfWithRecruitments</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="EmailNotification/ContinueOfferCandidacyEmail.php.html#22"><abbr title="App\Core\Domain\Candidacy\EmailNotification\ContinueOfferCandidacyEmail::getDefaultSubject">getDefaultSubject</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="EmailNotification/ContinueOfferCandidacyEmail.php.html#36"><abbr title="App\Core\Domain\Candidacy\EmailNotification\ContinueOfferCandidacyEmail::getTemplate">getTemplate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="EmailNotification/FollowOfferCandidacyEmail.php.html#34"><abbr title="App\Core\Domain\Candidacy\EmailNotification\FollowOfferCandidacyEmail::getTemplate">getTemplate</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 9.2.29</a> using <a href="https://secure.php.net/" target="_top">PHP 8.0.30</a> and <a href="https://phpunit.de/">PHPUnit 9.6.13</a> at Wed Oct 25 8:07:49 UTC 2023.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../_js/jquery.min.js?v=9.2.29" type="text/javascript"></script>
+  <script src="../../../_js/d3.min.js?v=9.2.29" type="text/javascript"></script>
+  <script src="../../../_js/nv.d3.min.js?v=9.2.29" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([6,0,0,0,0,1,4,0,0,6,5,10], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([63,0,0,0,0,0,0,0,0,0,4,90], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,4,"<a href=\"Controller\/EstablishmentCandidacyController.php.html#18\">App\\Core\\Domain\\Candidacy\\Controller\\EstablishmentCandidacyController<\/a>"],[0,22,"<a href=\"Controller\/OfferCandidacyController.php.html#25\">App\\Core\\Domain\\Candidacy\\Controller\\OfferCandidacyController<\/a>"],[58.82352941176471,10,"<a href=\"EmailNotification\/ContinueEstablishmentCandidacyEmail.php.html#10\">App\\Core\\Domain\\Candidacy\\EmailNotification\\ContinueEstablishmentCandidacyEmail<\/a>"],[47.82608695652174,12,"<a href=\"EmailNotification\/ContinueOfferCandidacyEmail.php.html#10\">App\\Core\\Domain\\Candidacy\\EmailNotification\\ContinueOfferCandidacyEmail<\/a>"],[58.82352941176471,10,"<a href=\"EmailNotification\/FollowEstablishmentCandidacyEmail.php.html#11\">App\\Core\\Domain\\Candidacy\\EmailNotification\\FollowEstablishmentCandidacyEmail<\/a>"],[57.14285714285714,11,"<a href=\"EmailNotification\/FollowOfferCandidacyEmail.php.html#12\">App\\Core\\Domain\\Candidacy\\EmailNotification\\FollowOfferCandidacyEmail<\/a>"],[53.333333333333336,10,"<a href=\"EmailNotification\/NewEstablishmentCandidacyRhEmail.php.html#11\">App\\Core\\Domain\\Candidacy\\EmailNotification\\NewEstablishmentCandidacyRhEmail<\/a>"],[81.25,12,"<a href=\"Entity\/EstablishmentCandidacy.php.html#13\">App\\Core\\Domain\\Candidacy\\Entity\\EstablishmentCandidacy<\/a>"],[92.85714285714286,10,"<a href=\"Entity\/OfferCandidacy.php.html#12\">App\\Core\\Domain\\Candidacy\\Entity\\OfferCandidacy<\/a>"],[100,8,"<a href=\"Event\/CandidateAppliedToAnEstablishmentEvent.php.html#12\">App\\Core\\Domain\\Candidacy\\Event\\CandidateAppliedToAnEstablishmentEvent<\/a>"],[100,8,"<a href=\"Event\/CandidateAppliedToAnOfferEvent.php.html#12\">App\\Core\\Domain\\Candidacy\\Event\\CandidateAppliedToAnOfferEvent<\/a>"],[0,2,"<a href=\"Event\/NewEstablishmentCandidacy.php.html#8\">App\\Core\\Domain\\Candidacy\\Event\\NewEstablishmentCandidacy<\/a>"],[0,2,"<a href=\"Event\/NewOfferCandidacy.php.html#8\">App\\Core\\Domain\\Candidacy\\Event\\NewOfferCandidacy<\/a>"],[100,1,"<a href=\"Exception\/AlreadyApplyToEstablishmentException.php.html#9\">App\\Core\\Domain\\Candidacy\\Exception\\AlreadyApplyToEstablishmentException<\/a>"],[100,1,"<a href=\"Exception\/AlreadyApplyToOfferException.php.html#9\">App\\Core\\Domain\\Candidacy\\Exception\\AlreadyApplyToOfferException<\/a>"],[0,1,"<a href=\"Exception\/NonCandidateCannotApplyToAnEstablishmentException.php.html#9\">App\\Core\\Domain\\Candidacy\\Exception\\NonCandidateCannotApplyToAnEstablishmentException<\/a>"],[0,1,"<a href=\"Exception\/NonCandidateCannotApplyToAnOfferException.php.html#9\">App\\Core\\Domain\\Candidacy\\Exception\\NonCandidateCannotApplyToAnOfferException<\/a>"],[81.81818181818183,6,"<a href=\"InAppNotification\/NewEstablishmentCandidacyNotification.php.html#11\">App\\Core\\Domain\\Candidacy\\InAppNotification\\NewEstablishmentCandidacyNotification<\/a>"],[84.61538461538461,6,"<a href=\"InAppNotification\/NewEstablishmentCandidacyRhNotification.php.html#11\">App\\Core\\Domain\\Candidacy\\InAppNotification\\NewEstablishmentCandidacyRhNotification<\/a>"],[85.71428571428571,6,"<a href=\"InAppNotification\/NewOfferCandidacyNotification.php.html#11\">App\\Core\\Domain\\Candidacy\\InAppNotification\\NewOfferCandidacyNotification<\/a>"],[100,4,"<a href=\"UseCase\/EstablishmentApplication\/ApplyToAnEstablishment.php.html#11\">App\\Core\\Domain\\Candidacy\\UseCase\\EstablishmentApplication\\ApplyToAnEstablishment<\/a>"],[94.73684210526315,4,"<a href=\"UseCase\/EstablishmentApplication\/ApplyToAnEstablishmentHandler.php.html#15\">App\\Core\\Domain\\Candidacy\\UseCase\\EstablishmentApplication\\ApplyToAnEstablishmentHandler<\/a>"],[100,2,"<a href=\"UseCase\/EstablishmentApplication\/NotifyAdminOnEstablishmentCandidacyHandler.php.html#15\">App\\Core\\Domain\\Candidacy\\UseCase\\EstablishmentApplication\\NotifyAdminOnEstablishmentCandidacyHandler<\/a>"],[100,3,"<a href=\"UseCase\/EstablishmentApplication\/NotifyCandidateOnEstablishmentCandidacyCreatedHandler.php.html#16\">App\\Core\\Domain\\Candidacy\\UseCase\\EstablishmentApplication\\NotifyCandidateOnEstablishmentCandidacyCreatedHandler<\/a>"],[80,5,"<a href=\"UseCase\/EstablishmentApplication\/StartEstablishmentCandidacy.php.html#10\">App\\Core\\Domain\\Candidacy\\UseCase\\EstablishmentApplication\\StartEstablishmentCandidacy<\/a>"],[93.10344827586206,5,"<a href=\"UseCase\/EstablishmentApplication\/StartEstablishmentCandidacyHandler.php.html#21\">App\\Core\\Domain\\Candidacy\\UseCase\\EstablishmentApplication\\StartEstablishmentCandidacyHandler<\/a>"],[100,4,"<a href=\"UseCase\/JobApplication\/ApplyToAnOffer.php.html#11\">App\\Core\\Domain\\Candidacy\\UseCase\\JobApplication\\ApplyToAnOffer<\/a>"],[95,4,"<a href=\"UseCase\/JobApplication\/ApplyToAnOfferHandler.php.html#15\">App\\Core\\Domain\\Candidacy\\UseCase\\JobApplication\\ApplyToAnOfferHandler<\/a>"],[100,3,"<a href=\"UseCase\/JobApplication\/NotifyCandidateOnOfferCandidacyCreatedHandler.php.html#16\">App\\Core\\Domain\\Candidacy\\UseCase\\JobApplication\\NotifyCandidateOnOfferCandidacyCreatedHandler<\/a>"],[80,5,"<a href=\"UseCase\/JobApplication\/StartOfferCandidacy.php.html#10\">App\\Core\\Domain\\Candidacy\\UseCase\\JobApplication\\StartOfferCandidacy<\/a>"],[90.9090909090909,5,"<a href=\"UseCase\/JobApplication\/StartOfferCandidacyHandler.php.html#21\">App\\Core\\Domain\\Candidacy\\UseCase\\JobApplication\\StartOfferCandidacyHandler<\/a>"],[100,2,"<a href=\"UseCase\/OpenRegistrationResponse.php.html#9\">App\\Core\\Domain\\Candidacy\\UseCase\\OpenRegistrationResponse<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Controller\/EstablishmentCandidacyController.php.html#21\">App\\Core\\Domain\\Candidacy\\Controller\\EstablishmentCandidacyController::listSelf<\/a>"],[0,1,"<a href=\"Controller\/EstablishmentCandidacyController.php.html#32\">App\\Core\\Domain\\Candidacy\\Controller\\EstablishmentCandidacyController::create<\/a>"],[0,1,"<a href=\"Controller\/EstablishmentCandidacyController.php.html#40\">App\\Core\\Domain\\Candidacy\\Controller\\EstablishmentCandidacyController::delete<\/a>"],[0,1,"<a href=\"Controller\/EstablishmentCandidacyController.php.html#50\">App\\Core\\Domain\\Candidacy\\Controller\\EstablishmentCandidacyController::listByCandidate<\/a>"],[0,1,"<a href=\"Controller\/OfferCandidacyController.php.html#29\">App\\Core\\Domain\\Candidacy\\Controller\\OfferCandidacyController::list<\/a>"],[0,1,"<a href=\"Controller\/OfferCandidacyController.php.html#41\">App\\Core\\Domain\\Candidacy\\Controller\\OfferCandidacyController::listSelf<\/a>"],[0,1,"<a href=\"Controller\/OfferCandidacyController.php.html#53\">App\\Core\\Domain\\Candidacy\\Controller\\OfferCandidacyController::create<\/a>"],[0,1,"<a href=\"Controller\/OfferCandidacyController.php.html#61\">App\\Core\\Domain\\Candidacy\\Controller\\OfferCandidacyController::delete<\/a>"],[0,13,"<a href=\"Controller\/OfferCandidacyController.php.html#68\">App\\Core\\Domain\\Candidacy\\Controller\\OfferCandidacyController::listCandidacySteps<\/a>"],[0,1,"<a href=\"Controller\/OfferCandidacyController.php.html#175\">App\\Core\\Domain\\Candidacy\\Controller\\OfferCandidacyController::listCandidateCandidacy<\/a>"],[0,4,"<a href=\"Controller\/OfferCandidacyController.php.html#190\">App\\Core\\Domain\\Candidacy\\Controller\\OfferCandidacyController::listSelfWithRecruitments<\/a>"],[100,1,"<a href=\"EmailNotification\/ContinueEstablishmentCandidacyEmail.php.html#12\">App\\Core\\Domain\\Candidacy\\EmailNotification\\ContinueEstablishmentCandidacyEmail::__construct<\/a>"],[0,1,"<a href=\"EmailNotification\/ContinueEstablishmentCandidacyEmail.php.html#17\">App\\Core\\Domain\\Candidacy\\EmailNotification\\ContinueEstablishmentCandidacyEmail::getSlug<\/a>"],[0,1,"<a href=\"EmailNotification\/ContinueEstablishmentCandidacyEmail.php.html#21\">App\\Core\\Domain\\Candidacy\\EmailNotification\\ContinueEstablishmentCandidacyEmail::getDefaultSubject<\/a>"],[0,1,"<a href=\"EmailNotification\/ContinueEstablishmentCandidacyEmail.php.html#25\">App\\Core\\Domain\\Candidacy\\EmailNotification\\ContinueEstablishmentCandidacyEmail::getSubjectVariables<\/a>"],[0,1,"<a href=\"EmailNotification\/ContinueEstablishmentCandidacyEmail.php.html#29\">App\\Core\\Domain\\Candidacy\\EmailNotification\\ContinueEstablishmentCandidacyEmail::getTemplate<\/a>"],[100,1,"<a href=\"EmailNotification\/ContinueEstablishmentCandidacyEmail.php.html#33\">App\\Core\\Domain\\Candidacy\\EmailNotification\\ContinueEstablishmentCandidacyEmail::getUsers<\/a>"],[100,1,"<a href=\"EmailNotification\/ContinueEstablishmentCandidacyEmail.php.html#37\">App\\Core\\Domain\\Candidacy\\EmailNotification\\ContinueEstablishmentCandidacyEmail::getVariables<\/a>"],[0,1,"<a href=\"EmailNotification\/ContinueEstablishmentCandidacyEmail.php.html#48\">App\\Core\\Domain\\Candidacy\\EmailNotification\\ContinueEstablishmentCandidacyEmail::getAttachments<\/a>"],[0,1,"<a href=\"EmailNotification\/ContinueEstablishmentCandidacyEmail.php.html#52\">App\\Core\\Domain\\Candidacy\\EmailNotification\\ContinueEstablishmentCandidacyEmail::getReplyTo<\/a>"],[0,1,"<a href=\"EmailNotification\/ContinueEstablishmentCandidacyEmail.php.html#56\">App\\Core\\Domain\\Candidacy\\EmailNotification\\ContinueEstablishmentCandidacyEmail::getCustomSubject<\/a>"],[100,1,"<a href=\"EmailNotification\/ContinueOfferCandidacyEmail.php.html#12\">App\\Core\\Domain\\Candidacy\\EmailNotification\\ContinueOfferCandidacyEmail::__construct<\/a>"],[0,1,"<a href=\"EmailNotification\/ContinueOfferCandidacyEmail.php.html#18\">App\\Core\\Domain\\Candidacy\\EmailNotification\\ContinueOfferCandidacyEmail::getSlug<\/a>"],[0,2,"<a href=\"EmailNotification\/ContinueOfferCandidacyEmail.php.html#22\">App\\Core\\Domain\\Candidacy\\EmailNotification\\ContinueOfferCandidacyEmail::getDefaultSubject<\/a>"],[0,1,"<a href=\"EmailNotification\/ContinueOfferCandidacyEmail.php.html#32\">App\\Core\\Domain\\Candidacy\\EmailNotification\\ContinueOfferCandidacyEmail::getSubjectVariables<\/a>"],[0,2,"<a href=\"EmailNotification\/ContinueOfferCandidacyEmail.php.html#36\">App\\Core\\Domain\\Candidacy\\EmailNotification\\ContinueOfferCandidacyEmail::getTemplate<\/a>"],[100,1,"<a href=\"EmailNotification\/ContinueOfferCandidacyEmail.php.html#44\">App\\Core\\Domain\\Candidacy\\EmailNotification\\ContinueOfferCandidacyEmail::getUsers<\/a>"],[100,1,"<a href=\"EmailNotification\/ContinueOfferCandidacyEmail.php.html#48\">App\\Core\\Domain\\Candidacy\\EmailNotification\\ContinueOfferCandidacyEmail::getVariables<\/a>"],[0,1,"<a href=\"EmailNotification\/ContinueOfferCandidacyEmail.php.html#60\">App\\Core\\Domain\\Candidacy\\EmailNotification\\ContinueOfferCandidacyEmail::getAttachments<\/a>"],[0,1,"<a href=\"EmailNotification\/ContinueOfferCandidacyEmail.php.html#64\">App\\Core\\Domain\\Candidacy\\EmailNotification\\ContinueOfferCandidacyEmail::getReplyTo<\/a>"],[0,1,"<a href=\"EmailNotification\/ContinueOfferCandidacyEmail.php.html#68\">App\\Core\\Domain\\Candidacy\\EmailNotification\\ContinueOfferCandidacyEmail::getCustomSubject<\/a>"],[100,1,"<a href=\"EmailNotification\/FollowEstablishmentCandidacyEmail.php.html#13\">App\\Core\\Domain\\Candidacy\\EmailNotification\\FollowEstablishmentCandidacyEmail::__construct<\/a>"],[0,1,"<a href=\"EmailNotification\/FollowEstablishmentCandidacyEmail.php.html#19\">App\\Core\\Domain\\Candidacy\\EmailNotification\\FollowEstablishmentCandidacyEmail::getSlug<\/a>"],[0,1,"<a href=\"EmailNotification\/FollowEstablishmentCandidacyEmail.php.html#23\">App\\Core\\Domain\\Candidacy\\EmailNotification\\FollowEstablishmentCandidacyEmail::getDefaultSubject<\/a>"],[0,1,"<a href=\"EmailNotification\/FollowEstablishmentCandidacyEmail.php.html#27\">App\\Core\\Domain\\Candidacy\\EmailNotification\\FollowEstablishmentCandidacyEmail::getSubjectVariables<\/a>"],[0,1,"<a href=\"EmailNotification\/FollowEstablishmentCandidacyEmail.php.html#31\">App\\Core\\Domain\\Candidacy\\EmailNotification\\FollowEstablishmentCandidacyEmail::getTemplate<\/a>"],[100,1,"<a href=\"EmailNotification\/FollowEstablishmentCandidacyEmail.php.html#35\">App\\Core\\Domain\\Candidacy\\EmailNotification\\FollowEstablishmentCandidacyEmail::getUsers<\/a>"],[100,1,"<a href=\"EmailNotification\/FollowEstablishmentCandidacyEmail.php.html#39\">App\\Core\\Domain\\Candidacy\\EmailNotification\\FollowEstablishmentCandidacyEmail::getVariables<\/a>"],[0,1,"<a href=\"EmailNotification\/FollowEstablishmentCandidacyEmail.php.html#50\">App\\Core\\Domain\\Candidacy\\EmailNotification\\FollowEstablishmentCandidacyEmail::getAttachments<\/a>"],[0,1,"<a href=\"EmailNotification\/FollowEstablishmentCandidacyEmail.php.html#54\">App\\Core\\Domain\\Candidacy\\EmailNotification\\FollowEstablishmentCandidacyEmail::getReplyTo<\/a>"],[0,1,"<a href=\"EmailNotification\/FollowEstablishmentCandidacyEmail.php.html#58\">App\\Core\\Domain\\Candidacy\\EmailNotification\\FollowEstablishmentCandidacyEmail::getCustomSubject<\/a>"],[100,1,"<a href=\"EmailNotification\/FollowOfferCandidacyEmail.php.html#14\">App\\Core\\Domain\\Candidacy\\EmailNotification\\FollowOfferCandidacyEmail::__construct<\/a>"],[0,1,"<a href=\"EmailNotification\/FollowOfferCandidacyEmail.php.html#22\">App\\Core\\Domain\\Candidacy\\EmailNotification\\FollowOfferCandidacyEmail::getSlug<\/a>"],[0,1,"<a href=\"EmailNotification\/FollowOfferCandidacyEmail.php.html#26\">App\\Core\\Domain\\Candidacy\\EmailNotification\\FollowOfferCandidacyEmail::getDefaultSubject<\/a>"],[0,1,"<a href=\"EmailNotification\/FollowOfferCandidacyEmail.php.html#30\">App\\Core\\Domain\\Candidacy\\EmailNotification\\FollowOfferCandidacyEmail::getSubjectVariables<\/a>"],[0,2,"<a href=\"EmailNotification\/FollowOfferCandidacyEmail.php.html#34\">App\\Core\\Domain\\Candidacy\\EmailNotification\\FollowOfferCandidacyEmail::getTemplate<\/a>"],[100,1,"<a href=\"EmailNotification\/FollowOfferCandidacyEmail.php.html#42\">App\\Core\\Domain\\Candidacy\\EmailNotification\\FollowOfferCandidacyEmail::getUsers<\/a>"],[100,1,"<a href=\"EmailNotification\/FollowOfferCandidacyEmail.php.html#46\">App\\Core\\Domain\\Candidacy\\EmailNotification\\FollowOfferCandidacyEmail::getVariables<\/a>"],[0,1,"<a href=\"EmailNotification\/FollowOfferCandidacyEmail.php.html#59\">App\\Core\\Domain\\Candidacy\\EmailNotification\\FollowOfferCandidacyEmail::getAttachments<\/a>"],[0,1,"<a href=\"EmailNotification\/FollowOfferCandidacyEmail.php.html#63\">App\\Core\\Domain\\Candidacy\\EmailNotification\\FollowOfferCandidacyEmail::getReplyTo<\/a>"],[0,1,"<a href=\"EmailNotification\/FollowOfferCandidacyEmail.php.html#67\">App\\Core\\Domain\\Candidacy\\EmailNotification\\FollowOfferCandidacyEmail::getCustomSubject<\/a>"],[100,1,"<a href=\"EmailNotification\/NewEstablishmentCandidacyRhEmail.php.html#17\">App\\Core\\Domain\\Candidacy\\EmailNotification\\NewEstablishmentCandidacyRhEmail::__construct<\/a>"],[0,1,"<a href=\"EmailNotification\/NewEstablishmentCandidacyRhEmail.php.html#24\">App\\Core\\Domain\\Candidacy\\EmailNotification\\NewEstablishmentCandidacyRhEmail::getSlug<\/a>"],[0,1,"<a href=\"EmailNotification\/NewEstablishmentCandidacyRhEmail.php.html#28\">App\\Core\\Domain\\Candidacy\\EmailNotification\\NewEstablishmentCandidacyRhEmail::getDefaultSubject<\/a>"],[0,1,"<a href=\"EmailNotification\/NewEstablishmentCandidacyRhEmail.php.html#32\">App\\Core\\Domain\\Candidacy\\EmailNotification\\NewEstablishmentCandidacyRhEmail::getSubjectVariables<\/a>"],[0,1,"<a href=\"EmailNotification\/NewEstablishmentCandidacyRhEmail.php.html#36\">App\\Core\\Domain\\Candidacy\\EmailNotification\\NewEstablishmentCandidacyRhEmail::getTemplate<\/a>"],[100,1,"<a href=\"EmailNotification\/NewEstablishmentCandidacyRhEmail.php.html#40\">App\\Core\\Domain\\Candidacy\\EmailNotification\\NewEstablishmentCandidacyRhEmail::getUsers<\/a>"],[100,1,"<a href=\"EmailNotification\/NewEstablishmentCandidacyRhEmail.php.html#44\">App\\Core\\Domain\\Candidacy\\EmailNotification\\NewEstablishmentCandidacyRhEmail::getVariables<\/a>"],[0,1,"<a href=\"EmailNotification\/NewEstablishmentCandidacyRhEmail.php.html#53\">App\\Core\\Domain\\Candidacy\\EmailNotification\\NewEstablishmentCandidacyRhEmail::getAttachments<\/a>"],[0,1,"<a href=\"EmailNotification\/NewEstablishmentCandidacyRhEmail.php.html#57\">App\\Core\\Domain\\Candidacy\\EmailNotification\\NewEstablishmentCandidacyRhEmail::getReplyTo<\/a>"],[0,1,"<a href=\"EmailNotification\/NewEstablishmentCandidacyRhEmail.php.html#61\">App\\Core\\Domain\\Candidacy\\EmailNotification\\NewEstablishmentCandidacyRhEmail::getCustomSubject<\/a>"],[100,1,"<a href=\"Entity\/EstablishmentCandidacy.php.html#40\">App\\Core\\Domain\\Candidacy\\Entity\\EstablishmentCandidacy::__construct<\/a>"],[100,1,"<a href=\"Entity\/EstablishmentCandidacy.php.html#44\">App\\Core\\Domain\\Candidacy\\Entity\\EstablishmentCandidacy::getId<\/a>"],[100,1,"<a href=\"Entity\/EstablishmentCandidacy.php.html#48\">App\\Core\\Domain\\Candidacy\\Entity\\EstablishmentCandidacy::getCreatedAt<\/a>"],[0,1,"<a href=\"Entity\/EstablishmentCandidacy.php.html#52\">App\\Core\\Domain\\Candidacy\\Entity\\EstablishmentCandidacy::setCreatedAt<\/a>"],[100,1,"<a href=\"Entity\/EstablishmentCandidacy.php.html#58\">App\\Core\\Domain\\Candidacy\\Entity\\EstablishmentCandidacy::getCandidate<\/a>"],[100,3,"<a href=\"Entity\/EstablishmentCandidacy.php.html#62\">App\\Core\\Domain\\Candidacy\\Entity\\EstablishmentCandidacy::setCandidate<\/a>"],[100,1,"<a href=\"Entity\/EstablishmentCandidacy.php.html#72\">App\\Core\\Domain\\Candidacy\\Entity\\EstablishmentCandidacy::getEstablishment<\/a>"],[100,1,"<a href=\"Entity\/EstablishmentCandidacy.php.html#76\">App\\Core\\Domain\\Candidacy\\Entity\\EstablishmentCandidacy::setEstablishment<\/a>"],[0,1,"<a href=\"Entity\/EstablishmentCandidacy.php.html#82\">App\\Core\\Domain\\Candidacy\\Entity\\EstablishmentCandidacy::getReferer<\/a>"],[100,1,"<a href=\"Entity\/EstablishmentCandidacy.php.html#86\">App\\Core\\Domain\\Candidacy\\Entity\\EstablishmentCandidacy::setReferer<\/a>"],[100,1,"<a href=\"Entity\/OfferCandidacy.php.html#39\">App\\Core\\Domain\\Candidacy\\Entity\\OfferCandidacy::__construct<\/a>"],[100,1,"<a href=\"Entity\/OfferCandidacy.php.html#43\">App\\Core\\Domain\\Candidacy\\Entity\\OfferCandidacy::getId<\/a>"],[100,1,"<a href=\"Entity\/OfferCandidacy.php.html#47\">App\\Core\\Domain\\Candidacy\\Entity\\OfferCandidacy::getCreatedAt<\/a>"],[100,1,"<a href=\"Entity\/OfferCandidacy.php.html#51\">App\\Core\\Domain\\Candidacy\\Entity\\OfferCandidacy::setCreatedAt<\/a>"],[100,1,"<a href=\"Entity\/OfferCandidacy.php.html#57\">App\\Core\\Domain\\Candidacy\\Entity\\OfferCandidacy::getCandidate<\/a>"],[100,1,"<a href=\"Entity\/OfferCandidacy.php.html#61\">App\\Core\\Domain\\Candidacy\\Entity\\OfferCandidacy::setCandidate<\/a>"],[100,1,"<a href=\"Entity\/OfferCandidacy.php.html#67\">App\\Core\\Domain\\Candidacy\\Entity\\OfferCandidacy::getOffer<\/a>"],[100,1,"<a href=\"Entity\/OfferCandidacy.php.html#71\">App\\Core\\Domain\\Candidacy\\Entity\\OfferCandidacy::setOffer<\/a>"],[0,1,"<a href=\"Entity\/OfferCandidacy.php.html#77\">App\\Core\\Domain\\Candidacy\\Entity\\OfferCandidacy::getReferer<\/a>"],[100,1,"<a href=\"Entity\/OfferCandidacy.php.html#81\">App\\Core\\Domain\\Candidacy\\Entity\\OfferCandidacy::setReferer<\/a>"],[100,1,"<a href=\"Event\/CandidateAppliedToAnEstablishmentEvent.php.html#16\">App\\Core\\Domain\\Candidacy\\Event\\CandidateAppliedToAnEstablishmentEvent::__construct<\/a>"],[100,1,"<a href=\"Event\/CandidateAppliedToAnEstablishmentEvent.php.html#24\">App\\Core\\Domain\\Candidacy\\Event\\CandidateAppliedToAnEstablishmentEvent::getCandidacyId<\/a>"],[100,1,"<a href=\"Event\/CandidateAppliedToAnEstablishmentEvent.php.html#28\">App\\Core\\Domain\\Candidacy\\Event\\CandidateAppliedToAnEstablishmentEvent::getCandidateId<\/a>"],[100,1,"<a href=\"Event\/CandidateAppliedToAnEstablishmentEvent.php.html#32\">App\\Core\\Domain\\Candidacy\\Event\\CandidateAppliedToAnEstablishmentEvent::getEventName<\/a>"],[100,1,"<a href=\"Event\/CandidateAppliedToAnEstablishmentEvent.php.html#36\">App\\Core\\Domain\\Candidacy\\Event\\CandidateAppliedToAnEstablishmentEvent::getMetadata<\/a>"],[100,1,"<a href=\"Event\/CandidateAppliedToAnEstablishmentEvent.php.html#40\">App\\Core\\Domain\\Candidacy\\Event\\CandidateAppliedToAnEstablishmentEvent::getEstablishmentId<\/a>"],[100,1,"<a href=\"Event\/CandidateAppliedToAnEstablishmentEvent.php.html#44\">App\\Core\\Domain\\Candidacy\\Event\\CandidateAppliedToAnEstablishmentEvent::getAdminId<\/a>"],[100,1,"<a href=\"Event\/CandidateAppliedToAnEstablishmentEvent.php.html#48\">App\\Core\\Domain\\Candidacy\\Event\\CandidateAppliedToAnEstablishmentEvent::occurredAt<\/a>"],[100,1,"<a href=\"Event\/CandidateAppliedToAnOfferEvent.php.html#16\">App\\Core\\Domain\\Candidacy\\Event\\CandidateAppliedToAnOfferEvent::__construct<\/a>"],[100,1,"<a href=\"Event\/CandidateAppliedToAnOfferEvent.php.html#26\">App\\Core\\Domain\\Candidacy\\Event\\CandidateAppliedToAnOfferEvent::getCandidacyId<\/a>"],[100,1,"<a href=\"Event\/CandidateAppliedToAnOfferEvent.php.html#30\">App\\Core\\Domain\\Candidacy\\Event\\CandidateAppliedToAnOfferEvent::getCandidateId<\/a>"],[100,1,"<a href=\"Event\/CandidateAppliedToAnOfferEvent.php.html#34\">App\\Core\\Domain\\Candidacy\\Event\\CandidateAppliedToAnOfferEvent::getEstablishmentId<\/a>"],[100,1,"<a href=\"Event\/CandidateAppliedToAnOfferEvent.php.html#38\">App\\Core\\Domain\\Candidacy\\Event\\CandidateAppliedToAnOfferEvent::getAdminId<\/a>"],[100,1,"<a href=\"Event\/CandidateAppliedToAnOfferEvent.php.html#42\">App\\Core\\Domain\\Candidacy\\Event\\CandidateAppliedToAnOfferEvent::getEventName<\/a>"],[100,1,"<a href=\"Event\/CandidateAppliedToAnOfferEvent.php.html#46\">App\\Core\\Domain\\Candidacy\\Event\\CandidateAppliedToAnOfferEvent::getMetadata<\/a>"],[100,1,"<a href=\"Event\/CandidateAppliedToAnOfferEvent.php.html#55\">App\\Core\\Domain\\Candidacy\\Event\\CandidateAppliedToAnOfferEvent::occurredAt<\/a>"],[0,1,"<a href=\"Event\/NewEstablishmentCandidacy.php.html#12\">App\\Core\\Domain\\Candidacy\\Event\\NewEstablishmentCandidacy::__construct<\/a>"],[0,1,"<a href=\"Event\/NewEstablishmentCandidacy.php.html#15\">App\\Core\\Domain\\Candidacy\\Event\\NewEstablishmentCandidacy::getCandidacy<\/a>"],[0,1,"<a href=\"Event\/NewOfferCandidacy.php.html#12\">App\\Core\\Domain\\Candidacy\\Event\\NewOfferCandidacy::__construct<\/a>"],[0,1,"<a href=\"Event\/NewOfferCandidacy.php.html#15\">App\\Core\\Domain\\Candidacy\\Event\\NewOfferCandidacy::getCandidacy<\/a>"],[100,1,"<a href=\"Exception\/AlreadyApplyToEstablishmentException.php.html#13\">App\\Core\\Domain\\Candidacy\\Exception\\AlreadyApplyToEstablishmentException::__construct<\/a>"],[100,1,"<a href=\"Exception\/AlreadyApplyToOfferException.php.html#13\">App\\Core\\Domain\\Candidacy\\Exception\\AlreadyApplyToOfferException::__construct<\/a>"],[0,1,"<a href=\"Exception\/NonCandidateCannotApplyToAnEstablishmentException.php.html#13\">App\\Core\\Domain\\Candidacy\\Exception\\NonCandidateCannotApplyToAnEstablishmentException::__construct<\/a>"],[0,1,"<a href=\"Exception\/NonCandidateCannotApplyToAnOfferException.php.html#13\">App\\Core\\Domain\\Candidacy\\Exception\\NonCandidateCannotApplyToAnOfferException::__construct<\/a>"],[100,1,"<a href=\"InAppNotification\/NewEstablishmentCandidacyNotification.php.html#15\">App\\Core\\Domain\\Candidacy\\InAppNotification\\NewEstablishmentCandidacyNotification::__construct<\/a>"],[0,1,"<a href=\"InAppNotification\/NewEstablishmentCandidacyNotification.php.html#21\">App\\Core\\Domain\\Candidacy\\InAppNotification\\NewEstablishmentCandidacyNotification::getSlug<\/a>"],[0,1,"<a href=\"InAppNotification\/NewEstablishmentCandidacyNotification.php.html#25\">App\\Core\\Domain\\Candidacy\\InAppNotification\\NewEstablishmentCandidacyNotification::getContent<\/a>"],[100,1,"<a href=\"InAppNotification\/NewEstablishmentCandidacyNotification.php.html#29\">App\\Core\\Domain\\Candidacy\\InAppNotification\\NewEstablishmentCandidacyNotification::getUsers<\/a>"],[100,1,"<a href=\"InAppNotification\/NewEstablishmentCandidacyNotification.php.html#33\">App\\Core\\Domain\\Candidacy\\InAppNotification\\NewEstablishmentCandidacyNotification::getContext<\/a>"],[100,1,"<a href=\"InAppNotification\/NewEstablishmentCandidacyNotification.php.html#40\">App\\Core\\Domain\\Candidacy\\InAppNotification\\NewEstablishmentCandidacyNotification::getVariables<\/a>"],[100,1,"<a href=\"InAppNotification\/NewEstablishmentCandidacyRhNotification.php.html#15\">App\\Core\\Domain\\Candidacy\\InAppNotification\\NewEstablishmentCandidacyRhNotification::__construct<\/a>"],[0,1,"<a href=\"InAppNotification\/NewEstablishmentCandidacyRhNotification.php.html#22\">App\\Core\\Domain\\Candidacy\\InAppNotification\\NewEstablishmentCandidacyRhNotification::getSlug<\/a>"],[0,1,"<a href=\"InAppNotification\/NewEstablishmentCandidacyRhNotification.php.html#26\">App\\Core\\Domain\\Candidacy\\InAppNotification\\NewEstablishmentCandidacyRhNotification::getContent<\/a>"],[100,1,"<a href=\"InAppNotification\/NewEstablishmentCandidacyRhNotification.php.html#30\">App\\Core\\Domain\\Candidacy\\InAppNotification\\NewEstablishmentCandidacyRhNotification::getUsers<\/a>"],[100,1,"<a href=\"InAppNotification\/NewEstablishmentCandidacyRhNotification.php.html#34\">App\\Core\\Domain\\Candidacy\\InAppNotification\\NewEstablishmentCandidacyRhNotification::getContext<\/a>"],[100,1,"<a href=\"InAppNotification\/NewEstablishmentCandidacyRhNotification.php.html#42\">App\\Core\\Domain\\Candidacy\\InAppNotification\\NewEstablishmentCandidacyRhNotification::getVariables<\/a>"],[100,1,"<a href=\"InAppNotification\/NewOfferCandidacyNotification.php.html#15\">App\\Core\\Domain\\Candidacy\\InAppNotification\\NewOfferCandidacyNotification::__construct<\/a>"],[0,1,"<a href=\"InAppNotification\/NewOfferCandidacyNotification.php.html#21\">App\\Core\\Domain\\Candidacy\\InAppNotification\\NewOfferCandidacyNotification::getSlug<\/a>"],[0,1,"<a href=\"InAppNotification\/NewOfferCandidacyNotification.php.html#25\">App\\Core\\Domain\\Candidacy\\InAppNotification\\NewOfferCandidacyNotification::getContent<\/a>"],[100,1,"<a href=\"InAppNotification\/NewOfferCandidacyNotification.php.html#29\">App\\Core\\Domain\\Candidacy\\InAppNotification\\NewOfferCandidacyNotification::getUsers<\/a>"],[100,1,"<a href=\"InAppNotification\/NewOfferCandidacyNotification.php.html#33\">App\\Core\\Domain\\Candidacy\\InAppNotification\\NewOfferCandidacyNotification::getContext<\/a>"],[100,1,"<a href=\"InAppNotification\/NewOfferCandidacyNotification.php.html#41\">App\\Core\\Domain\\Candidacy\\InAppNotification\\NewOfferCandidacyNotification::getVariables<\/a>"],[100,1,"<a href=\"UseCase\/EstablishmentApplication\/ApplyToAnEstablishment.php.html#13\">App\\Core\\Domain\\Candidacy\\UseCase\\EstablishmentApplication\\ApplyToAnEstablishment::__construct<\/a>"],[100,1,"<a href=\"UseCase\/EstablishmentApplication\/ApplyToAnEstablishment.php.html#20\">App\\Core\\Domain\\Candidacy\\UseCase\\EstablishmentApplication\\ApplyToAnEstablishment::getCandidate<\/a>"],[100,1,"<a href=\"UseCase\/EstablishmentApplication\/ApplyToAnEstablishment.php.html#24\">App\\Core\\Domain\\Candidacy\\UseCase\\EstablishmentApplication\\ApplyToAnEstablishment::getEstablishment<\/a>"],[100,1,"<a href=\"UseCase\/EstablishmentApplication\/ApplyToAnEstablishment.php.html#28\">App\\Core\\Domain\\Candidacy\\UseCase\\EstablishmentApplication\\ApplyToAnEstablishment::getReferer<\/a>"],[100,1,"<a href=\"UseCase\/EstablishmentApplication\/ApplyToAnEstablishmentHandler.php.html#17\">App\\Core\\Domain\\Candidacy\\UseCase\\EstablishmentApplication\\ApplyToAnEstablishmentHandler::__construct<\/a>"],[94.44444444444444,3,"<a href=\"UseCase\/EstablishmentApplication\/ApplyToAnEstablishmentHandler.php.html#23\">App\\Core\\Domain\\Candidacy\\UseCase\\EstablishmentApplication\\ApplyToAnEstablishmentHandler::__invoke<\/a>"],[100,1,"<a href=\"UseCase\/EstablishmentApplication\/NotifyAdminOnEstablishmentCandidacyHandler.php.html#17\">App\\Core\\Domain\\Candidacy\\UseCase\\EstablishmentApplication\\NotifyAdminOnEstablishmentCandidacyHandler::__construct<\/a>"],[100,1,"<a href=\"UseCase\/EstablishmentApplication\/NotifyAdminOnEstablishmentCandidacyHandler.php.html#24\">App\\Core\\Domain\\Candidacy\\UseCase\\EstablishmentApplication\\NotifyAdminOnEstablishmentCandidacyHandler::__invoke<\/a>"],[100,1,"<a href=\"UseCase\/EstablishmentApplication\/NotifyCandidateOnEstablishmentCandidacyCreatedHandler.php.html#18\">App\\Core\\Domain\\Candidacy\\UseCase\\EstablishmentApplication\\NotifyCandidateOnEstablishmentCandidacyCreatedHandler::__construct<\/a>"],[100,2,"<a href=\"UseCase\/EstablishmentApplication\/NotifyCandidateOnEstablishmentCandidacyCreatedHandler.php.html#26\">App\\Core\\Domain\\Candidacy\\UseCase\\EstablishmentApplication\\NotifyCandidateOnEstablishmentCandidacyCreatedHandler::__invoke<\/a>"],[100,1,"<a href=\"UseCase\/EstablishmentApplication\/StartEstablishmentCandidacy.php.html#12\">App\\Core\\Domain\\Candidacy\\UseCase\\EstablishmentApplication\\StartEstablishmentCandidacy::__construct<\/a>"],[100,1,"<a href=\"UseCase\/EstablishmentApplication\/StartEstablishmentCandidacy.php.html#20\">App\\Core\\Domain\\Candidacy\\UseCase\\EstablishmentApplication\\StartEstablishmentCandidacy::getCandidateId<\/a>"],[100,1,"<a href=\"UseCase\/EstablishmentApplication\/StartEstablishmentCandidacy.php.html#24\">App\\Core\\Domain\\Candidacy\\UseCase\\EstablishmentApplication\\StartEstablishmentCandidacy::getEstablishmentId<\/a>"],[0,1,"<a href=\"UseCase\/EstablishmentApplication\/StartEstablishmentCandidacy.php.html#28\">App\\Core\\Domain\\Candidacy\\UseCase\\EstablishmentApplication\\StartEstablishmentCandidacy::getExpressInterestAt<\/a>"],[100,1,"<a href=\"UseCase\/EstablishmentApplication\/StartEstablishmentCandidacy.php.html#32\">App\\Core\\Domain\\Candidacy\\UseCase\\EstablishmentApplication\\StartEstablishmentCandidacy::getReferer<\/a>"],[100,1,"<a href=\"UseCase\/EstablishmentApplication\/StartEstablishmentCandidacyHandler.php.html#23\">App\\Core\\Domain\\Candidacy\\UseCase\\EstablishmentApplication\\StartEstablishmentCandidacyHandler::__construct<\/a>"],[92.85714285714286,4,"<a href=\"UseCase\/EstablishmentApplication\/StartEstablishmentCandidacyHandler.php.html#33\">App\\Core\\Domain\\Candidacy\\UseCase\\EstablishmentApplication\\StartEstablishmentCandidacyHandler::__invoke<\/a>"],[100,1,"<a href=\"UseCase\/JobApplication\/ApplyToAnOffer.php.html#13\">App\\Core\\Domain\\Candidacy\\UseCase\\JobApplication\\ApplyToAnOffer::__construct<\/a>"],[100,1,"<a href=\"UseCase\/JobApplication\/ApplyToAnOffer.php.html#20\">App\\Core\\Domain\\Candidacy\\UseCase\\JobApplication\\ApplyToAnOffer::getCandidate<\/a>"],[100,1,"<a href=\"UseCase\/JobApplication\/ApplyToAnOffer.php.html#24\">App\\Core\\Domain\\Candidacy\\UseCase\\JobApplication\\ApplyToAnOffer::getOffer<\/a>"],[100,1,"<a href=\"UseCase\/JobApplication\/ApplyToAnOffer.php.html#28\">App\\Core\\Domain\\Candidacy\\UseCase\\JobApplication\\ApplyToAnOffer::getReferer<\/a>"],[100,1,"<a href=\"UseCase\/JobApplication\/ApplyToAnOfferHandler.php.html#17\">App\\Core\\Domain\\Candidacy\\UseCase\\JobApplication\\ApplyToAnOfferHandler::__construct<\/a>"],[94.73684210526315,3,"<a href=\"UseCase\/JobApplication\/ApplyToAnOfferHandler.php.html#23\">App\\Core\\Domain\\Candidacy\\UseCase\\JobApplication\\ApplyToAnOfferHandler::__invoke<\/a>"],[100,1,"<a href=\"UseCase\/JobApplication\/NotifyCandidateOnOfferCandidacyCreatedHandler.php.html#18\">App\\Core\\Domain\\Candidacy\\UseCase\\JobApplication\\NotifyCandidateOnOfferCandidacyCreatedHandler::__construct<\/a>"],[100,2,"<a href=\"UseCase\/JobApplication\/NotifyCandidateOnOfferCandidacyCreatedHandler.php.html#26\">App\\Core\\Domain\\Candidacy\\UseCase\\JobApplication\\NotifyCandidateOnOfferCandidacyCreatedHandler::__invoke<\/a>"],[100,1,"<a href=\"UseCase\/JobApplication\/StartOfferCandidacy.php.html#12\">App\\Core\\Domain\\Candidacy\\UseCase\\JobApplication\\StartOfferCandidacy::__construct<\/a>"],[100,1,"<a href=\"UseCase\/JobApplication\/StartOfferCandidacy.php.html#20\">App\\Core\\Domain\\Candidacy\\UseCase\\JobApplication\\StartOfferCandidacy::getCandidateId<\/a>"],[100,1,"<a href=\"UseCase\/JobApplication\/StartOfferCandidacy.php.html#24\">App\\Core\\Domain\\Candidacy\\UseCase\\JobApplication\\StartOfferCandidacy::getOfferId<\/a>"],[0,1,"<a href=\"UseCase\/JobApplication\/StartOfferCandidacy.php.html#28\">App\\Core\\Domain\\Candidacy\\UseCase\\JobApplication\\StartOfferCandidacy::getExpressInterestAt<\/a>"],[100,1,"<a href=\"UseCase\/JobApplication\/StartOfferCandidacy.php.html#32\">App\\Core\\Domain\\Candidacy\\UseCase\\JobApplication\\StartOfferCandidacy::getReferer<\/a>"],[100,1,"<a href=\"UseCase\/JobApplication\/StartOfferCandidacyHandler.php.html#23\">App\\Core\\Domain\\Candidacy\\UseCase\\JobApplication\\StartOfferCandidacyHandler::__construct<\/a>"],[90.625,4,"<a href=\"UseCase\/JobApplication\/StartOfferCandidacyHandler.php.html#33\">App\\Core\\Domain\\Candidacy\\UseCase\\JobApplication\\StartOfferCandidacyHandler::__invoke<\/a>"],[100,1,"<a href=\"UseCase\/OpenRegistrationResponse.php.html#11\">App\\Core\\Domain\\Candidacy\\UseCase\\OpenRegistrationResponse::__construct<\/a>"],[100,1,"<a href=\"UseCase\/OpenRegistrationResponse.php.html#14\">App\\Core\\Domain\\Candidacy\\UseCase\\OpenRegistrationResponse::getObjectId<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
